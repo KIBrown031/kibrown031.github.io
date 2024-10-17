@@ -34,7 +34,7 @@ with:
 - [Speed Test](https://speakeasy.net)
 - 
 - plain text data storage,
-- - [encryption](#password-protected-encrypted-notes-and-bookmarks),
+- [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
 - [Git](https://git-scm.com/)-backed [versioning](#-revision-history) and [syncing](#-git-sync),
 - [Pandoc](https://pandoc.org/)-backed [conversion](#%EF%B8%8F-import--export),
