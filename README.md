@@ -25,8 +25,8 @@ and knowledge base application
 with:
 
 - plain text data storage,
-- Go to [about page](about.md)
-- [JW.org](https://hub.jw.org)
+- Go to [ABOUT](about.md)
+- [Contact Me](mailto:kibrown031@gmail.com)
 - [JW.org](https://hub.jw.org)
 - [JW.org](https://hub.jw.org)
 - [JW.org](https://hub.jw.org)
