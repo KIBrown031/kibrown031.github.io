@@ -27,8 +27,8 @@ with:
 - plain text data storage,
 - Go to [ABOUT](about.md)
 - [Contact Me](mailto:kibrown031@gmail.com)
-- [JW.org](https://hub.jw.org)
-- [JW.org](https://hub.jw.org)
+- [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/)
+- [PowerShell One](https://powershell.one/)
 - [JW.org](https://hub.jw.org)
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
