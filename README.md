@@ -32,8 +32,6 @@ with:
 - [PowerShell One](https://powershell.one/)
 - [Speed Test](https://speakeasy.net)
 - [Google](https://google.com)
-
-
 - plain text data storage,
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
