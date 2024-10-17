@@ -30,8 +30,9 @@ with:
 - [Contact Me](mailto:kibrown031@gmail.com)
 - [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/)
 - [PowerShell One](https://powershell.one/)
-- [Google](https://google.com)
 - [Speed Test](https://speakeasy.net)
+- [Google](https://google.com)
+
 
 - plain text data storage,
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
