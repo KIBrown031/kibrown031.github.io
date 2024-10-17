@@ -25,6 +25,10 @@ and knowledge base application
 with:
 
 - plain text data storage,
+- Go to [about page](about.md)
+- [JW.org](https://hub.jw.org)
+- [JW.org](https://hub.jw.org)
+- [JW.org](https://hub.jw.org)
 - [JW.org](https://hub.jw.org)
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
