@@ -25,6 +25,7 @@ and knowledge base application
 with:
 
 - plain text data storage,
+- [JW.org](https://jw.org)
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
 - [Git](https://git-scm.com/)-backed [versioning](#-revision-history) and [syncing](#-git-sync),
