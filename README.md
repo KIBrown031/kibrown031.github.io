@@ -25,11 +25,14 @@ and knowledge base application
 with:
 
 - plain text data storage,
+
 - Go to [ABOUT](about.md)
 - [Contact Me](mailto:kibrown031@gmail.com)
 - [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/)
 - [PowerShell One](https://powershell.one/)
 - [Google](https://google.com)
+- [Speed Test](https://speakeasy.net)
+- 
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
 - [Git](https://git-scm.com/)-backed [versioning](#-revision-history) and [syncing](#-git-sync),
