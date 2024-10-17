@@ -26,12 +26,12 @@ with:
 
 
 
-- Go to [ABOUT](about.md)
-- [Contact Me](mailto:kibrown031@gmail.com)
-- [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/)
-- [PowerShell One](https://powershell.one/)
-- [Google](https://google.com)
-- [Speed Test](https://speakeasy.net)
+- Go to [ABOUT](about.md),
+- [Contact Me](mailto:kibrown031@gmail.com),
+- [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/),
+- [PowerShell One](https://powershell.one/),
+- [Google](https://google.com),
+- [Speed Test](https://speakeasy.net),
 
 
 - plain text data storage,
