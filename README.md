@@ -19,7 +19,7 @@
 <div align="center">&nbsp;</div><!-- spacer -->
 <br/>
 
-`nb` is a command line and local web
+`kibrown031` is a command line and local web
 note‑taking, bookmarking, archiving,
 and knowledge base application
 with:
