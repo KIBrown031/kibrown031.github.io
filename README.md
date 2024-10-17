@@ -19,9 +19,7 @@
 <div align="center">&nbsp;</div><!-- spacer -->
 <br/>
 
-`kibrown031` is a command line and local web
-note‑taking, bookmarking, archiving,
-and knowledge base application
+`kibrown031` is a knowledge base application
 with:
 
 
