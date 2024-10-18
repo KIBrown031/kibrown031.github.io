@@ -30,7 +30,7 @@ with:
 - [PowerShell One](https://powershell.one/)
 - [Speed Test](https://speakeasy.net)
 - [Google](https://google.com)
-- [URLs](rls.md)
+- [URLs](urls.md)
 - [tutorials](tutorials.md)
 - plain text data storage,
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
