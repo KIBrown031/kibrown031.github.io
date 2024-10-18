@@ -1,5 +1,5 @@
 - Go to [ABOUT](about.md)
-- [Contact Me](mailto:kibrown031@gmail.com)
+- [Inbox](mailto:kibrown031@gmail.com)
 - [Jeffrey Hicks](https://buttondown.com/behind-the-powershell-pipeline/archive/)
 - [PowerShell One](https://powershell.one/)
 - [Speed Test](https://speakeasy.net)
