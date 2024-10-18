@@ -31,7 +31,7 @@ with:
 - [Speed Test](https://speakeasy.net)
 - [Google](https://google.com)
 - [URLs](urls.md)
-- [tutorials](tutorials.md)
+- [Tutorials](tutorials.md)
 - plain text data storage,
 - [encryption](#password-protected-encrypted-notes-and-bookmarks),
 - [filtering](#listing--filtering), [pinning](#-pinning), [#tagging](#-tagging), and [search](#-search),
