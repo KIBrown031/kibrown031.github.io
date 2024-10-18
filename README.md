@@ -6,3 +6,4 @@
 - [Google](https://google.com)
 - [URLs](urls.md)
 - [Tutorials](tutorials.md)
+- [QRcodes](qrcodes.md)
