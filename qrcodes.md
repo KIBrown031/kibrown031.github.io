@@ -1,3 +1,7 @@
 #  [Costco](costco.png)
+#  [Territory #16](Territory-16.png)
+#  [Territory #18](Territory-18.png)
+#  [Territory #22](Territory-22.png)
+#  [Territory #26](Territory-26.png)
 #  [Territory #51](Territory-51.png)
 #  [Territory #64](Territory-64.png)
