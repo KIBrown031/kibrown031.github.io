@@ -1,1 +1,1 @@
-# - [NB notebook](/documentation/README-nb.md)
+# [NB notebook](/documentation/README-nb.md)
