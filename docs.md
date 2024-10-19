@@ -1,4 +1,4 @@
-## [Markdown Cheat Sheat](/documentation/MArkdownCheatSheet.md)
+## [Markdown Cheat Sheat](/documentation/MarkdownCheatSheet.md)
 ## [NB notebook](/documentation/README-nb.md)
 
 - 👋 Hi, I’m ...
