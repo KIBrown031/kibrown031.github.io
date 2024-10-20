@@ -1,4 +1,4 @@
-### [Costco](costco-small.png)
+### [Costco](costco-qrcode.png)
 ### [Territory 16](Territory-16.png)
 ### [Territory 18](Territory-18.png)
 ### [Territory 22](Territory-22.png)
