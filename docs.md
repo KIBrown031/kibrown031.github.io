@@ -1,5 +1,6 @@
 ## [Markdown Cheat Sheat](/documentation/MarkdownCheatSheet.md)
 ## [Writing on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+## [Github Skills](https://github.com/skills)
 ## [NB notebook](/documentation/README-nb.md)
 
 - 👋 Hi, I’m ...
