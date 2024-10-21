@@ -4,6 +4,7 @@
 - [PowerShell One](https://powershell.one/)
 - [Speed Test](https://speakeasy.net)
 - [Google](https://google.com)
+- [Github](github.md)
 - [URLs](urls.md)
 - [Tutorials](tutorials.md)
 - [QRCodes](qrcodes.md)
