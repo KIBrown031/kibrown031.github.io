@@ -5,6 +5,7 @@
 - [Speed Test](https://speakeasy.net)
 - [Google](https://google.com)
 - [Github](github.md)
+- [Notebook](/notebook)
 - [URLs](urls.md)
 - [Tutorials](tutorials.md)
 - [QRCodes](qrcodes.md)
