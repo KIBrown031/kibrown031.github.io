@@ -11,5 +11,4 @@
 - [QRCodes](qrcodes.md)
 - [Docs](docs.md)
 - [FS Reports](fsreport.txt)
-- [![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
 - [![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
