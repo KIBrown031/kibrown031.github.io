@@ -1,1 +1,1 @@
-[Startup](README-STARTUP.md)
+<README-STARTUP.md>
