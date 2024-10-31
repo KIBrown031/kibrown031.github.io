@@ -1,1 +1,1 @@
-[](README-STARTUP.md)
+[*](README-STARTUP.md)
