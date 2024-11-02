@@ -1,6 +1,6 @@
   [OneDrive](https://onedrive.live.com)
   [Google](https://google.com)
-##  [Geeks For Geeks](geeksforgeeks.html)
+  [Geeks For Geeks](geeksforgeeks.html)
 ##  [HTML Standard](https://html.spec.whatwg.org/multipage/)
 ##  [JW.org](https://jw.org)
 ##  [JW Hub](https://hub.jw.org)
