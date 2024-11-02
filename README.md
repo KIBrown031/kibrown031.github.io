@@ -21,7 +21,7 @@
 - [NPM](npm.md)
 - [PowerShell One](https://powershell.one/)
 - [QRCodes](qrcodes.md)
-- [Schedule](2024-Schedule.csv)
+- [Schedule](2024-Schedule.txt)
 - [Speed Test](https://speakeasy.net)
 - [Tutorials](tutorials.md)
 - [URLs](urls.md)
