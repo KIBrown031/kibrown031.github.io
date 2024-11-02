@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="favicon.png" rel="icon" type="image/x-icon">
+    <link href="favicon.png" rel="icon" type="image/png">
     <title>GitHub Pages</title>
 </head>
 <body>
