@@ -7,3 +7,4 @@
 ###  [JW.org](https://jw.org)
 ###  [JW Hub](https://hub.jw.org)
 ###  [WOL](https://wol.jw.org)
+###  [W3Schools](https://w3schools.com)
