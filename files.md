@@ -1,3 +1,11 @@
-<p> <a href="S303-Oct 27 2024.pdf">"S303"</a> </p>
+<ul>
+  
+  <li><a href="S303-Oct 27 2024.pdf">"S303"</a></li><br>
+
+  <li><a href="LaVeria Bates.docx">"Letter Writing"</a></li><br>
+
+  <li><a href="2024-Schedule.txt">"Schedule"</a></li><br>
+
+</ul>  
 
 <!-- <p>Open a PDF file<a href="S303-Oct 27 2024.pdf">example</a> </p> -->
