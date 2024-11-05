@@ -6,7 +6,7 @@
 
   <li><a href="2024-Schedule.txt">"Schedule"</a></li><br>
 
-  <iframe src="https://docs.google.com/gview?url="LaVeria Bates.docx"&embedded=true"></iframe>
+  <iframe src="https://docs.google.com/gview?url=LaVeria+Bates.docx&embedded=true"></iframe>
 
 </ul>  
 
