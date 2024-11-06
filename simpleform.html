@@ -16,7 +16,8 @@
         <label for="javascript">JavaScript</label>
     </form>
 -->
-    <form action="capture-form.php" method="POST">
+    <!-- <form action="capture-form.php" method="POST"> -->
+    <form>    
         <label for="fileupload">Select a file to upload</label>
         <input type="file" id="fileupload" name="fileupload"><br>
         <label for="input">Select a file to input</label>
@@ -25,3 +26,19 @@
       </form>
 </body>
 </html>
+
+<section>
+    <html>
+    <body>
+        <span id="birthdate"></span>
+    </body>
+</html>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const birthdate = urlParams.get('birthdate');
+    const pdflink = urlParams.get('pdflink');
+    document.getElementById("birthdate").innerHTML = birthdate;
+</script>
+</section>
