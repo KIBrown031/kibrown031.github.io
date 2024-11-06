@@ -6,6 +6,8 @@
 
   <li><a href="2024-Schedule.txt">"Schedule"</a></li><br>
 
+  <li><a href="credentials.txt">"Credentials"</a></li><br>
+
 </ul>  
 
 <!-- <p>Open a PDF file<a href="S303-Oct 27 2024.pdf">example</a> </p> -->
