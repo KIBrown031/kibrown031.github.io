@@ -1,0 +1,168 @@
+<!--
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title>File(s) size</title>
+  </head>
+
+  <body>
+    <form name="uploadForm">
+      <div>
+        <input id="uploadInput" type="file" multiple />
+        <label for="fileNum">Selected files:</label>
+        <output id="fileNum">0</output>;
+        <label for="fileSize">Total size:</label>
+        <output id="fileSize">0</output>
+      </div>
+      <div><input type="submit" value="Send file" /></div>
+    </form>
+
+    <script>
+      const uploadInput = document.getElementById("uploadInput");
+      uploadInput.addEventListener(
+        "change",
+        () => {
+          // Calculate total size
+          let numberOfBytes = 0;
+          for (const file of uploadInput.files) {
+            numberOfBytes += file.size;
+          }
+
+          // Approximate to the closest prefixed unit
+          const units = [
+            "B",
+            "KiB",
+            "MiB",
+            "GiB",
+            "TiB",
+            "PiB",
+            "EiB",
+            "ZiB",
+            "YiB",
+          ];
+          const exponent = Math.min(
+            Math.floor(Math.log(numberOfBytes) / Math.log(1024)),
+            units.length - 1,
+          );
+          const approx = numberOfBytes / 1024 ** exponent;
+          const output =
+            exponent === 0
+              ? `${numberOfBytes} bytes`
+              : `${approx.toFixed(3)} ${
+                  units[exponent]
+                } (${numberOfBytes} bytes)`;
+
+          document.getElementById("fileNum").textContent =
+            uploadInput.files.length;
+          document.getElementById("fileSize").textContent = output;
+        },
+        false,
+      );
+    </script>
+  </body>
+</html>
+-->
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript can Change HTML</h2>
+
+<p id="p1">Hello World!</p>
+
+<script>
+document.getElementById("p1").innerHTML = "ZZZ"
+</script>
+
+<p>The paragraph above was changed by a script.</p>
+
+</body>
+</html>
+-->
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an Object
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Build a Text
+let text = "";
+for (let x in person) {
+  text += person[x] + " ";
+};
+
+// Display the Text
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+<body>
+
+<h2>My First JavaScript</h2>
+<p>First Page</p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<!-- <button type="button" onclick="alert('Hello - Welcome to My House')"> Click me to display Alert Box.</button> -->
+
+ 
+<button type="button" onclick="document.getElementById('mylink').innerHTML = 'It Worked'"> Click me to test MyLink </button>
+<a id="mylink">Testing MyLink</a>
+
+
+
+<br><br>
+
+
+
+<button type="button" onclick="document.getElementById('filepicker').innerHTML = 'Hello'">Click me to see filename</button>
+<p id="filepicker">ZZZ paragraph</p>
+<input id="fileinput" name="filepick" type="file" >
+
+
+<script>
+
+const fileInput = document.getElementById('fileInput');
+
+fileInput.addEventListener('change', function() {
+  if (this.files.length > 0) {
+    const fileName = this.files[0].name;
+    alert('You selected: ' + fileName);
+  }
+});
+
+//var result = document.getElementById('filepicker').value;
+//alert(result);
+
+</script>
+
+</body>
+</html>
+
+
+
+<!-- -->
