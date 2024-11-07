@@ -16,7 +16,7 @@
         // document.body.append('You selected ' + e.target.files[0].name);
         // let result = "<a href='https://www.w3schools.com'>" + "File Chosen" + "</a>";
         let searchfor = e.target.files[0].name 
-        let result = "<a href=" + encodeURIComponent(e.target.files[0].name) + ">" + "Test Link" + "</a>";
+        let result = "<a href=" + encodeURIComponent(e.target.files[0].name) + ">" + "File Chosen" + "</a>";
         document.getElementById('linktofile').innerHTML = result;
     }
     }
