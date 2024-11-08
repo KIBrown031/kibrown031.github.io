@@ -4,6 +4,10 @@
 
   <li><a href="https://www.icloud.com/iclouddrive/">iCloud Drive</a></li><br>
    
+  <li><a href="https://drive.google.com/drive/u/0/home">Google Drive</a></li><br>
+
+  <li><a href="https://onedrive.live.com/">One Drive</a></li><br>
+  
   <li><a href="S303-Oct 27 2024.pdf">"S303"</a></li><br>
 
   <li><a href="LaVeria Bates.docx" target="_blank">"Letter Writing"</a></li><br>
