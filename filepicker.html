@@ -15,8 +15,9 @@
     if (e.target.files[0]) {
         // document.body.append('You selected ' + e.target.files[0].name);
         // let result = "<a href='https://www.w3schools.com'>" + "File Chosen" + "</a>";
+        // "/Users/Keith/iCloudDrive/" +
         let searchfor = e.target.files[0].name 
-        let result = "<a href=" + "/Users/Keith/iCloudDrive/" + encodeURIComponent(e.target.files[0].name) + ">" + "File(s) Chosen" + "</a>";
+        let result = "<a href=" + encodeURIComponent(e.target.files[0].name) + ">" + "File(s) Chosen" + "</a>";
         document.getElementById('linktofile').innerHTML = result;
     }
     }
