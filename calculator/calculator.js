@@ -60,7 +60,7 @@ for (let i = 0; i < buttonValues.length; i++) {
                     else if (operator == "+") {
                         display.value = numA+numB;
                     }
-                    // clearAll();
+                    clearAll();
                 }
             }
             else {
