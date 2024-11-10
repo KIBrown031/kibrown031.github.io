@@ -1,4 +1,5 @@
 ###  [Kenny Yip Coding](https://kennyyipcoding.com)
+###  [Kenny Yip: Calculator Explained](https://www.youtube.com/watch?v=KM8PIiqq97c&t=11s)
 <!--
 ###  [OneDrive](https://onedrive.live.com)
 ###  [Microsoft365 Account](https://account.microsoft.com/)
