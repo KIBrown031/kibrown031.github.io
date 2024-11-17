@@ -5,7 +5,7 @@
 ###  [Calculator](calculator/index.html)
 ###  [Google](https://google.com)
 ###  [OHMs Law](https://ohmslaw.eu/)
-<a href=https://ohmslaw.eu/ target="_blank" >OHMs Law</a>
+<a href="https://ohmslaw.eu/" target="_blank" >OHMs Law</a>
 ###  [HTML Standard](https://html.spec.whatwg.org/multipage/)
 ###  [HTML for Beginners (KS)](https://www.youtube.com/watch?v=FQdaUv95mR8)
 ###  [JW.ORG](https://jw.org)
