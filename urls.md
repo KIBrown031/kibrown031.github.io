@@ -1,5 +1,5 @@
 <!-- <base target="_blank"> -->
-<p><a href="https://ohmslaw.eu/" target="_blank">OHMs Law</a></p>
+<a href="https://ohmslaw.eu/" target="_blank">OHMs Law</a>
 ###  [Chrome Dev - Cache](https://developer.chrome.com/docs/devtools/storage/cache/?utm_source=devtools)
 ###  [OneDrive](https://onedrive.live.com)
 ###  [Microsoft365 Account](https://account.microsoft.com/)
