@@ -1,12 +1,11 @@
 <!-- <base target="_blank"> -->
-<a href="https://ohmslaw.eu/" target="_blank">OHMs Law</a>
+<p><a href="https://ohmslaw.eu/" target="_blank">OHMs Law</a></p>
 ###  [Chrome Dev - Cache](https://developer.chrome.com/docs/devtools/storage/cache/?utm_source=devtools)
 ###  [OneDrive](https://onedrive.live.com)
 ###  [Microsoft365 Account](https://account.microsoft.com/)
 ###  [Calculator](calculator/index.html)
 ###  [Google](https://google.com)
 ###  [OHMs Law](https://ohmslaw.eu/)
-
 ###  [HTML Standard](https://html.spec.whatwg.org/multipage/)
 ###  [HTML for Beginners (KS)](https://www.youtube.com/watch?v=FQdaUv95mR8)
 ###  [JW.ORG](https://jw.org)
