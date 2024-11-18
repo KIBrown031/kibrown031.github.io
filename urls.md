@@ -1,9 +1,6 @@
 <!-- <base target="_blank"> -->
-<<<<<<< HEAD
 <p><a href="https://ohmslaw.eu/" target="_blank">OHMs Law</a></p>
-=======
 <a href="https://ohmslaw.eu/" target="_blank" rel="noreferrer noopener">OHMs Law</a>
->>>>>>> 6f7e7190be93f11eba9c764a0cf8a103cf266fc7
 ###  [Chrome Dev - Cache](https://developer.chrome.com/docs/devtools/storage/cache/?utm_source=devtools)
 ###  [OneDrive](https://onedrive.live.com)
 ###  [Microsoft365 Account](https://account.microsoft.com/)
