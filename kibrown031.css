@@ -1,6 +1,7 @@
 body {
 /* background-color: rgb(255, 51, 0) */
 background-color: lightgoldenrodyellow;
+padding-top: 25px;
 padding-left: 25px;
 }
 
@@ -9,3 +10,6 @@ background-color: lightpink;
 
 }
 
+.fixed-top {
+    background-color: lightgreen;
+}
