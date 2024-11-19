@@ -13,4 +13,5 @@ background-color: lightpink;
 
 .fixed-top {
     background-color: lightgreen;
+    position: fixed
 }
