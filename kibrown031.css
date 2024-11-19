@@ -13,5 +13,6 @@ background-color: lightpink;
 
 .fixed-top {
     background-color: lightgreen;
-    position: fixed
+    position: fixed;
+    margin-top: 0;
 }
