@@ -3,11 +3,12 @@ body {
 background-color: lightgoldenrodyellow;
 padding-top: 0px;
 padding-left: 25px;
-height: 2000px
+height: 2000px;
 }
 
 p {
 background-color: lightpink;
+width: fit-content;
 }
 
 .fixed-top {
@@ -19,10 +20,10 @@ background-color: lightpink;
 }
 
 .fixed-input {
-    position: fixed
+    position: fixed;
 }
 
 .dateclass {
-    background-color: rgb(217, 231, 12);
-    position: fixed
+    /* background-color: rgb(217, 231, 12); */
+    position: fixed;
 }
