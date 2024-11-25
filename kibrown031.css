@@ -11,8 +11,13 @@ background-color: lightpink;
 }
 
 .fixed-top {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+    background-color: transparent;
     position: fixed;
     margin-top: 0;
     width: 100%;
+}
+
+.fixed-input {
+    position: fixed
 }
