@@ -51,10 +51,16 @@
   </ul>
 
   <script>
+    document.body.addEventListener( "keydown", () => { console.log("keydown"); } );
+
     function updateDate () {
-      let dateValue = document.querySelector('.dateclass').value;
-      document.querySelector('.date-value').innerHTML = dateValue;
+      let datePicker = document.querySelector('.dateclass');
+      
+      document.querySelector('.date-value').innerHTML = datePicker.value;
+
+      datePicker.addEventListener( "change", () => { console.log("change made to datePicker"); } )
     }
+
   </script>
     
 </body>
