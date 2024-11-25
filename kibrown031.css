@@ -21,3 +21,8 @@ background-color: lightpink;
 .fixed-input {
     position: fixed
 }
+
+.dateclass {
+    background-color: rgb(217, 231, 12);
+    position: fixed
+}
