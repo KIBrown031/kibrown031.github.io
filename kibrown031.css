@@ -11,7 +11,7 @@ background-color: lightpink;
 width: fit-content;
 }
 
-.fixed-top {
+.fixed-top { /* topmost line of page */
     /* background-color: lightgreen; */
     background-color: transparent;
     position: fixed;
@@ -22,12 +22,12 @@ width: fit-content;
     font-size: 20px;
 }
 
-.fixed-input {
+.fixed-input { /* text box */
     position: fixed;
     font-weight: bold;
 }
 
-.dateclass {
+.dateclass { /* date picker */
     /* background-color: rgb(217, 231, 12); */
     position: fixed;    
 }
