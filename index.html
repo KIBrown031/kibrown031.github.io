@@ -51,7 +51,8 @@
   </ul>
 
   <script>
-    document.body.addEventListener( "keydown", () => { console.log("keydown"); } );
+    // setTimeout   setInterval
+    document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
     function updateDate () {
       let datePicker = document.querySelector('.dateclass');
