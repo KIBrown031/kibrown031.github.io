@@ -12,6 +12,7 @@
 <body onload="startup()">
   
   <center><div class="fixed-top">Fixed Top</div></center>
+
   <br><br>
   <input placeholder="Placeholder" class="fixed-input" >
   <br>
@@ -19,7 +20,8 @@
   <br><br><br>
 
   <div class="date-value"><p>INSIDE OF PARAGRAPH INSIDE OF DIV</p></div>
-  <ul>
+
+  <button onclick="startup()">Show Picker</button>  <br><br>
     <!-- <li><a href="/README.html">Startup</a></li> -->
     <!-- <li><a href="/contact-form.html">Contact Form</a></li><br> -->
     <li><a href="/docs.html">Docs</a></li><br>
@@ -50,23 +52,7 @@
     <!-- <p>Open a PDF file<a href="S303-Oct 27 2024.pdf">example</a> </p> -->
   </ul>
 
-  <script>
-    function startup () {
-      console.log('startup');
-    }
-    
-    // setTimeout()   setInterval()
-    document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
-
-    function updateDate () {
-      let datePicker = document.querySelector('.dateclass');
-      
-      document.querySelector('.date-value').innerHTML = datePicker.value;
-
-      datePicker.addEventListener( "change", () => { console.log("change made to datePicker"); } )
-    }
-
-  </script>
+  <script src="kibrown031.js"></script>
     
 </body>
 </html>

@@ -17,13 +17,17 @@ width: fit-content;
     position: fixed;
     margin-top: 0;
     width: 100%;
+    font: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
 .fixed-input {
     position: fixed;
+    font-weight: bold;
 }
 
 .dateclass {
     /* background-color: rgb(217, 231, 12); */
-    position: fixed;
+    position: fixed;    
 }
