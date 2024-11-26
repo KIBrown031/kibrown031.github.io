@@ -9,7 +9,7 @@
     <base target="_blank">
     
 </head>
-<body>
+<body onload="startup()">
   
   <center><div class="fixed-top">Fixed Top</div></center>
   <br><br>
@@ -51,6 +51,10 @@
   </ul>
 
   <script>
+    function startup {
+      console.log('startup');
+    }
+    
     // setTimeout()   setInterval()
     document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
