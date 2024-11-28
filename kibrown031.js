@@ -20,3 +20,4 @@ function startup () {
   document.querySelector('.dateclass').click();
   document.querySelector('.dateclass').showPicker();
 }
+
