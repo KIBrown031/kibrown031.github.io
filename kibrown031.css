@@ -11,6 +11,10 @@ background-color: lightpink;
 width: fit-content;
 }
 
+input {
+    padding: 10px;
+}
+
 .fixed-top { /* topmost line of page */
     /* background-color: lightgreen; */
     background-color: transparent;
