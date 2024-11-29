@@ -12,6 +12,7 @@ width: fit-content;
 }
 
 input {
+    border: 10px;
     padding: 10px;
 }
 
