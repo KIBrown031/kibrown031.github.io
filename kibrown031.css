@@ -39,5 +39,5 @@ input {
 }
 
 .date-value {
-    border: 5px
+    border-bottom: 10px;
 }
