@@ -12,6 +12,7 @@ width: fit-content;
 }
 
 input {
+    display: inline-block;
     border: 10px;
     padding: 10px;
 }
