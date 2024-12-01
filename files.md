@@ -10,7 +10,7 @@
 
   <li><a href="push-repo-to-github.txt">Push Repo</a></li><br>
   
-  <li><a href="S303-Oct 27 2024.pdf">"S303"</a></li><br>
+  <!--  <li><a href="S303-Oct 27 2024.pdf">"S303"</a></li><br> -->
 
   <li><a href="LaVeria Bates.docx" target="_blank">"Letter Writing"</a></li><br>
 
