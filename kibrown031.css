@@ -39,5 +39,6 @@ input {
 }
 
 .date-value {
+    background-color: lightpink;
     border-bottom: 10px;
 }
