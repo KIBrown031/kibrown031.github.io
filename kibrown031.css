@@ -40,5 +40,6 @@ input {
 
 .date-value {
     background-color: lightpink;
+    width: fit-content;
     border-bottom: 10px;
 }
