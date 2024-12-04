@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.freecodecamp.org/news/the-best-jquery-examples/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        
+            <title>The Best jQuery Examples</title>
+        
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link rel="stylesheet" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" href="./The Best jQuery Examples_files/css2">
+        
+
+        
+        
+    <link rel="stylesheet" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" href="./The Best jQuery Examples_files/prism.min.css">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/themes/prism.min.css">
+</noscript>
+<link rel="stylesheet" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" href="./The Best jQuery Examples_files/prism-unescaped-markup.min.css">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.freecodecamp.org/news-assets/prism/1.29.0/plugins/unescaped-markup/prism-unescaped-markup.min.css">
+</noscript>
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="./The Best jQuery Examples_files/js"></script><script async="" src="./The Best jQuery Examples_files/gtm.js.download"></script><script defer="" src="./The Best jQuery Examples_files/prism-core.min.js.download"></script>
+<script defer="" src="./The Best jQuery Examples_files/prism-autoloader.min.js.download"></script>
+
+
+
+        
+        <link rel="stylesheet" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;" href="./The Best jQuery Examples_files/global-a9196627bc.css">
+        <link rel="stylesheet" type="text/css" href="./The Best jQuery Examples_files/screen-ccf21a819c.css">
+        <link rel="stylesheet" type="text/css" href="./The Best jQuery Examples_files/search-bar-124f5f949c.css">
+
+        
+        <script defer="" src="./The Best jQuery Examples_files/algoliasearch.min.js.download"></script>
+        <script defer="" src="./The Best jQuery Examples_files/autocomplete.min.js.download"></script>
+
+        
+        <script defer="" src="./The Best jQuery Examples_files/dayjs.min.js.download"></script>
+        <script defer="" src="./The Best jQuery Examples_files/localizedFormat.min.js.download"></script>
+        <script defer="" src="./The Best jQuery Examples_files/relativeTime.min.js.download"></script>
+
+        
+        
+            <script defer="" src="./The Best jQuery Examples_files/en.min.js.download"></script>
+        
+
+        
+        <script>let client,index;document.addEventListener("DOMContentLoaded",(()=>{client=algoliasearch("QMJYL5WYTI","89770b24481654192d7a5c402c6ad9a0"),index=client.initIndex("news")})),document.addEventListener("DOMContentLoaded",(()=>{const e=window.screen.width,t=window.screen.height,n=e>=767&&t>=768?8:5,o=document.getElementById("search-form"),s=document.getElementById("search-input"),a=document.getElementById("dropdown-container");let i,d,c;s.addEventListener("input",(e=>{i=e.target.value})),o.addEventListener("submit",(e=>{e.preventDefault(),function(){if(d=document.getElementsByClassName("aa-cursor")[0],d&&i){const e=d.querySelector("a").href;window.location.assign(e)}else!d&&i&&c&&window.location.assign(`https://www.freecodecamp.org/news/search?query=${i}`)}()}));const l=autocomplete("#search-input",{hint:!1,keyboardShortcuts:["s",191],openOnFocus:!0,appendTo:a,debug:!0},[{source:autocomplete.sources.hits(index,{hitsPerPage:n}),debounce:250,templates:{suggestion:e=>(c=!0,`\n            <a href="${e.url}">\n              <div class="algolia-result">\n                <span>${e._highlightResult.title.value}</span>\n              </div>\n            </a>\n          `),empty:()=>(c=!1,'\n            <div class="aa-suggestion footer-suggestion no-hits-footer">\n              <div class="algolia-result">\n                <span>\n                  No tutorials found\n                </span>\n              </div>\n            </div>\n          '),footer:e=>{if(!e.isEmpty)return`\n              <div class="aa-suggestion footer-suggestion">\n                <a id="algolia-footer-selector" href="https://www.freecodecamp.org/news/search?query=${i}">\n                  <div class="algolia-result algolia-footer">\n                    See all results for ${i}\n                  </div>\n                </a>\n              </div>\n            `}}}]).on("autocomplete:selected",((e,t,n,o)=>{d=t?t.url:`https://www.freecodecamp.org/news/search?query=${i}`,"click"!==o.selectionMethod&&"tabKey"!==o.selectionMethod&&c&&window.location.assign(d)}));document.addEventListener("click",(e=>{e.target!==s&&l.autocomplete.close()}))})),document.addEventListener("DOMContentLoaded",(()=>{dayjs.extend(dayjs_plugin_localizedFormat),dayjs.extend(dayjs_plugin_relativeTime),dayjs.locale("en")}));const isAuthenticated=document.cookie.split(";").some((e=>e.trim().startsWith("jwt_access_token="))),isDonor=document.cookie.split(";").some((e=>e.trim().startsWith("isDonor=true")));</script>
+
+        
+            <script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous" async=""></script>
+        
+
+        
+        
+    
+        
+            <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var sidebar = document.querySelector('.sidebar');
+    var isSideBarDisplayed = window.getComputedStyle(sidebar).display !== 'none';
+    function prepareAdSlot(elementId) {
+        // Get the element by ID
+        const targetElement = document.getElementById(elementId);
+
+        // Ensure the element exists before proceeding
+        if (!targetElement) {
+            console.error(`Element with ID ${elementId} not found`);
+            return;
+        }
+
+        const parentElement = targetElement.parentElement;
+        // Change the background color of the parent element
+
+        if (parentElement) {
+            console.log(elementId)
+
+            if (elementId === 'gam-ad-bottom' ) {
+                parentElement.style.backgroundColor = '#eeeef0';
+                if(getComputedStyle(parentElement).visibility === 'hidden') {
+                    parentElement.style.visibility = 'inherit'; 
+                }
+            }
+
+            // Get the sibling elements
+            const siblingElements = parentElement.children;
+
+            for (let i = 0; i < siblingElements.length; i++) {
+                const sibling = siblingElements[i];
+
+                // Skip the element itself
+                if (sibling === targetElement) continue;
+
+                // Log the sibling or perform any other action
+                console.log('Found sibling:', sibling);
+
+                // Check visibility
+                if(getComputedStyle(sibling).visibility === 'hidden') {
+                    sibling.style.visibility = 'inherit'; 
+                }
+
+                // Check if display is 'none', then change it to 'block'
+                if (getComputedStyle(sibling).display === 'none') {
+                    sibling.style.display = 'block'; 
+                }
+            }
+        } else {
+            console.warn('No parent element found');
+        }
+    }
+
+    
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+
+        if(isSideBarDisplayed){
+            var sidebarHeight = sidebar.offsetHeight;
+            var adTextSideBarHeight = 0;
+            var sideBarAdContainert = 600 + 17;
+        
+            var styles = window.getComputedStyle(sidebar);
+            var avaiableSideAdSpace = sidebarHeight - adTextSideBarHeight - parseFloat(styles.paddingTop) - parseFloat(styles.paddingBottom);
+            var numSideElements = Math.floor(avaiableSideAdSpace / sideBarAdContainert);
+            for (var i = 0; i < numSideElements; i++) {
+                // container element
+                var containerElement = document.createElement('div');
+                containerElement.classList.add('ad-wrapper');
+
+                //text element
+                var textElement = document.createElement('div');
+                textElement.classList.add('ad-text');
+                textElement.innerText = localizedAdText;
+
+                // ad element
+                var adElement = document.createElement('div');
+                var sideAdElementId = 'side-gam-ad-' + i;
+                adElement.id = sideAdElementId;
+                adElement.classList.add('side-bar-ad-slot');
+
+                // finalize setup
+                containerElement.appendChild(textElement);
+                containerElement.appendChild(adElement);
+                sidebar.appendChild(containerElement);
+                googletag.defineSlot('/23075930536/post-side', [[292, 30], [240, 400], [300, 75], [216, 54], [250, 360], [300, 50], 'fluid', [300, 31], [120, 20], [300, 250], [120, 30], [180, 150], [200, 446], [168, 42], [200, 200], [160, 600], [120, 90], [125, 125], [240, 133], [120, 60], [1, 1], [120, 240], [220, 90], [216, 36], [250, 250], [168, 28], [234, 60], [120, 600], [300, 600], [88, 31], [300, 100]], sideAdElementId).addService(googletag.pubads());
+            }
+        }
+
+        // Define bottom ad
+        googletag.defineSlot('/23075930536/post-bottom', ['fluid'], 'gam-ad-bottom').addService(googletag.pubads());
+
+        // Enable lazy loading with default settings.
+        googletag.pubads().enableLazyLoad();
+
+        googletag.pubads().addEventListener("slotRequested", (event) => {
+            console.log(`Slot ${event.slot.getSlotElementId()} fetched`);
+        });
+
+        googletag.pubads().addEventListener("slotOnload", (event) => {
+            const elementId = event.slot.getSlotElementId();
+            prepareAdSlot(elementId);
+            console.log(`Slot ${event.slot.getSlotElementId()} rendered`);
+        });
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+
+
+        // Trigger lazy loading
+        googletag.display('gam-ad-bottom');
+
+    });
+});
+</script>
+
+        
+    
+
+
+        
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5D6RKKP');</script>
+
+        
+        
+        
+        
+    
+        
+    
+
+
+        
+        
+        
+
+        
+        
+
+        <link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png">
+        
+        
+            <link rel="canonical" href="https://www.freecodecamp.org/news/the-best-jquery-examples/">
+        
+        <meta name="referrer" content="no-referrer-when-downgrade">
+
+        
+
+        
+    <meta name="description" content="jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. It&#39;s motto is &quot;write less, do more...!&quot; jQuery makes web development easier to use by providing a number of &#39;helper&#39; functions. These help develop...">
+
+    
+    <meta property="og:site_name" content="freeCodeCamp.org">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Best jQuery Examples">
+    
+        <meta property="og:description" content="jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. It&#39;s motto is &quot;write less, do more...!&quot; jQuery makes web development easier to use by providing a number of &#39;helper&#39; functions. These help develop...">
+    
+    <meta property="og:url" content="https://www.freecodecamp.org/news/the-best-jquery-examples/">
+    <meta property="og:image" content="https://cdn-media-2.freecodecamp.org/w1280/5f9c9f1b740569d1a4ca40dc.jpg">
+    <meta property="article:published_time" content="2019-11-23T00:23:00.000Z">
+    <meta property="article:modified_time" content="2019-11-23T00:23:00.000Z">
+    
+        <meta property="article:tag" content="jQuery">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/freecodecamp">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Best jQuery Examples">
+    
+        <meta name="twitter:description" content="jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. It&#39;s motto is &quot;write less, do more...!&quot; jQuery makes web development easier to use by providing a number of &#39;helper&#39; functions. These help develop...">
+    
+    <meta name="twitter:url" content="https://www.freecodecamp.org/news/the-best-jquery-examples/">
+    <meta name="twitter:image" content="https://cdn-media-2.freecodecamp.org/w1280/5f9c9f1b740569d1a4ca40dc.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="freeCodeCamp">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="jQuery">
+    <meta name="twitter:site" content="@freecodecamp">
+    
+        <meta name="twitter:creator" content="@freecodecamp">
+    
+
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="853">
+
+
+        
+    <script type="application/ld+json">{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"publisher": {
+		"@type": "Organization",
+		"name": "freeCodeCamp.org",
+		"url": "https://www.freecodecamp.org/news/",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg",
+			"width": 2100,
+			"height": 240
+		}
+	},
+	"image": {
+		"@type": "ImageObject",
+		"url": "https://cdn-media-2.freecodecamp.org/w1280/5f9c9f1b740569d1a4ca40dc.jpg",
+		"width": 1280,
+		"height": 853
+	},
+	"url": "https://www.freecodecamp.org/news/the-best-jquery-examples/",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://www.freecodecamp.org/news/"
+	},
+	"datePublished": "2019-11-23T00:23:00.000Z",
+	"dateModified": "2019-11-23T00:23:00.000Z",
+	"keywords": "jQuery",
+	"description": "jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. It&#x27;s motto is &quot;write less, do more...!&quot;\njQuery makes web development easier to use by providing a number of &#x27;helper&#x27; functions. These help develop...",
+	"headline": "The Best jQuery Examples",
+	"author": {
+		"@type": "Person",
+		"name": "freeCodeCamp",
+		"url": "https://www.freecodecamp.org/news/author/freeCodeCamp/",
+		"sameAs": [
+			"https://www.freecodecamp.org",
+			"https://x.com/freecodecamp"
+		],
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://cdn.hashnode.com/res/hashnode/image/upload/v1712072540742/C7c8AOPN6.png",
+			"width": 600,
+			"height": 600
+		}
+	}
+}</script>
+
+
+        <meta name="generator" content="Eleventy">
+        <link rel="alternate" type="application/rss+xml" title="freeCodeCamp.org" href="https://www.freecodecamp.org/news/rss/">
+
+        
+        
+
+        
+  <meta name="x-fcc-source" data-test-label="x-fcc-source" content="Hashnode">
+
+    </head>
+
+    
+        <body class="home-template">
+    
+
+    
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D6RKKP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    
+
+        <div class="site-wrapper">
+            <nav class="site-nav nav-padding">
+    <div class="site-nav-left">
+        
+<form id="search-form" data-test-label="search-bar">
+    <div role="search" class="searchbox__wrapper">
+        <label class="fcc_sr_only" for="search-input">
+            Search
+        </label>
+        <input type="search" placeholder="
+    Search 11,500+ tutorials
+" id="search-input" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style=""><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+        <button type="submit" class="ais-SearchBox-submit">
+            <svg class="ais-SearchBox-submitIcon" xmlns="https://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 40 40">
+    <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"></path>
+</svg>
+
+            <span class="fcc_sr_only">Submit your search query</span>
+        </button>
+        <div id="dropdown-container"><span class="algolia-autocomplete" style="position: absolute; z-index: 100; display: none; direction: ltr;"><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="display: block; left: 0px; right: auto;"><div class="aa-dataset-1"></div></span></span></div>
+    </div>
+</form>
+
+    </div>
+    <div class="site-nav-middle">
+        <a class="site-nav-logo" href="https://www.freecodecamp.org/news/" data-test-label="site-nav-logo"><img src="./The Best jQuery Examples_files/fcc_primary.svg" alt="freeCodeCamp.org"></a>
+    </div>
+    <div class="site-nav-right">
+        <div class="nav-group">
+            <a class="nav-forum" id="nav-forum" rel="noopener noreferrer" href="https://forum.freecodecamp.org/" target="_blank" data-test-label="forum-button">Forum</a>
+            <a class="toggle-button-nav" id="nav-donate" rel="noopener noreferrer" href="https://www.freecodecamp.org/donate/" target="_blank" data-test-label="donate-button">Donate</a>
+        </div>
+    </div>
+</nav>
+
+
+            
+            <a class="banner" id="banner" data-test-label="banner" rel="noopener noreferrer" target="_blank" href="https://www.freecodecamp.org/" text-variation="default">
+    <p id="banner-text">Learn to code — <span>free 3,000-hour curriculum</span></p>
+</a>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("banner"),t=document.getElementById("banner-text");if(isAuthenticated){t.innerHTML=isDonor?"Thank you for supporting freeCodeCamp through <span>your donations</span>.":"Support our charity and our mission. <span>Donate to freeCodeCamp.org</span>.",e.href=isDonor?"https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/":"https://www.freecodecamp.org/donate";const o=isDonor?"donor":"authenticated";e.setAttribute("text-variation",o)}else t.innerHTML="Learn to code — <span>free 3,000-hour curriculum</span>",e.href="https://www.freecodecamp.org/",e.setAttribute("text-variation","default")}));</script>
+
+
+            <div id="error-message"></div>
+
+            
+    <main id="site-main" class="post-template site-main outer">
+        <div class="inner ad-layout">
+            <article class="post-full post">
+                <header class="post-full-header">
+                    <section class="post-full-meta">
+                        <time class="post-full-meta-date" data-test-label="post-full-meta-date" datetime="2019-11-23T00:23:00.000Z">
+                            November 23, 2019
+                        </time>
+                        
+                            <span class="date-divider">/</span>
+                            <a dir="ltr" href="https://www.freecodecamp.org/news/tag/jquery/">
+                                #jQuery
+                            </a>
+                        
+                    </section>
+                    <h1 class="post-full-title" data-test-label="post-full-title">The Best jQuery Examples</h1>
+                </header>
+                
+                <figure class="post-full-image">
+                    
+    <picture>
+      <source media="(max-width: 700px)" sizes="1px" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 1w">
+      <source media="(min-width: 701px)" sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px" srcset="https://cdn-media-2.freecodecamp.org/w1280/5f9c9f1b740569d1a4ca40dc.jpg">
+      <img onerror="this.style.display=&#39;none&#39;" src="./The Best jQuery Examples_files/5f9c9f1b740569d1a4ca40dc.jpg" alt="The Best jQuery Examples" ,="" width="1280" height="853" data-test-label="feature-image">
+    </picture>
+  
+                </figure>
+                <section class="post-full-content">
+                    <div class="post-and-sidebar">
+                        <section class="post-content " data-test-label="post-content">
+                            
+<p>jQuery is the most widely-used JavaScript library, and is used in more than half of all major websites. It's motto is "write less, do more...!"</p>
+<p>jQuery makes web development easier to use by providing a number of 'helper' functions. These help developers to quickly write DOM (Document Object Model) interactions without needing to manually write as much JavaScript themselves.</p>
+<p>jQuery adds a global variable with all of the libraries methods attached. The naming convention is to have this global variable as <code>$</code>. by typing in <code>$.</code> you have all the jQuery methods at your disposal.</p>
+<h2 id="heading-getting-started">Getting Started</h2>
+<p>There are two main ways to start using jQuery:</p>
+<ul>
+<li><strong>Include jQuery locally</strong>: Download the jQuery library from <a target="_blank" href="https://jquery.com/">jquery.com</a> and include it in your HTML code.</li>
+<li><strong>Use a CDN</strong>: Link to the jQuery library using a CDN (Content Delivery Network).</li>
+</ul>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/jquery/jquery-3.4.1.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js/scripts.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> <span class="token punctuation">"</span>https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>js/scripts.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h2 id="heading-selectors">Selectors</h2>
+<p>jQuery uses CSS-style selectors to select parts, or elements, of an HTML page. It then lets you do something with the elements using jQuery methods, or functions.</p>
+<p>To use one of these selectors, type a dollar sign and parentheses after it: <code>$()</code>. This is shorthand for the <code>jQuery()</code> function. Inside the parentheses, add the element you want to select. You can use either single- or double-quotes. After this, add a dot after the parentheses and the method you want to use.</p>
+<p>In jQuery, the class and ID selectors are like those in CSS.</p>
+<p>Here's an example of a jQuery method that selects all paragraph elements, and adds a class of "selected" to them:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>This is a paragraph selected by a jQuery method<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>This is also a paragraph selected by a jQuery method<span class="token punctuation">.</span><span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"p"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addClass</span><span class="token punctuation">(</span><span class="token string">"selected"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>In jQuery, the class and ID selectors are the same as in CSS. If you want to select elements with a certain class, use a dot (<code>.</code>) and the class name. If you want to select elements with a certain ID, use the hash symbol (<code>#</code>) and the ID name. Note that HTML is not case-sensitive, therefore it is best practice to keep HTML markup and CSS selectors lowercase.</p>
+<h3 id="heading-selecting-by-class">Selecting by class</h3>
+<p>If you want to select elements with a certain class, use a dot (.) and the class name.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pWithClass<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Paragraph with a class.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".pWithClass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"color"</span><span class="token punctuation">,</span> <span class="token string">"blue"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// colors the text blue</span>
+</code></pre>
+<p>You can also use the class selector in combination with a tag name to be more specific.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>wishList<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>My Wish List<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>`<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"ul.wishList"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"&lt;li&gt;New blender&lt;/li&gt;"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-selecting-by-id">Selecting by ID</h3>
+<p>If you want to select elements with a certain ID value, use the hash symbol (#) and the ID name.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>liWithID<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>List item with an ID.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#liWithID"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replaceWith</span><span class="token punctuation">(</span><span class="token string">"&lt;p&gt;Socks&lt;/p&gt;"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>As with the class selector, this can also be used in combination with a tag name.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>headline<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>News Headline<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"h1#headline"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"font-size"</span><span class="token punctuation">,</span> <span class="token string">"2em"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-selecting-by-attribute-value">Selecting by attribute value</h3>
+<p>If you want to select elements with a certain attribute, use <code>([attributeName="value"])</code>.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myInput<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"[name='myInput']"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token string">"Test"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// sets input value to "Test"</span>
+</code></pre>
+<p>You can also use the attribute selector in combination with a tag name to be more specific.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myElement<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span>`<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myElement<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Button<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"input[name='myElement']"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// removes the input field not the button</span>
+</code></pre>
+<h3 id="heading-selectors-that-act-as-filters">Selectors that act as filters</h3>
+<p>There are also selectors that act as filters - they will usually start with colons. For example, the <code>:first</code> selector selects the element that is the first child of its parent. Here's an example of an unordered list with some list items. The jQuery selector below the list selects the first <code>&lt;li&gt;</code> element in the list--the "One" list item--and then uses the <code>.css</code> method to turn the text green.</p>
+<pre class="language-html" tabindex="0"><code class="language-html">   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>One<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Two<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Three<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"li:first"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"color"</span><span class="token punctuation">,</span> <span class="token string">"green"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-attribute-selector">Attribute Selector</h3>
+<p>There are selectors that return elements which matches certain combinations of Attributes like <em>Attribute contains</em>, <em>Attribute ends with</em>, <em>Attribute starts with</em> etc. Here's an example of an unordered list with some list items. The jQuery selector below the list selects the <code>&lt;li&gt;</code> element in the list--the "One" list item as it has <code>data*</code> attribute as <code>"India"</code> as its value--and then uses the <code>.css</code> method to turn the text green.</p>
+<pre class="language-html" tabindex="0"><code class="language-html">   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">data-country</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>India<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Mumbai<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">data-country</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>China<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Beijing<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">data-country</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>United States<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>New York<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"li[data-country='India']"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"color"</span><span class="token punctuation">,</span> <span class="token string">"green"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Another filtering selector, <code>:contains(text)</code>, selects elements that have a certain text. Place the text you want to match in the parentheses. Here's an example with two paragraphs. The jQuery selector takes the word "Moto" and changes its color to yellow.</p>
+<pre class="language-html" tabindex="0"><code class="language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Hello<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>World<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"p:contains('World')"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"color"</span><span class="token punctuation">,</span> <span class="token string">"yellow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Similarly, the <code>:last</code> selector selects the element that is the last child of its parent. The jQuery selector below selects the last <code>&lt;li&gt;</code> element in the list--the "Three" list item--and then uses the <code>.css</code> method to turn the text yellow.</p>
+<p><code>$("li:last").css("color", "yellow");</code></p>
+<p><strong>Note:</strong> In the jQuery selector, <code>World</code> is in single-quotes because it is already inside a pair of double-quotes. Always use single-quotes inside double-quotes to avoid unintentionally ending a string.</p>
+<h3 id="heading-multiple-selectors">Multiple Selectors</h3>
+<p>In jQuery, you can use multiple selectors to apply the same changes to more than one element, using a single line of code. You do this by separating the different ids with a comma. For example, if you want to set the background color of three elements with ids cat,dog,and rat respectively to red, simply do:</p>
+<pre class="language-text" tabindex="0"><code class="language-text">$("#cat,#dog,#rat").css("background-color","red");
+</code></pre>
+<h2 id="heading-html-method">HTML Method</h2>
+<p>The jQuery <code>.html()</code> method gets the content of a HTML element or sets the content of an HTML element.</p>
+<h3 id="heading-getting">Getting</h3>
+<p>To return the content of a HTML element, use this syntax:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'selector'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>For example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#example'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-setting">Setting</h3>
+<p>To set the content of a HTML element, use this syntax:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'selector'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>content<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>For example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token string">'Hello World!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>That will set the content of all of the <code>&lt;p&gt;</code> elements to Hello World!</p>
+<h3 id="heading-warning">Warning</h3>
+<p><code>.html()</code> method is used to set the element's content in <strong>HTML</strong> format. This may be dangerous if the content is provided by user. Consider using <code>.text()</code> method instead if you need to set non-HTML strings as content.</p>
+<h2 id="heading-css-method">CSS Method</h2>
+<p>The jQuery <code>.css()</code> method gets the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.</p>
+<h3 id="heading-getting-1">Getting</h3>
+<p>To return the value of a specified CSS property, use the following syntax:</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span>selector<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span>propertyName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Example:</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#element'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'background'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Note: Here we can use any css selector eg: element(HTML Tag selector), .element(Class Selector), #element(ID selector).</p>
+<h3 id="heading-setting-1">Setting</h3>
+<p>To set a specified CSS property, use the following syntax:</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span>selector<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span>propertyName<span class="token punctuation">,</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Example:</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#element'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'background'</span><span class="token punctuation">,</span><span class="token string">'red'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>To set multiple CSS properties, you'll have to use the object literal syntax like this:</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#element'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token string-property property">'background'</span><span class="token operator">:</span> <span class="token string">'gray'</span><span class="token punctuation">,</span>
+        <span class="token string-property property">'color'</span><span class="token operator">:</span> <span class="token string">'white'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>If you want to change a property labeled with more than one word, refer to this example:</p>
+<p>To change <code>background-color</code> of an element</p>
+<pre class="language-js" tabindex="0"><code class="language-js">    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#element'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'background-color'</span><span class="token punctuation">,</span> <span class="token string">'gray'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-click-method">Click Method</h2>
+<p>The jQuery Click method triggers a function when an element is clicked. The function is known as a "handler" because it handles the click event. Functions can impact the HTML element that is bound to the click using the jQuery Click method, or they can change something else entirely. The most-used form is:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#clickMe"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span>handler<span class="token punctuation">)</span>
+</code></pre>
+<p>The click method takes the handler function as an argument and executes it every time the element <code>#clickMe</code> is clicked. The handler function receives a parameter known as an <a target="_blank" href="http://api.jquery.com/Types/#Event">eventObject</a> that can be useful for controlling the action.</p>
+<h3 id="heading-examples">Examples</h3>
+<p>This code shows an alert when a user clicks a button:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Click Here<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#alert"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hi! I'm an alert"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>The <a target="_blank" href="http://api.jquery.com/Types/#Event">eventObject</a> has some built in methods, including <code>preventDefault()</code>, which does exactly what it says - stops the default event of an element. Here we pevent the anchor tag from acting as a link:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myLink<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>www.google.com<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Link to Google<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#myLink"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  event<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-more-ways-to-play-with-the-click-method">More ways to play with the click method</h3>
+<p>The handler function can also accept additional data in the form of an object:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">jqueryElement<span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span>usefulInfo<span class="token punctuation">,</span> handler<span class="token punctuation">)</span>
+</code></pre>
+<p>The data can be of any type.</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"element"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token literal-property property">firstWord</span><span class="token operator">:</span> <span class="token string">"Hello"</span><span class="token punctuation">,</span> <span class="token literal-property property">secondWord</span><span class="token operator">:</span> <span class="token string">"World"</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">alert</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>data<span class="token punctuation">.</span>firstWord<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">alert</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>data<span class="token punctuation">.</span>secondWord<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Invoking the click method without a handler function triggers a click event:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#alert"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hi! I'm an alert"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#alert"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Now, whenever the page loads, the click event will be triggered when we enter or reload the page, and show the assigned alert.</p>
+<p>Also you should prefer to use <code>.on("click",...)</code> over <code>.click(...)</code> because the former can use less memory and work for dynamically added elements.</p>
+<h3 id="heading-common-mistakes">Common Mistakes</h3>
+<p>The click event is only bound to elements currently in the DOM at the time of binding, so any elements added afterwards will not be bound. To bind all elements in the DOM, even if they will be created at a later time, use the <code>.on()</code> method.</p>
+<p>For example, this click method example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"element"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"I've been clicked!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Can be changed to this on method example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"click"</span><span class="token punctuation">,</span> <span class="token string">"element"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"I've been clicked!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-getting-the-element-from-a-click-event">Getting The Element From A Click event</h3>
+<p>This applies to both jQuery and plain JavaScript, but if you set up your event trigger to target a class, you can grab the specific element that triggered the element by using the <code>this</code> keyword.</p>
+<p>jQuery happens to make it very easy (and multi browser friendly) to traverse the DOM to find that element's parents, siblings, and children, as well.</p>
+<p>Let's say I have a table full of buttons and I want to target the row that button is in, I can simply wrap <code>this</code> in a jQuery selector and then get its <code>parent</code> and its parent's <code>parent</code> like so:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span> document <span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"click"</span><span class="token punctuation">,</span> <span class="token string">".myCustomBtnClassInATable"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> myTableCell <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> myTableRow <span class="token operator">=</span> myTableCell<span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> myTableBody <span class="token operator">=</span> myTableRow<span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> myTable <span class="token operator">=</span> myTableBody<span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">//you can also chain these all together to get what you want in one line</span>
+    <span class="token keyword">var</span> myTableBody <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>It is also interesting to check out the event data for the click event, which you can grab by passing in any variable name to the function in the click event. You'll most likely see an <code>e</code> or <code>event</code> in most cases:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span> document <span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">"click"</span><span class="token punctuation">,</span> <span class="token string">".myCustomBtnClassInATable"</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+    <span class="token comment">//find out more information about the event variable in the console</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-mousedown-method">Mousedown Method</h2>
+<p>The mousedown event occurs when the left mouse button is pressed. To trigger the mousedown event for the selected element, use this syntax: <code>$(selector).mousedown();</code></p>
+<p>Most of the time, however, the mousedown method is used with a function attached to the mousedown event. Here's the syntax: <code>$(selector).mousedown(function);</code> For example:</p>
+<pre class="language-text" tabindex="0"><code class="language-text">$(#example).mousedown(function(){
+   alert("Example was clicked");
+});
+</code></pre>
+<p>That code will make the page alert "Example was clicked" when #example is clicked.</p>
+<h2 id="heading-hover-method">Hover Method</h2>
+<p>The jquery hover method is a combination of the <code>mouseenter</code> and <code>mouseleave</code> events. The syntax is this:</p>
+<pre class="language-text" tabindex="0"><code class="language-text">$(selector).hover(inFunction, outFunction);
+</code></pre>
+<p>The first function, inFunction, will run when the <code>mouseenter</code> event occurs. The second function is optional, but will run when the <code>mouseleave</code> event occurs. If only one function is specified, the other function will run for both the <code>mouseenter</code> and <code>mouseleave</code> events. Below is a more specific example.</p>
+<pre class="language-text" tabindex="0"><code class="language-text">$("p").hover(function(){
+    $(this).css("background-color", "yellow");
+}, function(){
+    $(this).css("background-color", "pink");
+});
+</code></pre>
+<p>So this means that hover on paragraph will change its background color to yellow and the opposite will change back to pink.</p>
+<h2 id="heading-animate-method">Animate Method</h2>
+<p>jQuery's animate method makes it easy to create simple animations using only a few lines of code. The basic structure is as following:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".selector"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">animate</span><span class="token punctuation">(</span>properties<span class="token punctuation">,</span> duration<span class="token punctuation">,</span> <span class="token function">callbackFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>For the <code>properties</code> argument, you need to pass a javascript object with the CSS properties you want to animate as keys and the values you want to animate to as values. For the <code>duration</code>, you need to input the amount of time in milliseconds the animation should take. The <code>callbackFunction()</code> is executed once the animation has finished.</p>
+<h3 id="heading-example">Example</h3>
+<p>A simple example would look like this:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".awesome-animation"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">animate</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">opacity</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">bottom</span><span class="token operator">:</span> <span class="token operator">+=</span> <span class="token number">15</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".different-element"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-hide-method">Hide Method</h2>
+<p>In its simplest form, <strong>.hide()</strong> hides the matched element immediately, with no animation. For example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<p>will hide all the elements whose class is <em>myclass</em>. Any jQuery selector can be used.</p>
+<h3 id="heading-hide-as-an-animation-method">.hide() as an animation method</h3>
+<p>Thanks to its options, <strong>.hide()</strong> can animate the width, height, and opacity of the matched elements simultaneously.</p>
+<ul>
+<li>Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:</li>
+<li>A function can be specified to be called once the animation is complete, once per every matched element. This callback is mainly useful for chaining together different animations. For example</li>
+</ul>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#myobject"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token number">800</span><span class="token punctuation">)</span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"p"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span> <span class="token string">"slow"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".titles"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">hide</span><span class="token punctuation">(</span><span class="token string">"fast"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"No more text!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-show-method">Show Method</h2>
+<p>In its simplest form, <strong>.show()</strong> displays the matched element immediately, with no animation. For example:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>will show all the elements whose class is <em>myclass</em>. Any jQuery selector can be used.</p>
+<p>However, this method does not override <code>!important</code> in the CSS style, such as <code>display: none !important</code>.</p>
+<h3 id="heading-show-as-an-animation-method">.show() as an animation method</h3>
+<p>Thanks to its options, <strong>.show()</strong> can animate the width, height, and opacity of the matched elements simultaneously.</p>
+<ul>
+<li>Duration can be provided in milliseconds, or using the literals slow (600 ms) and fast(200ms). for example:</li>
+<li>A function can be specified to be called once the animation is complete, once per every matched element. for example</li>
+</ul>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#myobject"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token string">"slow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#title"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span> <span class="token string">"slow"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"p"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token string">"fast"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-jquery-toggle-method">jQuery Toggle method</h2>
+<p>To show / hide elements you can use <code>toggle()</code> method. If element is hidden <code>toggle()</code> will show it and vice versa. Usage:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toggle</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="heading-slide-down-method">Slide Down method</h2>
+<p>This method animates the height of the matched elements. This causes lower parts of the page to slide down, making way for the revealed items. Usage:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slideDown</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//will expand the element with the identifier myclass for 400 ms.</span>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slideDown</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//will expand the element with the identifier myclass for 1000 ms.</span>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slideDown</span><span class="token punctuation">(</span><span class="token string">"slow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//will expand the element with the identifier myclass for 600 ms.</span>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">".myclass"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">slideDown</span><span class="token punctuation">(</span><span class="token string">"fast"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//will expand the element with the identifier myclass for 200 ms.</span>
+</code></pre>
+<h2 id="heading-load-method">Load Method</h2>
+<p>The load() method loads data from a server and puts the returned data into the selected element.</p>
+<p><strong>Note:</strong> There is also a jQuery Event method called load. Which one is called, depends on the parameters.</p>
+<h3 id="heading-example-1">Example</h3>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"button"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">click</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#div1"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">"demo_test.txt"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-chaining">Chaining</h2>
+<p>jQuery chaining allows you to execute multiple methods on the same jQuery selection, all on a single line.</p>
+<p>Chaining allows us to turn multi-line statements:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#someElement'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">removeClass</span><span class="token punctuation">(</span><span class="token string">'classA'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#someElement'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addClass</span><span class="token punctuation">(</span><span class="token string">'classB'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Into a single statement:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#someElement'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">removeClass</span><span class="token punctuation">(</span><span class="token string">'classA'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addClass</span><span class="token punctuation">(</span><span class="token string">'classB'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-ajax-get-method">Ajax Get Method</h2>
+<p>Sends an asynchronous http GET request to load data from the server. Its general form is:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">jQuery<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span> url <span class="token punctuation">[</span><span class="token punctuation">,</span> data <span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">,</span> success <span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">,</span> dataType <span class="token punctuation">]</span> <span class="token punctuation">)</span>
+</code></pre>
+<ul>
+<li><code>url</code>: The only mandatory parameter. This string contains the address to which to send the request. The returned data will be ignored if no other parameter is specified.</li>
+<li><code>data</code>: A plain object or string sent to the server with the request.</li>
+<li><code>success</code>: A callback function executed if the request succeeds. It takes as an argument the returned data. It is also passed the text status of the response.</li>
+<li><code>dataType</code>: The type of data expected from the server. The default is Intelligent Guess (xml, json, script, text, html). If this parameter is provided, the success callback also must be provided.</li>
+</ul>
+<h3 id="heading-examples-1">Examples</h3>
+<p>Request <code>resource.json</code> from the server, send additional data, and ignore the returned result:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://example.com/resource.json'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Request <code>resource.json</code> from the server, send additional data, and handle the returned response (json format):</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://example.com/resource.json'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"success"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+     <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#mypar"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>amount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>However, <code>$.get</code> doesn't provide any way to handle error.</p>
+<p>The above example (with error handling) can also be written as:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'http://example.com/resource.json'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+     <span class="token punctuation">.</span><span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+           <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"success"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#mypar"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>amount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+     <span class="token punctuation">}</span><span class="token punctuation">)</span>
+     <span class="token punctuation">.</span><span class="token function">fail</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+           <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"error"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#mypar"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>statusText<span class="token punctuation">)</span><span class="token punctuation">;</span>
+     <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="heading-ajax-get-equivalent">Ajax GET Equivalent</h3>
+<p><code>$.get( url [, data ] [, success ] [, dataType ] )</code> is a shorthand Ajax function, equivalent to:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+     <span class="token literal-property property">url</span><span class="token operator">:</span> url<span class="token punctuation">,</span>
+     <span class="token literal-property property">data</span><span class="token operator">:</span> data<span class="token punctuation">,</span>
+     <span class="token literal-property property">success</span><span class="token operator">:</span> success<span class="token punctuation">,</span>
+     <span class="token literal-property property">dataType</span><span class="token operator">:</span> dataType
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="heading-ajax-post-method">Ajax Post Method</h2>
+<p>Sends an asynchronous http POST request to load data from the server. Its general form is:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">jQuery<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span> url <span class="token punctuation">[</span><span class="token punctuation">,</span> data <span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">,</span> success <span class="token punctuation">]</span> <span class="token punctuation">[</span><span class="token punctuation">,</span> dataType <span class="token punctuation">]</span> <span class="token punctuation">)</span>
+</code></pre>
+<ul>
+<li>url : This is the only mandatory parameter. This string contains the adress to which to send the request. The returned data will be ignored if no other parameter is specified</li>
+<li>data : A plain object or string that is sent to the server with the request.</li>
+<li>success : A callback function that is executed if the request succeeds. It takes as an argument the returned data. It is also passed the text status of the response.</li>
+<li>dataType : The type of data expected from the server. The default is Intelligent Guess (xml, json, script, text, html). if this parameter is provided, then the success callback must be provided as well.</li>
+</ul>
+<h4 id="heading-examples-2">Examples</h4>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'http://example.com/form.php'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>requests <code>form.php</code> from the server, sending additional data and ignoring the returned result</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'http://example.com/form.php'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span><span class="token punctuation">{</span> 
+      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"success"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#mypar"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>amount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>requests <code>form.php</code> from the server, sending additional data and handling the returned response (json format). This example can be written in this format:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'http://example.com/form.php'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">category</span><span class="token operator">:</span><span class="token string">'client'</span><span class="token punctuation">,</span> <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token string">'premium'</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"success"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"#mypar"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>amount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>The following example posts a form using Ajax and put results in a div</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>jQuery.post demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://code.jquery.com/jquery-1.10.2.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>searchForm<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>s<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Search...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- the result of the search will be rendered inside this div --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>result<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+// Attach a submit handler to the form
+$( "#searchForm" ).submit(function( event ) {
+
+  // Stop form from submitting normally
+  event.preventDefault();
+
+  // Get some values from elements on the page:
+  var $form = $( this ),
+    term = $form.find( "input[name='s']" ).val(),
+    url = $form.attr( "action" );
+
+  // Send the data using post
+  var posting = $.post( url, { s: term } );
+
+  // Put the results in a div
+  posting.done(function( data ) {
+    var content = $( data ).find( "#content" );
+    $( "#result" ).empty().append( content );
+  });
+});
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>The following example use the github api to fetch the list of repositories of a user using jQuery.ajax() and put results in a div</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>jQuery Get demo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://code.jquery.com/jquery-1.10.2.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>userForm<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>username<span class="token punctuation">"</span></span> <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Enter gitHub User name<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Search<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- the result of the search will be rendered inside this div --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>result<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+// Attach a submit handler to the form
+$( "#userForm" ).submit(function( event ) {
+
+  // Stop form from submitting normally
+  event.preventDefault();
+
+  // Get some values from elements on the page:
+  var $form = $( this ),
+    username = $form.find( "input[name='username']" ).val(),
+    url = "https://api.github.com/users/"+username+"/repos";
+
+  // Send the data using post
+  var posting = $.post( url, { s: term } );
+
+  //Ajax Function to send a get request
+  $.ajax({
+    type: "GET",
+    url: url,
+    dataType:"jsonp"
+    success: function(response){
+        //if request if made successfully then the response represent the data
+
+        $( "#result" ).empty().append( response );
+    }
+  });
+
+});
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h3 id="heading-ajax-post-equivalent">Ajax POST Equivalent</h3>
+<p><code>$.post( url [, data ] [, success ] [, dataType ] )</code> is a shorthand Ajax function, equivalent to:</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">url</span><span class="token operator">:</span> url<span class="token punctuation">,</span>
+  <span class="token literal-property property">data</span><span class="token operator">:</span> data<span class="token punctuation">,</span>
+  <span class="token literal-property property">success</span><span class="token operator">:</span> success<span class="token punctuation">,</span>
+  <span class="token literal-property property">dataType</span><span class="token operator">:</span> dataType
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+
+                        </section>
+                        
+                            <div class="sidebar">
+                                
+                                    
+                                    <script>var localizedAdText = "ADVERTISEMENT";</script>
+                                
+                            </div>
+                        
+                    </div>
+                    <hr>
+                    
+
+                    
+                    
+                        
+    
+
+
+<p data-test-label="social-row-cta" class="social-row">
+    If you read this far, thank the author to show them you care. <button id="tweet-btn" class="cta-button" data-test-label="tweet-button" onclick="window.open(
+    &#39;https://x.com/intent/post?text=Thank%20you%20%40freecodecamp%20for%20writing%20this%20helpful%20article.%0A%0AThe%20Best%20jQuery%20Examples%0A%0Ahttps://www.freecodecamp.org/news/the-best-jquery-examples/&#39;,
+    &#39;share-twitter&#39;,
+    &#39;width=550, height=235&#39;
+  ); return false;">Say Thanks</button>
+</p>
+
+
+    
+    <script>document.addEventListener("DOMContentLoaded",(()=>{const t=document.getElementById("tweet-btn"),e=window.location,n="The%20Best%20jQuery%20Examples".replace(/&#39;/g,"%27"),o="",r="@freecodecamp",i=Boolean("");let s;if(i&&(o||r)){const t={originalPostAuthor:"",currentPostAuthor:"freeCodeCamp"};s=encodeURIComponent(`Thank you ${o||t.originalPostAuthor} for writing this helpful article, and ${r||t.currentPostAuthor} for translating it.`)}else!i&&r&&(s=encodeURIComponent(`Thank you ${r} for writing this helpful article.`));const a=`window.open(\n    '${s?`https://x.com/intent/post?text=${s}%0A%0A${n}%0A%0A${e}`:`https://x.com/intent/post?text=${n}%0A%0A${e}`}',\n    'share-twitter',\n    'width=550, height=235'\n  ); return false;`;t.setAttribute("onclick",a)}));</script>
+
+
+                        
+
+<div class="learn-cta-row" data-test-label="learn-cta-row">
+    <p>
+        Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. <a href="https://www.freecodecamp.org/learn/" class="cta-button" id="learn-to-code-cta" rel="noopener noreferrer" target="_blank">Get started</a>
+    </p>
+</div>
+
+                    
+                </section>
+                
+                    <div class="banner-ad-bottom">
+                        
+                            
+
+<div class="ad-text" data-test-label="ad-text">ADVERTISEMENT</div>
+<div style="display: block; height: auto" id="gam-ad-bottom">
+</div>
+
+                        
+                    </div>
+                
+            </article>
+        </div>
+    </main>
+
+
+            
+
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-desc-col">
+            <p data-test-label="tax-exempt-status">freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charity organization (United States Federal Tax Identification Number: 82-0779546)</p>
+            <p data-test-label="mission-statement">Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.</p>
+            <p data-test-label="donation-initiatives">Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.</p>
+            <p class="footer-donation" data-test-label="donate-text">
+                You can <a href="https://www.freecodecamp.org/donate/" class="inline" rel="noopener noreferrer" target="_blank">make a tax-deductible donation here</a>.
+            </p>
+        </div>
+        <div class="trending-guides" data-test-label="trending-guides">
+            <h2 id="trending-guides" class="col-header">Trending Books and Handbooks</h2>
+            <ul class="trending-guides-articles" aria-labelledby="trending-guides">
+                <li>
+                    <a href="https://www.freecodecamp.org/news/complete-guide-to-css-transform-functions-and-properties/" rel="noopener noreferrer" target="_blank">Learn CSS Transform
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/how-to-create-a-static-blog-with-lume/" rel="noopener noreferrer" target="_blank">Build a Static Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/how-to-build-an-ai-chatbot-with-redis-python-and-gpt/" rel="noopener noreferrer" target="_blank">Build an AI Chatbot
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/" rel="noopener noreferrer" target="_blank">What is Programming?
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/" rel="noopener noreferrer" target="_blank">Python Code Examples
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/a-practical-guide-to-start-opensource-contributions/" rel="noopener noreferrer" target="_blank">Open Source for Devs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/http-full-course/" rel="noopener noreferrer" target="_blank">HTTP Networking in JS
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/how-to-write-unit-tests-in-react-redux/" rel="noopener noreferrer" target="_blank">Write React Unit Tests
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/" rel="noopener noreferrer" target="_blank">Learn Algorithms in JS
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/how-to-write-clean-code/" rel="noopener noreferrer" target="_blank">How to Write Clean Code
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/the-php-handbook/" rel="noopener noreferrer" target="_blank">Learn PHP
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/the-java-handbook/" rel="noopener noreferrer" target="_blank">Learn Java
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/the-swift-handbook/" rel="noopener noreferrer" target="_blank">Learn Swift
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/learn-golang-handbook/" rel="noopener noreferrer" target="_blank">Learn Golang
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/get-started-with-nodejs/" rel="noopener noreferrer" target="_blank">Learn Node.js
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/complete-guide-to-css-grid/" rel="noopener noreferrer" target="_blank">Learn CSS Grid
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/learn-solidity-handbook/" rel="noopener noreferrer" target="_blank">Learn Solidity
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/the-express-handbook/" rel="noopener noreferrer" target="_blank">Learn Express.js
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/javascript-es-modules-and-module-bundlers/" rel="noopener noreferrer" target="_blank">Learn JS Modules
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/apache-kafka-handbook/" rel="noopener noreferrer" target="_blank">Learn Apache Kafka
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/" rel="noopener noreferrer" target="_blank">REST API Best Practices
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/front-end-javascript-development-react-angular-vue-compared/" rel="noopener noreferrer" target="_blank">Front-End JS Development
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/" rel="noopener noreferrer" target="_blank">Learn to Build REST APIs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/build-strongly-typed-polymorphic-components-with-react-and-typescript/" rel="noopener noreferrer" target="_blank">Intermediate TS and React
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/command-line-for-beginners/" rel="noopener noreferrer" target="_blank">Command Line for Beginners
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/an-introduction-to-operating-systems/" rel="noopener noreferrer" target="_blank">Intro to Operating Systems
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/building-consuming-and-documenting-a-graphql-api/" rel="noopener noreferrer" target="_blank">Learn to Build GraphQL APIs
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/oss-security-best-practices/" rel="noopener noreferrer" target="_blank">OSS Security Best Practices
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/design-patterns-for-distributed-systems/" rel="noopener noreferrer" target="_blank">Distributed Systems Patterns
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns/" rel="noopener noreferrer" target="_blank">Software Architecture Patterns
+                    </a>
+                </li>
+            </ul>
+            <div class="spacer" style="padding: 15px 0;"></div>
+            <div>
+                <h2 id="mobile-app" class="col-header">
+                    Mobile App
+                </h2>
+                <div class="min-h-[1px] px-[15px] md:w-2/3 md:ml-[16.6%]">
+                    <ul aria-labelledby="mobile-app" class="mobile-app-container">
+                        <li>
+                            <a href="https://apps.apple.com/us/app/freecodecamp/id6446908151?itsct=apps_box_link&amp;itscg=30200" rel="noopener noreferrer" target="_blank">
+                                <img src="./The Best jQuery Examples_files/apple-store-badge.svg" lang="en" alt="Download on the App Store">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=org.freecodecamp" rel="noopener noreferrer" target="_blank">
+                                <img src="./The Best jQuery Examples_files/google-play-badge.svg" lang="en" alt="Get it on Google Play">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h2 class="col-header" data-test-label="our-nonprofit">Our Charity</h2>
+        <div class="our-nonprofit">
+            <a href="https://www.freecodecamp.org/news/about/" rel="noopener noreferrer" target="_blank" data-test-label="about">
+                About
+            </a>
+            <a href="https://www.linkedin.com/school/free-code-camp/people/" rel="noopener noreferrer" target="_blank" data-test-label="alumni">
+                Alumni Network
+            </a>
+            <a href="https://github.com/freeCodeCamp/" rel="noopener noreferrer" target="_blank" data-test-label="open-source">
+                Open Source
+            </a>
+            <a href="https://www.freecodecamp.org/news/shop/" rel="noopener noreferrer" target="_blank" data-test-label="shop">
+                Shop
+            </a>
+            <a href="https://www.freecodecamp.org/news/support/" rel="noopener noreferrer" target="_blank" data-test-label="support">
+                Support
+            </a>
+            <a href="https://www.freecodecamp.org/news/sponsors/" rel="noopener noreferrer" target="_blank" data-test-label="sponsors">
+                Sponsors
+            </a>
+            <a href="https://www.freecodecamp.org/news/academic-honesty-policy/" rel="noopener noreferrer" target="_blank" data-test-label="honesty">
+                Academic Honesty
+            </a>
+            <a href="https://www.freecodecamp.org/news/code-of-conduct/" rel="noopener noreferrer" target="_blank" data-test-label="coc">
+                Code of Conduct
+            </a>
+            <a href="https://www.freecodecamp.org/news/privacy-policy/" rel="noopener noreferrer" target="_blank" data-test-label="privacy">
+                Privacy Policy
+            </a>
+            <a href="https://www.freecodecamp.org/news/terms-of-service/" rel="noopener noreferrer" target="_blank" data-test-label="tos">
+                Terms of Service
+            </a>
+            <a href="https://www.freecodecamp.org/news/copyright-policy/" rel="noopener noreferrer" target="_blank" data-test-label="copyright">
+                Copyright Policy
+            </a>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+        
+        
+        
+
+        
+        
+    <script defer="" src="./The Best jQuery Examples_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;8ec889079adbef64&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2024.10.5&quot;,&quot;token&quot;:&quot;bdb993c6dde44e178aabd9555e75e4f4&quot;}" crossorigin="anonymous"></script>
+
+
+</body></html>
