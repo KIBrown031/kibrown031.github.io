@@ -13,6 +13,7 @@ width: fit-content;
 
 hr {
     background-color: crimson;
+    font-weight: bold;
 }
 
 input {
