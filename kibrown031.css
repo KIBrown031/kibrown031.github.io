@@ -11,6 +11,10 @@ background-color: lightpink;
 width: fit-content;
 }
 
+hr {
+    background-color: crimson;
+}
+
 input {
     display: inline-block;
     border: 5px;
