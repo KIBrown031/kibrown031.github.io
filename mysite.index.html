@@ -24,13 +24,14 @@
   <br><br><br>
 
   <!-- <div class="date-value"><p>INSIDE OF PARAGRAPH INSIDE OF DIV</p></div> -->
-  <div class="date-value">INSIDE OF DIV</div>
+  <div class="date-value" data-data="5">INSIDE OF DIV</div>
 
   <button onclick="startup()">Show Picker</button>  <br><br>
   <button onclick="location.reload()">Refresh Page</button>  <br><br>
   
                   <!-- JQuery handler-->  
-  <button onclick="$('.date-value').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>  <br><br>
+  <!-- <button onclick="$('.date-value').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>  <br><br> -->
+  <button onclick="$('#data-data').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>  <br><br>
 
   <select name="favoriteColor">
     <option value="red">red</option>
