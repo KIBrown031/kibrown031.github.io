@@ -106,10 +106,14 @@
     $(function() {
 
       $(window).on('load', function (xyz) { 
-        console.log (`param: xyz.name: ${xyz.type}`)
+        console.log (`param: 
+        xyz.type: ${xyz.type}
+        xyz.currentTarget: ${xyz.currentTarget}
+        xyz.target: ${xyz.target}
+        `)
        });
 
-      // console.log( `We Be Ready! --- jQuery version: ${$().jquery}` );
+      console.log( `We Be Ready! --- jQuery version: ${$().jquery}` );
 
       // let interval = setInterval( () => { console.log (new Date()) }, 10000 );
       // clearInterval (interval);
