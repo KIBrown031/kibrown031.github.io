@@ -104,7 +104,7 @@
   <script>
     // Shorthand for $( document ).ready()
     $(function() {
-        console.log( "we be ready!" );
+        console.log( `we be ready! with: jQuery version: ${$().jquery}` );
         interval = setInterval( () => { console.log (new Date()) }, 10000 );
       // clearInterval (interval);
 
