@@ -8,9 +8,10 @@ function ast (){
 }
 
 
-function loadBackend() {
+// somethings defined in node.js dont work in browsers
+function loadBackend() { // require is not supported in browsers
   // npm install xmlhttprequest --save
-  let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;  // require is not defined
+  let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;  // require is not defined   // require is not supported in browsers
 
   const xhr = new XMLHttpRequest();
 
@@ -28,10 +29,14 @@ function loadBackend() {
 
 ast();
 
+/*  // somethings defined in node.js dont work in browsers
+
 // console.log(__dirname);  __dirname is not defined
 // console.log(__filename); __filename is not defined 
 
-const os = require('os')
+
+
+const os = require('os')   // require is not supported in browsers
 
 // os.uptime()
 const systemUptime = os.uptime();
@@ -52,6 +57,7 @@ console.log(systemUptime);
 console.log(userInfo);
 console.log(otherInfo);
 
+*/
 
 
 
