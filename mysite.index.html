@@ -9,7 +9,7 @@
     <base target="_blank">
     
 </head>
-<body > <!-- onload="loadBackend()" -->
+<body >
   
   <center><div class="fixed-top">Fixed Top</div></center>
 
@@ -104,8 +104,12 @@
   <script>
     // Shorthand for $( document ).ready()
     $(function() {
-        console.log( `we be ready! with: jQuery version: ${$().jquery}` );
-        interval = setInterval( () => { console.log (new Date()) }, 10000 );
+      
+      $('body').on('load', function (xyz) { console.log(`param: xyz ${xyz}`) });
+
+      console.log( `we be ready! with: jQuery version: ${$().jquery}` );
+
+      let interval = setInterval( () => { console.log (new Date()) }, 10000 );
       // clearInterval (interval);
 
 
