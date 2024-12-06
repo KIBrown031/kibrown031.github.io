@@ -105,7 +105,7 @@
     // Shorthand for $( document ).ready()
     $(function() {
 
-      $('body').on('load', function (xyz) { console.log (`param: xyz ${xyz}`) });
+      $(window).on('load', function (xyz) { console.log (`param: xyz ${xyz}`) });
 
       console.log( `We Be Ready! --- jQuery version: ${$().jquery}` );
 
