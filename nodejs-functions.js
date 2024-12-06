@@ -29,10 +29,10 @@ function loadBackend() { // require is not supported in browsers
 
 ast();
 
-/*  // somethings defined in node.js dont work in browsers
+// somethings defined in node.js dont work in browsers
 
-// console.log(__dirname);  __dirname is not defined
-// console.log(__filename); __filename is not defined 
+console.log(__dirname);  
+console.log(__filename);  
 
 
 
@@ -56,8 +56,6 @@ const otherInfo = {
 console.log(systemUptime);
 console.log(userInfo);
 console.log(otherInfo);
-
-*/
 
 
 
@@ -85,7 +83,7 @@ console.log(pathInfo);
 
 ast();
 
-/*
+
 // Importing 'events' module and creating an instance of the EventEmitter Class
 const EventEmitter = require('events');
 const myEmitter = new EventEmitter();
@@ -100,13 +98,14 @@ myEmitter.on('userJoined', welcomeUser);
 
 // Emitting the userJoined event using the emit() method
 myEmitter.emit('userJoined');
-*/
+
 
 ast();
 
 // Importing `events` module and creating an instance of EventEmitter class
-const EventEmitter = require('events');
-const myEmitter = new EventEmitter();
+
+//const EventEmitter = require('events');
+//const myEmitter = new EventEmitter();
 
 // Listener Function 1: sayHello
 const sayHello = () => {
