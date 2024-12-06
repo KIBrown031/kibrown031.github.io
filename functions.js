@@ -7,10 +7,10 @@ function ast (){
   `);
 }
 
-/*
+
 function loadBackend() {
   // npm install xmlhttprequest --save
-  let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+  let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;  // require is not defined
 
   const xhr = new XMLHttpRequest();
 
@@ -23,12 +23,12 @@ function loadBackend() {
   xhr.open('GET', 'https://supersimplebackend.dev/products');
   xhr.send();  
 }
-*/
+
 // loadBackend();
 
 ast();
 
-console.log(__dirname);
+// console.log(__dirname);
 console.log(__filename);
 
 const os = require('os')
