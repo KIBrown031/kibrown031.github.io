@@ -7,6 +7,7 @@ function ast (){
   `);
 }
 
+/*
 function loadBackend() {
   // npm install xmlhttprequest --save
   let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
@@ -22,6 +23,7 @@ function loadBackend() {
   xhr.open('GET', 'https://supersimplebackend.dev/products');
   xhr.send();  
 }
+*/
 // loadBackend();
 
 ast();
