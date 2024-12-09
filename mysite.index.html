@@ -11,33 +11,45 @@
 </head>
 <body>
   
-  <center><div class="fixed-top">Fixed Top</div></center>
+  <div class="div-fixed-top"><center>Useful URLs</center>
+
+    <div class="div-secondlevel">
+      <input placeholder="Placeholder" class="input-fixed" >
+      
+      <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker">
+      
+      <div class="date-value" data-data="5">INSIDE OF DIV</div>
+      <br>
+      <button onclick="startup()">Show Picker</button>
+      <button onclick="location.reload()">Refresh Page</button>
+
+      <button onclick="$('[data-data=5]').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>
+
+      <select name="favoriteColor">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="green">green<option>
+       </select>
+
+    </div>
+
+  </div>
 
   <br><br><br>
 
-  <div>
-    <input placeholder="Placeholder" class="fixed-input" >
-    <br><br>
-    <input type="date" class="dateclass" onchange="updateDate();" title="DatePicker">
-    <br><br></div>
 
   <br><br><br>
 
   <!-- <div class="date-value"><p>INSIDE OF PARAGRAPH INSIDE OF DIV</p></div> -->
-  <div class="date-value" data-data="5">INSIDE OF DIV</div>
+  
 
-  <button onclick="startup()">Show Picker</button>  <br><br>
-  <button onclick="location.reload()">Refresh Page</button>  <br><br>
+
   
                   <!-- JQuery handler-->  
   <!-- <button onclick="$('.date-value').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>  <br><br> -->
-  <button onclick="$('[data-data=5]').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">JQuery Effects</button>  <br><br>
+ 
 
-  <select name="favoriteColor">
-    <option value="red">red</option>
-    <option value="blue">blue</option>
-    <option value="green">green<option>
-   </select>
+  
    <br><br><hr><br>
 
 

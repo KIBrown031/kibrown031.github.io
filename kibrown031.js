@@ -8,7 +8,7 @@ topofpage.innerHTML = `${currentDate.toLocaleString()}`;
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
 function updateDate () {
-  let datePicker = document.querySelector('.dateclass');
+  let datePicker = document.querySelector('.input-dateclass');
   
   document.querySelector('.date-value').innerHTML = datePicker.value;
 
@@ -17,7 +17,13 @@ function updateDate () {
 
 function startup () {
   console.log('startup');
-  document.querySelector('.dateclass').click();
-  document.querySelector('.dateclass').showPicker();
+  document.querySelector('.input-dateclass').click();
+  document.querySelector('.input-dateclass').showPicker();
 }
 
+function loadjQueryInDevtools () { // paste directly into console
+  var jq = document.createElement('script');
+  jq.src = "//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js";
+  document.getElementsByTagName('head')[0].appendChild(jq);
+  jQuery.noConflict();
+}

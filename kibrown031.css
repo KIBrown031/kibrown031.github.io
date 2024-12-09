@@ -1,14 +1,24 @@
 body {
-/* background-color: rgb(255, 51, 0) */
-background-color: lightgoldenrodyellow;
-padding-top: 0px;
-padding-left: 25px;
-height: 2000px;
-}
+    /* background-color: rgb(255, 51, 0) */
+    background-color: lightgoldenrodyellow;
+    padding-top: 0px;
+    padding-left: 25px;
+    height: 2000px;
+    }
 
 p {
-background-color: lightpink;
-width: fit-content;
+    /*
+    background-color: lightpink;
+    width: fit-content;
+    */
+}
+
+input {
+    /* 
+    display: inline-block;
+    border: 5px;
+    padding: 5px; 
+    */
 }
 
 hr {
@@ -16,35 +26,37 @@ hr {
     font-weight: bold;
 }
 
-input {
-    display: inline-block;
-    border: 5px;
-    padding: 5px;
-}
+.div-fixed-top { /* topmost line of page */
 
-.fixed-top { /* topmost line of page */
-    /* background-color: lightgreen; */
-    background-color: transparent;
+    background-color: lightgreen;
+    /* background-color: transparent; */
     position: fixed;
     margin-top: 0;
     width: 100%;
     font: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    
 }
 
-.fixed-input { /* text box */
-    position: fixed;
+.div-secondlevel {
+    /* float: left; */
+}
+
+.input-fixed { /* text box */
+    /* position: fixed; */
     font-weight: bold;
 }
 
-.dateclass { /* date picker */
+.input-dateclass { /* date picker */
+    /* display: inline-block; */
     /* background-color: rgb(217, 231, 12); */
-    position: fixed;    
+    /* position: fixed; */    
 }
 
 .date-value {
     background-color: lightpink;
     width: fit-content;
-    border-bottom: 10px;
+    display: inline-block;
+    border-left: 10px; */
 }
