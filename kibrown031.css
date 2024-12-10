@@ -26,6 +26,13 @@ hr {
     font-weight: bold;
 }
 
+.div-date-value {
+    background-color: lightpink;
+    width: fit-content;
+    display: inline-block;
+    border-left: 10px; */
+}
+
 .div-fixed-top { /* topmost line of page */
 
     background-color: lightgreen;
@@ -43,6 +50,8 @@ hr {
     /* float: left; */
 }
 
+
+
 .input-fixed { /* text box */
     /* position: fixed; */
     font-weight: bold;
@@ -54,9 +63,3 @@ hr {
     /* position: fixed; */    
 }
 
-.date-value {
-    background-color: lightpink;
-    width: fit-content;
-    display: inline-block;
-    border-left: 10px; */
-}

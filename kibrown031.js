@@ -1,4 +1,4 @@
-let topofpage = document.querySelector('.fixed-top');
+let topofpage = document.querySelector('.div-fixed-top');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
@@ -10,7 +10,7 @@ document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${
 function updateDate () {
   let datePicker = document.querySelector('.input-dateclass');
   
-  document.querySelector('.date-value').innerHTML = datePicker.value;
+  document.querySelector('.div-date-value').innerHTML = datePicker.value;
 
   datePicker.addEventListener( "change", () => { console.log("change made to datePicker"); } )
 }
