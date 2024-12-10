@@ -1,4 +1,4 @@
-let topofpage = document.querySelector('.div-fixed-top');
+let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
@@ -15,9 +15,9 @@ function updateDate () {
   datePicker.addEventListener( "change", () => { console.log("change made to datePicker"); } )
 }
 
-function startup () {
-  console.log('startup');
-  document.querySelector('.input-dateclass').click();
+function clickDatePicker () {
+  console.log('clickDatePicker');
+  // document.querySelector('.input-dateclass').click();
   document.querySelector('.input-dateclass').showPicker();
 }
 
