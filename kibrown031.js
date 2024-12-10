@@ -18,6 +18,7 @@ function updateDate () {
 function clickDatePicker () {
   console.log('clickDatePicker');
   // document.querySelector('.input-dateclass').click();
+
   document.querySelector('.input-dateclass').showPicker();
 }
 
