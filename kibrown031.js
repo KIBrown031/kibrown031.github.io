@@ -2,8 +2,8 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
-$("img").on("click", function() {
-  $(this).toggle(); 
+$("img").on("click", function() { // hide the images on the page
+  $(this).toggle();  
 });
 
 // setTimeout()   setInterval()
