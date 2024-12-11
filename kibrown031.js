@@ -2,7 +2,9 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
-
+$("img").on("click", function() {
+  $(this).toggle(); 
+});
 
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
