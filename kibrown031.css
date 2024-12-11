@@ -35,7 +35,7 @@ hr {
 
 .div-fixed-top { /* topmost line of page */
 
-    background-color: lightgreen;
+    background-color: rgb(8, 127, 196);
     /* background-color: transparent; */
     position: fixed;
     margin-top: 0;
