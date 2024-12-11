@@ -39,6 +39,7 @@ hr {
     /* background-color: transparent; */
     position: fixed;
     margin-top: 0;
+    margin-bottom: 100;
     width: 100%;
     font: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
