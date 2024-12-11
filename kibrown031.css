@@ -26,6 +26,27 @@ hr {
     font-weight: bold;
 }
 
+.button-datepicker {
+    display: none;
+}
+
+
+.input-fixed { /* text box */
+    /* position: fixed; */
+    font-weight: bold;
+}
+
+.input-dateclass { /* date picker */
+    /* display: inline-block; */
+    /* background-color: rgb(217, 231, 12); */
+    /* position: fixed; */    
+}
+
+.first-image {
+    /* margin-left: 100px; */
+}
+
+
 .div-date-value {
     background-color: rgb(255, 255, 255);
     width: fit-content;
@@ -60,18 +81,4 @@ hr {
 
 }
 
-.first-image {
-    /* margin-left: 100px; */
-}
-
-.input-fixed { /* text box */
-    /* position: fixed; */
-    font-weight: bold;
-}
-
-.input-dateclass { /* date picker */
-    /* display: inline-block; */
-    /* background-color: rgb(217, 231, 12); */
-    /* position: fixed; */    
-}
 
