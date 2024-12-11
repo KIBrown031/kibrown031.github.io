@@ -62,3 +62,7 @@ hr {
     /* background-color: rgb(217, 231, 12); */
     /* position: fixed; */    
 }
+
+.first-image {
+    border-left: 100px;
+}
