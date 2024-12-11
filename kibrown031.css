@@ -51,7 +51,14 @@ hr {
     /* float: left; */
 }
 
+.div-image{
 
+
+}
+
+.first-image {
+    border-left: 100px;
+}
 
 .input-fixed { /* text box */
     /* position: fixed; */
@@ -64,6 +71,3 @@ hr {
     /* position: fixed; */    
 }
 
-.first-image {
-    border-left: 100px;
-}
