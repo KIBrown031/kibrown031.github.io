@@ -16,6 +16,37 @@ $(".zoom-out").click(function(){
   $("img").height($("img").height()-100);
 });
 
+$(".button-ajax").click(function(){
+  
+  $.ajax({
+    url: '/csv/schedule.csv',
+    dataType: 'text',
+    success: function(data) {
+      const lines = data.split('\n');
+      const headers = lines[0].split(',');
+  
+      const jsonData = [];
+  
+      for (let i = 1; i < lines.length; i++) {
+        const row = lines[i].split(',');
+        const obj = {};
+  
+        for (let j = 0; j < headers.length; j++) {
+          obj[headers[j]] = row[j];
+        }
+  
+        jsonData.push(obj);
+      }
+  
+      console.log(jsonData); // Your JSON data
+      alert('CSV Load SUCCESS!!! - Check console');
+    },
+    error: function () {
+      alert('CSV Load FAILED!!!');
+    }
+  });
+});
+
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
