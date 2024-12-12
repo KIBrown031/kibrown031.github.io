@@ -6,6 +6,16 @@ $("img").on("click", function() { // hide the images on the page
   $(this).toggle();  
 });
 
+$(".zoom-in").click(function(){
+  $("img").width($("img").width()+100);
+  $("img").height($("img").height()+100);
+});
+
+$(".zoom-out").click(function(){
+  $("img").width($("img").width()-100);
+  $("img").height($("img").height()-100);
+});
+
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
