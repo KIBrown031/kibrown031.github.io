@@ -85,13 +85,13 @@ hr {
     width: 25px;
     height: 25px;
     background: rgb(151, 228, 28);
-    position: fixed; /* relative */
+    position: relative;
     animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
-from {top: 0px;}
-to {top: 50px;}
+from {right: -100px;}
+to {right: 100px;}
 
 /*
 from {
