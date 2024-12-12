@@ -82,6 +82,7 @@ hr {
 }
 
 .div-keyframe {
+    /* display:inline-block; */
     width: 25px;
     height: 25px;
     position: relative;
@@ -91,10 +92,14 @@ hr {
 @keyframes mymove {
 0% {
     right: -100px;
-    background-color: rgb(255, 255, 255);
+    background-color: aqua; /* rgb(255, 0, 0); */
 }
-50%{
+33%{ 
     background-color: rgb(255, 0, 0);
+}
+66% {
+
+    background-color: rgb(255, 255, 255);
 }
 100% {
     right: 100px;
