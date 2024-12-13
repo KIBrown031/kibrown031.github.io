@@ -82,7 +82,7 @@ hr {
 }
 
 .div-json-table {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .div-keyframe {
@@ -121,4 +121,7 @@ from {
 */
 }
 
+.GFG {
+    background: rgb(226, 180, 180);
+}
 

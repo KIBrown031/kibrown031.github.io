@@ -2,6 +2,7 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
+
 $("img").on("click", function() { // hide the images on the page
   $(this).toggle();  
 });
@@ -45,6 +46,8 @@ $(".button-ajax").click(function(){
       alert('CSV Load FAILED!!!');
     }
   });
+
+  
 });
 
 
@@ -52,8 +55,9 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
   // noupdated.json   
   // search.json
   // junk.json
-  
-  $.getJSON("/json/noupdated.json", function(data) {  // junk.json contains 'secrets'
+  // minimal.json
+
+  $.getJSON("/json/minimal.json", function(data) {  // junk.json contains 'secrets'
     var table = $("<table>");
 
     // Create table header
@@ -72,11 +76,18 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
       table.append(tr);
     });
 
-    alert('Success - JSON Table!!!');
-    console.log(table);
+    // alert('Success - JSON Table!!!');
+    // console.log(table);
+
+    $('img').hide() // hide all images
+    
     $(".div-json-table").append(table);
+
+    $("tr:nth-child(even)").addClass("GFG");
     
   });
+
+  
 });
 
 
