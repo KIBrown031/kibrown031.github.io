@@ -56,9 +56,19 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
   // search.json
   // junk.json
   // minimal.json
+  
+  let regex = /^z0.*$/; // starts with 'z0'
 
   $.getJSON("/json/minimal.json", function(data) {  // junk.json contains 'secrets'
     var table = $("<table>");
+
+    data.sort((a, b) => {
+    const aValue = JSON.stringify(Object.values(a).sort());
+    const bValue = JSON.stringify(Object.values(b).sort());
+    if (aValue < bValue) return -1;
+    if (aValue > bValue) return 1;
+    return 0;
+  })
 
     // Create table header
     var header = $("<tr>");
@@ -68,9 +78,13 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
     table.append(header);
 
     // Create table rows
-    $.each(data, function(index, row) {
+    $.each(data, function(index, row) {   // rows
+
+      if ( regex.test(row.Name) ) { return true; }// starts with 'z0' so 'continue 
+
       var tr = $("<tr>");
-      $.each(row, function(key, value) {
+
+      $.each(row, function(key, value) {   // columns within a row     
         tr.append("<td>" + value + "</td>");
       });
       table.append(tr);
@@ -85,7 +99,7 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
 
     $("tr:nth-child(even)").addClass("GFG");
     
-  });
+  }).done(function(){}).fail(function(){}).always(function(){});
 
   
 });
@@ -116,3 +130,11 @@ function loadjQueryInDevtools () { // paste directly into console
   document.getElementsByTagName('head')[0].appendChild(jq);
   jQuery.noConflict();
 }
+
+
+/*
+$.getJSON(url,data, successCallbacK)
+.done(function(){})
+.fail(function(){})
+.always(function(){});
+*/
