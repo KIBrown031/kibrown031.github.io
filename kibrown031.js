@@ -47,6 +47,36 @@ $(".button-ajax").click(function(){
   });
 });
 
+
+$(".button-json").click( function() {  // <div class="div-json-table"></div>
+  $.getJSON("/json/junk.json", function(data) {  // junk.json contains 'secrets'
+    var table = $("<table>");
+
+    // Create table header
+    var header = $("<tr>");
+    for (var key in data[0]) {
+      header.append("<th>" + key + "</th>");
+    }
+    table.append(header);
+
+    // Create table rows
+    $.each(data, function(index, row) {
+      var tr = $("<tr>");
+      $.each(row, function(key, value) {
+        tr.append("<td>" + value + "</td>");
+      });
+      table.append(tr);
+    });
+
+    alert('Success - JSON Table!!!');
+    console.log(table);
+    $(".div-json-table").append(table);
+    
+  });
+});
+
+
+
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
