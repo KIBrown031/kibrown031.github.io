@@ -49,7 +49,11 @@ $(".button-ajax").click(function(){
 
 
 $(".button-json").click( function() {  // <div class="div-json-table"></div>
-  $.getJSON("/json/junk.json", function(data) {  // junk.json contains 'secrets'
+  // noupdated.json   
+  // search.json
+  // junk.json
+  
+  $.getJSON("/json/noupdated.json", function(data) {  // junk.json contains 'secrets'
     var table = $("<table>");
 
     // Create table header
