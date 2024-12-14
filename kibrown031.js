@@ -66,7 +66,8 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
   // junk.json
   // minimal.json
   
-  let regex = /^z0.*$/; // starts with 'z0'
+  let regex = /^z0.*$/;              // starts with 'z0'
+  let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
 
   $.getJSON("/json/minimal.json", function(data) {  // junk.json contains 'secrets'
     
@@ -84,7 +85,9 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
     // Create table rows
     $.each(data, function(index, row) {   // rows
 
-      if ( regex.test(row.Name) ) { return true; }// starts with 'z0' so 'continue 
+      if ( regexAlpha.test(row.Name) ) { return true; } // starts with '.' so 'continue 
+      if ( regex.test(row.Name) ) { return true; }      // starts with 'z0' so 'continue 
+      
 
       var tr = $("<tr>");
 
