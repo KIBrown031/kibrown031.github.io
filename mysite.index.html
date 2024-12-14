@@ -17,7 +17,10 @@
       <div class="div-date-value" data-data="5"></div>
       <br>
 
-      <input placeholder="Placeholder" class="input-fixed" >
+      <button class="button-find" onclick="find( $('.input-text').val() )"><strong>Find Text</strong></button>
+      <input placeholder="Text to Find" class="input-text" onclick="('.button-find').click()">
+      <br>
+
       <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker">
       <select name="favoriteColor">
         <option value="red">red</option>
@@ -33,6 +36,8 @@
 
       <button class="button-ajax">Ajax</button>
       <button class="button-json">JSON</button>  
+
+
       
       <!--
       <button onclick="$('img').fadeTo(5000,0)">Fade Out</button>

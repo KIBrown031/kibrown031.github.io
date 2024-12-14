@@ -10,6 +10,14 @@ else {
   alert( "matchMedia: MISMATCH");
 }
 
+$(".input-text").keypress(function(event) {
+  if (event.which == 13) {
+    $('.button-find').click(); // Code to execute when Enter is pressed
+    console.log("Enter key pressed");
+  }
+});
+
+
 $("img").on("click", function() { // hide the images on the page
   $(this).toggle();  
 });

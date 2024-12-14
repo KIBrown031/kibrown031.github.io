@@ -31,8 +31,9 @@ hr {
 }
 
 
-.input-fixed { /* text box */
+.input-text { /* text box */
     /* position: fixed; */
+    width: 100px;
     font-weight: bold;
 }
 
