@@ -60,15 +60,10 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
   let regex = /^z0.*$/; // starts with 'z0'
 
   $.getJSON("/json/minimal.json", function(data) {  // junk.json contains 'secrets'
-    var table = $("<table>");
+    
+    data.sort((a, b) => a.Name < b.Name ? -1 : 1);
 
-    data.sort((a, b) => {
-    const aValue = JSON.stringify(Object.values(a).sort());
-    const bValue = JSON.stringify(Object.values(b).sort());
-    if (aValue < bValue) return -1;
-    if (aValue > bValue) return 1;
-    return 0;
-  })
+    var table = $("<table>");
 
     // Create table header
     var header = $("<tr>");
@@ -99,7 +94,10 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
 
     $("tr:nth-child(even)").addClass("GFG");
     
-  }).done(function(){}).fail(function(){}).always(function(){});
+  })
+  .done(function(data){ console.log( "SUCCESS! from .done()", data ) })
+  .fail(function(){})
+  .always(function(){});
 
   
 });
