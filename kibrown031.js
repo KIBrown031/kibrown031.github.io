@@ -1,7 +1,14 @@
+
 let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
+if ( window.matchMedia('(min-width: 768px)').matches ) {
+  console.log(" window.matchMedia('(min-width: 768px)': MATCHES" );
+}
+else {
+  alert( "matchMedia: MISMATCH");
+}
 
 $("img").on("click", function() { // hide the images on the page
   $(this).toggle();  
