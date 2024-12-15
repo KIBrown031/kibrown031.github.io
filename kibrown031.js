@@ -77,7 +77,7 @@ $(".button-json").click( function() {  // <div class="div-json-table"></div>
   let regex = /^z0.*$/;              // starts with 'z0'
   let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
 
-  $.getJSON("/json/minimal.json", function(data) {  // junk.json contains 'secrets'
+  $.getJSON("/json/simple.json", function(data) {  // junk.json contains 'secrets'
     
     data.sort((a, b) => a.Name < b.Name ? -1 : 1);
 
