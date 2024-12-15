@@ -129,7 +129,7 @@ $(document).ready(function() {
         
       });
 
-});
+
 
       // setTimeout()   setInterval()
       document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
@@ -157,7 +157,7 @@ $(document).ready(function() {
       }
 
   
-
+});
 
 /*
 $.getJSON(url,data, successCallbacK)
