@@ -8,7 +8,7 @@ if ( window.matchMedia('(min-width: 768px)').matches ) {
   console.log(" window.matchMedia('(min-width: 768px)': MATCHES" );
 }
 else {
-  alert( "matchMedia: MISMATCH");
+  alert( "mobile: font-size: 12px");
   $('.div-json-table').css("font-size", "12px");
 }
 
