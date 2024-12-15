@@ -3,12 +3,16 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
+
 if ( window.matchMedia('(min-width: 768px)').matches ) {
   console.log(" window.matchMedia('(min-width: 768px)': MATCHES" );
 }
 else {
   alert( "matchMedia: MISMATCH");
+  $('.div-json-table').css("font-size", "12px");
 }
+
+
 
 $(".input-text").keypress(function(event) {
   if (event.which == 13) {
