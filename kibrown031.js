@@ -6,7 +6,7 @@ topofpage.innerHTML = `${currentDate.toLocaleString()}`;
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
 
-function updateDate () {
+function updateDate () {  // dont define function inside of document.ready()
   let datePicker = document.querySelector('.input-dateclass');
   
   document.querySelector('.div-date-value').innerHTML = datePicker.value;
@@ -14,7 +14,7 @@ function updateDate () {
   datePicker.addEventListener( "change", () => { console.log("change made to datePicker"); } )
 }
 
-function clickDatePicker () {
+function clickDatePicker () { // dont define function inside of document.ready()
   console.log('clickDatePicker');
   // document.querySelector('.input-dateclass').click();
   
@@ -22,7 +22,7 @@ function clickDatePicker () {
   
 }
 
-function loadjQueryInDevtools () { // paste directly into console
+function loadjQueryInDevtools () { // paste directly into console  // dont define function inside of document.ready()
   var jq = document.createElement('script');
   jq.src = "//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js";
   document.getElementsByTagName('head')[0].appendChild(jq);
@@ -31,8 +31,26 @@ function loadjQueryInDevtools () { // paste directly into console
 
 
 let fz = 14;
+let selectedfile = "";
 
 $(document).ready(function() {
+
+      /*
+      $(".fileInput").change(function() {
+        if (this.files && this.files[0]) {
+          var fileName = this.files[0].name;
+          $("#selectedFile").text("Selected File: " + fileName);
+        }
+      });
+      */
+      
+
+      $("input:file").css("background-color", "lightblue");
+
+      $("input:file").change(function(e) {
+        selectedfile = e.target.files[0].name;
+                // Do something with the file, e.g., read its contents
+      });
 
 
       if ( window.matchMedia('(min-width: 768px)').matches ) {
@@ -130,8 +148,12 @@ $(document).ready(function() {
         let regex = /^z0.*$/;              // starts with 'z0'
         let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
 
-        $.getJSON("/json/simple.json", function(data) {  // junk.json contains 'secrets'
+        // alert(`/json/${selectedfile}`);
+
+        $.getJSON(`/json/${selectedfile}`, function(data) {  // junk.json contains 'secrets'
           
+          $('.div-json-table').empty();
+
           data.sort((a, b) => a.Name < b.Name ? -1 : 1);
 
           var table = $("<table>");
