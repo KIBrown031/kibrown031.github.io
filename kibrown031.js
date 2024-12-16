@@ -16,7 +16,12 @@ $(document).ready(function() {
         $('.div-json-table').css("font-size", "12px");  // on tablet or phone - reduce font-size in table
       }
 
-      
+      $('.button-reload').on('click', function() {
+        location.reload();
+        $(window).scrollTop(0);
+      })
+
+
       $('.div-json-table').on('click', function(){      // reduce font-size in table by 1 with each click
         fz-= 1;
         $(this).css("font-size", `${fz}px`);

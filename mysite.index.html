@@ -17,7 +17,7 @@
       <div class="div-date-value" data-data="5"></div>
       <br>
 
-      <button class="button-find" onclick="window.find( $('.input-text').val(), 0,0,1,0,0,1 )"><strong>Find Text</strong></button>
+      <button class="button-find" onclick="window.find( $('.input-text').val(), 0,0,1 )"><strong>Find Text</strong></button>  <!-- 1 == wrapAround-->
       <input placeholder="Text to Find" class="input-text" onclick="('.button-find').click()">
       <br>
 
@@ -31,7 +31,7 @@
       <br>
       
       <button class="button-datepicker" onclick="clickDatePicker()">Date Picker</button>
-      <button onclick="location.reload()">Refresh</button>
+      <button class="button-reload" >Refresh</button>
       <button onclick="$('[data-data=5]').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">Effects</button>
 
       <button class="button-ajax">Ajax</button>
