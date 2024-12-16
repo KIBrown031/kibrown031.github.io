@@ -3,6 +3,7 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
+let fz = 14;
 
 $(document).ready(function() {
 
@@ -12,15 +13,20 @@ $(document).ready(function() {
       }
       else {
         alert( "mobile: font-size: 12px");
-        $('.div-json-table').css("font-size", "12px");
+        $('.div-json-table').css("font-size", "12px");  // on tablet or phone - reduce font-size in table
       }
 
+      
+      $('.div-json-table').on('click', function(){      // reduce font-size in table by 1 with each click
+        fz-= 1;
+        $(this).css("font-size", `${fz}px`);
+      });
 
 
       $(".input-text").keypress(function(event) {
         if (event.which == 13) {
           $('.button-find').click(); // Code to execute when Enter is pressed
-          console.log("Enter key pressed");
+          // console.log("Enter key pressed");
         }
       });
 
@@ -30,19 +36,19 @@ $(document).ready(function() {
       });
 
 
-      $(".zoom-in").click(function(){
+      $(".zoom-in").click(function(){  // zoon in on the images on the page
         $("img").width($("img").width()+100);
         $("img").height($("img").height()+100);
       });
 
 
-      $(".zoom-out").click(function(){
+      $(".zoom-out").click(function(){ // zoom out on the images on the page
         $("img").width($("img").width()-100);
         $("img").height($("img").height()-100);
       });
 
 
-      $(".button-ajax").click(function(){
+      $(".button-ajax").click(function(){  // load schedule.csv file - nothing done with it currently
         
         $.ajax({
           url: '/csv/schedule.csv',
