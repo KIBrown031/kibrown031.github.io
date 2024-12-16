@@ -19,7 +19,15 @@ $(document).ready(function() {
       $('.button-reload').on('click', function() {
         location.reload();
         $(window).scrollTop(0);
-      })
+      });
+
+
+      $('.button-find').on('click', function() {
+        if ( ! find( $('.input-text').val(), 0,0,1 ) ) {
+          alert('not found');
+          $('.button-reload').click();
+        }
+      });
 
 
       $('.div-json-table').on('click', function(){      // reduce font-size in table by 1 with each click
@@ -133,7 +141,7 @@ $(document).ready(function() {
           $("tr:nth-child(even)").addClass("GFG");
           
         })
-        .done(function(data){ console.log( "SUCCESS! from .done()", data ) })
+        .done(function(data){ $(window).scrollTop(0); console.log( "SUCCESS! from .done()", data ); })
         .fail(function(){})
         .always(function(){});
 
