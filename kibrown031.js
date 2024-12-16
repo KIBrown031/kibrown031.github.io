@@ -12,7 +12,7 @@ $(document).ready(function() {
         console.log(" window.matchMedia('(min-width: 768px)': MATCHES" );
       }
       else {
-        alert( "mobile: font-size: 12px");
+        // alert( "mobile: font-size: 12px");
         $('.div-json-table').css("font-size", "12px");  // on tablet or phone - reduce font-size in table
       }
 
