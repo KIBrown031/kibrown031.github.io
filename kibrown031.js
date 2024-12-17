@@ -48,8 +48,22 @@ $(document).ready(function() {
       $("input:file").css("background-color", "lightblue");
 
       $("input:file").change(function(e) {
-        selectedfile = e.target.files[0].name;
-                // Do something with the file, e.g., read its contents
+
+        selectedfile = this.files[0].name;
+        // selectedfile = e.target.files[0].name;
+
+        let regex = new RegExp(/[^\s]+(.*?).(jpg|jpeg|png|gif|JPG|JPEG|PNG|GIF)$/);
+        if (regex.test(selectedfile) ) {
+          alert("Match");
+          
+          var imageUrl = `/image/${selectedfile}`;
+
+          // Create the image element
+          var img = $("<img>").attr("src", imageUrl);
+   
+          // Append the image to a container
+          $(".div-main-image").append(img);
+        }
       });
 
 
