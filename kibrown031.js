@@ -64,9 +64,12 @@ $(document).ready(function() {
 
           // Create the image element
           var img = $("<img>").attr("src", imageUrl);
-   
+          var imgclone = img.clone(); // need to this because objects are passed by reference
+
           // Append the image to a container
-          $(".div-main-image").append(img);
+          $(".div-urls").append(img);
+          $(".div-main-image").append(imgclone);
+          
         }
       });
 
