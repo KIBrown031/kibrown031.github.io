@@ -52,7 +52,7 @@ $(document).ready(function() {
         selectedfile = this.files[0].name;
         // selectedfile = e.target.files[0].name;
 
-        let regex = new RegExp(/[^\s]+(.*?).(jpg|jpeg|png|gif|JPG|JPEG|PNG|GIF)$/);
+        let regex = new RegExp(/[^\s]+(.*?).(jpg|jpeg|png|gif|avif|AVIF|JPG|JPEG|PNG|GIF)$/);
         if (regex.test(selectedfile) ) {
           
           // alert("Match");
