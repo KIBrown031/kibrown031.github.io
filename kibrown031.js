@@ -54,7 +54,8 @@ $(document).ready(function() {
 
         let regex = new RegExp(/[^\s]+(.*?).(jpg|jpeg|png|gif|JPG|JPEG|PNG|GIF)$/);
         if (regex.test(selectedfile) ) {
-          alert("Match");
+          
+          // alert("Match");
           
           var imageUrl = `/image/${selectedfile}`;
 
