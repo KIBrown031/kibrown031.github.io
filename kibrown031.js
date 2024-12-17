@@ -147,6 +147,7 @@ $(document).ready(function() {
         
         let regex = /^z0.*$/;              // starts with 'z0'
         let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
+        let regexTrue = /^true$/;           // 'true' last column for elder and pioneer
 
         // alert(`/json/${selectedfile}`);
 
@@ -175,6 +176,9 @@ $(document).ready(function() {
             var tr = $("<tr>");
 
             $.each(row, function(key, value) {   // columns within a row     
+              
+              if ( regexTrue.test(value) ) {  return true; }
+
               tr.append("<td>" + value + "</td>");
             });
             table.append(tr);
