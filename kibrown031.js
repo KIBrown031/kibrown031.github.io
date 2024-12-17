@@ -36,12 +36,15 @@ let selectedfile = "";
 $(document).ready(function() {
 
       /*
-      $(".fileInput").change(function() {
-        if (this.files && this.files[0]) {
-          var fileName = this.files[0].name;
-          $("#selectedFile").text("Selected File: " + fileName);
-        }
-      });
+      Like most jQuery operations, creating an element starts with the dollar function, $(). 
+      This is a shortcut to the core jQuery() function. 
+      This function has three distinct purposes, it:
+
+            Matches elements, usually ones that already exist in the document
+
+            Creates new elements
+            
+            Runs a callback function when the DOM is ready
       */
       
 
