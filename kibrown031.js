@@ -110,8 +110,8 @@ $(document).ready(function() {
       });
 
 
-      $("div").on("click", "img", function() { // event delegation for dynamically added elements - hide the images on the page
-        $(this).toggle();  
+      $("div").on("click", "img", function() { // event delegation for dynamically added 'img' elements - hide the images on the page
+        $(this).hide();  
       });
 
 
