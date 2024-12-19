@@ -6,17 +6,13 @@ topofpage.innerHTML = `${currentDate.toLocaleString()}`;
 // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { 
   console.log(`keydown: ${event.key}`); 
-  if ( event.key === 'u' ){
-    $('.div-urls').css().toggle();
+
+  if ( event.key === 'u' ){  // display list of urls
+    
+    let para = document.getElementById("id-urls")
+    para.classList.toggle("div-urls");
   }
 });
-
-function toggleURLs () { 
-  let para = document.getElementsByClassName("div-urls");
-  // para.classList.toggle("div-urls");
-  // this.classList.toggle("div-urls"); 
-};
-
 
 function updateDate () {  // dont define function inside of document.ready()
   let datePicker = document.querySelector('.input-dateclass');
