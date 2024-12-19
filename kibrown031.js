@@ -14,6 +14,13 @@ document.body.addEventListener( "keydown", (event) => {
   }
 });
 
+document.body.addEventListener( "click", (event) => { 
+     
+    let para = document.getElementById("id-urls")
+    para.classList.toggle("div-urls");
+  
+});
+
 function updateDate () {  // dont define function inside of document.ready()
   let datePicker = document.querySelector('.input-dateclass');
   
