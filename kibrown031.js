@@ -68,7 +68,7 @@ $(document).ready(function() {
 
           // Append the image to a container
           $(".div-urls").append(img);
-          $(".div-main-image").append(imgclone);
+          $(".div-main-image").append(imgclone); // need to this because objects are passed by reference
           
         }
       });
