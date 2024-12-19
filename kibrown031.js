@@ -4,7 +4,19 @@ let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
 // setTimeout()   setInterval()
-document.body.addEventListener( "keydown", (event) => { console.log(`keydown: ${event.key}`); } );
+document.body.addEventListener( "keydown", (event) => { 
+  console.log(`keydown: ${event.key}`); 
+  if ( event.key === 'u' ){
+    $('.div-urls').css().toggle();
+  }
+});
+
+function toggleURLs () { 
+  let para = document.getElementsByClassName("div-urls");
+  // para.classList.toggle("div-urls");
+  // this.classList.toggle("div-urls"); 
+};
+
 
 function updateDate () {  // dont define function inside of document.ready()
   let datePicker = document.querySelector('.input-dateclass');
@@ -115,19 +127,25 @@ $(document).ready(function() {
       });
 
 
-      $(".zoom-in").click(function(){  // zoon in on the images on the page
+      $(".zoom-in").on("click",function(){  // zoon in on the images on the page
         $("img").width($("img").width()+100);
         $("img").height($("img").height()+100);
       });
 
 
-      $(".zoom-out").click(function(){ // zoom out on the images on the page
+      $(".zoom-out").on("click", function(){ // zoom out on the images on the page
         $("img").width($("img").width()-100);
         $("img").height($("img").height()-100);
+        
+      });
+
+      $(".button-accordian").on("click", function() {
+        // alert("ACCORDIAN");
+        window.location.href = "/accordian.html";
       });
 
 
-      $(".button-ajax").click(function(){  // load schedule.csv file - nothing done with it currently
+      $(".button-ajax").on("click", function(){  // load schedule.csv file - nothing done with it currently
         
         $.ajax({
           url: '/csv/schedule.csv',
@@ -160,7 +178,7 @@ $(document).ready(function() {
       });
 
 
-      $(".button-json").click( function() {  // <div class="div-json-table"></div>
+      $(".button-json").on("click", function() {  // <div class="div-json-table"></div>
         // noupdated.json   
         // search.json
         // junk.json

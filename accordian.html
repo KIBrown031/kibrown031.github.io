@@ -1,97 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="200x200.png" rel="icon" type="image/x-icon">
-    <link href="kibrown031.css" rel="stylesheet" >
-    <title>CRAFTED</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACCORDIAN</title>
     <base target="_blank">
-    
+
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
 </head>
-  <body onclick="toggleURLs()" >
+<body>
 
-  <center><div class="div-fixed-top">HODGEPODGE
+<h2>Accordion</h2>
 
-    <div class="div-secondlevel">
-      <div class="div-date-value" data-data="5"></div>
-      <br>
-
-      <button class="button-find" ><strong>Find Text</strong></button>  <!-- 1 == wrapAround, showDialog-->
-      <input class="input-text" type="text" placeholder="Text to Find"  >
-      <br>
-
-      <input type="file" accept=".json, .jpg, .jpeg, .png, .gif, .avif">
-      <div class="selectedFile"></div>
-
-      <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker">
-      <select name="favoriteColor">
-        <option value="red">red</option>
-        <option value="blue">blue</option>
-        <option value="green">green<option>
-      </select>
-
-      <br>
-      
-      <button class="button-datepicker" onclick="clickDatePicker()">Date Picker</button>
-      <button class="button-reload" >Refresh</button>
-      <button onclick="$('[data-data=5]').hide(2000).show(2000).fadeOut(2000).fadeIn(2000).slideUp(2000).slideDown(2000)">Effects</button>
-
-      <!-- <button class="button-ajax">Ajax</button> -->
-      <button class="button-accordian">URLs</button>  
-      <button class="button-json">JSON</button>  
-
-
-      
-      <!--
-      <button onclick="$('img').fadeTo(5000,0)">Fade Out</button>
-      <button onclick="$('img').fadeTo(5000,1)">Fade In</button>
-      <button onclick="$('img').hide()">Hide</button>
-      <button onclick="$('img').show()">Show</button>
-      <button class="zoom-in">Zoom In</button>  
-      <button class="zoom-out">Zoom Out</button>
-    -->
-
-      <div class="div-image">
-        <!--
-        <img src="image/bee.jpg" alt="honey bee" height="200" class="first-image">
-        <img src="image/landscape.png" alt="landscape" height="200">
-        <img src="image/universe.avif" alt="universe" height="200">
-        -->
-        
-        <div class="div-keyframe"></div>
-
-      </div>
-
-      
-
-    </div>
-
-  </center></div>
+<button class="accordion">PDFs</button>
+<div class="panel">
   
-  <br><br><br>  <br><br><br>  <br><br><br>
-
-  
-  <div class="div-json-table"></div>
-
-  
-  <br><br><br>  <br><br><br>  <br><br><br>
-  
-<!-- 
-  <br><br><br>
-
-  <br><br><br>
-
-  <br><br><br>
--->
-
-  <div class="div-main-image"></div>
-
   <div class="div-urls">
-    <br><hr><br>
+    <!-- <br><hr><br> -->
     <ul>
-      <!-- <li><a href="/README.html">Startup</a></li> -->
-      <!-- <li><a href="/contact-form.html">Contact Form</a></li><br> -->
+      <li><a href="pdf/NW App Persons.pdf">(PDF) NW Pub App Persons</a></li><br>
+      <li><a href="pdf/jquery.pdf">(PDF) jQuery Basics (pptx)</a></li><br>
+      <li><a href="pdf/JavaScript-JSON-Cookbook.pdf">(PDF) JavaScript-JSON-Cookbook</a></li><br>
+      <li><a href="pdf/Coding with JavaScript For Dummies.pdf">(PDF) Coding with JavaScript For Dummies</a></li><br>
+      <li><a href="pdf/PDF-Guide-Node-Andrew-Mead-v3.pdf">(PDF) Node.js Dev Course</a></li><br>
+      <li><a href="pdf/jquery_tutorial.pdf">(PDF) JQuery Tutorial</a></li><br>
+      <li><a href="pdf/jquery_tutorial_extended.pdf">(PDF) JQuery Tutorial Extended</a></li><br>
+      <li><a href="pdf/jquery_cheatsheet.pdf">(PDF) JQuery Cheatsheet</a></li><br>
+      <li><a href="pdf/git-github-reference.pdf">(PDF) Git & Github Reference - SuperSimple.dev</a></li><br>
+
+      <li><a href="#" onclick="alert('Goto Top of Page');">Goto Top of Page</a></li><br>
+    </ul>
+  </div>
+</div>
+
+<button class="accordion">General</button>
+<div class="panel">
+  <div class="div-urls">
+    <!-- <br><hr><br> -->
+    <ul>
       <li><a href="/docs.html">Docs</a></li><br>
       <li><a href="/about.html">ABOUT</a></li><br>
       <li><a href="/WebRTC.html">Camera</a></li><br>
@@ -105,8 +74,6 @@
       <li><a href="https://goo.gle/devtools-console-utils">Console Utilities API Reference</a></li><br>
       <li><a href="https://www.britbox.com/us/">BritBox</a></li><br>
       <li><a href="https://www.disneyplus.com">DisneyPlus</a></li><br>
-      <!-- <li><a href="view-source:https:google.com">Google External Source</a></li><br> -->
-      <!-- <li><a href="javascript:viewthesource()">Click to view source!</a></li><br> -->
       <li><a href="/coding.html">Coding</a></li><br>
       <li><a href="/files.html">Files</a></li><br>
       <li><a href="/simpleform.html">Forms</a></li><br>
@@ -120,6 +87,17 @@
       <li><a href="https://speakeasy.net">Speed Test</a></li><br>
       <li><a href="/tutorials.html">Tutorials</a></li><br>
       <li><a href="/urls.html">URLs</a></li><br>
+      
+      <li><a href="#" onclick="alert('Goto Top of Page');">Goto Top of Page</a></li><br>
+    </ul>
+  </div>
+</div>
+
+<button class="accordion">Programming</button>
+<div class="panel">
+  <div class="div-urls">
+    <!-- <br><hr><br> -->
+    <ul>
       <li><a href="https://css-tricks.com/">CSS Tricks</a></li><br>
       <li><a href="https://codepen.io/codeBelt/pen/OVjxJN">CodePen</a></li><br>
       <li><a href="pdf/NW App Persons.pdf">(PDF) NW Pub App Persons</a></li><br>
@@ -140,48 +118,32 @@
       <li><a href="https://www.youtube.com/watch?v=2n5EBLBHx-A">JQuery Tutorial</a></li><br>
       <li><a href="https://www.youtube.com/playlist?list=PLIoX3-mcY80gRbIVp1CJMGG3B0mOd9kDo">Intro to JQuery (7 videos LONG)</a></li><br>
       <li><a href="https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_">JQuery Tutorial for Beginners (10 vidoes SHORT)</a></li><br>
-      <!-- <li><a href="https://releases.jquery.com/ui/">releases.jquery.com/ui/</a></li><br>   -->
       <li><a href="https://www.wunderground.com/wundermap">WunderMap<a></li><br>
       <li><a href="https://overapi.com/html-dom">OverAPI<a></li><br>
       <li><a href="https://caniuse.com/">Can I Use<a></li><br>
       <li><a href="https://unsplash.com">Unsplash<a></li><br>
+
       <li><a href="#" onclick="alert('Goto Top of Page');">Goto Top of Page</a></li><br>
-      <!-- <li><a href="https://ohmslaw.eu">OHMs Law</a></li><br> -->
-      <!-- <li><embed src="S303-Oct 27 2024.pdf" type="application/pdf" width="100%" height="100%" title="Embedded PDF Viewer" /></li> -->  
-      <!-- <p>Open a PDF file<a href="S303-Oct 27 2024.pdf">example</a> </p> -->
     </ul>
   </div>
+</div>
 
-  <script src="jquery-3.7.1.min.js"></script>
-  <!-- <script>"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"</script> -->
-  <script src="kibrown031.js"></script>
-  <!-- <script src="functions.js"></script> -->
-  <script>
-    // Shorthand for $( document ).ready()
-    $(function() {
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-      $(window).on('load', function (xyz) { 
-        console.log (`param: 
-        xyz.type: ${xyz.type}
-        xyz.currentTarget: ${xyz.currentTarget}
-        xyz.target: ${xyz.target}
-        `)
-       });
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
-      console.log( `We Be Ready! --- jQuery version: ${$().jquery}` );
-
-      // let interval = setInterval( () => { console.log (new Date()) }, 10000 );
-      // clearInterval (interval);
-
-
-
-
-
-
-
-    });
-      
-  </script>
-    
 </body>
 </html>

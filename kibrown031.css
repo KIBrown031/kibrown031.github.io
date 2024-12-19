@@ -72,6 +72,7 @@ hr {
 
 .div-urls {
     /* margin-top: 100px; */
+    display: none;
 }
 
 .div-secondlevel {
@@ -85,7 +86,7 @@ hr {
 
 .div-main-image{
  
-    
+
 }
 
 .div-json-table {
