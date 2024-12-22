@@ -82,7 +82,8 @@ let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins',
         let settings = $.extend({
         color: '#000',
         fontSize: '16px',
-        textdecoration: 'underline'
+        // textdecoration: 'underline'
+        textdecoration: 'none'
     }, options);
     
     return this.css({
