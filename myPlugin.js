@@ -56,7 +56,9 @@
 // $( "a" ).showLinkLocation();
 
 
-let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins', ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins', ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
+let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins',
+      ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins',
+      ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
 //listThis()
 (function( $ ) {
 
