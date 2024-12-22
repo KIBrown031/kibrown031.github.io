@@ -99,8 +99,8 @@ let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins',
 
 $('#result').append($(arr).listThis('ul').colorMyList(
 	{
-	color: '#ff0000',
-    fontSize: '60px',
-    textDecoration: 'none'
+	// color: '#ff0000',
+    // fontSize: '60px',
+    textdecoration: 'underline'
 	}
 ));
