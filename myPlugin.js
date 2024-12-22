@@ -56,7 +56,7 @@
 // $( "a" ).showLinkLocation();
 
 
-let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
+let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins', ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins', ' ', 'This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
 //listThis()
 (function( $ ) {
 
@@ -97,7 +97,7 @@ let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
 $('#result').append($(arr).listThis('ul').colorMyList(
 	{
 	color: '#ff0000',
-    fontSize: '30px',
+    fontSize: '60px',
     textDecoration: 'none'
 	}
 ));
