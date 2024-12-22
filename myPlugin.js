@@ -104,3 +104,13 @@ $('#result').append($(arr).listThis('ul').colorMyList(
     textdecoration: 'underline'
 	}
 ));
+
+
+
+const array = ["hello","from","GFG"];
+ 
+// Traversing array using jQuery.each() method
+console.log("traversing in array using jQuery.each() method");
+jQuery.each(array, function(index,value) {
+    console.log('index: ' + index + '   ' + 'value: ' + value);
+});
