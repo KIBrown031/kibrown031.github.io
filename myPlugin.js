@@ -56,7 +56,7 @@
 // $( "a" ).showLinkLocation();
 
 
-let arr = ['hello', 'from', 'easy', 'programming', '.net'];
+let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins'];
 //listThis()
 (function( $ ) {
 
@@ -96,7 +96,7 @@ let arr = ['hello', 'from', 'easy', 'programming', '.net'];
 
 $('#result').append($(arr).listThis('ul').colorMyList(
 	{
-	color: '#0000ff',
+	color: '#ff0000',
     fontSize: '30px',
     textDecoration: 'none'
 	}
