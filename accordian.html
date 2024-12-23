@@ -165,6 +165,8 @@ for (i = 0; i < acc.length; i++) {
             
             const cameras = devices.filter((device) => device.kind === 'videoinput');
 
+            alert(`camera: ${cameras}`);
+
             if (cameras.length === 0) {
             throw 'No camera found on this device.';
             }
