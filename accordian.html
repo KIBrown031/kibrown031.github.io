@@ -162,7 +162,9 @@ for (i = 0; i < acc.length; i++) {
             if (cameras.length === 0) {
             throw 'No camera found on this device.';
             }
-            const camera = cameras[cameras.length - 1];
+            
+            // const camera = cameras[cameras.length - 1];
+            const camera = cameras[cameras.length - 2];  // added by keith
 
             // Create stream and get video track
             navigator.mediaDevices.getUserMedia({
@@ -172,7 +174,8 @@ for (i = 0; i < acc.length; i++) {
                 height: {ideal: 1080},
                 width: {ideal: 1920}
             }
-            }).then(stream => {
+            })
+            .then(stream => {
             const track = stream.getVideoTracks()[0];
 
             //Create image capture object and get camera capabilities
