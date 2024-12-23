@@ -179,10 +179,11 @@ for (i = 0; i < acc.length; i++) {
             const photoCapabilities = imageCapture.getPhotoCapabilities().then(() => {
 
                 //todo: check if camera has a torch
-
+                alert("photoCapabilities");
                 //let there be light!
                 const btn = document.querySelector('.switch');
                 btn.addEventListener('click', function(){
+                alert("photoCapabilities: click");    
                 track.applyConstraints({
                     advanced: [{torch: true}]
                 });
