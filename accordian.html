@@ -154,17 +154,23 @@ for (i = 0; i < acc.length; i++) {
     const SUPPORTS_MEDIA_DEVICES = 'mediaDevices' in navigator;
 
     if (SUPPORTS_MEDIA_DEVICES) {
+
+        alert("SUPPORTS_MEDIA_DEVICES");
+
+
         //Get the environment camera (usually the second one)
         navigator.mediaDevices.enumerateDevices().then(devices => {
         
+            alert("enumerateDevices");
+            
             const cameras = devices.filter((device) => device.kind === 'videoinput');
 
             if (cameras.length === 0) {
             throw 'No camera found on this device.';
             }
             
-            // const camera = cameras[cameras.length - 1];
-            const camera = cameras[cameras.length - 2];  // added by keith
+            // const camera = cameras[cameras.length - 1];   // this chooses OBS
+            const camera = cameras[cameras.length - 2];      // this chooses LogiTech
 
             // Create stream and get video track
             navigator.mediaDevices.getUserMedia({
