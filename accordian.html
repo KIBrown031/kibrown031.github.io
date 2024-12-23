@@ -147,7 +147,7 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 <br><br><br>
-<button class="switch">Torch</button>
+<button class="switch">Torch - TODO</button>
 
 <script>
 
@@ -155,13 +155,13 @@ for (i = 0; i < acc.length; i++) {
 
     if (SUPPORTS_MEDIA_DEVICES) {
 
-        alert("SUPPORTS_MEDIA_DEVICES");
+        // alert("SUPPORTS_MEDIA_DEVICES");
 
 
         //Get the environment camera (usually the second one)
         navigator.mediaDevices.enumerateDevices().then(devices => {
         
-            alert("enumerateDevices");
+            // alert("enumerateDevices");
             
             const cameras = devices.filter((device) => device.kind === 'videoinput');
 
@@ -187,17 +187,17 @@ for (i = 0; i < acc.length; i++) {
             })
             .then(stream => {
             const track = stream.getVideoTracks()[0];
-            alert(`stream: ${track}`);
+            // alert(`stream: ${track}`);
             //Create image capture object and get camera capabilities
             const imageCapture = new ImageCapture(track)
             const photoCapabilities = imageCapture.getPhotoCapabilities().then(() => {
 
                 //todo: check if camera has a torch
-                alert("photoCapabilities");
+                // alert("photoCapabilities");
                 //let there be light!
                 const btn = document.querySelector('.switch');
                 btn.addEventListener('click', function(){
-                alert("photoCapabilities: click");    
+                // alert("photoCapabilities: click");    
                 track.applyConstraints({
                     advanced: [{torch: true}]
                 });
