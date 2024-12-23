@@ -171,7 +171,7 @@ for (i = 0; i < acc.length; i++) {
             throw 'No camera found on this device.';
             }
             
-            alert(`camera: ${cameras}`);
+            // alert(`camera: ${cameras}`);
 
             // const camera = cameras[cameras.length - 1];   // this chooses OBS
             const camera = cameras[cameras.length - 2];      // this chooses LogiTech
@@ -187,17 +187,23 @@ for (i = 0; i < acc.length; i++) {
             })
             .then(stream => {
             const track = stream.getVideoTracks()[0];
+
             // alert(`stream: ${track}`);
+            
             //Create image capture object and get camera capabilities
             const imageCapture = new ImageCapture(track)
             const photoCapabilities = imageCapture.getPhotoCapabilities().then(() => {
 
-                //todo: check if camera has a torch
+                //todo: check if camera has a torch 
+
                 // alert("photoCapabilities");
+
                 //let there be light!
                 const btn = document.querySelector('.switch');
                 btn.addEventListener('click', function(){
+
                 // alert("photoCapabilities: click");    
+
                 track.applyConstraints({
                     advanced: [{torch: true}]
                 });
