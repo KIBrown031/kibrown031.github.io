@@ -97,7 +97,7 @@ let arr = ['This', 'Unordered', 'List', 'Is', 'Demonstrating', 'Plugins',
 
 
 
-$('#result').append($(arr).listThis('ul').colorMyList(
+$('#resultttt').append($(arr).listThis('ul').colorMyList(  // remove ttt to run on load - should be: $('#result')
 	{
 	// color: '#ff0000',
     // fontSize: '60px',
