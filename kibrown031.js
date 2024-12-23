@@ -147,6 +147,12 @@ $(document).ready(function() {
         window.location.href = "/accordian.html";
       });
 
+      
+      $(".button-qrcode").on("click", function() {
+        // alert("ACCORDIAN");
+        window.location.href = "/qrcode.html";
+      });
+
 
       $(".button-ajax").on("click", function(){  // load schedule.csv file - nothing done with it currently
         
