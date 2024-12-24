@@ -256,12 +256,14 @@ function sweetAlert () {
 }
 
     let toggle = true;
-    
+    let videoElement = document.querySelector('#video');
     function toggleCamera()
     { 
         toggle = !toggle 
-        Swal.fire({ title: 'GetMedia', text: `Toggle: ${toggle}`, confirmButtonText: 'OK' });
-        window.location.reload(false);
+        Swal.fire({ title: 'GetMedia', text: `Toggle: ${toggle}`, confirmButtonText: 'OK'})
+        .then ( () => {
+            videoElement.srcObject = null; // swindow.location.reload(false);
+        });
     };
 
     function getMedia  () {
@@ -269,7 +271,7 @@ function sweetAlert () {
     navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle ? "environment" : "user"}` } , audio: false })
     .then(function(stream) {
     // Do something with the stream, e.g., display it in a video element
-    var videoElement = document.querySelector('#video');
+    // var videoElement = document.querySelector('#video');
     videoElement.srcObject = stream;
     videoElement.play();
   })
