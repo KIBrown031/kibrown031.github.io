@@ -38,16 +38,7 @@ loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11')
   console.error('https://cdn.jsdelivr.net/npm/sweetalert2@11: Error loading script:', error);
 });
 
-function showCustomAlert() {
-  // Create a custom alert box with SweetAlert
-  Swal.fire({
-    title: 'This is a Custom Alert title',
-    text: 'Using Sweet Alert',
-    confirmButtonText: 'OK'
-});
 
-  // swal("Here's a title", "Here's some text", "success", {  button: "I am new button",   });
-}
 
 
 
