@@ -6,8 +6,8 @@ topofpage.innerHTML = `${currentDate.toLocaleString()}`;
 function showCustomAlert() {
   // Create a custom alert box with SweetAlert
   Swal.fire({
-    title: 'This is a Custom Alert title',
-    text: 'Using Sweet Alert',
+    title: 'HODGEPODGE',
+    text: 'Welcome!',
     confirmButtonText: 'OK'
 });
 
