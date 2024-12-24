@@ -254,7 +254,7 @@ function sweetAlert () {
 
    function getMedia  () {
 
-   navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+   navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" }, audio: true })
    .then(function(stream) {
     // Do something with the stream, e.g., display it in a video element
     var videoElement = document.querySelector('#video');
