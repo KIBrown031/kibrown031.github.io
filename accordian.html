@@ -260,7 +260,7 @@ function sweetAlert () {
     
     function getMedia  () {
 
-   navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 480, facingMode: `${toggle} ? "environment" : "user" ` } , audio: false })
+   navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle} ? "environment" : "user" ` } , audio: false })
    .then(function(stream) {
     // Do something with the stream, e.g., display it in a video element
     var videoElement = document.querySelector('#video');
