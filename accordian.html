@@ -149,10 +149,13 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
+let toggle = true;
 <br><br>
 <button class="button-switch" onclick="sweetAlert()">SweetAlert</button>
 <br><br>
 <button class="button-getMedia" onclick="getMedia()">GetMedia</button>
+<br><br>
+<button class="button-toggleCamera" onclick="toggleCamera(){ toggle = !toggle }">Toggle Camera</button>
 
 
 <!--
@@ -254,7 +257,7 @@ function sweetAlert () {
 
    function getMedia  () {
 
-   navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" }, audio: true })
+   navigator.mediaDevices.getUserMedia({ video: { facingMode: `${toggle} ? "environment" : "user" ` } , audio: true })
    .then(function(stream) {
     // Do something with the stream, e.g., display it in a video element
     var videoElement = document.querySelector('#video');
