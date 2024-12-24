@@ -3,7 +3,8 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
-function loadScript(url) {
+// SweetAlert  https://sweetalert2.github.io/
+function loadScript(url) { 
   return new Promise((resolve, reject) => {    // PROMISE
     const script = document.createElement('script');
     script.src = url;
