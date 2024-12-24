@@ -261,6 +261,7 @@ function sweetAlert () {
     { 
         toggle = !toggle 
         Swal.fire({ title: 'GetMedia', text: `Toggle: ${toggle}`, confirmButtonText: 'OK' });
+        window.location.reload(false);
     };
 
     function getMedia  () {
