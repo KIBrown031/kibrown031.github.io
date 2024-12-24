@@ -4,7 +4,7 @@ let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
 function loadScript(url) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {    // PROMISE
     const script = document.createElement('script');
     script.src = url;
     script.onload = resolve;
@@ -16,11 +16,11 @@ function loadScript(url) {
 loadScript('/sweetalert.min.js')
 .then( () => {
   // Script loaded successfully, do something here
-  console.log('Script loaded!');
+  console.log('/sweetalert.min.js: Script loaded!');
 })
 .catch(error => {
   // Handle error
-  console.error('Error loading script:', error);
+  console.error('/sweetalert.min.js: Error loading script:', error);
 });
 
 
