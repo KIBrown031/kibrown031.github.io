@@ -35,6 +35,8 @@
 
 <h2>URL Folders</h2>
 
+<video id="video"></video>
+
 <button class="accordion">PDFs</button>
 <div class="panel">
   
@@ -146,9 +148,13 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<br><br><br>
-<button class="switch">Torch - TODO</button>
+<br><br>
+<button class="button-switch">Torch - TODO</button>
+<br><br>
+<button class="button-getMedia" onclick="getMedia()">GetMedia</button>
 
+
+<!--
 <script>
 
     const SUPPORTS_MEDIA_DEVICES = 'mediaDevices' in navigator;
@@ -189,7 +195,7 @@ for (i = 0; i < acc.length; i++) {
             const track = stream.getVideoTracks()[0];
 
             // alert(`stream: ${track}`);
-            
+
             //Create image capture object and get camera capabilities
             const imageCapture = new ImageCapture(track)
             const photoCapabilities = imageCapture.getPhotoCapabilities().then(() => {
@@ -199,7 +205,7 @@ for (i = 0; i < acc.length; i++) {
                 // alert("photoCapabilities");
 
                 //let there be light!
-                const btn = document.querySelector('.switch');
+                const btn = document.querySelector('.button-switch');
                 btn.addEventListener('click', function(){
 
                 // alert("photoCapabilities: click");    
@@ -215,6 +221,24 @@ for (i = 0; i < acc.length; i++) {
         //The light will be on as long the track exists
 }
 </script>
+-->
 
+<script>
+   function getMedia  () {
+
+   navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+   .then(function(stream) {
+    // Do something with the stream, e.g., display it in a video element
+    var videoElement = document.querySelector('#video');
+    videoElement.srcObject = stream;
+    videoElement.play();
+  })
+  .catch(function(err) {
+    console.error('Error accessing media devices:', err);
+  })
+
+}
+   
+</script>
 </body>
 </html>
