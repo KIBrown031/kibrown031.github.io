@@ -3,6 +3,17 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
+function showCustomAlert() {
+  // Create a custom alert box with SweetAlert
+  Swal.fire({
+    title: 'This is a Custom Alert title',
+    text: 'Using Sweet Alert',
+    confirmButtonText: 'OK'
+});
+
+  // swal("Here's a title", "Here's some text", "success", {  button: "I am new button",   });
+}
+
 // SweetAlert  https://sweetalert2.github.io/
 function loadScript(url) { 
   return new Promise((resolve, reject) => {    // PROMISE
@@ -14,22 +25,28 @@ function loadScript(url) {
   });
 }
 
-loadScript('/sweetalert.min.js')
+loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11')
 .then( () => {
   // Script loaded successfully, do something here
-  console.log('/sweetalert.min.js: Script loaded!');
+  console.log('https://cdn.jsdelivr.net/npm/sweetalert2@11: Script loaded!');
+})
+.then( () => {
+  showCustomAlert();
 })
 .catch(error => {
   // Handle error
-  console.error('/sweetalert.min.js: Error loading script:', error);
+  console.error('https://cdn.jsdelivr.net/npm/sweetalert2@11: Error loading script:', error);
 });
 
 function showCustomAlert() {
   // Create a custom alert box with SweetAlert
-  swal("Here's a title", "Here's some text", "success", {
-    button: "I am new button",
+  Swal.fire({
+    title: 'This is a Custom Alert title',
+    text: 'Using Sweet Alert',
+    confirmButtonText: 'OK'
+});
 
-  });
+  // swal("Here's a title", "Here's some text", "success", {  button: "I am new button",   });
 }
 
 
