@@ -3,7 +3,29 @@ let topofpage = document.querySelector('.div-date-value');
 let currentDate = new Date;
 topofpage.innerHTML = `${currentDate.toLocaleString()}`;   
 
-// setTimeout()   setInterval()
+function loadScript(url) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = url;
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+loadScript('/sweetalert.min.js')
+.then( () => {
+  // Script loaded successfully, do something here
+  console.log('Script loaded!');
+})
+.catch(error => {
+  // Handle error
+  console.error('Error loading script:', error);
+});
+
+
+  
+  // setTimeout()   setInterval()
 document.body.addEventListener( "keydown", (event) => { 
   console.log(`keydown: ${event.key}`); 
 
@@ -147,7 +169,7 @@ $(document).ready(function() {
         window.location.href = "/accordian.html";
       });
 
-      
+
       $(".button-qrcode").on("click", function() {
         // alert("ACCORDIAN");
         window.location.href = "/qrcode.html";
