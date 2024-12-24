@@ -23,6 +23,16 @@ loadScript('/sweetalert.min.js')
   console.error('/sweetalert.min.js: Error loading script:', error);
 });
 
+function showCustomAlert() {
+  // Create a custom alert box with SweetAlert
+  swal("Here's a title", "Here's some text", "success", {
+    button: "I am new button",
+
+  });
+}
+
+
+
 
   
   // setTimeout()   setInterval()
