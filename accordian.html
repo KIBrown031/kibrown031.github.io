@@ -35,8 +35,6 @@
 
 <h2>URL Folders</h2>
 
-<video id="video"></video>
-
 <button class="accordion">PDFs</button>
 <div class="panel">
   
@@ -157,7 +155,8 @@ for (i = 0; i < acc.length; i++) {
 <button class="button-getMedia" onclick="getMedia()">GetMedia</button>
 <br><br>
 <button class="button-toggleCamera" onclick="toggleCamera()">Toggle Camera</button>
-
+<br>
+<video id="video"></video>
 
 <!--
 <script>
@@ -257,12 +256,16 @@ function sweetAlert () {
 }
 
     let toggle = true;
-    function toggleCamera(){ toggle = !toggle };
-    
-    function getMedia  () {
+    function toggleCamera()
+    { 
+        toggle = !toggle 
+        Swal.fire({ title: 'GetMedia', text: `Toggle: ${toggle}`, confirmButtonText: 'OK' });
+    };
 
-   navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle} ? "environment" : "user" ` } , audio: false })
-   .then(function(stream) {
+    function getMedia  () {
+    
+    navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle} ? "environment" : "user" ` } , audio: false })
+    .then(function(stream) {
     // Do something with the stream, e.g., display it in a video element
     var videoElement = document.querySelector('#video');
     videoElement.srcObject = stream;
