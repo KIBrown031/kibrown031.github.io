@@ -5,9 +5,10 @@ topofpage.innerHTML = `${currentDate.toLocaleString()}`;
 
 function showCustomAlert() {
   // Create a custom alert box with SweetAlert
-  Swal.fire({
+  return Swal.fire({
     title: 'HODGEPODGE',
     text: 'Welcome!',
+    timer: 3000,
     confirmButtonText: 'OK'
 });
 
@@ -26,12 +27,13 @@ function loadScript(url) {
 }
 
 loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11')
-.then( () => {
+.then( message => {
   // Script loaded successfully, do something here
-  console.log('https://cdn.jsdelivr.net/npm/sweetalert2@11: Script loaded!');
+  console.log('https://cdn.jsdelivr.net/npm/sweetalert2@11: Script loaded!', message);
 })
 .then( () => {
-  showCustomAlert();
+  showCustomAlert()
+  .then( () => {} )
 })
 .catch(error => {
   // Handle error

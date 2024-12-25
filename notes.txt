@@ -1,0 +1,52 @@
+The Promise API proposes the following:
+
+    Each asynchronous task will return a promise object.
+    Each promise object will have a .then() function that can take two arguments, a success handler and an error handler.
+    The success or the error handler in the then function will be called only once, after the asynchronous task finishes.
+    The .then() function will also return a promise, to allow chaining multiple calls.
+    Each handler (success or error) can return a value, which will be passed to the next function as an argument, in the chain of promises.
+    If a handler returns a promise (makes another asynchronous request), then the next handler (success or error) will be called only after that request is finished.
+
+
+**********************************************************************************************************************************************************************
+
+doit().then(function() { log('Now finally done!') });
+log('---- But notice where this ends up!');
+
+// For pedagogical reasons I originally wrote the following doit()-function so that 
+// it was clear that it is a promise. That way wasn't really a normal way to do 
+// it though, and therefore Slikts edited my answer. I therefore now want to remind 
+// you here that the return value of the following function is a promise, because 
+// it is an async function (every async function returns a promise). 
+
+async function doit() {
+  log('Calling someTimeConsumingThing');
+  await someTimeConsumingThing();
+  log('Ready with someTimeConsumingThing');
+}
+
+function someTimeConsumingThing() {
+  return new Promise(function(resolve,reject) {
+    setTimeout(resolve, 2000);
+  })
+}
+
+function log(txt) {
+  document.getElementById('msg').innerHTML += txt + '<br>'
+}
+
+<div id='msg'></div>
+
+
+**********************************************************************************************************************************************************************
+
+
+
+
+
+**********************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
