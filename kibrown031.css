@@ -7,20 +7,22 @@ body {
     /* font-size: 14px; */
     }
 
+/*
 p {
-    /*
+    
     background-color: lightpink;
     width: fit-content;
-    */
+    
 }
 
 input {
-    /* 
+     
     display: inline-block;
     border: 5px;
     padding: 5px; 
-    */
+    
 }
+*/
 
 hr {
     background-color: crimson;
@@ -38,22 +40,23 @@ hr {
     font-weight: bold;
 }
 
-.input-dateclass { /* date picker */
-    /* display: inline-block; */
-    /* background-color: rgb(217, 231, 12); */
-    /* position: fixed; */    
+/* date picker 
+.input-dateclass { 
+    display: inline-block;
+    background-color: rgb(217, 231, 12);
+    position: fixed;    
 }
 
 .first-image {
-    /* margin-left: 100px; */
+    margin-left: 100px;
 }
-
+*/
 
 .div-date-value {
     background-color: rgb(255, 255, 255);
     width: fit-content;
     display: inline-block;
-    margin-left: 10px; */
+    margin-left: 10px; 
 }
 
 .div-fixed-top { /* topmost line of page */
@@ -75,8 +78,9 @@ hr {
     display: none;
 }
 
+/* float: left;
 .div-secondlevel {
-    /* float: left; */
+    
 }
 
 .div-image{
@@ -88,6 +92,7 @@ hr {
  
 
 }
+*/
 
 .div-json-table {
     /* background-color: chartreuse; */
