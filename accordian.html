@@ -260,7 +260,7 @@ function sweetAlert () {
     function toggleCamera()
     { 
         toggle = !toggle 
-        Swal.fire({ title: 'GetMedia', text: `Toggle: ${toggle}`, confirmButtonText: 'OK'})
+        Swal.fire({ title: 'Toggle Camera Front/Back', text: `Toggle: ${toggle}`, confirmButtonText: 'OK'})
         .then ( () => {
             videoElement.srcObject = null; // swindow.location.reload(false);
         });
