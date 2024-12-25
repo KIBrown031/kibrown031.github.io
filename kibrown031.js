@@ -33,7 +33,7 @@ loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11')
 })
 .then( () => {
   showCustomAlert()
-  .then( () => {} )
+  .then( () => {debugger} )
 })
 .catch(error => {
   // Handle error

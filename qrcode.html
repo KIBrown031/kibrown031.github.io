@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QRCode</title>
-    <script src="html5-qrcode.min.js"></script>
+    <script src="https://unpkg.com/html5-qrcode"></script> <!--html5-qrcode.min.js-->
     
 </head>
 <style>
@@ -61,8 +61,8 @@
     }
 
     function error(err) {
-        console.error(err);
-        // Prints any errors to the console
+        // console.error(err);
+        // QR code parse error, error = D: No MultiFormat Readers were able to detect the code.
     }
 
 </script>
