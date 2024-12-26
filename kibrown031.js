@@ -18,6 +18,7 @@ function showCustomAlert() {
 // SweetAlert  https://sweetalert2.github.io/
 function loadScript(url) { 
   return new Promise((resolve, reject) => {    // PROMISE
+    debugger
     const script = document.createElement('script');
     script.src = url;
     script.onload = resolve;
@@ -33,7 +34,7 @@ loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11')
 })
 .then( () => {
   showCustomAlert()
-  .then( () => {debugger} )
+  .then( () => {} )
 })
 .catch(error => {
   // Handle error
