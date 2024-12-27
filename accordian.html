@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ACCORDIAN</title>
     <base target="_blank">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <style>
 .accordion {
   background-color: #eee;
@@ -258,29 +258,29 @@ function sweetAlert () {
     });
 }
 
-    let toggle = true;
-    let videoElement = document.querySelector('#video');
-    function toggleCamera()
-    { 
-        toggle = !toggle 
-        Swal.fire({ title: 'Toggle Camera Front/Back', text: `Toggle: ${toggle}`, confirmButtonText: 'OK'})
-        .then ( () => {
-            videoElement.srcObject = null; // swindow.location.reload(false);
-        });
-    };
+let toggle = true;
+let videoElement = document.querySelector('#video');
+function toggleCamera()
+{ 
+    toggle = !toggle 
+    Swal.fire({ title: 'Toggle Camera Front/Back', text: `Toggle: ${toggle}`, confirmButtonText: 'OK'})
+    .then ( () => {
+        videoElement.srcObject = null; // swindow.location.reload(false);
+    });
+};
 
-    function getMedia  () {
-    
-    navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle ? "environment" : "user"}` } , audio: false })
-    .then(function(stream) {
-    // Do something with the stream, e.g., display it in a video element
-    // var videoElement = document.querySelector('#video');
-    videoElement.srcObject = stream;
-    videoElement.play();
-  })
-  .catch(function(err) {
-    console.error('Error accessing media devices:', err);
-  })
+function getMedia  () {
+
+navigator.mediaDevices.getUserMedia({ video: { width: 320, height: 240, facingMode: `${toggle ? "environment" : "user"}` } , audio: false })
+.then(function(stream) {
+// Do something with the stream, e.g., display it in a video element
+// var videoElement = document.querySelector('#video');
+videoElement.srcObject = stream;
+videoElement.play();
+})
+.catch(function(err) {
+  console.error('Error accessing media devices:', err);
+})
 
 }
 
