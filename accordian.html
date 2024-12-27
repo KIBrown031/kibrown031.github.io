@@ -153,7 +153,7 @@ for (i = 0; i < acc.length; i++) {
 <br><br>
 <button class="button-switch" onclick="sweetAlert()">SweetAlert</button>
 <br><br>
-<button class="button-lat-long" onclick="getLatLong()" style="display: inline-block">Lat-Long</button><div id="id-div-latlong"  style="display: inline-block"></div>
+<button class="button-lat-long" onclick="getLatLong()" style="display: inline-block">Lat-Long</button><div id="id-div-latlong" style="display: inline-block"> </div>
 <br><br>
 <button class="button-getMedia" onclick="getMedia()">Enable Camera</button>
 <br><br>
@@ -291,14 +291,15 @@ function getLatLong () {
 
   function showPosition(position) {
 
-    alert (position.coords.latitude + ", " + position.coords.longitude)
-    alert (`https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`)
+    // alert (position.coords.latitude + ", " + position.coords.longitude)
+    // alert (`https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`)
 
     const container = document.getElementById('id-div-latlong');
     const anchor = document.createElement('a');
     anchor.href = `https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`;
     anchor.textContent = 'Current Lat Long';
-    container.appendChild(anchor); // Append the anchor to the container
+    container.innerHTML = ""; 
+    container.append(anchor); // Append the anchor to the container
   } 
   
 
