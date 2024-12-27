@@ -153,6 +153,8 @@ for (i = 0; i < acc.length; i++) {
 <br><br>
 <button class="button-switch" onclick="sweetAlert()">SweetAlert</button>
 <br><br>
+<button class="button-lat-long" onclick="getLatLong()" >Lat-Long</button>
+<br><br>
 <button class="button-getMedia" onclick="getMedia()">Enable Camera</button>
 <br><br>
 <button class="button-toggleCamera" onclick="toggleCamera()">Toggle Camera Front/Back</button>
@@ -280,6 +282,19 @@ function sweetAlert () {
     console.error('Error accessing media devices:', err);
   })
 
+}
+
+
+function getLatLong () {
+  function showPosition(position) {
+    alert (position.coords.latitude + ", " + position.coords.longitude)
+  } 
+
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    alert ("Geolocation is not supported by this browser.")
+  }
 }
    
 </script>
