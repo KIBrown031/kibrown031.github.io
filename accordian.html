@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ACCORDIAN</title>
     <base target="_blank">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
 <style>
 .accordion {
   background-color: #eee;
@@ -286,15 +286,19 @@ function sweetAlert () {
 
 
 function getLatLong () {
+  
+  // 9606 Midland Turn  38.7580093,-76.78245
+
   function showPosition(position) {
+
     alert (position.coords.latitude + ", " + position.coords.longitude)
     alert (`https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`)
 
-  const container = document.getElementById('id-div-latlong');
-  const anchor = document.createElement('a');
-  anchor.href = `https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`;
-  anchor.textContent = 'Current Lat Long';
-  container.appendChild(anchor); // Append the anchor to the container
+    const container = document.getElementById('id-div-latlong');
+    const anchor = document.createElement('a');
+    anchor.href = `https://maps.google.com/?q=${position.coords.latitude},${position.coords.longitude}`;
+    anchor.textContent = 'Current Lat Long';
+    container.appendChild(anchor); // Append the anchor to the container
   } 
   
 
