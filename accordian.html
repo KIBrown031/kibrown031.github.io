@@ -312,9 +312,10 @@ function getLatLong () {
   // 9606 Midland Turn  38.7580093,-76.78245
   
   if (navigator.geolocation) {
+    alert ("Geolocation IS supported by this browser.")
     navigator.geolocation.getCurrentPosition(showPosition);
   } else { 
-    alert ("Geolocation is not supported by this browser.")
+    alert ("Geolocation is NOT supported by this browser.")
   }
 
 
