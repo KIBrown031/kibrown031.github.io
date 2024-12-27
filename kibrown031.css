@@ -78,6 +78,11 @@ hr {
     display: none;
 }
 
+#id-div-latlong {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 /* float: left;
 .div-secondlevel {
     
