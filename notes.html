@@ -25,7 +25,9 @@
     <input id="fileInput" type="file">
     <br><br>
 
-    <button onclick="appendTextBoxToFile()">Save To File</button><input id="saveFileInput" type="text" title="Save Filename" placeholder="enter filename to save ...">
+    <button onclick="appendTextBoxToFile()">Save To File</button>
+    
+    <input id="saveFileInput" type="text" title="Save Filename" placeholder="enter filename to save">
     <br><br>
 
     <textarea id="myTextArea"></textarea>
@@ -35,10 +37,10 @@
 
     <script>
 
-        const fileInput = document.getElementById('fileInput');
-        const fileContent = document.getElementById('fileContent');
-        const textArea = document.getElementById('myTextArea');
-        const saveFile = document.getElementById('saveFileInput');
+        const fileInput = document.getElementById('fileInput');      // file selector to load
+        const fileContent = document.getElementById('fileContent');  // <pre> element
+        const textArea = document.getElementById('myTextArea');      // <textarea> element
+        const saveFile = document.getElementById('saveFileInput');   // textbox for filename to use to save file
 
         let storage = "";
         let spacer = 
@@ -46,7 +48,10 @@
 
 *******************************************************************
 
-`
+`       
+        // Set the placeholder as the value on page load
+        saveFile.value = saveFile.placeholder;
+
         fileInput.addEventListener("click", () => {  // this allows the 'change' event to work if the same file is chosen again
             fileInput.value = ""; 
         });
