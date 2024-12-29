@@ -4,29 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #myTextBox {
+            width: 400px;
+            /* height: 200px; */
+            padding: 0 0 400px 0;
+        }
+    </style>
 </head>
 <body>
-    <pre  id="fileContent">
-        <input type="file" id="fileInput">
-    </pre>
+
+    <pre id="fileContent">NOT CURRENTLY USED</pre> 
+
+    <input id="fileInput" type="file">
+    <br><br>
+
+    <button onclick="appendTextBoxToFile()">Save To File</button>
+    <br><br>
+
+    <textarea id="myTextArea"></textarea>
+        
+    <!-- <input id="myTextBox" type="text" placeholder="Text to Find" ><br><br> -->
+
 
     <script>
 
         const fileInput = document.getElementById('fileInput');
         const fileContent = document.getElementById('fileContent');
+        const textArea = document.getElementById('myTextArea');
 
+        let storage = "";
+        let spacer = 
+`
+
+*************************
+
+`
         fileInput.addEventListener('change', (event) => {
+
+            // alert("onchange");
+
             const file = event.target.files[0];
 
             const reader = new FileReader();
 
             reader.onload = (event) => {
-                fileContent.textContent = event.target.result;
+                //alert("reader.onload"); 
+                
+                storage = textArea.value = (storage + event.target.result);
+                storage = storage + spacer;
             };
 
             reader.readAsText(file);
         });
-        
+
+        function appendTextBoxToFile() {
+            const textBoxContent = document.getElementById("myTextArea").value;
+
+            // Create a Blob containing the text
+            const blob = new Blob([textBoxContent], { type: "text/plain" });
+
+            // Create a URL for the Blob
+            const url = URL.createObjectURL(blob);
+
+            // Create a link and trigger a download
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = "textarea.txt";
+            link.click();
+
+            // Clean up the URL object
+            URL.revokeObjectURL(url);
+        }
+
+        function placeCursorAtTopLeft() {
+            alert("textbox");
+            textArea.focus(); // Make sure the input has focus
+            textArea.setSelectionRange(0, 0); // Set the selection range to the beginning
+        }
+
     </script>
 </body>
 </html>
