@@ -14,12 +14,12 @@
 </head>
 <body>
 
-    <pre id="fileContent">NOT CURRENTLY USED</pre> 
+    <pre id="fileContent">MY NOTEPAD</pre> 
 
     <input id="fileInput" type="file">
     <br><br>
 
-    <button onclick="appendTextBoxToFile()">Save To File</button>
+    <button onclick="appendTextBoxToFile()">Save To File</button><input id="saveFileInput" type="text" title="Save Filename" placeholder="enter filename to save ...">
     <br><br>
 
     <textarea id="myTextArea"></textarea>
@@ -32,6 +32,7 @@
         const fileInput = document.getElementById('fileInput');
         const fileContent = document.getElementById('fileContent');
         const textArea = document.getElementById('myTextArea');
+        const saveFile = document.getElementById('saveFileInput');
 
         let storage = "";
         let spacer = 
@@ -40,6 +41,10 @@
 *************************
 
 `
+        fileInput.addEventListener("click", () => {  // this allows the 'change' event to work if the same file is chosen again
+            fileInput.value = ""; 
+        });
+
         fileInput.addEventListener('change', (event) => {
 
             // alert("onchange");
@@ -70,7 +75,7 @@
             // Create a link and trigger a download
             const link = document.createElement("a");
             link.href = url;
-            link.download = "textarea.txt";
+            link.download = saveFile.value; // "textarea.txt";
             link.click();
 
             // Clean up the URL object
