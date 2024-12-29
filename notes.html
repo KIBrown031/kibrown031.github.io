@@ -27,7 +27,7 @@
 
     <button onclick="appendTextBoxToFile()">Save To File</button>
     
-    <input id="saveFileInput" type="text" title="Save Filename" placeholder="enter filename to save">
+    <input id="saveFileInput" type="text" title="Save Filename" placeholder="default.txt">
     <br><br>
 
     <textarea id="myTextArea"></textarea>
@@ -76,7 +76,7 @@
 
         function appendTextBoxToFile() {
 
-            let result = confirm(`Are you sure you want to save to file "${saveFile.value}" ?`);
+            let result = confirm(`Save to file name: "${saveFile.value}" ?`);
 
                 if (!result) {
                 // User clicked CANCEL
