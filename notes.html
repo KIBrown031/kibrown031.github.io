@@ -13,7 +13,7 @@
 
         #myTextArea {
             width:  800px;
-            height: 800px;
+            height: 600px;
             
         }
     </style>
@@ -75,6 +75,14 @@
         });
 
         function appendTextBoxToFile() {
+
+            let result = confirm(`Are you sure you want to save to file "${saveFile.value}" ?`);
+
+                if (!result) {
+                // User clicked CANCEL
+                return;
+                }        
+
             const textBoxContent = document.getElementById("myTextArea").value;
 
             // Create a Blob containing the text
@@ -93,10 +101,10 @@
             URL.revokeObjectURL(url);
         }
 
-        function placeCursorAtTopLeft() {
-            alert("textbox");
-            textArea.focus(); // Make sure the input has focus
-            textArea.setSelectionRange(0, 0); // Set the selection range to the beginning
+        function placeCursorAtTopLeft() {  // not currently used
+            // alert("textbox");
+            // textArea.focus(); // Make sure the input has focus
+            // textArea.setSelectionRange(0, 0); // Set the selection range to the beginning
         }
 
     </script>
