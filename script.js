@@ -83,11 +83,12 @@ request.onsuccess = function () {
 
 
     // remove data
+    
     // const deleteCar = store.delete(1);
 
-    deleteCar.onsuccess = function () {
-    console.log("Red Toyota has been removed");
-    };
+    // deleteCar.onsuccess = function () {
+    // console.log("Red Toyota has been removed");
+    // };
 
 
     const redCarKey = colourIndex.getKey(["Red"]);
