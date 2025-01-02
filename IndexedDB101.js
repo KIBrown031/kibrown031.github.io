@@ -32,7 +32,7 @@ open.onsuccess = function() {
     store.put({id: 34343, name: {first: "Larry", last: "Alston"}, age: 42, extra: 3});
     store.put({id: 45454, name: {first: "Frank", last: "Vann"}, age: 35, extra: 4});
     store.put({id: 11111, name: {first: "Emma", last: "Harding"}, age: 42, extra: 5});
-    store.put({id: 22222, name: {first: "Leroy", last: "Scott"}, age: 35});
+    store.put({id: 22222, name: {first: "Leroy", last: "Scott"}, age: 35, extra: 6});
     store.put({id: 33333, name: {first: "Oscar", last: "Simpson"}, age: 42});
     store.put({id: 44444, name: {first: "Tim", last: "Kirkland"}, age: 35}); 
     store.put({id: 55555, name: {first: "Jake", last: "Jackson"}, age: 42});
