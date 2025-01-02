@@ -27,20 +27,21 @@ open.onsuccess = function() {
     var index = store.index("NameIndex");
 
     // Add some data
-    store.put({id: 12345, name: {first: "John", last: "Doe"}, age: 42, extra: 1});
-    store.put({id: 67890, name: {first: "Bob", last: "Smith"}, age: 35, extra: 2});
-    store.put({id: 34343, name: {first: "Larry", last: "Alston"}, age: 42, extra: 3});
-    store.put({id: 45454, name: {first: "Frank", last: "Vann"}, age: 35, extra: 4});
-    store.put({id: 11111, name: {first: "Emma", last: "Harding"}, age: 42, extra: 5});
-    store.put({id: 22222, name: {first: "Leroy", last: "Scott"}, age: 35, extra: 6});
-    store.put({id: 33333, name: {first: "Oscar", last: "Simpson"}, age: 42});
-    store.put({id: 44444, name: {first: "Tim", last: "Kirkland"}, age: 35}); 
-    store.put({id: 55555, name: {first: "Jake", last: "Jackson"}, age: 42});
-    store.put({id: 66666, name: {first: "Bob", last: "Newhart"}, age: 35});
-    store.put({id: 77777, name: {first: "Luke", last: "McCoy"}, age: 42});
-    store.put({id: 88888, name: {first: "Matthew", last: "Henson"}, age: 35});
-    store.put({id: 99998, name: {first: "Sam", last: "Malone"}, age: 42});
-    store.put({id: 99999, name: {first: "Clark", last: "Gable"}, age: 35});
+    id = 12345;
+    store.put({id: id++, name: {first: "John", last: "Doe"}, age: 42, extra: 1});
+    store.put({id: id++, name: {first: "Bob", last: "Smith"}, age: 35, extra: 2});
+    store.put({id: id++, name: {first: "Larry", last: "Alston"}, age: 42, extra: 3});
+    store.put({id: id++, name: {first: "Frank", last: "Vann"}, age: 35, extra: 4});
+    store.put({id: id++, name: {first: "Emma", last: "Harding"}, age: 42, extra: 5});
+    store.put({id: id++, name: {first: "Leroy", last: "Scott"}, age: 35, extra: 6});
+    store.put({id: id++, name: {first: "Oscar", last: "Simpson"}, age: 42, extra: 7});
+    store.put({id: id++, name: {first: "Tim", last: "Kirkland"}, age: 35, extra: 8}); 
+    store.put({id: id++, name: {first: "Jake", last: "Jackson"}, age: 42, extra: 9});
+    store.put({id: id++, name: {first: "Bob", last: "Newhart"}, age: 35, extra: 10});
+    store.put({id: id++, name: {first: "Luke", last: "McCoy"}, age: 42, extra: 11});
+    store.put({id: id++, name: {first: "Matthew", last: "Henson"}, age: 35, extra: 12});
+    store.put({id: id++, name: {first: "Sam", last: "Malone"}, age: 42, extra: 13});
+    store.put({id: id++, name: {first: "Clark", last: "Gable"}, age: 35, extra: 14});
     
 
     // my addition for have cursor go through data base
