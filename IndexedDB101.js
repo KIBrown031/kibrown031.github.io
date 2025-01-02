@@ -13,15 +13,50 @@ open.onupgradeneeded = function() {
 
 open.onsuccess = function() {
     // Start a new transaction
+    
+    // IDBDatabase
     var db = open.result;
+    
+    // IDBTransaction
     var tx = db.transaction("MyObjectStore", "readwrite");
+    
+    // IDBObjectStore
     var store = tx.objectStore("MyObjectStore");
+    
+    // IDBIndex
     var index = store.index("NameIndex");
 
     // Add some data
-    store.put({id: 12345, name: {first: "John", last: "Doe"}, age: 42});
-    store.put({id: 67890, name: {first: "Bob", last: "Smith"}, age: 35});
+    store.put({id: 12345, name: {first: "John", last: "Doe"}, age: 42, extra: 1});
+    store.put({id: 67890, name: {first: "Bob", last: "Smith"}, age: 35, extra: 2});
+    store.put({id: 34343, name: {first: "Larry", last: "Alston"}, age: 42, extra: 3});
+    store.put({id: 45454, name: {first: "Frank", last: "Vann"}, age: 35, extra: 4});
+    store.put({id: 11111, name: {first: "Emma", last: "Harding"}, age: 42, extra: 5});
+    store.put({id: 22222, name: {first: "Leroy", last: "Scott"}, age: 35});
+    store.put({id: 33333, name: {first: "Oscar", last: "Simpson"}, age: 42});
+    store.put({id: 44444, name: {first: "Tim", last: "Kirkland"}, age: 35}); 
+    store.put({id: 55555, name: {first: "Jake", last: "Jackson"}, age: 42});
+    store.put({id: 66666, name: {first: "Bob", last: "Newhart"}, age: 35});
+    store.put({id: 77777, name: {first: "Luke", last: "McCoy"}, age: 42});
+    store.put({id: 88888, name: {first: "Matthew", last: "Henson"}, age: 35});
+    store.put({id: 99998, name: {first: "Sam", last: "Malone"}, age: 42});
+    store.put({id: 99999, name: {first: "Clark", last: "Gable"}, age: 35});
     
+
+    // my addition for have cursor go through data base
+    store.openCursor().onsuccess = (event) => {
+        const cursor = event.target.result;
+        if (cursor) {
+          console.log(`Name for ID: ${cursor.key} is ${cursor.value.name.first} ${cursor.value.name.last} - ${cursor.value?.extra}`);
+          cursor.continue();
+        } else {
+          console.log("No more entries!");
+        }
+      }
+
+
+
+
     // Query the data
     var getJohn = store.get(12345);
     var getBob = index.get(["Smith", "Bob"]);
@@ -39,3 +74,85 @@ open.onsuccess = function() {
         db.close();
     };
 }
+
+/*  https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
+
+// Open (or create) the database
+let open = indexedDB.open("MyDatabase", 1);
+
+const objectStore = db.transaction("customers").objectStore("customers");
+
+objectStore.openCursor().onsuccess = (event) => {
+  const cursor = event.target.result;
+  if (cursor) {
+    console.log(`Name for SSN ${cursor.key} is ${cursor.value.name}`);
+    cursor.continue();
+  } else {
+    console.log("No more entries!");
+  }
+}
+*/
+
+
+/*  https://stackoverflow.com/questions/47931595/indexeddb-getting-all-data-with-keys
+
+
+    transaction = this.db.transaction(["table"]);
+    object_store = transaction.objectStore("table");
+    request = object_store.openCursor();
+
+    request.onerror = function(event) {
+    console.err("error fetching data");
+    };
+    request.onsuccess = function(event) {
+    let cursor = event.target.result;
+    if (cursor) {
+        let key = cursor.primaryKey;
+        let value = cursor.value;
+        console.log(key, value);
+        cursor.continue();
+    }
+    else {
+        // no more results
+    }
+    };
+
+*/
+
+const getAll = (db, store) => new Promise((res, rej) => {
+    // Fetch keys
+    const keysTr = db.transaction(store).objectStore(store).getAllKeys()
+    keysTr.onsuccess = (event) => {
+      const keys = event.target.result
+      if (keys?.length) {
+        // Start a new transaction for final result
+        const valuesTr = db.transaction(store)
+        const objStore = valuesTr.objectStore(store)
+  
+        const result = [] // { key, value }[]
+  
+        // Iterate over keys
+        keys.forEach(key => {
+          const tr = objStore.get(key)
+          tr.onsuccess = e => {
+            result.push({
+              key,
+              value: e.target.result
+            })
+          }
+        })
+        // Resolve `getAll` with final { key, value }[] result
+        valuesTr.oncomplete = (event) => {
+          res(result)
+        }
+        valuesTr.onerror = (event) => {
+          rej(event)
+        }
+      }
+      else
+        res([])
+    }
+    keysTr.onerror = (event) => {
+      rej(event)
+    }
+  })
