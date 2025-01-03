@@ -1,3 +1,5 @@
+let arr = Array.from({length: 1000}, (e, i)=> i)
+
 // This works on all devices/browsers, and uses IndexedDBShim as a final fallback 
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
@@ -29,21 +31,25 @@ open.onsuccess = function() {
     // Add some data
     id = 12345;
     age = 50;
-    extra = 125;
-    store.put({ id: id++, name: {first: "John", last: "Doe"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Bob", last: "Smith"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Larry", last: "Alston"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Frank", last: "Vann"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Emma", last: "Harding"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Leroy", last: "Scott"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Oscar", last: "Simpson"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Tim", last: "Kirkland"}, age: age++, extra: extra++ }); 
-    store.put({ id: id++, name: {first: "Jake", last: "Jackson"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Bob", last: "Newhart"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Luke", last: "McCoy"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Matthew", last: "Henson"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Sam", last: "Malone"}, age: age++, extra: extra++ });
-    store.put({ id: id++, name: {first: "Clark", last: "Gable"}, age: age++, extra: extra++ });
+    extra = 1;
+
+    arr.forEach( () => {
+        store.put({ id: id++, name: {first: "John", last: "Doe"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Bob", last: "Smith"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Larry", last: "Alston"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Frank", last: "Vann"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Emma", last: "Harding"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Leroy", last: "Scott"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Oscar", last: "Simpson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Tim", last: "Kirkland"}, age: age++, extra: extra++ }); 
+        store.put({ id: id++, name: {first: "Jake", last: "Jackson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Bob", last: "Newhart"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Luke", last: "McCoy"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Matthew", last: "Henson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Sam", last: "Malone"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Clark", last: "Gable"}, age: age++, extra: extra++ });
+    })
+
     
 
     // my addition for have cursor go through data base
