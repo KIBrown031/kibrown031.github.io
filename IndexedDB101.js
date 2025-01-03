@@ -36,26 +36,27 @@ open.onsuccess = function() {
     extra = 1;
 
     arr.forEach( (num, ndx) => { // arr == array of 1000 elements * 14 ==  14,000
-        store.put({ id: id++, name: {first: "John" + Math.floor(1000 * Math.random()), last: "Doe"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "John", last: "Doe"}, age: age++, extra: extra++ });
         store.put({ id: id++, name: {first: "Bob", last: "Smith"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Larry" + Math.floor(1000 * Math.random()), last: "Alston"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Frank" + Math.floor(1000 * Math.random()), last: "Vann"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Emma" + Math.floor(1000 * Math.random()), last: "Harding"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Leroy" + Math.floor(1000 * Math.random()), last: "Scott"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Oscar" + Math.floor(1000 * Math.random()), last: "Simpson"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Tim" + Math.floor(1000 * Math.random()), last: "Kirkland"}, age: age++, extra: extra++ }); 
-        store.put({ id: id++, name: {first: "Jake" + Math.floor(1000 * Math.random()), last: "Jackson"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Bob" + Math.floor(1000 * Math.random()), last: "Newhart"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Luke" + Math.floor(1000 * Math.random()), last: "McCoy"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Matthew" + Math.floor(1000 * Math.random()), last: "Henson"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Sam" + Math.floor(1000 * Math.random()), last: "Malone"}, age: age++, extra: extra++ });
-        store.put({ id: id++, name: {first: "Clark" + Math.floor(1000 * Math.random()), last: "Gable"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Larry", last: "Alston"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Frank", last: "Vann"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Emma", last: "Harding"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Leroy", last: "Scott"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Oscar", last: "Simpson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Tim", last: "Kirkland"}, age: age++, extra: extra++ }); 
+        store.put({ id: id++, name: {first: "Jake", last: "Jackson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Bob", last: "Newhart"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Luke", last: "McCoy"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Matthew", last: "Henson"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Sam", last: "Malone"}, age: age++, extra: extra++ });
+        store.put({ id: id++, name: {first: "Clark", last: "Gable"}, age: age++, extra: extra++ });
     })
 
     
     // Query the data
     var getJohn = store.get(12345);
     var getBob = index.get(["Smith", "Bob"]);
+    let getJake = index.get(["Jackson", "Jake"]);
 
     getJohn.onsuccess = function() {
         console.log( `${getJohn.result.name.first} ${getJohn.result.name.last}` );  // => "John"
@@ -65,6 +66,9 @@ open.onsuccess = function() {
         console.log( `${getBob.result.name.first} ${getBob.result.name.last}` );   // => "Bob"
     };
 
+    getJake.onsuccess = function() {
+        console.log( `${getJake.result.name.first} ${getJake.result.name.last}` );   // => "Bob"
+    };
 
     
 
