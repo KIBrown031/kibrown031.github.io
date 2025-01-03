@@ -1,6 +1,6 @@
 
 // let arr = Array.from({length: 1000}, (value, index)=> index)
-   let arr = Array.from({length: 1000}, (e, i)=> i) // arr == array of 1000 elementslet arr = Array.from({length: 1000}, (value, index)=> index) // arr == array of 1000 elements
+   let arr = Array.from({length: 1000}, (e, i)=> i+250) // arr == array of 1000 elementslet arr = Array.from({length: 1000}, (value, index)=> index) // arr == array of 1000 elements
 
 // This works on all devices/browsers, and uses IndexedDBShim as a final fallback 
 var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
@@ -35,7 +35,7 @@ open.onsuccess = function() {
     age = 50;
     extra = 1;
 
-    arr.forEach( () => { // arr == array of 1000 elements * 14 ==  14,000
+    arr.forEach( (num, ndx) => { // arr == array of 1000 elements * 14 ==  14,000
         store.put({ id: id++, name: {first: "John" + Math.floor(1000 * Math.random()), last: "Doe"}, age: age++, extra: extra++ });
         store.put({ id: id++, name: {first: "Bob", last: "Smith"}, age: age++, extra: extra++ });
         store.put({ id: id++, name: {first: "Larry" + Math.floor(1000 * Math.random()), last: "Alston"}, age: age++, extra: extra++ });
