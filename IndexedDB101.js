@@ -56,18 +56,22 @@ open.onsuccess = function() {
     // Query the data
     var getJohn = store.get(12345);
     var getBob = index.get(["Smith", "Bob"]);
-    let getJake = index.get(["Jackson", "Jake"]);
 
     getJohn.onsuccess = function() {
-        console.log( `${getJohn.result.name.first} ${getJohn.result.name.last}` );  // => "John"
+        console.log( `${getJohn?.result?.name?.first} ${getJohn?.result?.name?.last}` );  // => "John"
     };
 
     getBob.onsuccess = function() {
-        console.log( `${getBob.result.name.first} ${getBob.result.name.last}` );   // => "Bob"
+        console.log( `${getBob?.result?.name?.first} ${getBob?.result?.name?.last}` );   // => "Bob"
     };
 
-    getJake.onsuccess = function() {
-        console.log( `${getJake.result.name.first} ${getJake.result.name.last}` );   // => "Bob"
+    
+    //let query = store.index("NameIndex");
+    //let getJakeAll = query.getAll("Jackson");
+    let getJakeAll = index.getAll("Jackson")
+    getJakeAll.onsuccess = function() {
+        console.log(getJakeAll?.result);
+        console.log( `${getJakeAll?.result} ${getJakeAll?.result}` );   // => "Jake"
     };
 
     
