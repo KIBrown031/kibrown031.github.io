@@ -3,32 +3,32 @@
    let arr = Array.from({length: 1000}, (e, i)=> i+250) // arr == array of 1000 elementslet arr = Array.from({length: 1000}, (value, index)=> index) // arr == array of 1000 elements
 
 // This works on all devices/browsers, and uses IndexedDBShim as a final fallback 
-var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
+let indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
 
 // Open (or create) the database
-var open = indexedDB.open("MyDatabase", 1);
+let open = indexedDB.open("MyDatabase", 1);
 
 // Create the schema
 open.onupgradeneeded = function() {
-    var db = open.result;
-    var store = db.createObjectStore("MyObjectStore", {keyPath: "id"});
-    var index = store.createIndex("NameIndex", ["name.last", "name.first"]);
+    let db = open.result;
+    let store = db.createObjectStore("MyObjectStore", {keyPath: "id"});
+    let index = store.createIndex("NameIndex", ["name.last", "name.first"]);
 };
 
 open.onsuccess = function() {
     // Start a new transaction
     
     // IDBDatabase
-    var db = open.result;
+    let db = open.result;
     
     // IDBTransaction
-    var tx = db.transaction("MyObjectStore", "readwrite");
+    let tx = db.transaction("MyObjectStore", "readwrite");
     
     // IDBObjectStore
-    var store = tx.objectStore("MyObjectStore");
+    let store = tx.objectStore("MyObjectStore");
     
     // IDBIndex
-    var index = store.index("NameIndex");
+    let index = store.index("NameIndex");
 
     // Add some data
     id = 12345;
@@ -54,8 +54,8 @@ open.onsuccess = function() {
 
     
     // Query the data
-    var getJohn = store.get(12345);
-    var getBob = index.get(["Smith", "Bob"]);
+    let getJohn = store.get(12345);
+    let getBob = index.get(["Smith", "Bob"]);
 
     getJohn.onsuccess = function() {
         console.log( `${getJohn?.result?.name?.first} ${getJohn?.result?.name?.last}` );  // => "John"
@@ -68,15 +68,16 @@ open.onsuccess = function() {
     
     //let query = store.index("NameIndex");
     //let getJakeAll = query.getAll("Jackson");
-    let getJakeAll = index.getAll("Jackson")
+    let getJakeAll = index.getAll("Smith")
     getJakeAll.onsuccess = function() {
         console.log(getJakeAll?.result);
         console.log( `${getJakeAll?.result} ${getJakeAll?.result}` );   // => "Jake"
     };
 
-    
+    getAll(db, store)
 
     // my addition for have cursor go through data base
+/*
     store.openCursor().onsuccess = (event) => {
         const cursor = event.target.result;
         if (cursor) {
@@ -86,7 +87,7 @@ open.onsuccess = function() {
           console.log("No more entries!");
         }
       }
-
+*/
 
 
 
