@@ -90,7 +90,7 @@ function loadjQueryInDevtools () { // paste directly into console  // dont defin
 
 
 let fz = 14;
-let selectedfile = "";
+let selectedfile = "notesdb.json";
 
 $(document).ready(function() {
 

@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "title": "Zoom Logins",
+    "url": "",
+    "note": [
+      "sclintoncong@gmail.com <> SClintonJW2023",
+      "",
+      "WT & Public Talk",
+      "882 0598 6594 <> 456137",
+      "https://us02web.zoom.us/j/88205986594?pwd=S09Vb1E1OE92cVFhUGQ4alN4SXU2UT09",
+      "+13017158592,,88205986594#,,,,*456137#",
+      "",
+      "CL&M",
+      "892 7330 9674 <> 926923",
+      "https://us02web.zoom.us/j/89273309674?pwd=SkVjVGhWd3BsOHc1SDlEVTNXaEVBZz09",
+      "+13017158592,,89273309674#,,,,*926923#",
+      "",
+      "10:00am Field Service",
+      "872 1619 1486 <> 543540",
+      "https://us02web.zoom.us/j/87216191486?pwd=M00xRnB1YllVN1JQczlTSU9XdnhEQT09"
+    ],
+    "date": "2025-02-06",
+    "category": "Theocratic"
+  },
+  {
+    "id": 2,
+    "title": "Talk #73: 'Heart of Wisdom",
+    "url": "",
+    "note": "Februay 23rd - East FT Wash @ 9:30",
+    "date": "2025-02-04",
+    "category": "Theocratic"
+  },
+  {
+    "id": 3,
+    "title": "Talk #141: Human Creation's Groaning, When Will It End?",
+    "url": "",
+    "note": "May 4th - LaPlata @ 12:30 PM",
+    "date": "2025-02-04",
+    "category": "Theocratic"
+  },
+  {
+    "id": 4,
+    "title": "Medical Treatment & HLC",
+    "url": "",
+    "note": [
+      "Letter 12/5/2024: Contacting HLC",
+      "S-55:  Information for Parents Whose Child Requires Medical Treatment",
+      "S-401: Information for Expectant Mothers",
+      "S-407: Information for Patients Requiring Surgery or Chemotherapy"
+    ],
+    "date": "2025-02-04",
+    "category": "Theocratic"
+  },
+  {
+    "id": 5,
+    "title": "Decision Making",
+    "url": "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2025325",
+    "url1": "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2017323",
+    "note": "Helping Crowley with a decision on a job choice - 2/2/2025",
+    "date": "2025-02-04",
+    "category": "Theocratic"
+  },
+  {
+    "id": 6,
+    "title": "WT at Circuit Assembly",
+    "url": "",
+    "note": [
+      "Marsha Brown",
+      "Farah Krell",
+      "George Bolden",
+      "Jean Bolden",
+      "Denise Corbitt",
+      "Vernon Corbitt",
+      "Victoria Watkins",
+      "Jeff Lewis",
+      "Blossom Lewis",
+      "Ivan Holmes",
+      "Myala Holmes",
+      "Wanda Kirkland",
+      "Elizabeth Henderson",
+      "Elisha Harvey",
+      "Rebecca Harvey",
+      "Selina Garrett",
+      "Ella Holland",
+      "Jessica Crowley",
+      "Joseph Ruiz",
+      "Christy Ruiz",
+      "Sheila Moore",
+      "Kenny Pinkney",
+      ""
+    ],
+    "date": "2025-02-04",
+    "category": "Theocratic"
+  },
+  {
+    "id": 7,
+    "title": "MedStar",
+    "url": "https://www.medstarhealth.org/mymedstar-patient-portal",
+    "note": [
+      "McVoy MD,Aklecia",
+      "allopurinol 300 mg",
+      "sildenafil 100 mg",
+      "amLODIPine-benazepril 10 mg-40 mg",
+      "atorvastatin 20 mg",
+      "glyBURIDE-metFORMIN 5",
+      "ONETOUCH VERIO STRIPS"
+    ],
+    "date": "2025-02-04",
+    "category": "Medical"
+  },
+  {
+    "id": 8,
+    "title": "Geico Car Insurance",
+    "url": "",
+    "note": "$1991.80 due Feb 15, 2025",
+    "date": "2025-02-04",
+    "category": "Home"
+  },
+  {
+    "id": 9,
+    "title": "Keith's web address",
+    "url": "https://keithibrown.org/mysite.index.html",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 10,
+    "title": "ZipCode Data",
+    "url": "http://api.zippopotam.us/us/20601",
+    "note": "Invoke-RestMethod 'http://api.zippopotam.us/us/20735' -DisableKeepAlive",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 11,
+    "title": "Useful API",
+    "url": "Invoke-RestMethod \"http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json\" | Select-Object title, transcript, alt, img | Format-List",
+    "note": "A webcomic of romance, sarcasm, math, and language",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 12,
+    "title": "Get IP",
+    "url": "(Invoke-RestMethod ipinfo.io/json).ip",
+    "note": "Get your external IP address",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 13,
+    "title": "WTTR.in Weather",
+    "url": "https://wttr.in/",
+    "note": "/20772: search by zip code doesnt apper to work",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 14,
+    "title": "JSON Simplified",
+    "url": "https://www.youtube.com/watch?v=iiADhChRriM",
+    "note": "Web Dev Simplified",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 15,
+    "title": "JSON Array: LIST of vaild JSON values",
+    "url": "",
+    "note": [
+      "",
+      "jim",
+      78,
+      "BubbA",
+      true,
+      false,
+      null,
+      {},
+      45.367,
+      {
+        "MYKEY": []
+      }
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 16,
+    "title": "JSON is valid JavaScript",
+    "url": "",
+    "note": "JSON can be assigned to a variable in JavaScript",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 17,
+    "title": "JSON.parse()",
+    "url": "",
+    "note": "This will take a 'string' of JSON to produce a JSON Object",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 18,
+    "title": "JSON.stringify()",
+    "url": "",
+    "note": "This will take a JSON Object and convert it to a string",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 19,
+    "title": "Excel: convert columns to JSON key:value pairs,",
+    "url": "",
+    "note": "=CONCAT(CHAR(34),A1,CHAR(34),\":\",CHAR(34),B1,CHAR(34),CHAR(44))",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 20,
+    "title": "Sample JSON data",
+    "url": "curl https://api.github.com/events > events.json",
+    "note": "",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 21,
+    "title": "Github.com API",
+    "url": [
+      "curl https://api.github.com/users/kibrown031/repos | jq '.[].name'",
+      "curl https://api.github.com/repos/kibrown031/json-db"
+    ],
+    "note": "",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 22,
+    "title": "Github CLI",
+    "url": "gh api users/:owner/repos | jq '.[].name'",
+    "note": "",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 23,
+    "title": "DevTools Daily: Developer Tools for Every Day",
+    "url": "https://www.devtoolsdaily.com/",
+    "note": "jq examples - jq playground - much more ...",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 24,
+    "title": "jq: CLI JSON processor",
+    "url": [
+      "https://www.youtube.com/watch?v=m9dhrq9iRHA",
+      "https://www.devtoolsdaily.com/jq_playground/",
+      "curl https://api.github.com/repos/jqlang/jq",
+      "curl https://api.github.com/repos/jqlang/jq/issues?per_page=5"
+    ],
+    "note": [
+      "winget install jqlang.jq",
+      "https://jqlang.github.io/jq/tutorial/",
+      "https://jqlang.github.io/jq/manual/",
+      "https://apihandyman.io/api-toolbox-jq-and-openapi-part-1-using-jq-to-extract-data-from-openapi-files/",
+      "https://gist.github.com/plamentotev/89ad3f10f98481c22f8e3a25715592c3    basic cheat sheet"
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 25,
+    "title": "jq examples",
+    "url": "",
+    "note": [
+      "jq .[].nameofkey",
+      "jq .[] | select(.nameofkey == 'valueofkey' ",
+      "use: '.' to access object   '[]' to access array   '.[]' to get 'value' only from object: both an array [] or object {}"
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 26,
+    "title": "jq: increment subsequent id; by one",
+    "url": "",
+    "note": [
+      " 'to_entries'  This turns an object into an array of .key and .value pairs  The to_entries operation splits an object into an array for each key.",
+      "$res | jq '. |= (to_entries | map(.value += {id: (.key + 1)} | .value))'           id: at bottom",
+      "$res | jq '. |= (to_entries | map(.value = {id: (.key + 1)} + .value | .value))'   id: at top"
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 27,
+    "title": "jq: display all key values",
+    "url": "",
+    "note": "$res | jq 'map(.title)'",
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 28,
+    "title": "jq: add additional key/value pairs",
+    "url": "https://stackoverflow.com/questions/31034746/how-do-i-update-a-single-value-in-a-json-document-using-jq",
+    "note": [
+      "jq -n '. | .new=50 | .shipping.local = false | .shipping.canada = false | .shipping.mexico = true'",
+      "Just note that when setting a value to a property, it doesn't necessarily have to exist. You can add new values easily this way."
+    ],
+    "json": [
+      {
+        "new": 50,
+        "shipping": {
+          "local": false,
+          "canada": false,
+          "mexico": true
+        }
+      }
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 29,
+    "title": "jq: update assignment operator",
+    "url": "",
+    "note": [
+      "In jq, the update-assignment operator (|=) modifies a 'value within' a JSON object or array. It's a powerful tool for making targeted changes to your JSON data.",
+      "How it works:",
+      "Syntax: .key |= expression",
+      "   .key: Specifies the key (or index in case of an array) you want to modify.",
+      "   |=: The update-assignment operator.",
+      "   expression: A jq expression that evaluates to the new value for the specified key.",
+      "example: jq -n  '{ name: John, age: 30 } | . | .age |= . + 199'    produces    { name: John, age: 229 }"
+    ],
+    "date": "",
+    "category": "Json"
+  },
+  {
+    "id": 30,
+    "title": "Date Format:  ISO 8601",
+    "url": "",
+    "note": "Get-Date -Format o  (Get-Date).ToString(“o”)  <>  Get-Date -Format s  (Get-Date).ToString(“s”)",
+    "date": "2025-02-03",
+    "category": "Powershell"
+  },
+  {
+    "id": 31,
+    "title": "jq: filtering",
+    "url": "https://kannappanchidambaram.medium.com/understanding-jq-a-guide-to-processing-and-filtering-json-data-2af8b5ec84cf",
+    "note": [
+      "  jq '.[] | {id, title, url} | select(.id % 10 == 0)'  ",
+      "  jq '.[] | {id, title, category} | select(.category | contains('Theo')) ]'  ",
+      "jq provides additional filters like sort_by(expr) and group_by(expr)"
+    ],
+    "date": "2025-02-03",
+    "category": "Json"
+  },
+  {
+    "id": 32,
+    "title": "Categories",
+    "url": "",
+    "note": "Home  Javascript  Json  Medical  Misc  Powershell  Theocratic  VSCode",
+    "date": "2025-02-04",
+    "category": "Misc"
+  },
+  {
+    "id": 33,
+    "title": "How to use the Filter method in JavaScript to search and filter JSON data",
+    "url": "https://www.youtube.com/watch?v=0WPCyqW6N7Y",
+    "note": "",
+    "date": "2025-02-04",
+    "category": "Javascript"
+  },
+  {
+    "id": 34,
+    "title": "VS Code Shortcuts",
+    "url": "",
+    "note": [
+      "CTRL+SHIFT+P <> Open Command Palete",
+      "SHIFT+ALT+DOWN ARROW  <>  Copy line down",
+      ""
+    ],
+    "date": "2025-02-04",
+    "category": "VSCode"
+  },
+  {
+    "id": 35,
+    "title": "JSON Validation",
+    "url": [
+      "jsonlint.com",
+      ""
+    ],
+    "note": " just pipe to;  jq .  and see if any error at a line number",
+    "date": "2025-02-04",
+    "category": "Json"
+  },
+  {
+    "id": 36,
+    "title": "Jeffrey Hicks",
+    "url": [
+      "https://buttondown.com/behind-the-powershell-pipeline/archive/",
+      "https://jdhitsolutions.com/blog/   'The Lonely Administrator'",
+      "https://jdhitsolutions.com/blog/powershell-tips-tricks-and-advice/"
+    ],
+    "note": "",
+    "date": "2025-02-04",
+    "category": "Powershell"
+  },
+  {
+    "id": 37,
+    "title": "TODO",
+    "url": "",
+    "note": "Clear-Host ; While (1) { \"`e[20A\"; ps | sort -des cpu | select -f 15 | ft -a; sleep 1; }",
+    "date": "2025-02-04",
+    "category": "Powershell"
+  },
+  {
+    "id": 38,
+    "title": "CSS field-sizing:",
+    "url": "https://www.youtube.com/watch?v=ElELqkwzcYM",
+    "note": "Web Dev Simplified  -  good for use with 'TextArea' ",
+    "date": "2025-02-05",
+    "category": "Javascript"
+  },
+  {
+    "id": 39,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 40,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  }
+]
