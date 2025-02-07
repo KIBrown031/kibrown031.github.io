@@ -55,9 +55,11 @@
   {
     "id": 5,
     "title": "Decision Making",
-    "url": "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2025325",
-    "url1": "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2017323",
-    "note": "Helping Crowley with a decision on a job choice - 2/2/2025",
+    "url": [
+      "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2025325",
+      "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2017323"
+    ],
+    "note": "Helping Crowley and Wallace with a decision on a job choice - 2/2/2025",
     "date": "2025-02-04",
     "category": "Theocratic"
   },
@@ -443,6 +445,86 @@
   },
   {
     "id": 40,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 41,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 42,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 43,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 44,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 45,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 46,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 47,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 48,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 49,
+    "title": "TODO",
+    "url": "",
+    "note": "",
+    "date": "",
+    "category": ""
+  },
+  {
+    "id": 50,
     "title": "TODO",
     "url": "",
     "note": "",
