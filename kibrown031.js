@@ -242,8 +242,8 @@ $(document).ready(function() {
         let regexTrue = /^true$/;           // 'true' last column for elder and pioneer
 
         
-        window.location.href = "/json/notesdb.json"
-        window.location.href = "http://127.0.0.1:3000/json/notesdb.json"
+        window.location.href = "/json/notesdb.json"                       // https://keithibrown.org/json/notesdb.json
+        window.location.href = "http://127.0.0.1:3000/json/notesdb.json"  // only the last one of these two will be load
         // alert(`/json/${selectedfile}`);
 
 
