@@ -241,7 +241,7 @@ $(document).ready(function() {
         let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
         let regexTrue = /^true$/;           // 'true' last column for elder and pioneer
 
-        // alert(`/json/${selectedfile}`);
+        alert(`/json/${selectedfile}`);
 
         $.getJSON(`/json/${selectedfile}`, function(data) {  // junk.json contains 'secrets'
           
