@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Categories",
+    "url": "",
+    "note": "Home  Javascript  Json  Medical  Misc  Powershell  Theocratic  VSCode  Wifi",
+    "date": "2025-02-04",
+    "category": "Misc"
+  },
+  {
+    "id": 2,
     "title": "Zoom Logins",
     "url": "",
     "note": [
@@ -28,7 +36,7 @@
     "category": "Theocratic"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Talk #73: 'Heart of Wisdom",
     "url": "",
     "note": "February 23rd - East FT Wash @ 9:30",
@@ -36,7 +44,7 @@
     "category": "Theocratic"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Talk #141: Human Creation's Groaning, When Will It End?",
     "url": "",
     "note": "May 4th - LaPlata @ 12:30 PM",
@@ -44,7 +52,7 @@
     "category": "Theocratic"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Medical Treatment & HLC",
     "url": "",
     "note": [
@@ -57,7 +65,7 @@
     "category": "Theocratic"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Decision Making",
     "url": [
       "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2025325",
@@ -68,7 +76,7 @@
     "category": "Theocratic"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "WT at Circuit Assembly",
     "url": "",
     "note": [
@@ -92,20 +100,19 @@
       "Jessica Crowley",
       "Joseph Ruiz",
       "Christy Ruiz",
-      "Sheila Moore",
+      "Sheila Moore or Valerie Alford",
       "Kenny Pinkney",
       "Kim Pinkney",
       "Arlene Wallace",
       "Sophia Cherry",
       "Cathy Sidbury",
-      "Charles Hunter",
-      "Yvette Hunter"
+      "Devin Herring"
     ],
     "date": "2025-02-04",
     "category": "Theocratic"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "MedStar",
     "url": "https://www.medstarhealth.org/mymedstar-patient-portal",
     "note": [
@@ -121,7 +128,7 @@
     "category": "Medical"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Geico Car Insurance",
     "url": "mbrown5940 <> Marsha12",
     "note": "$1991.80 due Feb 15, 2025",
@@ -129,55 +136,55 @@
     "category": "Home"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Keith's web address",
     "url": "https://keithibrown.org/mysite.index.html",
     "note": "",
-    "date": "",
-    "category": ""
-  },
-  {
-    "id": 10,
-    "title": "ZipCode Data",
-    "url": "http://api.zippopotam.us/us/20601",
-    "note": "Invoke-RestMethod 'http://api.zippopotam.us/us/20735' -DisableKeepAlive",
-    "date": "",
+    "date": "2025-02-04",
     "category": ""
   },
   {
     "id": 11,
-    "title": "Useful API",
-    "url": "Invoke-RestMethod \"http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json\" | Select-Object title, transcript, alt, img | Format-List",
-    "note": "A webcomic of romance, sarcasm, math, and language",
-    "date": "",
-    "category": "Json"
+    "title": "ZipCode Data",
+    "url": "http://api.zippopotam.us/us/20601",
+    "note": "Invoke-RestMethod 'http://api.zippopotam.us/us/20735' -DisableKeepAlive",
+    "date": "2025-02-04",
+    "category": ""
   },
   {
     "id": 12,
-    "title": "Get IP",
-    "url": "(Invoke-RestMethod ipinfo.io/json).ip",
-    "note": "Get your external IP address",
-    "date": "",
+    "title": "Useful API",
+    "url": "Invoke-RestMethod \"http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json\" | Select-Object title, transcript, alt, img | Format-List",
+    "note": "A webcomic of romance, sarcasm, math, and language",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 13,
-    "title": "WTTR.in Weather",
-    "url": "https://wttr.in/",
-    "note": "/20772: search by zip code doesnt apper to work",
-    "date": "",
+    "title": "Get IP",
+    "url": "(Invoke-RestMethod ipinfo.io/json).ip",
+    "note": "Get your external IP address",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 14,
-    "title": "JSON Simplified",
-    "url": "https://www.youtube.com/watch?v=iiADhChRriM",
-    "note": "Web Dev Simplified",
-    "date": "",
+    "title": "WTTR.in Weather",
+    "url": "https://wttr.in/",
+    "note": "/20772: search by zip code doesnt apper to work",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 15,
+    "title": "JSON Simplified",
+    "url": "https://www.youtube.com/watch?v=iiADhChRriM",
+    "note": "Web Dev Simplified",
+    "date": "2025-02-04",
+    "category": "Json"
+  },
+  {
+    "id": 16,
     "title": "JSON Array: LIST of vaild JSON values",
     "url": "",
     "note": [
@@ -194,78 +201,78 @@
         "MYKEY": []
       }
     ],
-    "date": "",
-    "category": "Json"
-  },
-  {
-    "id": 16,
-    "title": "JSON is valid JavaScript",
-    "url": "",
-    "note": "JSON can be assigned to a variable in JavaScript",
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 17,
-    "title": "JSON.parse()",
+    "title": "JSON is valid JavaScript",
     "url": "",
-    "note": "This will take a 'string' of JSON to produce a JSON Object",
-    "date": "",
+    "note": "JSON can be assigned to a variable in JavaScript",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 18,
-    "title": "JSON.stringify()",
+    "title": "JSON.parse()",
     "url": "",
-    "note": "This will take a JSON Object and convert it to a string",
-    "date": "",
+    "note": "This will take a 'string' of JSON to produce a JSON Object",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 19,
-    "title": "Excel: convert columns to JSON key:value pairs,",
+    "title": "JSON.stringify()",
     "url": "",
-    "note": "=CONCAT(CHAR(34),A1,CHAR(34),\":\",CHAR(34),B1,CHAR(34),CHAR(44))",
-    "date": "",
+    "note": "This will take a JSON Object and convert it to a string",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 20,
-    "title": "Sample JSON data",
-    "url": "curl https://api.github.com/events > events.json",
-    "note": "",
-    "date": "",
+    "title": "Excel: convert columns to JSON key:value pairs,",
+    "url": "",
+    "note": "=CONCAT(CHAR(34),A1,CHAR(34),\":\",CHAR(34),B1,CHAR(34),CHAR(44))",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 21,
+    "title": "Sample JSON data",
+    "url": "curl https://api.github.com/events > events.json",
+    "note": "",
+    "date": "2025-02-04",
+    "category": "Json"
+  },
+  {
+    "id": 22,
     "title": "Github.com API",
     "url": [
       "curl https://api.github.com/users/kibrown031/repos | jq '.[].name'",
       "curl https://api.github.com/repos/kibrown031/json-db"
     ],
     "note": "",
-    "date": "",
-    "category": "Json"
-  },
-  {
-    "id": 22,
-    "title": "Github CLI",
-    "url": "gh api users/:owner/repos | jq '.[].name'",
-    "note": "",
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 23,
-    "title": "DevTools Daily: Developer Tools for Every Day",
-    "url": "https://www.devtoolsdaily.com/",
-    "note": "jq examples - jq playground - much more ...",
-    "date": "",
+    "title": "Github CLI",
+    "url": "gh api users/:owner/repos | jq '.[].name'",
+    "note": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 24,
+    "title": "DevTools Daily: Developer Tools for Every Day",
+    "url": "https://www.devtoolsdaily.com/",
+    "note": "jq examples - jq playground - much more ...",
+    "date": "2025-02-04",
+    "category": "Json"
+  },
+  {
+    "id": 25,
     "title": "jq: CLI JSON processor",
     "url": [
       "https://www.youtube.com/watch?v=m9dhrq9iRHA",
@@ -280,11 +287,11 @@
       "https://apihandyman.io/api-toolbox-jq-and-openapi-part-1-using-jq-to-extract-data-from-openapi-files/",
       "https://gist.github.com/plamentotev/89ad3f10f98481c22f8e3a25715592c3    basic cheat sheet"
     ],
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "jq examples",
     "url": "",
     "note": [
@@ -292,11 +299,11 @@
       "jq .[] | select(.nameofkey == 'valueofkey' ",
       "use: '.' to access object   '[]' to access array   '.[]' to get 'value' only from object: both an array [] or object {}"
     ],
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "jq: increment subsequent id; by one",
     "url": "",
     "note": [
@@ -304,19 +311,19 @@
       "$res | jq '. |= (to_entries | map(.value += {id: (.key + 1)} | .value))'           id: at bottom",
       "$res | jq '. |= (to_entries | map(.value = {id: (.key + 1)} + .value | .value))'   id: at top"
     ],
-    "date": "",
-    "category": "Json"
-  },
-  {
-    "id": 27,
-    "title": "jq: display all key values",
-    "url": "",
-    "note": "$res | jq 'map(.title)'",
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
     "id": 28,
+    "title": "jq: display all key values",
+    "url": "",
+    "note": "$res | jq 'map(.title)'",
+    "date": "2025-02-04",
+    "category": "Json"
+  },
+  {
+    "id": 29,
     "title": "jq: add additional key/value pairs",
     "url": "https://stackoverflow.com/questions/31034746/how-do-i-update-a-single-value-in-a-json-document-using-jq",
     "note": [
@@ -333,11 +340,11 @@
         }
       }
     ],
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "jq: update assignment operator",
     "url": "",
     "note": [
@@ -349,11 +356,11 @@
       "   expression: A jq expression that evaluates to the new value for the specified key.",
       "example: jq -n  '{ name: John, age: 30 } | . | .age |= . + 199'    produces    { name: John, age: 229 }"
     ],
-    "date": "",
+    "date": "2025-02-04",
     "category": "Json"
   },
   {
-    "id": 30,
+    "id": 31,
     "title": "Date Format:  ISO 8601",
     "url": "",
     "note": "Get-Date -Format o  (Get-Date).ToString(“o”)  <>  Get-Date -Format s  (Get-Date).ToString(“s”)",
@@ -361,7 +368,7 @@
     "category": "Powershell"
   },
   {
-    "id": 31,
+    "id": 32,
     "title": "jq: filtering",
     "url": "https://kannappanchidambaram.medium.com/understanding-jq-a-guide-to-processing-and-filtering-json-data-2af8b5ec84cf",
     "note": [
@@ -373,14 +380,6 @@
     "category": "Json"
   },
   {
-    "id": 32,
-    "title": "Categories",
-    "url": "",
-    "note": "Home  Javascript  Json  Medical  Misc  Powershell  Theocratic  VSCode",
-    "date": "2025-02-04",
-    "category": "Misc"
-  },
-  {
     "id": 33,
     "title": "How to use the Filter method in JavaScript to search and filter JSON data",
     "url": "https://www.youtube.com/watch?v=0WPCyqW6N7Y",
@@ -390,9 +389,10 @@
   },
   {
     "id": 34,
-    "title": "VS Code Shortcuts",
-    "url": "",
+    "title": "VS Code Tips & Shortcuts",
+    "url": "https://vscode.dev",
     "note": [
+      "Prettier - JSON Formatter and validator",
       "CTRL+SHIFT+P <> Open Command Palete",
       "SHIFT+ALT+DOWN ARROW  <>  Copy line down",
       ""
@@ -449,19 +449,30 @@
   },
   {
     "id": 40,
-    "title": "TODO",
-    "url": "",
-    "note": "",
-    "date": "",
-    "category": ""
+    "title": "HVAC",
+    "url": [
+      "dwright200066@gmail.com",
+      "dalohunt44@me.com",
+      "huntwrightmechanicalservices@gmail.com"
+    ],
+    "note": [
+      "Dave Wright  (301)395-8043",
+      "Darius Hunt  (301)538-5476",
+      ""
+    ],
+    "date": "2025-02-09",
+    "category": "Home"
   },
   {
     "id": 41,
-    "title": "TODO",
+    "title": "SSIDs",
     "url": "",
-    "note": "",
-    "date": "",
-    "category": ""
+    "note": [
+      "Fletcher Gerald - Verizon_JS9TPL - need3-did-risen",
+      ""
+    ],
+    "date": "2025-02-09",
+    "category": "Wifi"
   },
   {
     "id": 42,
