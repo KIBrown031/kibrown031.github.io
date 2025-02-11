@@ -12,7 +12,11 @@
       {
         "id": 10,
         "title": "Keith's web address",
-        "url": "https://keithibrown.org/mysite.index.html",
+        "url": [
+          "https://keithibrown.org/mysite.index.html",
+          "https://keithibrown.org/json/notesdb.json",
+          "https://keithibrown.org/json/<json file name."
+        ],
         "note": "",
         "date": "2025-02-04",
         "category": "Misc"
@@ -184,7 +188,7 @@
         "note": [
           "Dave Wright  (301)395-8043",
           "Darius Hunt  (301)538-5476",
-          ""
+          "Honeywell Home T6 Pro Programmable Thermostat"
         ],
         "date": "2025-02-09",
         "category": "Home"
@@ -434,6 +438,17 @@
         "category": "Json"
       },
       {
+        "id": 51,
+        "title": "jq: select 'notesdb.json' categories",
+        "url": "",
+        "note": [
+          "$res | jq '.[][\"Json\"] | select(. != null)'",
+          "$res | jq -c '.[] | keys'"
+        ],
+        "date": "2025-02-10",
+        "category": "Json"
+      },
+      {
         "id": 35,
         "title": "JSON Validation",
         "url": [
@@ -589,6 +604,36 @@
         "date": "",
         "category": ""
       }
+    ]
+  },
+  {
+    "Future Category-A": [
+      
+    ]
+  },
+  {
+    "Future Category-B": [
+      
+    ]
+  },
+  {
+    "Future Category-C": [
+      
+    ]
+  },
+  {
+    "Future Category-D": [
+      
+    ]
+  },
+  {
+    "Future Category-E": [
+      
+    ]
+  },
+  {
+    "Future Category-F": [
+      
     ]
   }
 ]
