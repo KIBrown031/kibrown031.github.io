@@ -501,6 +501,29 @@
         "note": "Clear-Host ; While (1) { \"`e[20A\"; ps | sort -des cpu | select -f 15 | ft -a; sleep 1; }",
         "date": "2025-02-04",
         "category": "Powershell"
+      },
+      {
+        "id": 52,
+        "title": "Convert CSV to JSON",
+        "url": "",
+        "note": "Import-Csv -Path 'filename.csv' | ConvertTo-Json | Out-File -FilePath 'filename.json'",
+        "date": "2025-02-10",
+        "category": "Powershell"
+      },
+      {
+        "id": 53,
+        "title": "Compare today to days in the future: (Get-Date).AddDays ",
+        "url": "",
+        "note": [
+          "$futureDays = 5 # Number of days in the future to compare against",
+          "$comparisonDate = (Get-Date).AddDays($futureDays) # Calculate the future date",
+          "$currentDate = Get-Date # Get the current date and time",
+
+          "if ($currentDate -lt $comparisonDate) { Write-Host \"Current date is older than $($futureDays) days in the future.\"",
+          "} else {  Write-Host \"Current date is not older than $($futureDays) days in the future.\" }"
+        ],
+        "date": "2025-02-11",
+        "category": "Powershell"
       }
     ]
   },
