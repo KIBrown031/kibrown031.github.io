@@ -358,12 +358,21 @@
       },
       {
         "id": 26,
-        "title": "jq examples",
+        "title": "jq examples:  .[]",
         "url": "",
         "note": [
           "jq .[].nameofkey",
           "jq .[] | select(.nameofkey == 'valueofkey' ",
-          "use: '.' to access object   '[]' to access array   '.[]' to get 'value' only from object: both an array [] or object {}"
+          "use: '.' to access object   '[]' to access array   '.[]' to get 'value' only from object: both an array [] or object {}",
+
+          "The '.[]' operator in jq serves as an iterator for arrays and object values.",
+          "When applied to an array,  it produces each element of the array individually.",
+          "When applied to an object, it produces each value in the object individually.",
+
+          "In essence, '.[]' transforms a structured data type (array or object) into a sequence of its constituent values,",
+          "enabling further processing or filtering of individual elements.",
+          "It is a core component for data manipulation in jq, allowing for iteration and extraction of values from JSON structures."
+
         ],
         "date": "2025-02-04",
         "category": "Json"
@@ -534,6 +543,8 @@
         "title": "VS Code Tips & Shortcuts",
         "url": "https://vscode.dev",
         "note": [
+          "F1 or CTRL-SHFT-P: Open User Settings (JSON)  settings.json",
+          "editor.minimap.enabled: false   editor.minimap.renderCharacters: false", 
           "Prettier - JSON Formatter and validator",
           "CTRL+SHIFT+P <> Open Command Palete",
           "SHIFT+ALT+DOWN ARROW  <>  Copy line down",
