@@ -543,7 +543,17 @@
         "note": [
           "To create a simple 'filter' in PowerShell that takes pipeline input,",
           "the 'filter' keyword or a 'function' with a 'process block' can be used.",
-          "The $_ variable represents the current object in the pipeline."
+          "The '$_' variable represents the current object in the pipeline."
+        ],
+        "date": "2025-02-12",
+        "category": "Powershell"
+      },
+      {
+        "id": 55,
+        "title": "show all class Overloaded Definitions",
+        "url": "",
+        "note": [
+          "[datetime]::new   append  ::new  to a class name"
         ],
         "date": "2025-02-12",
         "category": "Powershell"

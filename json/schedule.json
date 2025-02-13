@@ -1,10 +1,10 @@
 [
   {
-    "DAYOFWEEK": "FRI",
+    "DAYOFWEEK": "THU",
     "YEAR": "2025",
-    "MONTH": "01",
-    "DAY": "31",
-    "MESSAGE": "TODAY'S Test Calendar Event                                 "
+    "MONTH": "02",
+    "DAY": "13",
+    "MESSAGE": "TODAY'S Test Calendar Event"
   },
   {
     "DAYOFWEEK": "SAT",
