@@ -182,6 +182,7 @@
         "title": "HVAC",
         "url": [
           "https://www.youtube.com/watch?v=0059MttECY4   Thermostat Installation",
+          "https://www.youtube.com/watch?v=lvBxQQtY4M4   C-Wire Adaptor         ",
           "dwright200066@gmail.com",
           "dalohunt44@me.com",
           "huntwrightmechanicalservices@gmail.com"
@@ -533,6 +534,18 @@
           "} else {  Write-Host \"Current date is not older than $($futureDays) days in the future.\" }"
         ],
         "date": "2025-02-11",
+        "category": "Powershell"
+      },
+      {
+        "id": 54,
+        "title": "simple function to take pipeline input ",
+        "url": "",
+        "note": [
+          "To create a simple 'filter' in PowerShell that takes pipeline input,",
+          "the 'filter' keyword or a 'function' with a 'process block' can be used.",
+          "The $_ variable represents the current object in the pipeline."
+        ],
+        "date": "2025-02-12",
         "category": "Powershell"
       }
     ]
