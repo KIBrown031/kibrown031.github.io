@@ -2,7 +2,6 @@
   {
     "Misc": [
       {
-        "id": 1,
         "title": "Categories",
         "url": "",
         "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Todo",
@@ -10,7 +9,6 @@
         "category": "Misc"
       },
       {
-        "id": 10,
         "title": "Keith's web address",
         "url": [
           "https://keithibrown.org/mysite.index.html",
@@ -22,7 +20,6 @@
         "category": "Misc"
       },
       {
-        "id": 11,
         "title": "ZipCode Data",
         "url": "http://api.zippopotam.us/us/20601",
         "note": "Invoke-RestMethod 'http://api.zippopotam.us/us/20735' -DisableKeepAlive",
@@ -34,7 +31,6 @@
   {
     "Theocratic": [
       {
-        "id": 2,
         "title": "Zoom Logins",
         "url": "",
         "note": [
@@ -62,7 +58,39 @@
         "category": "Theocratic"
       },
       {
-        "id": 3,
+        "title": "Pioneers",
+        "url": "",
+        "note": [
+
+        ],
+        "date": "2025-02-13",
+        "category": "Theocratic"
+      },
+      {
+        "title": "Elders",
+        "url": "",
+        "note": [
+
+        ],
+        "date": "2025-02-13",
+        "category": "Theocratic"
+      },
+      {
+        "title": "Ministerial Servants",
+        "url": "",
+        "note": [
+          "Vernon Corbitt <vrnncrbtt@yahoo.com>",
+          "Michael Corbitt <ninja_yoshindo@msn.com>",
+          "Rudi Warren <rudi.warren0224@gmail.com>",
+          "Harold Jacobs <bjake88@hotmail.com>",
+          "Devin Herring <dherringjw@gmail.com>",
+          "Vavian Cox <koolv@hotmail.com>",
+          "Ralph Proctor <ralphprct42@gmail.com>"
+        ],
+        "date": "2025-02-13",
+        "category": "Theocratic"
+      },
+      {
         "title": "Talk #73: 'Heart of Wisdom",
         "url": "",
         "note": "February 23rd - East FT Wash @ 9:30",
@@ -70,7 +98,6 @@
         "category": "Theocratic"
       },
       {
-        "id": 4,
         "title": "Talk #141: Human Creation's Groaning, When Will It End?",
         "url": "",
         "note": "May 4th - LaPlata @ 12:30 PM",
@@ -78,7 +105,6 @@
         "category": "Theocratic"
       },
       {
-        "id": 5,
         "title": "Medical Treatment & HLC",
         "url": "",
         "note": [
@@ -91,7 +117,6 @@
         "category": "Theocratic"
       },
       {
-        "id": 6,
         "title": "Decision Making",
         "url": [
           "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=2025325",
@@ -102,7 +127,6 @@
         "category": "Theocratic"
       },
       {
-        "id": 7,
         "title": "WT at Circuit Assembly",
         "url": "",
         "note": [
@@ -142,7 +166,6 @@
   {
     "Medical": [
       {
-        "id": 8,
         "title": "MedStar",
         "url": "https://www.medstarhealth.org/mymedstar-patient-portal",
         "note": [
@@ -162,7 +185,6 @@
   {
     "Home": [
       {
-        "id": 9,
         "title": "Geico Car Insurance",
         "url": "mbrown5940 <> Marsha12",
         "note": "$1991.80 due Feb 15, 2025",
@@ -170,7 +192,6 @@
         "category": "Home"
       },
       {
-        "id": 39,
         "title": "IRS",
         "url": "https://www.freefilefillableforms.com/",
         "note": "kibrown20772",
@@ -178,11 +199,12 @@
         "category": "Home"
       },
       {
-        "id": 40,
         "title": "HVAC",
         "url": [
-          "https://www.youtube.com/watch?v=0059MttECY4   Thermostat Installation",
-          "https://www.youtube.com/watch?v=lvBxQQtY4M4   C-Wire Adaptor         ",
+          "https://www.youtube.com/watch?v=0059MttECY4   Thermostat Installation ",
+          "https://www.youtube.com/watch?v=lvBxQQtY4M4   C-Wire Adaptor          ",
+          "https://www.youtube.com/watch?v=wPBtVwsu_7c   Unlock / Lock Thermostat",
+          "https://www.youtube.com/watch?v=Cwjx2quYCu4   Advanced Programming    ",
           "dwright200066@gmail.com",
           "dalohunt44@me.com",
           "huntwrightmechanicalservices@gmail.com"
@@ -190,7 +212,7 @@
         "note": [
           "Dave Wright  (301)395-8043",
           "Darius Hunt  (301)538-5476",
-          "Honeywell Home T6 Pro Programmable Thermostat"
+          "Honeywell Home T6 Pro Programmable Thermostat  TH6320U2008 #2050JC435208"
         ],
         "date": "2025-02-09",
         "category": "Home"
@@ -200,7 +222,6 @@
   {
     "Javascript": [
       {
-        "id": 33,
         "title": "How to use the Filter method in JavaScript to search and filter JSON data",
         "url": "https://www.youtube.com/watch?v=0WPCyqW6N7Y",
         "note": "",
@@ -208,7 +229,6 @@
         "category": "Javascript"
       },
       {
-        "id": 38,
         "title": "CSS field-sizing:",
         "url": "https://www.youtube.com/watch?v=ElELqkwzcYM",
         "note": "Web Dev Simplified  -  good for use with 'TextArea' ",
@@ -220,7 +240,6 @@
   {
     "Json": [
       {
-        "id": 12,
         "title": "Useful API",
         "url": "Invoke-RestMethod \"http://xkcd.com/$(Get-Random -min 0 -max 2000)/info.0.json\" | Select-Object title, transcript, alt, img | Format-List",
         "note": "A webcomic of romance, sarcasm, math, and language",
@@ -228,7 +247,6 @@
         "category": "Json"
       },
       {
-        "id": 13,
         "title": "Get IP",
         "url": "(Invoke-RestMethod ipinfo.io/json).ip",
         "note": "Get your external IP address",
@@ -236,7 +254,6 @@
         "category": "Json"
       },
       {
-        "id": 14,
         "title": "WTTR.in Weather",
         "url": "https://wttr.in/",
         "note": "/20772: search by zip code doesnt apper to work",
@@ -244,7 +261,6 @@
         "category": "Json"
       },
       {
-        "id": 15,
         "title": "JSON Simplified",
         "url": "https://www.youtube.com/watch?v=iiADhChRriM",
         "note": "Web Dev Simplified",
@@ -252,7 +268,6 @@
         "category": "Json"
       },
       {
-        "id": 16,
         "title": "JSON Array: LIST of vaild JSON values",
         "url": "",
         "note": [
@@ -273,7 +288,6 @@
         "category": "Json"
       },
       {
-        "id": 17,
         "title": "JSON is valid JavaScript",
         "url": "",
         "note": "JSON can be assigned to a variable in JavaScript",
@@ -281,7 +295,6 @@
         "category": "Json"
       },
       {
-        "id": 18,
         "title": "JSON.parse()",
         "url": "",
         "note": "This will take a 'string' of JSON to produce a JSON Object",
@@ -289,7 +302,6 @@
         "category": "Json"
       },
       {
-        "id": 19,
         "title": "JSON.stringify()",
         "url": "",
         "note": "This will take a JSON Object and convert it to a string",
@@ -297,7 +309,6 @@
         "category": "Json"
       },
       {
-        "id": 20,
         "title": "Excel: convert columns to JSON key:value pairs,",
         "url": "",
         "note": "=CONCAT(CHAR(34),A1,CHAR(34),\":\",CHAR(34),B1,CHAR(34),CHAR(44))",
@@ -305,7 +316,6 @@
         "category": "Json"
       },
       {
-        "id": 21,
         "title": "Sample JSON data",
         "url": "curl https://api.github.com/events > events.json",
         "note": "",
@@ -313,7 +323,6 @@
         "category": "Json"
       },
       {
-        "id": 22,
         "title": "Github.com API",
         "url": [
           "curl https://api.github.com/users/kibrown031/repos | jq '.[].name'",
@@ -324,7 +333,6 @@
         "category": "Json"
       },
       {
-        "id": 23,
         "title": "Github CLI",
         "url": "gh api users/:owner/repos | jq '.[].name'",
         "note": "",
@@ -332,7 +340,6 @@
         "category": "Json"
       },
       {
-        "id": 24,
         "title": "DevTools Daily: Developer Tools for Every Day",
         "url": "https://www.devtoolsdaily.com/",
         "note": "jq examples - jq playground - much more ...",
@@ -340,7 +347,6 @@
         "category": "Json"
       },
       {
-        "id": 25,
         "title": "jq: CLI JSON processor",
         "url": [
           "https://www.youtube.com/watch?v=m9dhrq9iRHA",
@@ -359,7 +365,6 @@
         "category": "Json"
       },
       {
-        "id": 26,
         "title": "jq examples:  .[]",
         "url": "",
         "note": [
@@ -380,7 +385,6 @@
         "category": "Json"
       },
       {
-        "id": 27,
         "title": "jq: increment subsequent id; by one",
         "url": "",
         "note": [
@@ -392,7 +396,6 @@
         "category": "Json"
       },
       {
-        "id": 28,
         "title": "jq: display all key values",
         "url": "",
         "note": "$res | jq 'map(.title)'",
@@ -400,7 +403,6 @@
         "category": "Json"
       },
       {
-        "id": 29,
         "title": "jq: add additional key/value pairs",
         "url": "https://stackoverflow.com/questions/31034746/how-do-i-update-a-single-value-in-a-json-document-using-jq",
         "note": [
@@ -421,7 +423,6 @@
         "category": "Json"
       },
       {
-        "id": 30,
         "title": "jq: update assignment operator",
         "url": "",
         "note": [
@@ -437,7 +438,6 @@
         "category": "Json"
       },
       {
-        "id": 32,
         "title": "jq: filtering",
         "url": "https://kannappanchidambaram.medium.com/understanding-jq-a-guide-to-processing-and-filtering-json-data-2af8b5ec84cf",
         "note": [
@@ -449,7 +449,6 @@
         "category": "Json"
       },
       {
-        "id": 51,
         "title": "jq: select 'notesdb.json' categories",
         "url": "",
         "note": [
@@ -460,7 +459,6 @@
         "category": "Json"
       },
       {
-        "id": 35,
         "title": "JSON Validation",
         "url": [
           "jsonlint.com",
@@ -471,7 +469,6 @@
         "category": "Json"
       },
       {
-        "id": 42,
         "title": "jq: tutorial",
         "url": [
           "https://exercism.org/tracks/jq/",
@@ -486,7 +483,6 @@
   {
     "Powershell": [
       {
-        "id": 31,
         "title": "Date Format:  ISO 8601",
         "url": "",
         "note": "Get-Date -Format o  (Get-Date).ToString(“o”)  <>  Get-Date -Format s  (Get-Date).ToString(“s”)",
@@ -494,7 +490,6 @@
         "category": "Powershell"
       },
       {
-        "id": 36,
         "title": "Jeffrey Hicks",
         "url": [
           "https://buttondown.com/behind-the-powershell-pipeline/archive/",
@@ -506,7 +501,6 @@
         "category": "Powershell"
       },
       {
-        "id": 37,
         "title": "TODO",
         "url": "",
         "note": "Clear-Host ; While (1) { \"`e[20A\"; ps | sort -des cpu | select -f 15 | ft -a; sleep 1; }",
@@ -514,7 +508,6 @@
         "category": "Powershell"
       },
       {
-        "id": 52,
         "title": "Convert CSV to JSON",
         "url": "",
         "note": "Import-Csv -Path 'filename.csv' | ConvertTo-Json | Out-File -FilePath 'filename.json'",
@@ -522,7 +515,6 @@
         "category": "Powershell"
       },
       {
-        "id": 53,
         "title": "Compare today to days in the future: (Get-Date).AddDays ",
         "url": "",
         "note": [
@@ -537,7 +529,6 @@
         "category": "Powershell"
       },
       {
-        "id": 54,
         "title": "simple function to take pipeline input ",
         "url": "",
         "note": [
@@ -549,7 +540,6 @@
         "category": "Powershell"
       },
       {
-        "id": 55,
         "title": "show all class Overloaded Definitions",
         "url": "",
         "note": [
@@ -563,7 +553,6 @@
   {
     "VSCode": [
       {
-        "id": 34,
         "title": "VS Code Tips & Shortcuts",
         "url": "https://vscode.dev",
         "note": [
@@ -582,7 +571,6 @@
   {
     "Wifi": [
       {
-        "id": 41,
         "title": "SSIDs",
         "url": "",
         "note": [
@@ -599,7 +587,6 @@
   {
     "Todo": [
       {
-        "id": 43,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -607,7 +594,6 @@
         "category": ""
       },
       {
-        "id": 44,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -615,7 +601,6 @@
         "category": ""
       },
       {
-        "id": 45,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -623,7 +608,6 @@
         "category": ""
       },
       {
-        "id": 46,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -631,7 +615,6 @@
         "category": ""
       },
       {
-        "id": 47,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -639,7 +622,6 @@
         "category": ""
       },
       {
-        "id": 48,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -647,7 +629,6 @@
         "category": ""
       },
       {
-        "id": 49,
         "title": "TODO",
         "url": "",
         "note": "",
@@ -655,7 +636,6 @@
         "category": ""
       },
       {
-        "id": 50,
         "title": "TODO",
         "url": "",
         "note": "",
