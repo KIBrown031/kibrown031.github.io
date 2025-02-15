@@ -4,7 +4,7 @@
       {
         "title": "Categories",
         "url": "",
-        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Todo",
+        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Contacts-SC  Todo",
         "date": "2025-02-04",
         "category": "Misc"
       },
@@ -161,8 +161,11 @@
       {
         "title": "IRS",
         "url": "https://www.freefilefillableforms.com/",
-        "note": "kibrown20772",
-        "date": "2025-02-07",
+        "note": [
+          "kibrown20772  (user)",
+          "+5701.00 2025-02-14"
+        ],
+        "date": "2025-02-14",
         "category": "Home"
       },
       {
@@ -612,7 +615,7 @@
     ]
   },
   {
-    "Contacts-SC": [
+    "Contacts_SC": [
       {
         "title": "Pioneers",
         "url": "",
