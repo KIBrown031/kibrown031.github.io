@@ -4,7 +4,7 @@
       {
         "title": "Categories",
         "url": "",
-        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Contacts-SC  Todo",
+        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Contacts-SC  Todo  Construction",
         "date": "2025-02-04",
         "category": "Misc"
       },
@@ -159,12 +159,29 @@
         "category": "Home"
       },
       {
+        "title": "2019 Hyundai Kona 2.0 Liter 4 Cylinder",
+        "url": "",
+        "note": [
+          "VIN: KM8K12AAXKU338666",
+          "Mileage of last oil change:"
+        ],
+        "date": "2025-02-17",
+        "category": "Home"
+      },
+      {
+        "title": "2007 FORD EXPLORER 4.0liter V6",
+        "url": "",
+        "note": [
+          "VIN: 1FMEU73E77UB04591",
+          "Mileage of last oil change:"
+        ],
+        "date": "2025-02-17",
+        "category": "Home"
+      },
+      {
         "title": "IRS",
         "url": "https://www.freefilefillableforms.com/",
-        "note": [
-          "kibrown20772  (user)",
-          "+5701.00 2025-02-14"
-        ],
+        "note": ["kibrown20772  (user)", "6073.00 2025-02-14"],
         "date": "2025-02-14",
         "category": "Home"
       },
@@ -349,7 +366,6 @@
           "In essence, '.[]' transforms a structured data type (array or object) into a sequence of its constituent values,",
           "enabling further processing or filtering of individual elements.",
           "It is a core component for data manipulation in jq, allowing for iteration and extraction of values from JSON structures."
-
         ],
         "date": "2025-02-04",
         "category": "Json"
@@ -430,10 +446,7 @@
       },
       {
         "title": "JSON Validation",
-        "url": [
-          "jsonlint.com",
-          ""
-        ],
+        "url": ["jsonlint.com", ""],
         "note": " just pipe to;  jq .  and see if any error at a line number",
         "date": "2025-02-04",
         "category": "Json"
@@ -512,9 +525,7 @@
       {
         "title": "show all class Overloaded Definitions",
         "url": "",
-        "note": [
-          "[datetime]::new   append  ::new  to a class name"
-        ],
+        "note": ["[datetime]::new   append  ::new  to a class name"],
         "date": "2025-02-12",
         "category": "Powershell"
       }
@@ -527,7 +538,7 @@
         "url": "https://vscode.dev",
         "note": [
           "F1 or CTRL-SHFT-P: Open User Settings (JSON)  settings.json",
-          "editor.minimap.enabled: false   editor.minimap.renderCharacters: false", 
+          "editor.minimap.enabled: false   editor.minimap.renderCharacters: false",
           "Prettier - JSON Formatter and validator",
           "CTRL+SHIFT+P <> Open Command Palete",
           "SHIFT+ALT+DOWN ARROW  <>  Copy line down",
@@ -547,7 +558,6 @@
           "Fletcher Gerald - Verizon_JS9TPL - need3-did-risen",
           "LaVeria Bates - MyWifi-5 - wifime43",
           "Ivan Holmes - 2GCB8 - Navilucy"
-    
         ],
         "date": "2025-02-09",
         "category": "Wifi"
@@ -617,105 +627,127 @@
   {
     "Contacts_SC": [
       {
-        "title": "Pioneers",
-        "url": "",
-        "note": [
-          "Gail Alexander      (240) 286-4135 <kevgail@verizon.net>",
-          "George Bolden       (301) 518-2221 <gebo1955@verizon.net>",
-          "Jean Bolden         (301) 518-3233 <gebo1955@verizon.net>",
-          "Denise Corbitt      (240) 593-9365 <crbttdns@yahoo.com>",
-          "Jessica Crowley     (240) 601-4755 <crowley.jessica@gmail.com>",
-          "Selina Garrett      (240) 593-6003 <sgarrett166@comcast.net>",
-          "Huntanetta Gibson   (301) 873-5182 <rhuntanetta@gmail.com>",
-          "Elizabeth Henderson (301) 821-1402 <eoh0523@gmail.com>",
-          "Kim Hickman         (301) 318-9956 <kim.hickman@verizon.net>",
-          "Ella Holland        (240) 601-0200 <elladholland@yahoo.com>",
-          "Ivan Holmes         (301) 535-4197 <ivanwholmes@gmail.com>",
-          "Myala Holmes        (216) 401-5335 <msmyala@gmail.com>",
-          "Mina Hughes         (240) 253-7484 <7xforgive@gmail.com>",
-          "Wanda Kirkland      (240) 342-0352 <getwan@gmail.com>",
-          "Jephthah Lewis      (202) 733-0517 <lewisjeff48@gmail.com>",
-          "Maizie Lewis        (301) 653-6842 <lewismaizie71@gmail.com>",
-          "Helena Muse         (202) 812-3113 <helenamuse2@verizon.net>",
-          "Lillian Neal        (301) 877-2460 <cherrytree192@gmail.com>",
-          "Denise Rice         (301) 875-8099 <prebea2013@gmail.com>",
-          "Joseph Ruiz         (202) 413-5403 <joseph@myruiz.com>",
-          "Christy Ruiz        (240) 688-0912 <christy@myruiz.com>",
-          "Mary Vann           (301) 674-3325 <marydevonvann@yahoo.com>",
-          "Arlene Wallace      (301) 704-2722 <tadttw@verizon.net>",
-          "Victoria Watkins    (202) 506-0567 <cvictoria67@gmail.com>",
+        "Pioneers": {
+          "title": "Pioneers",
+          "url": "",
+          "note": [
+            "Gail Alexander      (240) 286-4135 <kevgail@verizon.net>",
+            "George Bolden       (301) 518-2221 <gebo1955@verizon.net>",
+            "Jean Bolden         (301) 518-3233 <gebo1955@verizon.net>",
+            "Denise Corbitt      (240) 593-9365 <crbttdns@yahoo.com>",
+            "Jessica Crowley     (240) 601-4755 <crowley.jessica@gmail.com>",
+            "Selina Garrett      (240) 593-6003 <sgarrett166@comcast.net>",
+            "Huntanetta Gibson   (301) 873-5182 <rhuntanetta@gmail.com>",
+            "Elizabeth Henderson (301) 821-1402 <eoh0523@gmail.com>",
+            "Kim Hickman         (301) 318-9956 <kim.hickman@verizon.net>",
+            "Ella Holland        (240) 601-0200 <elladholland@yahoo.com>",
+            "Ivan Holmes         (301) 535-4197 <ivanwholmes@gmail.com>",
+            "Myala Holmes        (216) 401-5335 <msmyala@gmail.com>",
+            "Mina Hughes         (240) 253-7484 <7xforgive@gmail.com>",
+            "Wanda Kirkland      (240) 342-0352 <getwan@gmail.com>",
+            "Jephthah Lewis      (202) 733-0517 <lewisjeff48@gmail.com>",
+            "Maizie Lewis        (301) 653-6842 <lewismaizie71@gmail.com>",
+            "Helena Muse         (202) 812-3113 <helenamuse2@verizon.net>",
+            "Lillian Neal        (301) 877-2460 <cherrytree192@gmail.com>",
+            "Denise Rice         (301) 875-8099 <prebea2013@gmail.com>",
+            "Joseph Ruiz         (202) 413-5403 <joseph@myruiz.com>",
+            "Christy Ruiz        (240) 688-0912 <christy@myruiz.com>",
+            "Mary Vann           (301) 674-3325 <marydevonvann@yahoo.com>",
+            "Arlene Wallace      (301) 704-2722 <tadttw@verizon.net>",
+            "Victoria Watkins    (202) 506-0567 <cvictoria67@gmail.com>",
 
-          "Gail Alexander <kevgail@verizon.net>, George Bolden <gebo1955@verizon.net>, Jean Bolden <gebo1955@verizon.net>, Denise Corbitt <crbttdns@yahoo.com>, Jessica Crowley <crowley.jessica@gmail.com>, Selina Garrett <sgarrett166@comcast.net>, Huntanetta Gibson <rhuntanetta@gmail.com>, Elizabeth Henderson <eoh0523@gmail.com>",
-          "Kim Hickman <kim.hickman@verizon.net>, Ella Holland <elladholland@yahoo.com>, Ivan Holmes <ivanwholmes@gmail.com>, Myala Holmes <msmyala@gmail.com>, Mina Hughes <7xforgive@gmail.com>, Wanda Kirkland <getwan@gmail.com>, Jephthah Lewis <lewisjeff48@gmail.com>, Maizie Lewis <lewismaizie71@gmail.com>",
-          "Helena Muse <helenamuse2@verizon.net>, Lillian Neal <cherrytree192@gmail.com>, Denise Rice <prebea2013@gmail.com>, Joseph Ruiz <joseph@myruiz.com>, Christy Ruiz <christy@myruiz.com>, Mary Vann <marydevonvann@yahoo.com>, Arlene Wallace <tadttw@verizon.net>, Victoria Watkins <cvictoria67@gmail.com>"
-        ],
-        "date": "2025-02-13",
-        "category": "Contacts-SC"
+            "Gail Alexander <kevgail@verizon.net>, George Bolden <gebo1955@verizon.net>, Jean Bolden <gebo1955@verizon.net>, Denise Corbitt <crbttdns@yahoo.com>, Jessica Crowley <crowley.jessica@gmail.com>, Selina Garrett <sgarrett166@comcast.net>, Huntanetta Gibson <rhuntanetta@gmail.com>, Elizabeth Henderson <eoh0523@gmail.com>",
+            "Kim Hickman <kim.hickman@verizon.net>, Ella Holland <elladholland@yahoo.com>, Ivan Holmes <ivanwholmes@gmail.com>, Myala Holmes <msmyala@gmail.com>, Mina Hughes <7xforgive@gmail.com>, Wanda Kirkland <getwan@gmail.com>, Jephthah Lewis <lewisjeff48@gmail.com>, Maizie Lewis <lewismaizie71@gmail.com>",
+            "Helena Muse <helenamuse2@verizon.net>, Lillian Neal <cherrytree192@gmail.com>, Denise Rice <prebea2013@gmail.com>, Joseph Ruiz <joseph@myruiz.com>, Christy Ruiz <christy@myruiz.com>, Mary Vann <marydevonvann@yahoo.com>, Arlene Wallace <tadttw@verizon.net>, Victoria Watkins <cvictoria67@gmail.com>"
+          ],
+          "date": "2025-02-13",
+          "category": "Contacts-SC"
+        }
       },
       {
-        "title": "Elders",
-        "url": "",
-        "note": [
-          "Keith Brown         (301) 343-0773 <kibrown031@gmail.com>",
-          "George Bolden       (301) 518-2221 <gebo1955@verizon.net>",
-          "Jeff Lewis          (202) 733-0517 <lewisjeff48@gmail.com>",
-          "Everett Kirkland    (703) 270-8381 <timandwan@verizon.net>",
-          "James Wilkinson     (301) 775-7183 <monza67@hotmail.com>",
-          "Devon Vann          (301) 674-3279 <devonvann50@gmail.com>",
-          "Dennis Hughes       (202) 710-1074 <hughesdr@gmail.com>",
-          "Ivan Holmes         (301) 535-4197 <ivanwholmes@gmail.com>",
-          "Joseph Ruiz         (202) 413-5403 <joseph@myruiz.com>",
+        "Elders": {
+          "title": "Elders",
+          "url": "",
+          "note": [
+            "Keith Brown         (301) 343-0773 <kibrown031@gmail.com>",
+            "George Bolden       (301) 518-2221 <gebo1955@verizon.net>",
+            "Jeff Lewis          (202) 733-0517 <lewisjeff48@gmail.com>",
+            "Everett Kirkland    (703) 270-8381 <timandwan@verizon.net>",
+            "James Wilkinson     (301) 775-7183 <monza67@hotmail.com>",
+            "Devon Vann          (301) 674-3279 <devonvann50@gmail.com>",
+            "Dennis Hughes       (202) 710-1074 <hughesdr@gmail.com>",
+            "Ivan Holmes         (301) 535-4197 <ivanwholmes@gmail.com>",
+            "Joseph Ruiz         (202) 413-5403 <joseph@myruiz.com>",
 
-          "Keith Brown <kibrown031@gmail.com>, George Bolden <gebo1955@verizon.net>, Jeff Lewis <lewisjeff48@gmail.com>, Everett Kirkland <timandwan@verizon.net>, James Wilkinson <monza67@hotmail.com>, Devon Vann <devonvann50@gmail.com>, Dennis Hughes <hughesdr@gmail.com>, Ivan Holmes <ivanwholmes@gmail.com>, Joseph Ruiz <joseph@myruiz.com>"
-       ],
-        "date": "2025-02-13",
-        "category": "Contacts-SC"
+            "Keith Brown <kibrown031@gmail.com>, George Bolden <gebo1955@verizon.net>, Jeff Lewis <lewisjeff48@gmail.com>, Everett Kirkland <timandwan@verizon.net>, James Wilkinson <monza67@hotmail.com>, Devon Vann <devonvann50@gmail.com>, Dennis Hughes <hughesdr@gmail.com>, Ivan Holmes <ivanwholmes@gmail.com>, Joseph Ruiz <joseph@myruiz.com>"
+          ],
+          "date": "2025-02-13",
+          "category": "Contacts-SC"
+        }
       },
       {
-        "title": "Ministerial Servants",
-        "url": "",
-        "note": [
-          "Vernon Corbitt      (240) 593-9364 <vrnncrbtt@yahoo.com>",
-          "Michael Corbitt     (240) 593-9358 <ninja_yoshindo@msn.com>",
-          "Rudi Warren         (240) 476-1604 <rudi.warren0224@gmail.com>",
-          "Harold Jacobs       (301) 825-4553 <bjake88@hotmail.com>",
-          "Devin Herring       (202) 251-7857 <dherringjw@gmail.com>",
-          "Vavian Cox          (202) 486-0940 <koolv@hotmail.com>",
-          "Ralph Proctor       (443) 684-9422 <ralphprct42@gmail.com>",
+        "MinisterialServants": {
+          "title": "Ministerial Servants",
+          "url": "",
+          "note": [
+            "Vernon Corbitt      (240) 593-9364 <vrnncrbtt@yahoo.com>",
+            "Michael Corbitt     (240) 593-9358 <ninja_yoshindo@msn.com>",
+            "Rudi Warren         (240) 476-1604 <rudi.warren0224@gmail.com>",
+            "Harold Jacobs       (301) 825-4553 <bjake88@hotmail.com>",
+            "Devin Herring       (202) 251-7857 <dherringjw@gmail.com>",
+            "Vavian Cox          (202) 486-0940 <koolv@hotmail.com>",
+            "Ralph Proctor       (443) 684-9422 <ralphprct42@gmail.com>",
 
-          "Vernon Corbitt <vrnncrbtt@yahoo.com>, Michael Corbitt <ninja_yoshindo@msn.com>, Rudi Warren <rudi.warren0224@gmail.com>, Harold Jacobs <bjake88@hotmail.com>, Devin Herring <dherringjw@gmail.com>, Vavian Cox <koolv@hotmail.com>, Ralph Proctor <ralphprct42@gmail.com>"
-        ],
-        "date": "2025-02-13",
-        "category": "Contacts-SC"
+            "Vernon Corbitt <vrnncrbtt@yahoo.com>, Michael Corbitt <ninja_yoshindo@msn.com>, Rudi Warren <rudi.warren0224@gmail.com>, Harold Jacobs <bjake88@hotmail.com>, Devin Herring <dherringjw@gmail.com>, Vavian Cox <koolv@hotmail.com>, Ralph Proctor <ralphprct42@gmail.com>"
+          ],
+          "date": "2025-02-13",
+          "category": "Contacts-SC"
+        }
       }
     ]
   },
   {
-    "Future Category-B": [
-      
+    "Construction": [
+      {
+        "title": "1/4-20 tap drill size",
+        "url": "",
+        "note": "#7 - 13/64 inch diameter bit",
+        "date": "2025-02-16",
+        "category": "Construction"
+      },
+      {
+        "title": "Door Closer Adjustment",
+        "url": "https://www.youtube.com/watch?v=aSNN_2NrHLI",
+        "note": "Speed   Latch   Power",
+        "date": "2025-02-17",
+        "category": "Construction"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "Construction"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "Construction"
+      }
     ]
   },
   {
-    "Future Category-C": [
-      
-    ]
+    "Future Category-C": []
   },
   {
-    "Future Category-D": [
-      
-    ]
+    "Future Category-D": []
   },
   {
-    "Future Category-E": [
-      
-    ]
+    "Future Category-E": []
   },
   {
-    "Future Category-F": [
-      
-    ]
+    "Future Category-F": []
   }
 ]
- 
-
-  
