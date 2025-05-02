@@ -4,7 +4,7 @@
       {
         "title": "Categories",
         "url": "",
-        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  Contacts-SC  Todo  Construction",
+        "note": "Misc  Theocratic  Medical  Home  Javascript  Json   Powershell   VSCode   Wifi  SCContacts  Todo  Construction  KHSecurity  IPAddresses  Science",
         "date": "2025-02-04",
         "category": "Misc"
       },
@@ -169,10 +169,20 @@
         "category": "Home"
       },
       {
-        "title": "2007 FORD EXPLORER 4.0liter V6",
+        "title": "2007 FORD EXPLORER XLT 4.0liter V6",
         "url": "",
         "note": [
           "VIN: 1FMEU73E77UB04591",
+          "Mileage of last oil change:"
+        ],
+        "date": "2025-02-17",
+        "category": "Home"
+      },
+      {
+        "title": "2011 FORD F150 (Ivan)",
+        "url": "",
+        "note": [
+          "VIN: 1FTFW1EF3BFA35238",
           "Mileage of last oil change:"
         ],
         "date": "2025-02-17",
@@ -625,7 +635,7 @@
     ]
   },
   {
-    "Contacts_SC": [
+    "SCContacts": [
       {
         "Pioneers": {
           "title": "Pioneers",
@@ -661,7 +671,7 @@
             "Helena Muse <helenamuse2@verizon.net>, Lillian Neal <cherrytree192@gmail.com>, Denise Rice <prebea2013@gmail.com>, Joseph Ruiz <joseph@myruiz.com>, Christy Ruiz <christy@myruiz.com>, Mary Vann <marydevonvann@yahoo.com>, Arlene Wallace <tadttw@verizon.net>, Victoria Watkins <cvictoria67@gmail.com>"
           ],
           "date": "2025-02-13",
-          "category": "Contacts-SC"
+          "category": "SCContacts"
         }
       },
       {
@@ -682,7 +692,7 @@
             "Keith Brown <kibrown031@gmail.com>, George Bolden <gebo1955@verizon.net>, Jeff Lewis <lewisjeff48@gmail.com>, Everett Kirkland <timandwan@verizon.net>, James Wilkinson <monza67@hotmail.com>, Devon Vann <devonvann50@gmail.com>, Dennis Hughes <hughesdr@gmail.com>, Ivan Holmes <ivanwholmes@gmail.com>, Joseph Ruiz <joseph@myruiz.com>"
           ],
           "date": "2025-02-13",
-          "category": "Contacts-SC"
+          "category": "SCContacts"
         }
       },
       {
@@ -701,7 +711,7 @@
             "Vernon Corbitt <vrnncrbtt@yahoo.com>, Michael Corbitt <ninja_yoshindo@msn.com>, Rudi Warren <rudi.warren0224@gmail.com>, Harold Jacobs <bjake88@hotmail.com>, Devin Herring <dherringjw@gmail.com>, Vavian Cox <koolv@hotmail.com>, Ralph Proctor <ralphprct42@gmail.com>"
           ],
           "date": "2025-02-13",
-          "category": "Contacts-SC"
+          "category": "SCContacts"
         }
       }
     ]
@@ -723,10 +733,10 @@
         "category": "Construction"
       },
       {
-        "title": "",
+        "title": "Hillman 5/8-in x 3-ft Steel Rod",
         "url": "",
         "note": "",
-        "date": "",
+        "date": "2025-02-17",
         "category": "Construction"
       },
       {
@@ -739,6 +749,120 @@
     ]
   },
   {
+    "KHSecurity": [
+      {
+        "title": "Unifi Access Reader G2 Professional",
+        "url": "https://www.youtube.com/watch?v=LsOq1DX70zI",
+        "note": "",
+        "date": "2025-02-19",
+        "category": "KHSecurity"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "KHSecurity"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "KHSecurity"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "KHSecurity"
+      }
+    ]
+  },
+  {
+    "IPAddresses": [
+      {
+        "title": "Home",
+        "url": "",
+        "note": [
+          "192.168.88.252: Dell3910",
+          "192.168.88.253: HP-MINI0",
+          "192.168.1.212:  INSPIRON15-LAP",
+          "192.168.1.221:  <HP Envy Photo 7858 printer>",
+          "192.168.1.222:  HOME-UM",
+          
+          "192.168.1.239:  Vizio TV",
+          "192.168.1.2:    E6530",
+          
+          "71.163.244.74:  archerumvpn.ddns.net",
+          "71.163.244.74:  g1100umvpn.ddns.net",
+          "192.168.1.:  "
+        ],
+        "date": "",
+        "category": "IPAddresses"
+      },
+      {
+        "title": "KH",
+        "url": "",
+        "note": [
+          ""
+        ],
+        "date": "",
+        "category": "IPAddresses"
+      },
+      {
+        "title": "Routers",
+        "url": "",
+        "note": [
+          "192.168.1.1:     Verizon Router",
+          "192.168.88.1:    MikroTik RouterOS-750r3 Main",
+          "192.168.1.217:   MikroTik RouterOS-750r3 Garage",
+          "172.31.50.36:    MikroTik Dell3910 (virtual)",
+          "192.168.1.230:   Archer-A7",
+          "192.168.1.190:   ",
+
+          "192.168.1.:      ",
+          "192.168.1.:      "
+        ],
+        "date": "",
+        "category": "IPAddresses"
+      }
+    ]
+  },
+  {
+    "Science": [
+      {
+        "title": "Fractals, Spirals, Fibonacci, Golden Angle",
+        "url": "https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&lank=pub-ivwc_5_VIDEO",
+        "note": "",
+        "date": "",
+        "category": "Science"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "Science"
+      },
+      {
+        "title": "",
+        "url": "",
+        "note": "",
+        "date": "",
+        "category": "Science"
+      }
+      
+    ]
+  },
+  {
+    "Future Category-A": []
+  },
+  {
+    "Future Category-B": []
+  },
+  {
     "Future Category-C": []
   },
   {
@@ -749,5 +873,8 @@
   },
   {
     "Future Category-F": []
+  },
+  {
+    "Future Category-G": []
   }
 ]

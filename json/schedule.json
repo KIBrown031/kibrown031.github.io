@@ -2,9 +2,23 @@
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
-    "MONTH": "02",
-    "DAY": "13",
-    "MESSAGE": "TODAY'S Test Calendar Event"
+    "MONTH": "05",
+    "DAY": "01",
+    "MESSAGE": "TODAY'S Test Calendar Event (1)"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "01",
+    "MESSAGE": "TODAY'S Test Calendar Event (2)"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "01",
+    "MESSAGE": "TODAY'S Test Calendar Event (3)"
   },
   {
     "DAYOFWEEK": "SAT",
@@ -21,18 +35,130 @@
     "MESSAGE": "Master Card .... .... .... 0822 expires"
   },
   {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2027",
+    "MONTH": "03",
+    "DAY": "22",
+    "MESSAGE": "Memorial Monday 22-Mar-2027"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "10",
+    "DAY": "16",
+    "MESSAGE": "Fidelity & Guaranty Life Anniversay: L0748678 ( covering Marsha )"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "10",
+    "MESSAGE": "Sam's Club expires"
+  },
+  {
     "DAYOFWEEK": "THU",
     "YEAR": "2026",
     "MONTH": "04",
     "DAY": "02",
-    "MESSAGE": "Memorial Thursday 2-Apr-2026"
+    "MESSAGE": "Memorial Thursday 02-Apr-2026"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "01",
+    "MESSAGE": "Circuit Assy w CO"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "16",
+    "MESSAGE": "Wellness Check: Dr McVoy @ 8:40"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "01",
+    "MESSAGE": "Audit for September 2025 thru November 2025: Dennis Hughes"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "15",
+    "MESSAGE": "Circuit Assy w Branch Rep"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "02",
+    "MESSAGE": "Daylight Saving Time: END"
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "10",
+    "DAY": "29",
+    "MESSAGE": "Eye Doctor 30-Oct-2025 @ 7:30"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "28",
+    "MESSAGE": "Special Talk"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "18",
+    "MESSAGE": "National Group Life Anniversay: 7081442 ( covering Keith )"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "06",
+    "MESSAGE": "Congregation Picnic"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "01",
+    "MESSAGE": "Audit for June 2025 thru August 2025 : Tim Kirkland"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "11",
+    "MESSAGE": "Pioneer Service School Aug 11-16"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "25",
+    "MESSAGE": "Reg Conv North #8 Aug 08-10"
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "07",
     "DAY": "25",
-    "MESSAGE": "Reg Conv July 25-27"
+    "MESSAGE": "Reg Conv South #7 July 25-27"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "13",
+    "MESSAGE": "Talk #145 Who Is Like Jehovah Our God  Prince Frederick @ 10:00 AM"
   },
   {
     "DAYOFWEEK": "WED",
@@ -40,6 +166,13 @@
     "MONTH": "06",
     "DAY": "25",
     "MESSAGE": "Local Needs: 15 minutes"
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "06",
+    "DAY": "24",
+    "MESSAGE": "Follow Up: Dr McVoy @ 11:40"
   },
   {
     "DAYOFWEEK": "WED",
@@ -47,6 +180,27 @@
     "MONTH": "06",
     "DAY": "04",
     "MESSAGE": "Local Needs: 15 minutes"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "06",
+    "DAY": "01",
+    "MESSAGE": "Audit for March 2025 thru May 2025: Devon Vann"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "30",
+    "MESSAGE": "Reg Conv Temple #2 May 30- June 01"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "17",
+    "MESSAGE": "LDC Inspection @ 8:30am"
   },
   {
     "DAYOFWEEK": "MON",
@@ -77,11 +231,25 @@
     "MESSAGE": "Talk #141: Human Creation's Groaning  LaPlata @ 12:30 PM"
   },
   {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "03",
+    "MESSAGE": "Convention Seminar Viewing 8:00-5:00 - Easton"
+  },
+  {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "28",
     "MESSAGE": "Eye Doctor 29-Apr-2025 @ 7:30"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "04",
+    "DAY": "28",
+    "MESSAGE": "Disney+ renews: $3.17/month"
   },
   {
     "DAYOFWEEK": "FRI",
@@ -119,11 +287,32 @@
     "MESSAGE": "Special Talk: “Can Truth Be Found?”"
   },
   {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "04",
+    "DAY": "03",
+    "MESSAGE": "Memorial Walkthrough @10:00am"
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "04",
+    "DAY": "08",
+    "MESSAGE": "Britbox expires: $8.99/month"
+  },
+  {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "01",
     "MESSAGE": "CO Visit:North April 1-6"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "03",
+    "DAY": "29",
+    "MESSAGE": "CO Gathering 5-9"
   },
   {
     "DAYOFWEEK": "WED",
@@ -152,6 +341,27 @@
     "MONTH": "03",
     "DAY": "17",
     "MESSAGE": "Dr McVoy Wed 19-Mar-2025 @ 10:00am"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "03",
+    "DAY": "15",
+    "MESSAGE": "Memorial Invitation Campaign starts"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "03",
+    "DAY": "09",
+    "MESSAGE": "Daylight Saving Time: START"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "03",
+    "DAY": "01",
+    "MESSAGE": "Audit for Dec 2024 thru Feb 2025: James Wilkinson"
   },
   {
     "DAYOFWEEK": "SAT",

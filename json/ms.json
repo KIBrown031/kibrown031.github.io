@@ -1,12 +1,5 @@
 [
   {
-    "Name": "Corbitt, Vernon",
-    "Phone": "(240) 593-9364",
-    "Address": "10315 Wood Sorrel Court Upper Marlboro, MD 20772 ",
-    "Email": "vrnncrbtt@yahoo.com",
-    "MS": true
-  },
-  {
     "Name": "Cox, Vavian",
     "Phone": "(202) 486-0940",
     "Address": "6406 Symposium Way Clinton, MD 20735 ",
@@ -25,13 +18,6 @@
     "Phone": "(443) 684-9422",
     "Address": "8500 Mike Shapiro Drive Apt:126 Clinton, MD 20735 ",
     "Email": "ralphprct42@gmail.com",
-    "MS": true
-  },
-  {
-    "Name": "Herring, Devin",
-    "Phone": "(202) 251-7857",
-    "Address": "10106 Wooden Bridge Lane Clinton, MD 20735 ",
-    "Email": "dherringjw@gmail.com",
     "MS": true
   },
   {

@@ -7,10 +7,24 @@
     "Elder": true
   },
   {
+    "Name": "Corbitt, Vernon",
+    "Phone": "(240) 593-9364",
+    "Address": "10315 Wood Sorrel Court Upper Marlboro, MD 20772 ",
+    "Email": "vrnncrbtt@yahoo.com",
+    "Elder": true
+  },
+  {
     "Name": "Hughes, Dennis",
     "Phone": "(202) 710-1074",
     "Address": "6700 Briarcliff Drive Clinton, MD 20735 ",
     "Email": "hughesdr@gmail.com",
+    "Elder": true
+  },
+  {
+    "Name": "Herring, Devin",
+    "Phone": "(202) 251-7857",
+    "Address": "10106 Wooden Bridge Lane Clinton, MD 20735 ",
+    "Email": "dherringjw@gmail.com",
     "Elder": true
   },
   {
