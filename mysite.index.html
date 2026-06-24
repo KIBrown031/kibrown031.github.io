@@ -8,7 +8,7 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>li::marker          { content: "✅ ";}
-      
+
     </style>
     
 </head>
@@ -229,6 +229,10 @@
           const resultsDiv = document.getElementById('results');
           resultsDiv.innerHTML = "Searching...";
 
+          const regex = new RegExp('PIN:[0-9]+.?[0-9]+', 'gi');
+          // var coloredLine; // = line.replace(regex, '<span style="color: red;">$1</span>');
+
+
           try {
               // 1. Fetch the static text file from your server
               const response = await fetch('searchme.csv');
@@ -243,7 +247,8 @@
               // 4. Render results to the user
               if (matches.length > 0) {
               resultsDiv.innerHTML = `<h3>Found ${matches.length} matches:</h3><ul>` + 
-                  matches.map(line => `<li>${line}</li>`).join('') + `</ul>`;
+                  matches.map(line => { const coloredLine = line.replace(regex, '<span style="color: red; font-weight: bold">$&</span>'); 
+                  return `<li>${coloredLine}</li>` } ).join('') + `</ul>`;
               } else {
               resultsDiv.innerHTML = "No matches found.";
               }
