@@ -203,7 +203,8 @@
 
   <script src="myPlugin.js"></script>
 
-  <script>
+  <!-- document ready -->
+   <script>
     // Shorthand for $( document ).ready()
     $(function() {
 
@@ -223,7 +224,8 @@
       
   </script>
 
-  <script>
+  <!-- searchTextFile() -->
+   <script>
       async function searchTextFile() {
           const query = document.getElementById('searchQuery').value.toLowerCase();
           const resultsDiv = document.getElementById('results');
@@ -259,6 +261,7 @@
       }
   </script>
   
+  <!-- keydown -->
   <script>
       document.getElementById('searchQuery').addEventListener('keydown', function(event) {
       if (event.key === 'Enter') {
@@ -268,6 +271,59 @@
           }
       })
   </script>
+
+  <!-- Include Papa Parse via CDN -->
+
+<!-- papaparse.min.js  csv handling-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    </script>
+
+<!-- HTML File Input -->
+ <br>
+<input type="file" id="csvFileInput" accept=".csv" />
+<div id="results-csv"><ul id="ul-csv"></ul></div>
+
+<!-- schedule.csv search-->
+    <script>
+    document.getElementById('csvFileInput').addEventListener('change', (event) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);  
+        
+        const file = event.target.files[0]; 
+        // console.log(file);
+        if (!file) return;
+
+        Papa.parse(file, {
+        // YEAR    MONTH    DAY   MESSAGE   CRITICAL  
+        // download: true
+        header: true,         // Converts rows into JSON objects using the first row as keys
+        skipEmptyLines: true, // Ignores blank lines at the end of the file
+        delimiter: ",",
+        complete: function(results) {
+            // const query = document.getElementById('searchQuery').value.toLowerCase();
+            const ulCsv = document.getElementById('ul-csv');
+            
+            console.log("Parsed JSON Data:", results.data);
+            console.log("Errors encountered:", results.errors);
+
+            ulCsv.innerHTML = results.data
+            
+                    // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
+            // Subtract 1 if your CSV data uses 1 for January.
+
+            .filter(row => {
+
+                const rowDate = new Date(row.YEAR, row.MONTH - 1, row.DAY);
+                return rowDate >= today;
+
+            })
+            
+            .map( row => `<li>${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
+        }
+        });
+    });
+    </script>
     
 </body>
 </html>
