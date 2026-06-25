@@ -81,15 +81,16 @@
   <div class="div-json-table"></div>
 
   <br>
-  <button onclick="searchTextFile()">Search........</button>
+  <button onclick="searchTextFile()">Search Database</button>
   <input type="text" id="searchQuery" placeholder="Type a keyword...">
   
   <div id="results"></div>
 
   <!-- HTML File Input -->
   <br>
-  <input type="file" id="csvFileInput" accept=".csv" />
-  <div id="results-csv"><ul id="ul-csv"></ul></div>
+  <!-- <input type="file" id="csvFileInput" accept=".csv" /> -->
+   <button onclick="loadSchedule()">Load Schedule</button>
+   <div id="results-csv"><ul id="ul-csv"></ul></div>
   
   <br><br><br>  <br><br><br>  <br><br><br>
   
@@ -283,7 +284,8 @@
 
 <!-- schedule.csv search-->
     <script>
-    document.getElementById('csvFileInput').addEventListener('change', (event) => {
+        async function loadSchedule() {
+        // document.getElementById('csvFileInput').addEventListener('change', (event) => { });
         const today = new Date();
         today.setHours(0, 0, 0, 0);  
         
@@ -306,7 +308,7 @@
 
             ulCsv.innerHTML = results.data
             
-                    // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
+            // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
             // Subtract 1 if your CSV data uses 1 for January.
 
             .filter(row => {
@@ -319,7 +321,7 @@
             .map( row => `<li>${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
         }
         });
-    });
+      }
     </script>
     
 </body>
