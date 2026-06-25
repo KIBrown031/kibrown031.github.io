@@ -287,13 +287,13 @@
         const today = new Date();
         today.setHours(0, 0, 0, 0);  
         
-        const file = event.target.files[0]; 
+        // const file = event.target.files[0]; 
         // console.log(file);
-        if (!file) return;
+        // if (!file) return;
 
-        Papa.parse(file, {
+        Papa.parse('schedule.csv', {
         // YEAR    MONTH    DAY   MESSAGE   CRITICAL  
-        // download: true
+        download: true,
         header: true,         // Converts rows into JSON objects using the first row as keys
         skipEmptyLines: true, // Ignores blank lines at the end of the file
         delimiter: ",",
