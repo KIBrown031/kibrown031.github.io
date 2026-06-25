@@ -8,6 +8,7 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>
+      .mybutton           { width: 120px;   }
       li::marker          { content: "✅ ";}
       /* input[type="file"]  { direction: rtl} */
 
@@ -81,7 +82,7 @@
   <div class="div-json-table"></div>
 
   <br>
-  <button onclick="searchTextFile()">Search Database</button>
+  <button class="mybutton" onclick="searchTextFile()">Search Database</button>
   <input type="text" id="searchQuery" placeholder="Type a keyword...">
   
   <div id="results"></div>
@@ -89,7 +90,7 @@
   <!-- HTML File Input -->
   <br>
   <!-- <input type="file" id="csvFileInput" accept=".csv" /> -->
-   <button onclick="loadSchedule()">Load Schedule</button>
+   <button class="mybutton" onclick="loadSchedule()">Load Schedule</button>
    <div id="results-csv"><ul id="ul-csv"></ul></div>
   
   <br><br><br>  <br><br><br>  <br><br><br>
