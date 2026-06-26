@@ -230,8 +230,8 @@
   <!-- searchTextFile() -->
    <script>
       async function searchTextFile() {
-          const query = document.getElementById('searchQuery').value.toLowerCase();
-          const resultsDiv = document.getElementById('results');
+          const query = document.getElementById('searchQuery').value.toLowerCase();  // text to search box
+          const resultsDiv = document.getElementById('results');                     // <div> to display results
           resultsDiv.innerHTML = "Searching...";
 
           const regex = new RegExp('PIN:[0-9]+.?[0-9]+', 'gi');
@@ -307,13 +307,12 @@
             console.log("Parsed JSON Data:", results.data);
             console.log("Errors encountered:", results.errors);
 
-            ulCsv.innerHTML = results.data
-            
-            // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
-            // Subtract 1 if your CSV data uses 1 for January.
+            ulCsv.replaceChildren();
+            ulCsv.innerHTML = results.data  // chained to .filter()  results.data.filter()
 
             .filter(row => {
-
+                // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
+                // Subtract 1 if your CSV data uses 1 for January.
                 const rowDate = new Date(row.YEAR, row.MONTH - 1, row.DAY);
                 return rowDate >= today;
 
