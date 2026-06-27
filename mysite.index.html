@@ -84,32 +84,37 @@
   <br>
   <button class="mybutton" onclick="searchTextFile()">Search Database</button>
   <input type="text" id="searchQuery" placeholder="Type a keyword...">
+   
+  <br>
+  <button class="mybutton" onclick="displayURLs()">Search URLs</button>
+  <input type="text" id="searchQueryURL" placeholder="Type part of URL...">
   
-  <div id="results"></div>
-
   <!-- HTML File Input -->
   <br>
-  <!-- <input type="file" id="csvFileInput" accept=".csv" /> -->
-   <button class="mybutton" onclick="loadSchedule()">Load Schedule</button>
-   <div id="results-csv"><ul id="ul-csv"></ul></div>
+  <button class="mybutton" onclick="loadSchedule()">Load Schedule</button>
+
+
+  <div id="results"></div> <!-- searchTextFile() -->  <!-- displayURLs() -->
+  
+  <div id="results-csv">
+    <ul id="ul-csv"></ul>  <!-- schedule.csv search-->
+  </div>
+  
+    <ul id="result"></ul>
+  
+
   
   <br><br><br>  <br><br><br>  <br><br><br>
   
-<!-- 
-  <br><br><br>
-
-  <br><br><br>
-
-  <br><br><br>
--->
 
   <div class="div-main-image"></div>
 
-  <div class="div-urls" id="id-urls">
+  <div class="div-urls" id="id-urls">  <!-- main list of MANY URLs from initial project -->
     <br><hr><br>
     <ul>
       <!-- <li><a href="/README.html">Startup</a></li> -->
       <!-- <li><a href="/contact-form.html">Contact Form</a></li><br> -->
+      <li><a href="https://adt.com/control-login">ADT&KH</a></li><br>
       <li><a href="/docs.html">Docs</a></li><br>
       <li><a href="/about.html">ABOUT</a></li><br>
       <li><a href="https://scanapp.org/">ScanAPP</a></li><br>
@@ -196,7 +201,13 @@
   </div>
 
 
-  <ul id="result"></ul>
+  <script>
+    const buttons = document.querySelectorAll(".mybutton"); // notice the . since this is a class
+    buttons.forEach( (button) => {
+      button.addEventListener("click",() => { console.log("results"); document.getElementById("results").replaceChildren(); }, { capture: true } )
+      button.addEventListener("click",() => { console.log("results-csv"); document.getElementById("ul-csv").replaceChildren(); }, { capture: true } )
+    });
+  </script>
   
 
   <script src="jquery-3.7.1.min.js"></script>
@@ -279,7 +290,6 @@
 
 <!-- papaparse.min.js  csv handling-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
     </script>
 
 
@@ -307,7 +317,6 @@
             console.log("Parsed JSON Data:", results.data);
             console.log("Errors encountered:", results.errors);
 
-            ulCsv.replaceChildren();
             ulCsv.innerHTML = results.data  // chained to .filter()  results.data.filter()
 
             .filter(row => {
@@ -324,5 +333,23 @@
       }
     </script>
     
+<!-- displayURLs()-->    
+    <script>
+      function displayURLs() {
+        const query = document.getElementById('searchQueryURL').value.toLowerCase();  // text to search box
+        const resultsDiv = document.getElementById('results');                        // <div> to display results
+        
+        // const keyword = query;
+        const urls = Array.from(document.querySelectorAll('a'))
+        .map(a => a.href)
+        .filter(href => href.includes(query));
+
+        console.log(urls)
+        // resultsDiv.innerHTML = "Searching...";
+        resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
+        urls.map(line => { return `<li><a href="${line}">${line}</a></li>` } ).join('') + `</ul>`;
+      }
+    </script>
+
 </body>
 </html>
