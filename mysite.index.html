@@ -137,11 +137,11 @@
       <li><a href="https://vscode.dev">VSCODE-WEB</a></li><br>
       <li><a href="https://adt.com/control-login">ADT&KH</a></li><br>
       <li><a href="https://github.com/kibrown031">GITHUB-KB</a></li><br>
-      <li><a href="https://us02web.zoom.us/j/88205986594?pwd=S09Vb1E1OE92cVFhUGQ4alN4SXU2UT09">ZOOM SATURDAY</a></li><br>
-      <li><a href="https://us02web.zoom.us/j/89273309674?pwd=SkVjVGhWd3BsOHc1SDlEVTNXaEVBZz09">ZOOM CLM</a></li><br>
-      <li><a href="https://us02web.zoom.us/j/87216191486?pwd=M00xRnB1YllVN1JQczlTSU9XdnhEQT09">ZOOM FS</a></li><br>
-      <li><a href="https://us02web.zoom.us/j/9473998108?pwd=WnBLRXptdGI2aFhUVDZzZ1F0TStYZz09">ZOOM KEITH</a></li><br>
-      <li><a href="https://us02web.zoom.us/j/87395249076?pwd=QytRSkZ0eXEzOEppajM3Vkh1YkE0dz09">ZOOM MARSHA</a></li><br>
+      <li><a href="https://us02web.zoom.us/j/88205986594?pwd=S09Vb1E1OE92cVFhUGQ4alN4SXU2UT09" title="ZOOM SATURDAY">ZOOM SATURDAY</a></li><br>
+      <li><a href="https://us02web.zoom.us/j/89273309674?pwd=SkVjVGhWd3BsOHc1SDlEVTNXaEVBZz09" title="ZOOM CLM">ZOOM CLM</a></li><br>
+      <li><a href="https://us02web.zoom.us/j/87216191486?pwd=M00xRnB1YllVN1JQczlTSU9XdnhEQT09" title="ZOOM FS">ZOOM FS</a></li><br>
+      <li><a href="https://us02web.zoom.us/j/9473998108?pwd=WnBLRXptdGI2aFhUVDZzZ1F0TStYZz09" title="ZOOM KEITH">ZOOM KEITH</a></li><br>
+      <li><a href="https://us02web.zoom.us/j/87395249076?pwd=QytRSkZ0eXEzOEppajM3Vkh1YkE0dz09" title="ZOOM MARSHA">ZOOM MARSHA</a></li><br>
       
       <li><a href="https://buttondown.com/behind-the-powershell-pipeline/archive/">Jeffrey Hicks</a></li><br>
       <li><a href="https://jdhitsolutions.com/blog/">Jeffrey Hicks - The Lonely Administrator</a></li><br>
@@ -361,13 +361,13 @@
         
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
-        .map(a => a.href)
-        .filter(href => href.includes(query));
+        .map(a => ({url: a.href, text: a.title}) )      // .map(a => a.href )
+        .filter(href => href.url.includes(query));      // .filter(href => href.includes(query));
 
         console.log(urls)
         // resultsDiv.innerHTML = "Searching...";
         resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
-        urls.map(line => { return `<li><a href="${line}">${line}</a></li>` } ).join('') + `</ul>`;
+        urls.map(line => { return `<li><a href="${line.url}">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
       }
     </script>
 
