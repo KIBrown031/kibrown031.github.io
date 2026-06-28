@@ -134,6 +134,8 @@
 
             
       <li><a href="https://buttondown.com/behind-the-powershell-pipeline/archive" title="BUTTONDOWN">BUTTONDOWN</a></li><br>
+      <li><a href="https://www.jw.org/en/search" title="SEARCH JW.ORG">SEARCH JW.ORG</a></li><br>
+      <li><a href="https://www.wol.jw.org/" title="SEARCH WOL.JW.ORG">SEARCH WOL.JW.ORG</a></li><br>
       <li><a href="https://posh.pckt.blog" title="POSH BLOG">POSH BLOG</a></li><br>
       <li><a href="https://dowst.dev" title="DOWST">DOWST</a></li><br>
       <li><a href="https://vscode.dev" title="VSCODE-WEB">VSCODE-WEB</a></li><br>
@@ -205,7 +207,7 @@
       <li><a href="pdf/Coding with JavaScript For Dummies.pdf">(PDF) Coding with JavaScript For Dummies</a></li><br>
       <li><a href="pdf/PDF-Guide-Node-Andrew-Mead-v3.pdf">(PDF) Node.js Dev Course</a></li><br>
       <li><a href="pdf/jquery_tutorial.pdf">(PDF) JQuery Tutorial</a></li><br>
-      <li><a href="pdf/jquery_tutorial_extended.pdf">(PDF) JQuery Tutorial Extended</a></li><br>
+      <!-- <li><a href="pdf/jquery_tutorial_extended.pdf">(PDF) JQuery Tutorial Extended</a></li><br> -->
       <li><a href="pdf/jquery_cheatsheet.pdf">(PDF) JQuery Cheatsheet</a></li><br>
       <li><a href="pdf/git-github-reference.pdf">(PDF) Git & Github Reference - SuperSimple.dev</a></li><br>
       
@@ -303,7 +305,7 @@
    <script>
     const buttons = document.querySelectorAll(".mybutton"); // notice the . since this is a class
     buttons.forEach( (button) => {
-      console.log("button.addEventListener");
+      // console.log("button.addEventListener");
       button.addEventListener("click",() => { console.log("results"); document.getElementById("results").replaceChildren(); },    { capture: true } )
       button.addEventListener("click",() => { console.log("results-csv"); document.getElementById("ul-csv").replaceChildren(); }, { capture: true } )
     });
