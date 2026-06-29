@@ -408,5 +408,15 @@
       }
     </script>
 
+<!--emptyCacheHardRelaod()-->
+    <script>
+      function emptyCacheHardRelaod() {
+        // Appends a unique timestamp to force the server to provide fresh assets
+        const currentUrl = new URL(window.location.href);
+        currentUrl.searchParams.set('reloadTime', Date.now().toString());
+        window.location.href = currentUrl.toString();
+      }
+    </script>
+
 </body>
 </html>
