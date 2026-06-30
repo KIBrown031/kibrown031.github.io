@@ -408,15 +408,37 @@
       }
     </script>
 
-<!--emptyCacheHardRelaod()-->
+<!--Capture right-click on the entire page then call: emptyCacheHardRelaod()-->
     <script>
-      function emptyCacheHardRelaod() {
+function emptyCacheHardRelaod() {
         // Appends a unique timestamp to force the server to provide fresh assets
         const currentUrl = new URL(window.location.href);
         currentUrl.searchParams.set('reloadTime', Date.now().toString());
         window.location.href = currentUrl.toString();
       }
+      
+      // Listen for the right-click event on the entire page
+window.addEventListener('contextmenu', (event) => {
+        // 1. Prevent the default browser context menu from appearing
+        event.preventDefault(); 
+        
+        // 2. Add your custom right-click logic here
+        console.log('Right-click captured!');
+        console.log(`X coordinate: ${event.clientX}, Y coordinate: ${event.clientY}`);
+        emptyCacheHardRelaod()
+        });
+
+
     </script>
 
 </body>
 </html>
+
+<!--  Object.assign(document.createElement('a'), { href: '#' }).click();  -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
