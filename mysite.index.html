@@ -299,6 +299,11 @@ function emptyCacheHardRelaod() {
       
       // Listen for the right-click event on the entire page
 window.addEventListener('contextmenu', (event) => {
+
+        // temporary disable
+        console.log("window.addEventListener('contextmenu', (event) => {  DISABLED");
+        return;
+
         // 1. Prevent the default browser context menu from appearing
         event.preventDefault(); 
         
@@ -432,7 +437,7 @@ window.addEventListener('contextmenu', (event) => {
       <!-- <li><a href="pdf/jquery_tutorial_extended.pdf">(PDF) JQuery Tutorial Extended</a></li><br> -->
       <li><a href="pdf/jquery_cheatsheet.pdf" title="JQuery Cheatsheet">(PDF) JQuery Cheatsheet</a></li><br>
       <li><a href="pdf/git-github-reference.pdf" title="Git & Github Reference">(PDF) Git & Github Reference - SuperSimple.dev</a></li><br>
-      <li><a href="pdf/NW App Persons.pdf">(PDF) NW Pub App Persons</a></li><br>
+      <!--  <li><a href="pdf/NW App Persons.pdf">(PDF) NW Pub App Persons</a></li><br> -->
 
       <!-- YouTube Videos-->
       <li><a href="https://www.youtube.com/watch?v=hQTKU2t1DY8" title="Ford Explorer Front CV Axle Replacement">Ford Explorer Front CV Axle Replacement</a></li><br>
