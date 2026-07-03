@@ -11,11 +11,13 @@ jobs:
   my-first-job:
     # This line tells GitHub to provision an Ubuntu Linux runner
     runs-on: ubuntu-latest
-    
+
 
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
 
       - name: Run a one-line script
-        run: echo "Hello World! This job is running on Ubuntu."
+        run: |
+          echo "Hello World! This job is running on Ubuntu."
+          ls /
