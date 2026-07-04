@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+             body                { font-family: sans-serif; } 
+             body                { max-width: 100vw; height: 100vh; }
+             pre                 { white-space: pre-wrap;  /* word-wrap: break-word;  Preserves breaks AND wraps at the container edge */ }
+             a:visited           { color: blue; }       
+             span:hover          { background: lightgreen; }
+             span                { color: red; } */
+             li::marker          { content: "✅ ";}
+             #results::selection { color: white; background: rgb(51, 35, 112);}
+             /* input[type="file"]  { direction: rtl} */
+             h1::first-letter    {
+                color: rgb(104, 34, 126);
+                font-size: 2em;
+                font-style: italic;
+             }
+             p                   {margin: 8px;}
+    </style>
+    <title>Useful Links!</title>
+</head>
+<body>
+    <h1>Useful Links!</h1>
+    <p style="margin-left: 0px;">Generated: TODO</p>
+    <p style="margin-left: 0px;"><a href=https://google.com>GOOGLE</a></p>
+    <p style="margin-left: 0px;"><a href='/pdf'>PDF</a></p>
+    <p style="margin-left: 0px;"><span><a href=https://wol.jw.org>JW</a></span></p>
+    <p style="margin-left: 0px;"><span><a href=https://amazon.com>AMAZON</a></span></p>
+    <p style="margin-left: 0px;"><span><a href=https://buttondown.com/behind-the-powershell-pipeline/archive>BUTTONDOWN</a></span></p>
+    <p><div style="display: flex; gap: 20px;"><a href=https://keithibrown.org/mysite.index.html>KB</a><a href=https://github.com/kibrown031>GITHUB</a></div></p>
+    <p><div style="display: flex; gap: 20px;"><a href=https://posh.pckt.blog>POSH BLOG</a><a href=https://dowst.dev>DOWST</a><a href=https://adt.com/control-login>ADT&KH</a></div></p>
+    
+    
+    
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iusto, quasi, necessitatibus ad voluptate voluptas odit perferendis veritatis facere eius corrupti. Dolor magnam inventore facere, placeat deserunt nesciunt cum! Deserunt.</p> -->
+    
+    <!-- <p><a href=TODO>TODO Click here: </a></p>
+         <p><a href=TODO>TODO Click here: </a></p> -->
+         
+    <!-- <p><a href=tel:+13013430773>TEL  Click here: </a></p> -->
+
+    
+    
+    <!-- <pre></pre> --> <!-- -join [Environment]::Newline --> 
+    
+    <!-- <div><embed src="March2026.pdf" type="application/pdf" width="100%" height="600px" /></div> -->
+
+    <!-- The HTML Interface -->
+     
+    <!-- <form onsubmit="return searchTextFile()" >  -->
+    <button onclick="searchTextFile()">Search........</button>
+    <input type="text" id="searchQuery" placeholder="Type a keyword...">
+    
+    <div id="results"></div>
+    <!-- </form> -->
+    
+    <!-- HTML File Input -->
+    <br>
+    <input type="file" id="csvFileInput" accept=".csv" />
+    <div id="results-csv"><ul id="ul-csv"></ul></div>
+
+   
+    
+<!-- search Text File() -->
+     <script>
+        async function searchTextFile() {
+            const query = document.getElementById('searchQuery').value.toLowerCase();
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = "Searching...";
+            
+            const regex = new RegExp('PIN:[0-9]+.?[0-9]+', 'gi');
+            var coloredLine; // = line.replace(regex, '<span style="color: red;">$1</span>');
+
+            try {
+                // 1. Fetch the static text file from your server
+                const response = await fetch('searchme.csv');
+                const text = await response.text();
+
+                // 2. Split the file into lines or paragraphs
+                const lines = text.split('\n');
+                
+                // 3. Filter lines that contain the keyword
+                const matches = lines.filter(line => line.toLowerCase().includes(query));
+
+                // 4. Render results to the user
+                if (matches.length > 0) {
+                resultsDiv.innerHTML = `<h3>Found ${matches.length} matches:</h3><ul>` + 
+                    matches.map(line => { const coloredLine = line.replace(regex, '<span style="color: red; font-weight: bold">$&</span>'); 
+                    return `<li>${coloredLine}</li>` } ).join('') + `</ul>`;
+                } else {
+                resultsDiv.innerHTML = "No matches found.";
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = "Error loading text file.";
+                console.error(error);
+            }
+        }
+    </script>
+    
+<!-- keydown handler -->
+     <script>
+        document.getElementById('searchQuery').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            // event.preventDefault(); // Stop default browser actions
+
+            searchTextFile(); 
+            }
+        })
+    </script>
+
+<!-- Include Papa Parse via CDN -->
+
+<!-- papaparse.min.js  csv handling-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    </script>
+
+
+
+<!-- schedule.csv search-->
+    <script>
+    document.getElementById('csvFileInput').addEventListener('change', (event) => {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);  
+        
+        const file = event.target.files[0]; 
+        // console.log(file);
+        if (!file) return;
+
+        Papa.parse(file, {
+        // YEAR    MONTH    DAY   MESSAGE   CRITICAL  
+        // download: true
+        header: true,         // Converts rows into JSON objects using the first row as keys
+        skipEmptyLines: true, // Ignores blank lines at the end of the file
+        delimiter: ",",
+        complete: function(results) {
+            // const query = document.getElementById('searchQuery').value.toLowerCase();
+            const ulCsv = document.getElementById('ul-csv');
+            
+            console.log("Parsed JSON Data:", results.data);
+            console.log("Errors encountered:", results.errors);
+
+            ulCsv.innerHTML = results.data
+            
+                    // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
+            // Subtract 1 if your CSV data uses 1 for January.
+
+            .filter(row => {
+
+                const rowDate = new Date(row.YEAR, row.MONTH - 1, row.DAY);
+                return rowDate >= today;
+
+            })
+            
+            .map( row => `<li>${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
+        }
+        });
+    });
+    </script>
+        
+</body>
+</html>
+
+
+<!--
+$junksearch = Import-Csv .\junk.csv | Select-Object @{N="Name";E={$($_."first name" + "_" + $_."last name" + "_" + $_."Phone 1 - Value" + "_PIN:" + $_.nickname + "_" + $_."E-mail 1 - Value" + $($val = $_."Notes" -replace "\r?\n", " "; $($_."Notes" ? "_🌎$val🌎" : "" )) )}}
+$junksearch | Export-Csv -Path .\html\searchme.csv && cd .\html\ && live-server 
+-->
