@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 # Triggers the workflow on a push event to any branch
 # Allows you to run this workflow manually from the Actions tab
 on:
-  push:
+  #  push:
   workflow_dispatch:
 
 
