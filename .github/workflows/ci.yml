@@ -20,4 +20,4 @@ jobs:
       - name: Run a one-line script
         run: |
           echo "Hello World! This job is running on Ubuntu."
-          ls /etc/f*
+          df -ah
