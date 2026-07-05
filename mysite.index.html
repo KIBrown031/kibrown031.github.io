@@ -8,12 +8,13 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>
-      #ul-csv             { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
-      .mybutton           { width: 120px;     }
-      li::marker          { content: "✅ ";   }
-      a:link              { color: #1a73e8; } /* Default blue for unvisited links */
-      a:visited           { color: #1a73e8; } /* Force visited links to share the same unvisited color */
-      a:hover::after      { content:  "           " attr(data-value);  text-decoration: none;  font-weight: bold;}
+      #ul-csv                         { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+      .mybutton                       { width: 120px;     }
+      li::marker                      { content: "✅ ";   }
+      a:link                          { color: #1a73e8; } /* Default blue for unvisited links */
+      a:visited                       { color: #1a73e8; } /* Force visited links to share the same unvisited color */
+      a[data-value]:hover             { text-decoration: none; } /* a[data-value]:hover is only valid when the data-* attribute exists */
+      a[data-value]:hover::after      { content:  "           " attr(data-value); font-weight: bold; color:crimson}
 
       /* input[type="file"]  { direction: rtl} */
 
