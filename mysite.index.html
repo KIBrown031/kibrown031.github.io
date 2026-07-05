@@ -289,7 +289,7 @@
         
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
-        .map(a => ({url: a.href, text: a.title, data: a.dataset.data-value}) )      // .map(a => a.href )
+        .map(a => ({url: a.href, text: a.title, data: a.dataset.dataValue}) )      // .map(a => a.href )
         .filter(href => href.url.includes(query));      // .filter(href => href.includes(query));
 
         console.log(urls)
