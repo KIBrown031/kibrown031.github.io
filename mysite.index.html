@@ -295,7 +295,7 @@
         console.log(urls)
         // resultsDiv.innerHTML = "Searching...";
         resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
-        urls.map(line => { return `<li><a href="${line.url}" data-value="${ line.data ? line.data : "" }">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
+        urls.map(line => { return `<li><a href="${line.url}" dataValue="${ line.data ? line.data : "" }">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
       }
     </script>
 
