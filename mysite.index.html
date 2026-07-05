@@ -289,8 +289,8 @@
         
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
-        .map(a => ({url: a.href, text: a.title, data: a.dataset.value}) )      // .map(a => a.href )
-        .filter(href => href.url.includes(query));      // .filter(href => href.includes(query));
+        .map(a => ({url: a.href, text: a.title, data: a.dataset.value}) ) // HTML/CSS data-value eq to JS dataset.value    // .map(a => a.href )
+        .filter(href => href.url.includes(query));                                                                         // .filter(href => href.includes(query));
 
         console.log(urls)
         // resultsDiv.innerHTML = "Searching...";
@@ -334,6 +334,19 @@ window.addEventListener('contextmenu', (event) => {
       <!-- <li><a href="/README.html">Startup</a></li> -->
       <!-- <li><a href="/contact-form.html">Contact Form</a></li><br> -->
 
+      <!--Theocratic Bible verses and references-->
+      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&bible=49003019&pub=nwtsty" title="Eph3:19-Surpasses Knowledge">Surpasses Knowledge</a></li><br>
+      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&bible=14032001&pub=nwtsty" title="Jehovah Left Hezekiah Alone" data-value="Antidote for Haughtiness is Appreciation">Jehovah left Hezekiah Alone</a></li><br>
+      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=1102001079" title="Enthusiasm" data-value="BE book: Study 10">Enthusiasm</a></li><br>
+      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=1102001096" title="Extemporaneous Delivery" data-value="BE book: Study 27">Extemporaneous Delivery</a></li><br>
+      
+      
+      <!--Theocratic Videos-->
+      <li><a href="https://docs.jw.org/finder?lank=pub-emsv_seq-2_fg-av-video&lang=E" title="Noumair:Were Not Our Hearts Burning" data-value="R E I A">Were Not Our Hearts Burning</a></li><br>
+      <li><a href="https://docs.jw.org/finder?lank=pub-emsv_seq-1_fg-av-video&lang=E" title="Schafer:How to Attack an Outline">How to Attack an Outline</a></li><br>
+      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&lank=pub-jwbvod26_33_VIDEO" title="Jephthah's Daughter" data-value="Contemporary of Samuel">Jephthah's Daughter</a></li><br>
+      
+      
       <li><a href="/docs.html">Docs</a></li><br>
       <li><a href="/about.html">ABOUT</a></li><br>
       <li><a href="https://scanapp.org/">ScanAPP</a></li><br>
@@ -431,18 +444,6 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://ohmslaw.eu" title="OHM's Law">OHMs Law</a></li><br>
       <li><a href="https://regex101.com/" title="REGEX101">Regular Expressions</a></li><br>
 
-      <!--Theocratic Videos-->
-      <li><a href="https://docs.jw.org/finder?lank=pub-emsv_seq-2_fg-av-video&lang=E" title="Noumair:Were Not Our Hearts Burning">Were Not Our Hearts Burning</a></li><br>
-      <li><a href="https://docs.jw.org/finder?lank=pub-emsv_seq-1_fg-av-video&lang=E" title="Schafer:How to Attack an Outline">How to Attack an Outline</a></li><br>
-      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&lank=pub-jwbvod26_33_VIDEO" title="Jephthah's Daughter">Jephthah's Daughter</a></li><br>
-      
-      
-      <!--Theocratic Bible verses and references-->
-      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&bible=49003019&pub=nwtsty" title="Eph3:19-Surpasses Knowledge">Surpasses Knowledge</a></li><br>
-      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&bible=14032001&pub=nwtsty" title="Jehovah left Hezekiah Alone" data-value="Antidote for Haughtiness is Appreciation">Jehovah left Hezekiah Alone</a></li><br>
-      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=1102001079" title="Enthusiasm">Enthusiasm</a></li><br>
-      <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&prefer=lang&docid=1102001096" title="Extemporaneous Delivery">Extemporaneous Delivery</a></li><br>
-      
 
       <li><a href="pdf/2026 Convention Organization.pdf" title="2026 Reg Conv Organization Chart">2026 Reg Conv Organization Chart</a></li><br>
       
