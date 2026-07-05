@@ -8,6 +8,7 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>
+      #ul-csv             { font-family: 'Courier New', Courier, monospace; }
       .mybutton           { width: 120px;     }
       li::marker          { content: "✅ ";   }
       a:link              { color: #1a73e8; } /* Default blue for unvisited links */
@@ -270,7 +271,7 @@
 
             })
             
-            .map( row => `<li>${(dowYMD(row.YEAR, row.MONTH -1, row.DAY)).padEnd(5)}_${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
+            .map( row => `<li>${dowYMD(row.YEAR, row.MONTH -1, row.DAY)}_${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
         }
         });
       }
