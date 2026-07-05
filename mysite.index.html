@@ -111,6 +111,10 @@
 
   <div class="div-main-image"></div>
 
+<!-- Utility Functions -->
+   <script>
+      const dow = (sDate) => { const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]; return DOW[new Date(sDate + 'T00:00:00').getDay()] }; // sDate: 'yyyy-mm-dd'
+   </script>
 
 
   <!-- sortList() -->
@@ -316,8 +320,8 @@ window.addEventListener('contextmenu', (event) => {
 
     </script>
 
-  <!-- main list of MANY URLs from initial project -->
-   <div class="div-urls" id="id-urls">  
+<!-- main list of MANY URLs from initial project -->
+  <div class="div-urls" id="id-urls">  
     <br><hr><br>
     <ul id="unoderedlist">
       <!-- <li><a href="/README.html">Startup</a></li> -->
