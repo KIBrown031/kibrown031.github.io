@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: deploy
+name: "DEPLOY from POSH"
 
 on:
   # Runs on pushes 
