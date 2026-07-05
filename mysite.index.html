@@ -269,7 +269,7 @@
 
             })
             
-            .map( row => `<li>${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${dow(row.YEAR-row.MONTH-row.DAY)}  ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
+            .map( row => `<li>${dow(row.YEAR-(row.MONTH-1)-row.DAY)}<>${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
         }
         });
       }
