@@ -100,7 +100,7 @@
   <button class="mybutton" onclick="loadSchedule()">Load Schedule</button>
   
   <br>
-  <button id="fullscreenBtn">Toggle Full Screen</button>
+  <button id="fullscreenBtn">Full Screen</button>
 
   
   <div id="results"></div> <!-- searchTextFile() -->  <!-- displayURLs() -->
@@ -337,12 +337,14 @@ window.addEventListener('contextmenu', (event) => {
       btn.addEventListener('click', () => {
         if (!document.fullscreenElement) {
           // If no element is in full screen, enter full screen
+          btn.textContent = "Normal Screen"
           document.documentElement.requestFullscreen()
             .catch(err => {
               console.error(`Error enabling full screen: ${err.message}`);
             });
         } else {
           // If already in full screen, exit
+          btn.textContent = "Full Screen"
           document.exitFullscreen();
         }
       });
