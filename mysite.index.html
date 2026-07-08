@@ -299,12 +299,12 @@
         const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
         if (!list) { console.log("list not TRUE"); return }
 
-        await sleep(1000)
-        
+        await sleep(500)
+
         const lastItem = list.lastElementChild;
         if (!lastItem) { console.log("lastItem not TRUE"); return }
 
-        // Flash the item every 3000 milliseconds (3 seconds)
+        // Flash the item every 500 milliseconds (.5 seconds)
         setInterval(() => {
           if (lastItem.style.visibility === "hidden") {
             lastItem.style.visibility = "visible";
@@ -312,7 +312,7 @@
             lastItem.style.visibility = "hidden";
           }
           console.log("Flashing...")
-        }, 3000);
+        }, 500);
 
       }
 
