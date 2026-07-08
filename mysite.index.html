@@ -18,6 +18,17 @@
 
       /* input[type="file"]  { direction: rtl} */
 
+
+      @keyframes flash-effect {
+        0%, 100% { opacity: 1; background-color: transparent; }
+        50% { opacity: 0.3; background-color: #ffcccc; }
+      }
+
+      /* Class applied by JavaScript */
+      .flash-now {
+        animation: flash-effect 0.5s ease-in-out 3; /* Flashes 3 times */
+      }
+
     </style>
     
 </head>
@@ -283,16 +294,17 @@
 
         // Find the last "li" item in the list
 
-        //const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
-        //const lastItem = list.lastElementChild;
+        const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
+        const lastItem = list.lastElementChild;
+        if (!lastItem) { console.log("lastItem not TRUE"); return }
 
-        // Flash the item every 500 milliseconds (half a second)
+        // Flash the item every 3000 milliseconds (3 seconds)
         setInterval(() => {
-          /*if (lastItem.style.visibility === "hidden") {
+          if (lastItem.style.visibility === "hidden") {
             lastItem.style.visibility = "visible";
           } else {
             lastItem.style.visibility = "hidden";
-          }*/
+          }
           console.log("Flashing...")
         }, 3000);
 
