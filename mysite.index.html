@@ -256,6 +256,8 @@
 
 <!-- schedule.csv search-->
     <script>
+        const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
         async function loadSchedule() {
         // document.getElementById('csvFileInput').addEventListener('change', (event) => { });
         const today = new Date();
@@ -297,6 +299,8 @@
         const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
         if (!list) { console.log("list not TRUE"); return }
 
+        await sleep(1000)
+        
         const lastItem = list.lastElementChild;
         if (!lastItem) { console.log("lastItem not TRUE"); return }
 
