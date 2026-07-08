@@ -280,23 +280,23 @@
             .map( row => `<li>${dowYMD(row.YEAR, row.MONTH -1, row.DAY)} ${row.MONTH}\\${row.DAY}\\${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
         }
         });
+
+        // Find the last "li" item in the list
+        const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
+        const lastItem = list.lastElementChild;
+
+        // Flash the item every 500 milliseconds (half a second)
+        setInterval(() => {
+          if (lastItem.style.visibility === "hidden") {
+            lastItem.style.visibility = "visible";
+          } else {
+            lastItem.style.visibility = "hidden";
+          }
+          console.log("Flashing...")
+        }, 500);
+
       }
 
-          // Find the last "li" item in the list
-          const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
-          const lastItem = list.lastElementChild;
-
-          /*
-          // Flash the item every 500 milliseconds (half a second)
-          setInterval(() => {
-            if (lastItem.style.visibility === "hidden") {
-              lastItem.style.visibility = "visible";
-            } else {
-              lastItem.style.visibility = "hidden";
-            }
-            console.log("Flashing...")
-          }, 500);
-          */
 
     </script>
     
