@@ -339,6 +339,7 @@ window.addEventListener('contextmenu', (event) => {
           btn.textContent = "Normal Screen"
           document.documentElement.requestFullscreen()
             .catch(err => {
+              btn.textContent = "ERROR-FULL"
               console.error(`Error enabling full screen: ${err.message}`);
             });
         } else {
@@ -346,6 +347,7 @@ window.addEventListener('contextmenu', (event) => {
           btn.textContent = "Full Screen"
           document.exitFullscreen()
             .catch(err => {
+              btn.textContent = "ERROR-NORM"
               console.error(`Error enabling normal screen: ${err.message}`);
             });
         }
