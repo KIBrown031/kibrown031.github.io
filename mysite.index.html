@@ -105,10 +105,10 @@
   <div id="results"></div> <!-- searchTextFile() -->  <!-- displayURLs() -->
   
   <div id="results-csv">
-    <ul id="ul-csv"></ul>  <!-- schedule.csv search-->
+    <ul id="ul-csv"></ul>  <!-- schedule.csv - list of events-->
   </div>
   
-    <ul id="result"></ul>
+  <!--<ul id="result"></ul>-->
   
 
   
@@ -178,7 +178,7 @@
    <script>
       async function searchTextFile() {
           const query = document.getElementById('searchQuery').value.toLowerCase();  // text to search box
-          const resultsDiv = document.getElementById('results');                     // <div> to display results
+          const resultsDiv = document.getElementById('results');                     // <div> to display results  and also URLs
           resultsDiv.innerHTML = "Searching...";
 
           const regex = new RegExp('PIN:[0-9]+.?[0-9]+', 'gi');
@@ -281,13 +281,27 @@
         }
         });
       }
+
+          // Find the last "li" item in the list
+          const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
+          const lastItem = list.lastElementChild;
+
+          // Flash the item every 500 milliseconds (half a second)
+          setInterval(() => {
+            if (lastItem.style.visibility === "hidden") {
+              lastItem.style.visibility = "visible";
+            } else {
+              lastItem.style.visibility = "hidden";
+            }
+          }, 500);
+
     </script>
     
 <!-- displayURLs()-->    
     <script>
       function displayURLs() {
         const query = document.getElementById('searchQueryURL').value.toLowerCase();  // text to search box
-        const resultsDiv = document.getElementById('results');                        // <div> to display results
+        const resultsDiv = document.getElementById('results');                        // <div> to display results  and also  URLs
         
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
@@ -352,7 +366,8 @@ window.addEventListener('contextmenu', (event) => {
             });
         }
       });
-      
+
+  
     </script>
 
 
