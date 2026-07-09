@@ -324,10 +324,10 @@
             //**************************************************************************   // Find the last "li" item in the list
 
             // 1. Get today's date
-            const today = new Date();
-            const yyyy = today.getFullYear();
-            const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
-            const dd = String(today.getDate()).padStart(2, '0');
+            const now = new Date();
+            const yyyy = now.getFullYear();
+            const mm = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+            const dd = String(now.getDate()).padStart(2, '0');
 
             // 2. Format it to match "mm/dd/yyyy"
             const dateString = `${mm}/${dd}/${yyyy}`;
