@@ -274,7 +274,7 @@
             header: true,         // Converts rows into JSON objects using the first row as keys
             skipEmptyLines: true, // Ignores blank lines at the end of the file
             delimiter: ",",
-            complete: function(results) {
+            complete: async function(results) {
                 // const query = document.getElementById('searchQuery').value.toLowerCase();
                 const ulCsv = document.getElementById('ul-csv');
                 
@@ -292,15 +292,13 @@
                 })
                 
                 .map( row => `<li data-value="">${dowYMD(row.YEAR, row.MONTH -1, row.DAY)} ${row.MONTH}/${row.DAY}/${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
-            }
-            });
-
-          
+            
+            
             // 1. Select all list items on the page
             const listItems = document.querySelectorAll('#ul-csv li');
             if (!listItems) { console.log("listItems not TRUE"); return }
 
-            await sleep(500)
+            // await sleep(500)
             
             console.log(listItems)
             // 2. Loop through each list item
@@ -313,14 +311,12 @@
 
               if (match) {
                 // 4. Save the matched group (e.g., "1234") to a data-id attribute
-                li.dataset.value = match[1]; 
+                li.dataset.value = match[0]; 
               } else {
                 li.dataset.value = 'No Match';
               }
-            });
-          
-        
-        
+            });   
+            
           // Find the last "li" item in the list
 
             const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
@@ -340,6 +336,17 @@
               }
               console.log("Flashing...")
             }, 500);
+            
+
+            
+          }
+      });
+
+          
+
+          
+        
+        
 
       }
 
