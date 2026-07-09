@@ -302,7 +302,7 @@
         // 2. Loop through each list item
         listItems.forEach(li => {
           const visibleText = li.textContent; // Get the text between <li> and </li>
-          
+          console.log(visibleText)
           // 3. Define your Regex (Example: extract a 4-digit ID like #1234)
           const regex = /\d{2}\/\d{2}\/\d{4}/
           const match = visibleText.match(regex);
