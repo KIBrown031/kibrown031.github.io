@@ -256,7 +256,7 @@
 
 <!-- schedule.csv search-->
     <script>
-        const stopInterval = 0;
+        let stopInterval = 0;
         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
         async function loadSchedule() {
