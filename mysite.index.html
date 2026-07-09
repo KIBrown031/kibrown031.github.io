@@ -294,7 +294,7 @@
                 .map( row => `<li data-value="" data-today="">${dowYMD(row.YEAR, row.MONTH -1, row.DAY)} ${row.MONTH}/${row.DAY}/${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
             
             
-            //**************************************************************************
+            //**************************************************************************    //  Store date in data attribute
             
             
             // 1. Select all list items on the page
@@ -321,10 +321,24 @@
             });   
             
                       
-            //**************************************************************************
+            //**************************************************************************   // Find the last "li" item in the list
+
+            // 1. Get today's date
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+            const dd = String(today.getDate()).padStart(2, '0');
+
+            // 2. Format it to match "mm/dd/yyyy"
+            const dateString = `${mm}/${dd}/${yyyy}`;
+
+            // 3. Find the matching <li> element
+            const targetElement = document.querySelector(`li[data-value="${dateString}"]`);
+
+            console.log(targetElement);
+
+
             
-                      
-            // Find the last "li" item in the list
 
             const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
             if (!list) { console.log("list not TRUE"); return }
@@ -490,7 +504,9 @@ window.addEventListener('contextmenu', (event) => {
       <!-- AI Responses-->
       <li><a href="https://share.google/aimode/94GB9ggox38YgzpIy" title="AI: Is function .thenable"            data-value="AI: Is function .thenable">AI: Is function .thenable</a></li><br>
       <li><a href="https://share.google/aimode/3h8AOIj64UcMCIpll" title="AI: Flash List Item  wCSS @keyframes" data-value="AI: Flash List Item  wCSS @keyframes">AI: Flash List Item  wCSS @keyframes</a></li><br>
-      
+      <li><a href="https://share.google/aimode/qECvSETIrVQRPeQSI" title="AI: Match Today's Date"               data-value="AI: Match Today's Date">AI: Match Today's Date</a></li><br>
+
+
       <!-- YouTube Videos-->
       <li><a href="https://www.youtube.com/watch?v=hQTKU2t1DY8" title="Ford Explorer Front CV Axle Replacement" data-value="Spare in Garage">Ford Explorer Front CV Axle Replacement</a></li><br>
       <li><a href="https://www.youtube.com/watch?v=AKlul2eCLeA" title="Sharpen Knives with Bench Grinder" data-value="JigSaw Hack">Sharpen Knives with Bench Grinder</a></li><br>
