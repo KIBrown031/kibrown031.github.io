@@ -256,6 +256,7 @@
 
 <!-- schedule.csv search-->
     <script>
+        const stopInterval = 0;
         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
         async function loadSchedule() {
@@ -305,7 +306,7 @@
         if (!lastItem) { console.log("lastItem not TRUE"); return }
 
         // Flash the item every 500 milliseconds (.5 seconds)
-        setInterval(() => {
+        stopInterval = setInterval(() => {
           if (lastItem.style.visibility === "hidden") {
             lastItem.style.visibility = "visible";
           } else {
