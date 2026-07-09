@@ -310,6 +310,8 @@
           if (match) {
             // 4. Save the matched group (e.g., "1234") to a data-id attribute
             li.dataset.value = match[1]; 
+          } else {
+            li.dataset.value = 'No Match';
           }
         });
       
