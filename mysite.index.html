@@ -303,7 +303,7 @@
 
             // await sleep(500)
             
-            console.log(listItems)
+            // console.log(listItems)
             // 2. Loop through each list item
             listItems.forEach(li => {
               const visibleText = li.textContent; // Get the text between <li> and </li>
@@ -350,10 +350,10 @@
 
             // Flash the item every 500 milliseconds (.5 seconds)
             stopInterval = setInterval(() => {
-              if (lastItem.style.visibility === "hidden") {
-                lastItem.style.visibility = "visible";
+              if (targetElement.style.visibility === "hidden") {
+                targetElement.style.visibility = "visible";
               } else {
-                lastItem.style.visibility = "hidden";
+                targetElement.style.visibility = "hidden";
               }
               console.log("Flashing...")
             }, 500);
