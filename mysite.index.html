@@ -298,6 +298,10 @@
           
             // 1. Select all list items on the page
             const listItems = document.querySelectorAll('#ul-csv li');
+            if (!listItems) { console.log("listItems not TRUE"); return }
+
+            await sleep(500)
+            
             console.log(listItems)
             // 2. Loop through each list item
             listItems.forEach(li => {
