@@ -333,29 +333,30 @@
             const dateString = `${mm}/${dd}/${yyyy}`;
 
             // 3. Find the matching <li> element
-            const targetElement = document.querySelector(`li[data-value="${dateString}"]`);
+            const targetElement = document.querySelectorAll(`li[data-value="${dateString}"]`);
 
             console.log(targetElement);
-
-
             
-
+            /*
             const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
             if (!list) { console.log("list not TRUE"); return }
 
             // await sleep(500)
-
+            
             const lastItem = list.lastElementChild;
             if (!lastItem) { console.log("lastItem not TRUE"); return }
+            */
 
             // Flash the item every 500 milliseconds (.5 seconds)
             stopInterval = setInterval(() => {
-              if (targetElement.style.visibility === "hidden") {
-                targetElement.style.visibility = "visible";
-              } else {
-                targetElement.style.visibility = "hidden";
-              }
-              console.log("Flashing...")
+              targetElement.forEach( (te)=>{
+                if (te.style.visibility === "hidden") {
+                  te.style.visibility = "visible";
+                } else {
+                  te.style.visibility = "hidden";
+                }
+                console.log("Flashing...")
+              })
             }, 500);
             
 
