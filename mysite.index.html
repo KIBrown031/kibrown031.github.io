@@ -205,7 +205,7 @@
               const lines = text.split('\n');
               
               // 3. Filter lines that contain the keyword
-              const matches = lines.filter(line => { if (query === "") return true; line.toLowerCase().includes(query) });
+              const matches = lines.filter(line => { if (query === "") return false; line.toLowerCase().includes(query) });
 
               // 4. Render results to the user
               if (matches.length > 0) {
@@ -387,7 +387,7 @@
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
         .map(a => ({url: a.href, text: a.title, data: a.dataset.value}) ) // HTML/CSS data-value eq to JS dataset.value    // .map(a => a.href )
-        .filter(href => { if (query === "") return true; href.url.includes(query) });                                                                         // .filter(href => href.includes(query));
+        .filter(href => { if (query === "") return false; href.url.includes(query) });                                                                         // .filter(href => href.includes(query));
 
         console.log(urls)
         // resultsDiv.innerHTML = "Searching...";
