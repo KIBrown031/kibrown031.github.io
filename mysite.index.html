@@ -192,6 +192,9 @@
           const resultsDiv = document.getElementById('results');                     // <div> to display results  and also URLs
           resultsDiv.innerHTML = "Searching...";
 
+          const ulCsv = document.getElementById('ul-csv');
+          ulCsv.innerText = ""; // clear schedule
+
           const regex = new RegExp('PIN:[0-9]+.?[0-9]+', 'gi');
           // var coloredLine; // = line.replace(regex, '<span style="color: red;">$1</span>');
 
@@ -383,6 +386,9 @@
       function displayURLs() {
         const query = document.getElementById('searchQueryURL').value.toLowerCase();  // text to search box
         const resultsDiv = document.getElementById('results');                        // <div> to display results  and also  URLs
+
+        const ulCsv = document.getElementById('ul-csv');
+        ulCsv.innerText = ""; // clear schedule
         
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
