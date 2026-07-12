@@ -261,14 +261,14 @@
 
 <!-- schedule.csv search-->
     <script>
-        let stopInterval = 0;
+        let stopInterval = 0;  // clearInterval(stopInterval)
         const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
         async function loadSchedule() {
             // document.getElementById('csvFileInput').addEventListener('change', (event) => { });
             const today = new Date();
             today.setHours(0, 0, 0, 0);  
-            today.setDate(today.getDate() - 7); // start one week before today
+            today.setDate(today.getDate() - 10); // start 10 days before today
             
             // const file = event.target.files[0]; 
             // console.log(file);
@@ -356,7 +356,7 @@
                 */
 
                 // Flash the item every 500 milliseconds (.5 seconds)
-                stopInterval = setInterval(() => {
+                stopInterval = setInterval(() => {        // clearInterval(stopInterval)
                   targetElement.forEach( (te)=>{
                     if (te.style.visibility === "hidden") {
                       te.style.visibility = "visible";
