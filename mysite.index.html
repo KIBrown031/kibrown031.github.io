@@ -294,7 +294,9 @@
                     // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
                     // Subtract 1 if your CSV data uses 1 for January.
                     
+                    console.log(today);
                     today.setDate(today.getDate() - 7); // start one week before today
+                    console.log(today);
                     
                     const rowDate = new Date(row.YEAR, row.MONTH - 1, row.DAY);
                     return rowDate >= today;
