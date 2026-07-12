@@ -386,7 +386,7 @@
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
         .map(a => ({url: a.href, text: a.title, data: a.dataset.value}) ) // HTML/CSS data-value eq to JS dataset.value    // .map(a => a.href )
-        .filter(href => { if (query === "") return false; return href.url.includes(query) });                                                                         // .filter(href => href.includes(query));
+        .filter(obj => { return obj.url.includes(query) });                                                                         // .filter(href => href.includes(query));
 
         console.log(urls)
         // resultsDiv.innerHTML = "Searching...";
@@ -507,7 +507,6 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://share.google/aimode/3h8AOIj64UcMCIpll" title="AI: Flash List Item  wCSS @keyframes" data-value="AI: Flash List Item  wCSS @keyframes">AI: Flash List Item  wCSS @keyframes</a></li><br>
       <li><a href="https://share.google/aimode/qECvSETIrVQRPeQSI" title="AI: Match Today's Date"               data-value="AI: Match Today's Date">AI: Match Today's Date</a></li><br>
       <li><a href="https://share.google/aimode/wwRKq9r5XQFwFXbkt" title="AI: console.* methods"                data-value="AI: console.dir  console.table ...">AI: console.* methods/a></li><br>
-
 
       <!-- YouTube Videos-->
       <li><a href="https://www.youtube.com/watch?v=hQTKU2t1DY8" title="Ford Explorer Front CV Axle Replacement" data-value="Spare in Garage">Ford Explorer Front CV Axle Replacement</a></li><br>
