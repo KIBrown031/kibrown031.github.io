@@ -293,6 +293,9 @@
                 .filter(row => {
                     // JavaScript months are 0-indexed (Jan is 0, Feb is 1). 
                     // Subtract 1 if your CSV data uses 1 for January.
+                    
+                    today.setDate(today.getDate() - 7); // start one week before today
+                    
                     const rowDate = new Date(row.YEAR, row.MONTH - 1, row.DAY);
                     return rowDate >= today;
 
@@ -301,88 +304,76 @@
                 .map( row => `<li data-value="" data-today="">${dowYMD(row.YEAR, row.MONTH -1, row.DAY)} ${row.MONTH}/${row.DAY}/${row.YEAR}: ${row.MESSAGE} ${row.CRITICAL ? '<span style="color: red; font-weight: bold;"> *CRITICAL* </span>' : ''}</li>` ).join('')
             
             
-            //**************************************************************************    //  Store date in data attribute
-            
-            
-            // 1. Select all list items on the page
-            const listItems = document.querySelectorAll('#ul-csv li');
-            if (!listItems) { console.log("listItems not TRUE"); return }
+                //**************************************************************************    //  Store date in data attribute
+                
+                
+                // 1. Select all list items on the page
+                const listItems = document.querySelectorAll('#ul-csv li');
+                if (!listItems) { console.log("listItems not TRUE"); return }
 
-            // await sleep(500)
-            
-            // console.log(listItems)
-            // 2. Loop through each list item
-            listItems.forEach(li => {
-              const visibleText = li.textContent; // Get the text between <li> and </li>
-              // console.log(visibleText)
-              // 3. Define your Regex (Example: extract a date like 07/08/2026)
-              const regex = /\d{2}\/\d{2}\/\d{4}/
-              const match = visibleText.match(regex);
+                // await sleep(500)
+                
+                // console.log(listItems)
+                // 2. Loop through each list item
+                listItems.forEach(li => {
+                  const visibleText = li.textContent; // Get the text between <li> and </li>
+                  // console.log(visibleText)
+                  // 3. Define your Regex (Example: extract a date like 07/08/2026)
+                  const regex = /\d{2}\/\d{2}\/\d{4}/
+                  const match = visibleText.match(regex);
 
-              if (match) {
-            
-                li.dataset.value = match[0]; 
-              } else {
-                li.dataset.value = 'No Match';
-              }
-            });   
-            
-                      
-            //**************************************************************************   // Find the last "li" item in the list
+                  if (match) {
+                
+                    li.dataset.value = match[0]; 
+                  } else {
+                    li.dataset.value = 'No Match';
+                  }
+                });   
+                
+                          
+                //**************************************************************************   // Find the last "li" item in the list
 
-            // 1. Get today's date
-            const now = new Date();
-            const yyyy = now.getFullYear();
-            const mm = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
-            const dd = String(now.getDate()).padStart(2, '0');
+                // 1. Get today's date
+                const now = new Date();
+                const yyyy = now.getFullYear();
+                const mm = String(now.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+                const dd = String(now.getDate()).padStart(2, '0');
 
-            // 2. Format it to match "mm/dd/yyyy"
-            const dateString = `${mm}/${dd}/${yyyy}`;
+                // 2. Format it to match "mm/dd/yyyy"
+                const dateString = `${mm}/${dd}/${yyyy}`;
 
-            // 3. Find the matching <li> element
-            const targetElement = document.querySelectorAll(`li[data-value="${dateString}"]`);
+                // 3. Find the matching <li> element
+                const targetElement = document.querySelectorAll(`li[data-value="${dateString}"]`);
 
-            console.log(targetElement);
-            
-            /*
-            const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
-            if (!list) { console.log("list not TRUE"); return }
+                console.log(targetElement);
+                
+                /*
+                const list = document.getElementById('ul-csv');  //const list = document.querySelector("ul");
+                if (!list) { console.log("list not TRUE"); return }
 
-            // await sleep(500)
-            
-            const lastItem = list.lastElementChild;
-            if (!lastItem) { console.log("lastItem not TRUE"); return }
-            */
+                // await sleep(500)
+                
+                const lastItem = list.lastElementChild;
+                if (!lastItem) { console.log("lastItem not TRUE"); return }
+                */
 
-            // Flash the item every 500 milliseconds (.5 seconds)
-            stopInterval = setInterval(() => {
-              targetElement.forEach( (te)=>{
-                if (te.style.visibility === "hidden") {
-                  te.style.visibility = "visible";
-                } else {
-                  te.style.visibility = "hidden";
-                }
-                console.log("Flashing...")
-              })
-            }, 500);
+                // Flash the item every 500 milliseconds (.5 seconds)
+                stopInterval = setInterval(() => {
+                  targetElement.forEach( (te)=>{
+                    if (te.style.visibility === "hidden") {
+                      te.style.visibility = "visible";
+                    } else {
+                      te.style.visibility = "hidden";
+                    }
+                    console.log("Flashing...")
+                  })
+                }, 500);
             
 
             
           }
       });
-
-          
-
-          
-        
-        
-
-      }
-
-
-
-
-
+    }
     </script>
     
 <!-- displayURLs()-->    
