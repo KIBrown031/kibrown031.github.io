@@ -378,7 +378,8 @@
     <script>
       function displayURLs() {
         const query = document.getElementById('searchQueryURL').value.toLowerCase();  // text to search box
-        const resultsDiv = document.getElementById('results');                        // <div> to display results  and also  URLs
+        const resultsDiv = document.getElementById('results'); 
+        resultsDiv.innerHTML = "Searching...";                       // <div> to display results  and also  URLs
           
 
         const ulCsv = document.getElementById('ul-csv');
@@ -390,7 +391,7 @@
         .filter(obj => { if (query === "") return false; return obj.url.includes(query) });                                // .filter(href => href.includes(query));
 
         console.log(urls)
-        resultsDiv.innerHTML = "Searching...";
+        
         resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
         urls.map(line => { return `<li><a href="${line.url}" data-value="${ line.data ? line.data : "" }">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
       }
