@@ -379,6 +379,7 @@
       function displayURLs() {
         const query = document.getElementById('searchQueryURL').value.toLowerCase();  // text to search box
         const resultsDiv = document.getElementById('results');                        // <div> to display results  and also  URLs
+          
 
         const ulCsv = document.getElementById('ul-csv');
         ulCsv.innerText = ""; // clear schedule
@@ -386,10 +387,10 @@
         // const keyword = query;
         const urls = Array.from(document.querySelectorAll('a'))
         .map(a => ({url: a.href, text: a.title, data: a.dataset.value}) ) // HTML/CSS data-value eq to JS dataset.value    // .map(a => a.href )
-        .filter(obj => { if (query === "") return false; return obj.url.includes(query) });                                                                         // .filter(href => href.includes(query));
+        .filter(obj => { if (query === "") return false; return obj.url.includes(query) });                                // .filter(href => href.includes(query));
 
         console.log(urls)
-        // resultsDiv.innerHTML = "Searching...";
+        resultsDiv.innerHTML = "Searching...";
         resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
         urls.map(line => { return `<li><a href="${line.url}" data-value="${ line.data ? line.data : "" }">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
       }
