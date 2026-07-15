@@ -402,7 +402,7 @@
         console.log(urls)
         
         resultsDiv.innerHTML = `<h3>Found ${urls.length} matches:</h3><ul>` +
-        urls.map(line => { return `<li><a href="${line.url}" data-value="${ line.data ? line.data : "" }" onclick="${ /#?/.test(line.url) ? "event.preventDefault();" : ""}">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
+        urls.map(line => { return `<li><a href="${line.url}" data-value="${ line.data ? line.data : "" }" onclick="${ /#$/.test(line.url) ? "event.preventDefault();" : ""}">${ line.text ? line.text : line.url }</a></li>` } ).join('') + `</ul>`;
 
       
       }
