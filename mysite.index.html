@@ -8,7 +8,8 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>
-      #results ul li:first-child      { margin-bottom: 1em;}
+      /* #results ul li:first-child   { margin-bottom: 1em;} */
+      #results ul li:nth-child(-n+2)  { margin-bottom: 1em;} /* first two <li> elements */
       #ul-csv                         { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
       #tt:hover::after                { content:  "           " attr(data-value); white-space: pre-line; /* Tells the browser to process newlines */ display: block;  }
       .mybutton                       { width: 120px;     }
