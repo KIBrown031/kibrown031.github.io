@@ -9,7 +9,7 @@
     <base target="_blank">
     <style>
       #ul-csv                         { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
-      #tt:hover::after                { content:  "           " attr(data-tooltip); white-space: pre-line; /* Tells the browser to process newlines */ display: block;  }
+      #tt:hover::after                { content:  "           " attr(data-value); white-space: pre-line; /* Tells the browser to process newlines */ display: block;  }
       .mybutton                       { width: 120px;     }
       li::marker                      { content: "✅ ";   }
       a:link                          { color: #1a73e8; } /* Default blue for unvisited links */
@@ -515,7 +515,7 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://share.google/aimode/GYI3CaMs9SpLgxKn9" title="AI: ::hover:after content" data-value="content attr()">AI: ::hover:after content</a></li><br>
 
       
-      <li><a href="#" id="tt" title="junk.csv db calls" data-tooltip="findfriend
+      <li><a href="#" id="tt" title="junk.csv db calls" data-value="findfriend
         lookupkey
         gpjunk">junk.csv stuff</a></li><br>
       
