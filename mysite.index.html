@@ -456,8 +456,9 @@ window.addEventListener('contextmenu', (event) => {
 
 <!-- load multiline tooltip -->
  <script>
-      const link = document.getElementById('tt');
-      link.dataset.value = "findfriend\n$gpobjunk[]\n$lkup[]\nLookup\nLookupKey\nnotes";
+    window.addEventListener('load', () => {
+      document.getElementById('tt').dataset.value = "findfriend\n$gpobjunk[]\n$lkup[]\nLookup\nLookupKey\nnotes";
+    });
 
  </script>
 
