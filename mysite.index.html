@@ -9,12 +9,14 @@
     <base target="_blank">
     <style>
       #ul-csv                         { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+      #tt:hover::after                { content: attr(data-tooltip); white-space: pre-line; /* Tells the browser to process newlines */ display: block;  }
       .mybutton                       { width: 120px;     }
       li::marker                      { content: "✅ ";   }
       a:link                          { color: #1a73e8; } /* Default blue for unvisited links */
       a:visited                       { color: #1a73e8; } /* Force visited links to share the same unvisited color */
       a[data-value]:hover             { text-decoration: none; }                                                         /* a[data-value]:hover        is only valid when the data-* attribute exists */
       a[data-value]:hover::after      { content:  "           " attr(data-value); font-weight: bold; color:crimson; }  /* a[data-value]:hover::after is only valid when the data-* attribute exists */
+      
 
       /* input[type="file"]  { direction: rtl} */
 
@@ -510,7 +512,12 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://share.google/aimode/qECvSETIrVQRPeQSI" title="AI: Match Today's Date" data-value="Match Today's Date">AI: Match Today's Date</a></li><br>
       <li><a href="https://share.google/aimode/wwRKq9r5XQFwFXbkt" title="AI: console.* methods" data-value="console.dir  console.table ...">AI: console.* methods</a></li><br>
       <li><a href="https://share.google/aimode/Vg2mtg0sY85NbSPPM" title="AI: ... Spread Operator / Remove Duplicates" data-value="Remove Duplicates: [...new Set(array)]">AI: ... Spread Operator / Remove Duplicates</a></li><br>
-      <!-- <li><a href="https://share.google/aimode/sNpQJFAHseD2EUdRP" title="AI: Symlinks with Git" data-value="symlinks in Windows">AI: Symlinks with Git</a></li><br> -->
+      <li><a href="https://share.google/aimode/GYI3CaMs9SpLgxKn9" title="AI: ::hover:after content" data-value="content attr()">AI: ::hover:after content</a></li><br>
+
+      
+      <li><a href="#" id="tt" title="junk.csv db calls" data-value="pwsh calls for junk.csv" data-tooltip="findfriend
+        lookupkey
+        gpjunk">junk.csv stuff</a></li><br>
       
 
       <!-- YouTube Videos-->
