@@ -17,19 +17,24 @@
       li::marker                      { content: "✅ ";   }
       a:link                          { color: #1a73e8; } /* Default blue for unvisited links */
       a:visited                       { color: #1a73e8; } /* Force visited links to share the same unvisited color */
-      a[data-value]:hover             { text-decoration: none; }                                                         /* a[data-value]:hover        is only valid when the data-* attribute exists */
-      a[data-value]:hover::after      { content:  "           " attr(data-value); font-weight: normal; color:rgb(3, 3, 3);    /* a[data-value]:hover::after is only valid when the data-* attribute exists */
-                                                              white-space: pre-line; display: block;                     
-                                                              /* Added properties for the border box */
-                                                              border: 2px solid rgb(0, 7, 2);
-                                                              padding: 8px 12px;
-                                                              border-radius: 4px;
-                                                              background: #fff;
-                                                              width: fit-content; }  
-                                                                
+     
+      a[data-value]:hover             { text-decoration: none; }                                                         
+      
+      a[data-value]:not([data-value=""]):hover::after {
+      content: "           " attr(data-value);
+      font-weight: normal;
+      color: rgb(3, 3, 3);
+      white-space: pre-line;
+      display: block;
+      /* Added properties for the border box */
+      border: 2px solid rgb(0, 7, 2);
+      padding: 8px 12px;
+      border-radius: 4px;
+      background: #fff;
+      width: fit-content;
+      }                                                           
 
       /* input[type="file"]  { direction: rtl} */
-
 
       @keyframes flash-effect {
         0%, 100% { opacity: 1; background-color: transparent; }
@@ -503,7 +508,7 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://www.jw.org/finder?srcid=jwlshare&wtlocale=E&lank=pub-jwb-081_9_VIDEO" title="Mark Your Meribah" data-value="Through the Prism of Jehovah's Sovereignty">Mark Your Meribah</a></li><br>
 
       <!-- AI Responses-->
-      <li><a href="https://share.google/aimode/94GB9ggox38YgzpIy" title="AI: Is function .thenable" data-value="Is function .thenable">AI: Is function .thenable</a></li><br>
+      <li><a href="https://share.google/aimode/94GB9ggox38YgzpIy" title="AI: Is function .thenable" data-value="Is function .thenable  LINK NOT AVAILABLE">AI: Is function .thenable</a></li><br>
       <li><a href="https://share.google/aimode/3h8AOIj64UcMCIpll" title="AI: Flash List Item  wCSS @keyframes" data-value="Flash List Item  wCSS @keyframes">AI: Flash List Item  wCSS @keyframes</a></li><br>
       <li><a href="https://share.google/aimode/qECvSETIrVQRPeQSI" title="AI: Match Today's Date" data-value="Match Today's Date">AI: Match Today's Date</a></li><br>
       <li><a href="https://share.google/aimode/wwRKq9r5XQFwFXbkt" title="AI: console.* methods" data-value="console.dir  console.table ...">AI: console.* methods</a></li><br>
