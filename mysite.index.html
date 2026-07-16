@@ -8,7 +8,8 @@
     <title>CRAFTED</title>
     <base target="_blank">
     <style>
-      #results ul li:first-child   { margin-bottom: 1em;}
+      img                             { max-width: 100%;  height: auto;  display: block; } /* The Standard CSS Fluid Image (Universal Default) */
+      #results ul li:first-child      { margin-bottom: 1em;}
       /* #results ul li:nth-child(-n+2)  { margin-bottom: 1em;}    first two <li> elements */
       #ul-csv                         { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
       #tt:hover::after                { content:  "           " attr(data-value); white-space: pre-line; /* Tells the browser to process newlines */ display: block;  }
@@ -510,6 +511,8 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://share.google/aimode/GYI3CaMs9SpLgxKn9" title="AI: ::hover:after content" data-value="content attr()">AI: ::hover:after content</a></li><br>
       <li><a href="https://share.google/aimode/BsOx2ZEo1Fu2MIw6g" title="AI: Semicolon REQUIRED" data-value="Semicolon REQUIRED">AI: Semicolon REQUIRED</a></li><br>
       <li><a href="https://share.google/aimode/4Nko8pnsF9Iue4Rlj" title="AI: Copy ALL Anchor Attributes" data-value="Copy ALL Anchor Attributes">AI: Copy ALL Anchor Attributes</a></li><br>
+      <li><a href="https://share.google/aimode/0Pg7m0xf65uRnHSiL" title="AI: CSS image Handling" data-value="CSS image Handling">AI: CSS image Handling </a></li><br>
+      
 
       <li><a href="#" onclick="event.preventDefault();" id="tt" title="DB Calls junk.csv" data-value="">DB Calls junk.csv</a></li><br>
       <li><a href="#" onclick="event.preventDefault();" id="fn" title="Useful Functions" data-value="">Useful Functions</a></li><br>
