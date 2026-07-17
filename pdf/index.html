@@ -44,8 +44,20 @@
     
   </ul>
   
-    <!-- load .docx file -->
-   <script>
+  <div id="document-container"></div>
+
+  <script src="https://unpkg.com/jszip/dist/jszip.min.js"
+        onload="console.log('JSZip is ready')" 
+        onerror="alert('Failed to load JSZip! Using local fallback...')">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docx-preview-lib@0.1.14-fix-3/dist/docx-preview.min.js"
+        onload="console.log('docx is ready')" 
+        onerror="alert('Failed to load docx! Using local fallback...')">
+  </script>  
+  
+  <!-- load .docx file -->
+  <script>
         document.getElementById('docx-link').addEventListener('click', function (event) {
           // 1. Get the URL string from the href attribute
           console.log("entering docx-link click");
@@ -84,7 +96,7 @@
               console.log("Not a .docx file. Proceeding with standard link behavior.");
           }
       });
-    </script>
+  </script>
     
 </body>
 </html>
