@@ -17,8 +17,8 @@
 <body>
   <h1>PDF Documents</h1>
   <ul>
-    <li><a href="https://keithibrown.org/pdf/Announcements(a).docx" id="docx-link" title="" data-value="">Announcements</a></li>
-    <li><a href="https://keithibrown.org/pdf/AcquiringAHeartOfWisdom.docx" id="docx-link" title="" data-value="">Talk #73</a></li>
+    <li><a href="https://keithibrown.org/pdf/Announcements(a).docx" class="docx-link" title="" data-value="">Announcements</a></li>
+    <li><a href="https://keithibrown.org/pdf/AcquiringAHeartOfWisdom.docx" class="docx-link" title="" data-value="">Talk #73</a></li>
     
     <li><a href="ms-excel:ofe|u|https://keithibrown.org/pdf/NW Publisher Report June 2026.xlsx" title="" data-value="REQUIRES MS EXCEL">June 2026 FS Reports</a></li>
     
@@ -46,7 +46,7 @@
   </ul>
   
   <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''">Close DOC</button>
-  
+
   <div id="document-container"></div>
 
   <script src="https://unpkg.com/jszip/dist/jszip.min.js"
@@ -61,10 +61,10 @@
   
   <!-- load .docx file -->
   <script>
-        document.getElementById('docx-link').addEventListener('click', function (event) {
+        document.querySelector('ul').addEventListener('click', (event) => {
           // 1. Get the URL string from the href attribute
-          console.log("entering docx-link click");
-          const fileUrl = this.href;
+          console.log("entering ul click");
+          const fileUrl = event.target.href; // this.href
 
           // 2. Check if the URL ends with '.docx' (ignoring upper/lower case)
           if (fileUrl.toLowerCase().endsWith('.docx')) {
