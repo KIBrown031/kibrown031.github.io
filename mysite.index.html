@@ -174,8 +174,9 @@
   
   <!-- load .docx file -->
    <script>
-        document.getElementById('docx-link').addEventListener('click', (event) => {
+        document.getElementById('docx-link').addEventListener('click', function (event) {
           // 1. Get the URL string from the href attribute
+          console.log("entering docx-link click");
           const fileUrl = this.href;
 
           // 2. Check if the URL ends with '.docx' (ignoring upper/lower case)

@@ -43,5 +43,48 @@
 
     
   </ul>
+  
+    <!-- load .docx file -->
+   <script>
+        document.getElementById('docx-link').addEventListener('click', function (event) {
+          // 1. Get the URL string from the href attribute
+          console.log("entering docx-link click");
+          const fileUrl = this.href;
+
+          // 2. Check if the URL ends with '.docx' (ignoring upper/lower case)
+          if (fileUrl.toLowerCase().endsWith('.docx')) {
+              // Prevent the default browser download behavior
+              event.preventDefault(); 
+              
+              // 3. Clear any previously opened document
+              const container = document.getElementById("document-container");
+              container.innerHTML = "Loading document..."; 
+
+              // 4. Fetch and render the file
+              fetch(fileUrl)
+                  .then(response => {
+                      if (!response.ok) throw new Error("Network response was not ok");
+                      return response.arrayBuffer();
+                  })
+                  .then(data => {
+                      container.innerHTML = ""; // Clear the loading text
+                      docx.renderAsync(data, container)
+                          .then(() => console.log("Docx rendered successfully."))
+                          .catch(err => {
+                              container.innerHTML = "Error rendering document.";
+                              console.error(err);
+                          });
+                  })
+                  .catch(error => {
+                      container.innerHTML = "Failed to fetch the file.";
+                      console.error("Fetch error:", error);
+                  });
+          } else {
+              // If it's not a .docx file, let the browser handle it normally (e.g., download it)
+              console.log("Not a .docx file. Proceeding with standard link behavior.");
+          }
+      });
+    </script>
+    
 </body>
 </html>
