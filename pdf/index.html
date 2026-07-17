@@ -76,8 +76,6 @@
               const container = document.getElementById("document-container");
               container.innerHTML = "Loading document..."; 
 
-              document.getElementById('ul').style.display = "none";
-
               // 4. Fetch and render the file
               fetch(fileUrl)
                   .then(response => {
@@ -101,6 +99,7 @@
               // If it's not a .docx file, let the browser handle it normally (e.g., download it)
               console.log("Not a .docx file. Proceeding with standard link behavior.");
           }
+          document.getElementById('ul').style.display = "none";
       });
   </script>
     
