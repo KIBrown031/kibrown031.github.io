@@ -149,7 +149,7 @@
   <div id="document-container"></div>
 
 <!-- Include Papa Parse via CDN -->
- 
+
 
 <!-- papaparse.min.js  csv handling-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -163,9 +163,14 @@
 
   <script src="myPlugin.js"></script>
 
-  <script src="https://unpkg.com/jszip/dist/jszip.min.js"></script>
-  <script src="https://unpkg.com"></script>
-  
+  <script src="https://unpkg.com/jszip/dist/jszip.min.js"
+        onload="console.log('JSZip is ready')" 
+        onerror="alert('Failed to load JSZip! Using local fallback...')">
+  </script>
+  <script src="https://unpkg.com"
+        onload="console.log('docx is ready')" 
+        onerror="alert('Failed to load docx! Using local fallback...')">
+  </script>  
   
   <!-- Utility Functions -->
    <script>
