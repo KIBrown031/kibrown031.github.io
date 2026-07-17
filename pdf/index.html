@@ -45,7 +45,7 @@
     
   </ul>
   
-  <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''">Close DOC</button>
+  <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''; document.getElementById('ul').style.display = 'normal'; ">Close DOC</button>
 
   <div id="document-container"></div>
 
@@ -64,6 +64,7 @@
         document.querySelector('ul').addEventListener('click', (event) => {
           // 1. Get the URL string from the href attribute
           console.log("entering ul click");
+          
           const fileUrl = event.target.href; // this.href
 
           // 2. Check if the URL ends with '.docx' (ignoring upper/lower case)
@@ -74,6 +75,8 @@
               // 3. Clear any previously opened document
               const container = document.getElementById("document-container");
               container.innerHTML = "Loading document..."; 
+
+              document.getElementById('ul').style.display = "none";
 
               // 4. Fetch and render the file
               fetch(fileUrl)
