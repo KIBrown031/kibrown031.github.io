@@ -11,6 +11,20 @@
     a[data-value]:hover             { text-decoration: none; }                                                         /* a[data-value]:hover        is only valid when the data-* attribute exists */
     a[data-value]:hover::after      { content:  "           " attr(data-value); font-weight: bold; color:crimson; }  /* a[data-value]:hover::after is only valid when the data-* attribute exists */
     /* input[type="file"]  { direction: rtl} */
+
+    /* Style the generated page elements */
+    .docx-wrapper > section.docx {
+        background: white !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+        margin-bottom: 30px !important; /* Space between pages */
+        border: 1px solid #ddd !important;
+    }
+
+    /* Optional: Gray background behind the pages for a true print preview look */
+    .docx-wrapper {
+        background: #f4f4f4 !important;
+        padding: 40px 10px !important;
+    }
   </style>
   
 </head>
@@ -91,7 +105,7 @@
                   })
                   .then(data => {
                       container.innerHTML = ""; // Clear the loading text
-                      docx.renderAsync(data, container,null, renderOptions)
+                      docx.renderAsync(data, container, null, renderOptions)
                           .then(() => console.log("Docx rendered successfully."))
                           .catch(err => {
                               container.innerHTML = "Error rendering document.";
