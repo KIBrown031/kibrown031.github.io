@@ -142,6 +142,7 @@ $(document).ready(function() {
       }
 
       $('.button-reload').on('click', function() {
+        console.log("REFRESH key pressed");
         location.reload();
         $(window).scrollTop(0);
       });
@@ -188,12 +189,14 @@ $(document).ready(function() {
 
       $(".button-accordian").on("click", function() {
         // alert("ACCORDIAN");
+        console.log("ACCORDIAN key pressed");
         window.location.href = "/accordian.html";
       });
 
 
       $(".button-qrcode").on("click", function() {
         // alert("ACCORDIAN");
+        console.log("QRCCODE key pressed");
         window.location.href = "/qrcode.html";
       });
 
@@ -236,6 +239,8 @@ $(document).ready(function() {
         // search.json
         // junk.json
         // minimal.json
+
+        console.log("JSON key pressed");
         
         let regex = /^z0.*$/;              // starts with 'z0'
         let regexAlpha = /^[^A-Za-z].*$/;  // must start with a letter, not a period .
