@@ -76,6 +76,13 @@
               const container = document.getElementById("document-container");
               container.innerHTML = "Loading document..."; 
 
+              // Define the layout configuration
+              const renderOptions = {
+                  breakPages: true,         // Enables visual page breaks between pages
+                  ignoreHeight: false,      // Tells the engine to respect page heights
+                  ignoreWidth: false,       // Tells the engine to respect page widths
+                  className: "docx"         // Prefix for default styling classes
+              };
               // 4. Fetch and render the file
               fetch(fileUrl)
                   .then(response => {
@@ -84,7 +91,7 @@
                   })
                   .then(data => {
                       container.innerHTML = ""; // Clear the loading text
-                      docx.renderAsync(data, container)
+                      docx.renderAsync(data, container,null, renderOptions)
                           .then(() => console.log("Docx rendered successfully."))
                           .catch(err => {
                               container.innerHTML = "Error rendering document.";
