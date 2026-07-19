@@ -62,12 +62,17 @@
   <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''; document.getElementById('ul').style.display = 'normal'; ">Close DOC</button>
 
   <div id="document-container"></div>
-  
+
   <!-- load jquery F I R S T  other code makes use of it-->
   <script src="jquery-3.7.1.min.js"
             onload="console.log('jquery-3.7.1.min.js')" 
             onerror="alert('Failed to load jquery-3.7.1.min.js')">
   </script>
+
+  <script>
+    $(document).ready(function() { console.log('jQuery We Be Ready: PDF !!!') } )
+  </script>
+  
   
   <script src="https://unpkg.com/jszip/dist/jszip.min.js"
         onload="console.log('JSZip is ready')" 
