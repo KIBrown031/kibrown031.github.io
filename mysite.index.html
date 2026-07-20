@@ -179,32 +179,32 @@
     
 
   <!-- Utility Functions -->
-   <script>
-      // dow('yyyy-mm-dd')  returns the day of the week of a yyyy-mm-dd date string
-      const dow = (sDate) => { const DOW = [ "Sun","Mon","Tue","Wed","Thu","Fri","Sat" ]; return DOW[ new Date(sDate + 'T00:00:00Z').getUTCDay() ] }; 
+    <script>
+        // dow('yyyy-mm-dd')  returns the day of the week of a yyyy-mm-dd date string
+        const dow = (sDate) => { const DOW = [ "Sun","Mon","Tue","Wed","Thu","Fri","Sat" ]; return DOW[ new Date(sDate + 'T00:00:00Z').getUTCDay() ] }; 
 
-      const dowYMD = (year, month, day) => { const DOW = [ "SUN","MON","TUE","WED","THU","FRI","SAT" ]; return DOW[ new Date(year, month, day).getDay() ] }; 
-   </script>
+        const dowYMD = (year, month, day) => { const DOW = [ "SUN","MON","TUE","WED","THU","FRI","SAT" ]; return DOW[ new Date(year, month, day).getDay() ] }; 
+    </script>
 
 
   <!-- sortList() -->
-  <script>
-    function sortList() {
-      // Select the unordered list
-      const ul = document.getElementById('unoderedlist');
+    <script>
+      function sortList() {
+        // Select the unordered list
+        const ul = document.getElementById('unoderedlist');
 
-      // Create a new ordered list
-      const ol = document.createElement('ol');
+        // Create a new ordered list
+        const ol = document.createElement('ol');
 
-      // Move and sort the list items
-      Array.from(ul.children)
-        .sort((a, b) => a.textContent.localeCompare(b.textContent)) // Optional: sorts alphabetically
-        .forEach(li => ol.appendChild(li));
+        // Move and sort the list items
+        Array.from(ul.children)
+          .sort((a, b) => a.textContent.localeCompare(b.textContent)) // Optional: sorts alphabetically
+          .forEach(li => ol.appendChild(li));
 
-      // Replace the ul with the new ol in the DOM
-      ul.parentNode.replaceChild(ol, ul);
-    }
-  </script>
+        // Replace the ul with the new ol in the DOM
+        ul.parentNode.replaceChild(ol, ul);
+      }
+    </script>
   
 
   <!-- document ready -->
@@ -226,10 +226,10 @@
       // clearInterval (interval);
     });
       
-  </script>
+    </script>
 
   <!-- searchTextFile() -->
-   <script>
+    <script>
       async function searchTextFile() {
           const query = document.getElementById('searchQuery').value.toLowerCase();  // text to search box
           const resultsDiv = document.getElementById('results');                     // <div> to display results  and also URLs
@@ -266,32 +266,32 @@
               console.error(error);
           }
       }
-  </script>
+    </script>
   
   <!-- button.addEventListenerS -->
-   <script>
-    const buttons = document.querySelectorAll(".mybutton"); // notice the . since this is a class
-    buttons.forEach( (button) => {
-      // console.log("button.addEventListener");
-      button.addEventListener("click",() => { console.log("results"); document.getElementById("results").replaceChildren(); },    { capture: true } )
-      button.addEventListener("click",() => { console.log("results-csv"); document.getElementById("ul-csv").replaceChildren(); }, { capture: true } )
-    });
-  </script>
-  
+    <script>
+      const buttons = document.querySelectorAll(".mybutton"); // notice the . since this is a class
+      buttons.forEach( (button) => {
+        // console.log("button.addEventListener");
+        button.addEventListener("click",() => { console.log("results"); document.getElementById("results").replaceChildren(); },    { capture: true } )
+        button.addEventListener("click",() => { console.log("results-csv"); document.getElementById("ul-csv").replaceChildren(); }, { capture: true } )
+      });
+    </script>
+    
   <!-- keydown -->
-  <script>
-      document.getElementById('searchQuery').addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') { // event.preventDefault(); // Stop default browser actions
-          searchTextFile(); 
-          }
-      })
+    <script>
+        document.getElementById('searchQuery').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') { // event.preventDefault(); // Stop default browser actions
+            searchTextFile(); 
+            }
+        })
 
-      document.getElementById('searchQueryURL').addEventListener('keydown', function(event) {
-      if (event.key === 'Enter') { // event.preventDefault(); // Stop default browser actions
-          displayURLs(); 
-          }
-      })
-  </script>
+        document.getElementById('searchQueryURL').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') { // event.preventDefault(); // Stop default browser actions
+            displayURLs(); 
+            }
+        })
+    </script>
 
 
 <!-- schedule.csv search-->
@@ -490,15 +490,22 @@ window.addEventListener('contextmenu', (event) => {
     </script>
 
 <!-- load 'data-value' with long strings -->
- <script>
-    window.addEventListener('load', () => {
-      document.getElementById('tt').dataset.value = "findfriend\n$gpobjunk[]\n$lkup[]\nLookup\nLookupKey\nnotes";
-      document.getElementById('fn').dataset.value = `ListFunctions\nAllFunctions (helper)\nMessaging\nWrite-Host-Rev\nnotesDB\nWrite-SpectreFigletText\nSync
-                                                      hostup\nhostdown\nLogPSStart\ntoasttimedmessage\nfreespace\niCloud\nJWLibrary\nvpnlaunch\nvpnterminate\naction\ntoPDF
-                                                      showgroups\nGet-OpenFileHandle\ngitbundle\ngooglemap\ncalsearch\nscheduled\nNWSchedReport\nColorPicker`;
-    });
+    <script>
+        window.addEventListener('load', () => {
+          document.getElementById('tt').dataset.value = "findfriend\n$gpobjunk[]\n$lkup[]\nLookup\nLookupKey\nnotes";
+          document.getElementById('fn').dataset.value = `ListFunctions\nAllFunctions (helper)\nMessaging\nWrite-Host-Rev\nnotesDB\nWrite-SpectreFigletText\nSync
+                                                          hostup\nhostdown\nLogPSStart\ntoasttimedmessage\nfreespace\niCloud\nJWLibrary\nvpnlaunch\nvpnterminate\naction\ntoPDF
+                                                          showgroups\nGet-OpenFileHandle\ngitbundle\ngooglemap\ncalsearch\nscheduled\nNWSchedReport\nColorPicker`;
+        });
 
- </script>
+    </script>
+
+<!-- jQuery Code here-->    
+    <script>
+      // $(document).ready(function() { console.log('jQuery We Be Ready: MYSITE.INDEX !!!') } )
+      $(function() { console.log('jQuery We Be Ready: MYSITE.INDEX !!!') } );
+    </script>
+
 
 <!-- main list of MANY URLs from initial project -->
   <div class="div-urls" id="id-urls">  
