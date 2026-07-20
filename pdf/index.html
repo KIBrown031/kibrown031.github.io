@@ -120,7 +120,7 @@
                   .then(data => {
                       container.innerHTML = ""; // Clear the loading text
                       docx.renderAsync(data, container, null, renderOptions)
-                          .then(() => console.log("Docx rendered successfully."))
+                          .then(() => {console.log("Docx rendered successfully."); document.querySelector('ul').style.display = "none"})
                           .catch(err => {
                               container.innerHTML = "Error rendering document.";
                               console.error(err);
@@ -134,7 +134,7 @@
               // If it's not a .docx file, let the browser handle it normally (e.g., download it)
               console.log("Not a .docx file. Proceeding with standard link behavior.");
           }
-          document.querySelector('ul').style.display = "none";
+          ;
       });
   </script>
     
