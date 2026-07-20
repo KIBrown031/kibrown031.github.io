@@ -59,7 +59,7 @@
     
   </ul>
   
-  <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''; document.getElementById('ul').style.display = 'normal'; ">Close DOC</button>
+  <button class="mybutton" onclick="document.getElementById('document-container').innerHTML = ''; document.querySelector('ul').style.display = 'normal'; ">Close DOC</button>
 
   <div id="document-container"></div>
 
@@ -134,7 +134,7 @@
               // If it's not a .docx file, let the browser handle it normally (e.g., download it)
               console.log("Not a .docx file. Proceeding with standard link behavior.");
           }
-          document.getElementById('ul').style.display = "none";
+          document.querySelector('ul').style.display = "none";
       });
   </script>
     
