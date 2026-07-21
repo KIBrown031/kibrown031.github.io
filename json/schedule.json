@@ -4,3380 +4,4719 @@
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "TODAY'S Test Calendar Event (1)"
+    "MESSAGE": "TODAY'S Test Calendar Event (1)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "TODAY'S Test Calendar Event (2)"
+    "MESSAGE": "TODAY'S Test Calendar Event (2)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "TODAY'S Test Calendar Event (3)"
+    "MESSAGE": "TODAY'S Test Calendar Event (3)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2028",
     "MONTH": "08",
     "DAY": "19",
-    "MESSAGE": "Marsha's Driver License exp 19-Sep-28"
+    "MESSAGE": "Marsha's Driver License exp 19-Sep-28",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2028",
     "MONTH": "03",
     "DAY": "28",
-    "MESSAGE": "Master Card .... .... .... 0822 expires"
+    "MESSAGE": "Master Card .... .... .... 0822 expires",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2027",
+    "MONTH": "07",
+    "DAY": "21",
+    "MESSAGE": "Emissions Testing due for Explorer",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2027",
+    "MONTH": "03",
+    "DAY": "31",
+    "MESSAGE": "BJ's membership expires - CANCEL AUTORENEW!!!",
+    "CRITICAL": "*"
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2027",
     "MONTH": "03",
     "DAY": "22",
-    "MESSAGE": "Memorial Monday 22-Mar-2027"
+    "MESSAGE": "Memorial Monday 22-Mar-2027",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2027",
+    "MONTH": "02",
+    "DAY": "27",
+    "MESSAGE": "Circuit Assy w Branch Rep",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2027",
+    "MONTH": "02",
+    "DAY": "09",
+    "MESSAGE": "Marsha'a appointment with Dr. Reddy",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2027",
+    "MONTH": "01",
+    "DAY": "21",
+    "MESSAGE": "Wellnes Check with McVoy",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2027",
+    "MONTH": "01",
+    "DAY": "11",
+    "MESSAGE": "Lab Work for Appointment",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "11",
+    "DAY": "28",
+    "MESSAGE": "keithibrown.org expires with NameCheap.com",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "11",
+    "DAY": "15",
+    "MESSAGE": "Circuit Assy w CO",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "11",
+    "DAY": "03",
+    "MESSAGE": "Eye Doctor 03-Nov-2026 @ 8:15 (dialate)",
+    "CRITICAL": "*"
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2026",
     "MONTH": "10",
     "DAY": "16",
-    "MESSAGE": "Fidelity & Guaranty Life Anniversay: L0748678 ( covering Marsha )"
+    "MESSAGE": "Fidelity & Guaranty Life Anniversay: L0748678 ( covering Marsha )",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "09",
+    "DAY": "26",
+    "MESSAGE": "Special Talk",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "09",
+    "DAY": "22",
+    "MESSAGE": "Dental visit @ 09:00am",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "09",
+    "DAY": "12",
+    "MESSAGE": "Congregation Picnic",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "08",
+    "DAY": "21",
+    "MESSAGE": "'Everlasting Happiness' Reg Conv 'North' Aug 21-23",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "08",
+    "DAY": "16",
+    "MESSAGE": "Fidelity & Guaranty: send cancellation letter L0748678",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "08",
+    "DAY": "14",
+    "MESSAGE": "'Everlasting Happiness' Reg Conv 'South' Aug 14-16",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "30",
+    "MESSAGE": "Marsha'a appointment with Dr. Reddy",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "20",
+    "MESSAGE": "CBS: Walk Courageously With God",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "16",
+    "MESSAGE": "Appointment with McVoy",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "14",
+    "MESSAGE": "Temple's CO Visit: 7/14-19 - T E N T A T I V E",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "11",
+    "MESSAGE": "Wedding at Kirby Road KH - Persons from out of town",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "11",
+    "MESSAGE": "Talk #73 Sat-7/11/2026 @ 10:30am - North Bowie",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "08",
+    "MESSAGE": "Lab Work for Appointment",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2026",
+    "MONTH": "07",
+    "DAY": "01",
+    "MESSAGE": "Check WSSC for current water bill",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "20",
+    "MESSAGE": "Preconvention meeting at 2pm in Annapolis",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "20",
+    "MESSAGE": "Take the lead for Saturday FS after WT Study",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "15",
+    "MESSAGE": "(PSS) Pioneer Service School: June 15-20",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "14",
+    "MESSAGE": "Ring contract expires 6/14/2026: $105.98 to renew",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "08",
+    "MESSAGE": "KH parking lot repairs",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "07",
+    "MESSAGE": "Ericka Atkins: 60 days since reinstatement 4/7/2026",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "06",
+    "DAY": "05",
+    "MESSAGE": "'Everlasting Happiness' Reg Conv 'Temple' Jun 05-07",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "05",
+    "DAY": "19",
+    "MESSAGE": "South's CO Visit: 5/19-24",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "05",
+    "DAY": "18",
+    "MESSAGE": "Dental Appointment",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "05",
+    "DAY": "18",
+    "MESSAGE": "'Disaster Preparedness—Expect the Unexpected.' CL&M:5/20",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "05",
+    "DAY": "10",
+    "MESSAGE": "Microsoft 365 Family expires 5/10/2026: 129.99 - 137.79( w tax) to renew",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "25",
+    "MESSAGE": "Lillian Neal memorial @ Kirby Rd KH",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "23",
+    "MESSAGE": "Eye Doctor 23-Apr-2026 @ 8:15",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "19",
+    "MESSAGE": "Branch Visit by a Headquarters Representative",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "18",
+    "MESSAGE": "Branch Visit by a Headquarters Representative",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "11",
+    "MESSAGE": "CANCELLED: Wedding at Kirby Road KH - moved to 7/11/2026",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2026",
     "MONTH": "04",
     "DAY": "10",
-    "MESSAGE": "Sam's Club expires"
+    "MESSAGE": "Sam's Club expires  10142100468640913",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "09",
+    "MESSAGE": "Marsha's Post Surgery Exam at GT Hospital",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "04",
+    "MESSAGE": ":Funeral at KH",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "04",
+    "DAY": "04",
+    "MESSAGE": "Conduct WT Study",
+    "CRITICAL": "*"
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2026",
     "MONTH": "04",
     "DAY": "02",
-    "MESSAGE": "Memorial Thursday 02-Apr-2026"
+    "MESSAGE": "Memorial Thursday 02-Apr-2026 (Devin)",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "28",
+    "MESSAGE": "Take the lead for Saturday FS after WT Study",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "28",
+    "MESSAGE": "Special Talk: “Who Will Restore the Earth?” (Vernon)",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "21",
+    "MESSAGE": "Spring Cleaning at KH",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "16",
+    "MESSAGE": "North's CO Visit: 3/17-22",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "16",
+    "MESSAGE": "Marsha's Surgery at GT Hospital",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "14",
+    "MESSAGE": "Walkthrough - Brandywine Fire House @ 9:00am",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "14",
+    "MESSAGE": "Branch Conv Training Others - Glen Burnie KH 2-4pm",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "12",
+    "MESSAGE": "Marsha's Surgery Prep at GT Hospital",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "09",
+    "MESSAGE": "Zoom meeting for Regional @ 6:00pm",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "08",
+    "MESSAGE": "Daylight Savings Time begins",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "07",
+    "MESSAGE": "Security Meeting @ 2:00pm",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "03",
+    "DAY": "02",
+    "MESSAGE": "Audit for December 2025 thru February 2026: Keith Brown",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2026",
     "MONTH": "03",
     "DAY": "01",
-    "MESSAGE": "Circuit Assy w CO"
+    "MESSAGE": "Circuit Assy w CO",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2026",
+    "MONTH": "02",
+    "DAY": "27",
+    "MESSAGE": "Marsha's Cardio Exam in Waldorf",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "02",
+    "DAY": "23",
+    "MESSAGE": "TJ review",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "02",
+    "DAY": "15",
+    "MESSAGE": "Talk #141 Sun 2/15 @ 1:00pm 8711 Pohick Rd",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "02",
+    "DAY": "12",
+    "MESSAGE": "Marsha's Appointment @ GT Hospital",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "02",
+    "DAY": "07",
+    "MESSAGE": "JW Hub Project Tasks training @ 5th&N 9:30am",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "31",
+    "MESSAGE": "Sandy Spring Card: Deactivated",
+    "CRITICAL": "*"
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2026",
     "MONTH": "01",
     "DAY": "16",
-    "MESSAGE": "Wellness Check: Dr McVoy @ 8:40"
+    "MESSAGE": "Wellness Check: Dr McVoy @ 8:40",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "13",
+    "MESSAGE": "Marsha's Biopsy",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "12",
+    "MESSAGE": "Dental Appointment @ 1:30pm",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "11",
+    "MESSAGE": "Pioneer Meal",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "08",
+    "MESSAGE": "Dental Plan renewal: 1/13/2026",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2026",
+    "MONTH": "01",
+    "DAY": "06",
+    "MESSAGE": "Meet wih Nyima Okon: Reinstatement Followup",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "31",
+    "MESSAGE": "Emissions Testing due for Kona",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "20",
+    "MESSAGE": "Elders meet with the Pioneers @ 1:00pm",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "16",
+    "MESSAGE": "Service Committtee meet @ 5:00pm",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "13",
+    "MESSAGE": "Quarterly meeting @ 2:00pm",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "12",
+    "MESSAGE": "TESTING Burnt Toast notification",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "12",
     "DAY": "01",
-    "MESSAGE": "Audit for September 2025 thru November 2025: Dennis Hughes"
+    "MESSAGE": "Audit for September 2025 thru November 2025: Vernon Corbitt",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "01",
+    "MESSAGE": "Humana Prescriptions $4.30 effective 1/1/2026",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "12",
+    "DAY": "01",
+    "MESSAGE": "Cooper Mortgage $1558.49 effective 12/1/2025",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "30",
+    "MESSAGE": "Costco membership expires",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "28",
+    "MESSAGE": "keithibrown.org expires with NameCheap.com",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "25",
+    "MESSAGE": "Disney increase to 12.99/mo 11-29-2025",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "23",
+    "MESSAGE": "TJ Removed",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "20",
+    "MESSAGE": "Disney increase to 12.99/mo 11-29-2025",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "18",
+    "MESSAGE": "Natl Group Life policy expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "11",
     "DAY": "15",
-    "MESSAGE": "Circuit Assy w Branch Rep"
+    "MESSAGE": "Circuit Assy w Branch Rep",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "11",
+    "DAY": "14",
+    "MESSAGE": "Pioneer meeting with CO",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "11",
     "DAY": "02",
-    "MESSAGE": "Daylight Saving Time: END"
+    "MESSAGE": "Daylight Saving Time: END",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "10",
+    "DAY": "30",
+    "MESSAGE": "Eye Doctor 30-Oct-2025 @ 7:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "10",
     "DAY": "29",
-    "MESSAGE": "Eye Doctor 30-Oct-2025 @ 7:30"
+    "MESSAGE": "COVID & Flu vaccines: Marsha & Keith",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "10",
+    "DAY": "29",
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "10",
+    "DAY": "28",
+    "MESSAGE": "CO Vist Temple: Oct 28 - Nov 2",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "10",
+    "DAY": "12",
+    "MESSAGE": "Talk #145 \"Who Is Like Jehovah Our God?\"  Cloverly MD @ 09:30 AM",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "30",
+    "MESSAGE": "CO Vist South: Sep 30 - Oct 5",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "09",
     "DAY": "28",
-    "MESSAGE": "Special Talk"
+    "MESSAGE": "Special Talk: \"An End to War—How?\"",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "22",
+    "MESSAGE": "Schedule A1C test",
+    "CRITICAL": "*"
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "09",
     "DAY": "18",
-    "MESSAGE": "National Group Life Anniversay: 7081442 ( covering Keith )"
+    "MESSAGE": "National Group Life Anniversay: 7081442 ( covering Keith )",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "17",
+    "MESSAGE": "Dentist 17-Sep-2025 @ 9:00am",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "16",
+    "MESSAGE": "CO Vist North: Sep 16 - Sep 21",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "15",
+    "MESSAGE": "Geico Car Insurance new period begins",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "09",
     "DAY": "06",
-    "MESSAGE": "Congregation Picnic"
+    "MESSAGE": "Congregation Picnic",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "09",
+    "DAY": "03",
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "09",
     "DAY": "01",
-    "MESSAGE": "Audit for June 2025 thru August 2025 : Tim Kirkland"
+    "MESSAGE": "Audit for June 2025 thru August 2025 : Tim Kirkland",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "24",
+    "MESSAGE": "Cancel Prime Video Instructional Series",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SUN",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "17",
+    "MESSAGE": "Graduation Party @ Aquatic Center",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "16",
+    "MESSAGE": "US Branch Circuit Accounting @ 6:00pm @ Wheeler",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "15",
+    "MESSAGE": "Geico Car Insurance due",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "15",
+    "MESSAGE": "Harbor Freight Sale: Aug 15-17",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "08",
     "DAY": "11",
-    "MESSAGE": "Pioneer Service School Aug 11-16"
+    "MESSAGE": "PSS Aug 11-16 ( Kim - Wanda - Helena - Arlene )",
+    "CRITICAL": ""
   },
   {
-    "DAYOFWEEK": "MON",
+    "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "08",
-    "DAY": "25",
-    "MESSAGE": "Reg Conv North #8 Aug 08-10"
+    "DAY": "09",
+    "MESSAGE": "PSS Feeding: Aug 09",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "08",
+    "MESSAGE": "Reg Conv North #8 Aug 08-10",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "WED",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "06",
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "02",
+    "MESSAGE": "South's Quarterly Meeting @ 2:00pm",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "08",
+    "DAY": "01",
+    "MESSAGE": "South's Major Cleaning during August",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "THU",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "31",
+    "MESSAGE": "ANNIVERSARY",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "29",
+    "MESSAGE": "Google Play renews",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "07",
     "DAY": "25",
-    "MESSAGE": "Reg Conv South #7 July 25-27"
+    "MESSAGE": "Reg Conv South #7 July 25-27",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "TUE",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "22",
+    "MESSAGE": "BJ's auto renews on August 1st",
+    "CRITICAL": "*"
+  },
+  {
+    "DAYOFWEEK": "MON",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "21",
+    "MESSAGE": "PSS Jul 21-26 ( Crowley - Mina )",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "19",
+    "MESSAGE": "North's Quarterly Meeting @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "07",
     "DAY": "13",
-    "MESSAGE": "Talk #145 Who Is Like Jehovah Our God  Prince Frederick @ 10:00 AM"
+    "MESSAGE": "Talk #145 \"Who Is Like Jehovah Our God?\"  Prince Frederick @ 10:00 AM",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "05",
+    "MESSAGE": "RBC Picnic: 10751 Clarkesville Pike Columbia MD",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "07",
+    "DAY": "04",
+    "MESSAGE": "BOE lunch @ Kirkland's",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "06",
     "DAY": "25",
-    "MESSAGE": "Local Needs: 15 minutes"
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "FRI",
+    "YEAR": "2025",
+    "MONTH": "06",
+    "DAY": "20",
+    "MESSAGE": "Water Delivery: Tuesday 6-24",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "06",
-    "DAY": "24",
-    "MESSAGE": "Follow Up: Dr McVoy @ 11:40"
+    "DAY": "10",
+    "MESSAGE": "Follow Up: Dr McVoy @ 9:40",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "06",
     "DAY": "04",
-    "MESSAGE": "Local Needs: 15 minutes"
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "06",
     "DAY": "01",
-    "MESSAGE": "Audit for March 2025 thru May 2025: Devon Vann"
+    "MESSAGE": "Audit for March 2025 thru May 2025: Devon Vann",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "30",
-    "MESSAGE": "Reg Conv Temple #2 May 30- June 01"
+    "MESSAGE": "Reg Conv Temple #2 May 30- June 01",
+    "CRITICAL": ""
+  },
+  {
+    "DAYOFWEEK": "SAT",
+    "YEAR": "2025",
+    "MONTH": "05",
+    "DAY": "24",
+    "MESSAGE": "Yvette Hunter Memorial - 2:00 @ Accokeek",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "17",
-    "MESSAGE": "LDC Inspection @ 8:30am"
+    "MESSAGE": "LDC Inspection @ 8:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "12",
-    "MESSAGE": "Holmes: Elder Class  12to16-May-2025"
+    "MESSAGE": "Holmes: Elder Class  12to16-May-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "09",
-    "MESSAGE": "Dentist 12-May-2025 @ 9:00am"
+    "MESSAGE": "Dentist 12-May-2025 @ 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "09",
-    "MESSAGE": "Holmes: Elder Class  12to16-May-2025"
+    "MESSAGE": "Holmes: Elder Class  12to16-May-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "04",
-    "MESSAGE": "Talk #141: Human Creation's Groaning  LaPlata @ 12:30 PM"
+    "MESSAGE": "Talk #141: Human Creation's Groaning  LaPlata @ 12:30 PM",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "05",
     "DAY": "03",
-    "MESSAGE": "Convention Seminar Viewing 8:00-5:00 - Easton"
+    "MESSAGE": "Convention Seminar Viewing 8:00-5:00 - Easton",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "28",
-    "MESSAGE": "Eye Doctor 29-Apr-2025 @ 7:30"
+    "MESSAGE": "Eye Doctor 29-Apr-2025 @ 7:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "28",
-    "MESSAGE": "Disney+ renews: $3.17/month"
+    "MESSAGE": "Disney+ renews: $3.17/month",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "25",
-    "MESSAGE": "Master Card .... .... .... 5535 expires"
+    "MESSAGE": "Master Card .... .... .... 5535 expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "19",
-    "MESSAGE": "Reg Conv Meeting - Easton"
+    "MESSAGE": "Reg Conv Meeting - Easton",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "12",
-    "MESSAGE": "Memorial Saturday 12-Apr-2025"
+    "MESSAGE": "Memorial Saturday 12-Apr-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "09",
-    "MESSAGE": "Local Needs: 15 minutes"
+    "MESSAGE": "Local Needs: 15 minutes",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "06",
-    "MESSAGE": "Special Talk: “Can Truth Be Found?”"
+    "MESSAGE": "Special Talk: “Can Truth Be Found?”",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "03",
-    "MESSAGE": "Memorial Walkthrough @10:00am"
+    "MESSAGE": "Memorial Walkthrough @10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "08",
-    "MESSAGE": "Britbox expires: $8.99/month"
+    "MESSAGE": "Britbox expires: $8.99/month",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "04",
     "DAY": "01",
-    "MESSAGE": "CO Visit:North April 1-6"
+    "MESSAGE": "CO Visit:North April 1-6",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "29",
-    "MESSAGE": "CO Gathering 5-9"
+    "MESSAGE": "CO Gathering 5-9",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "26",
-    "MESSAGE": "Local Needs: 10 minutes"
+    "MESSAGE": "Local Needs: 10 minutes",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "25",
-    "MESSAGE": "CO Visit:South Mar 25-30"
+    "MESSAGE": "CO Visit:South Mar 25-30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "18",
-    "MESSAGE": "CO Visit:Temple Mar 18-23"
+    "MESSAGE": "CO Visit:Temple Mar 18-23",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "17",
-    "MESSAGE": "Dr McVoy Wed 19-Mar-2025 @ 10:00am"
+    "MESSAGE": "Dr McVoy Wed 19-Mar-2025 @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "15",
-    "MESSAGE": "Memorial Invitation Campaign starts"
+    "MESSAGE": "Memorial Invitation Campaign starts",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "09",
-    "MESSAGE": "Daylight Saving Time: START"
+    "MESSAGE": "Daylight Saving Time: START",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "01",
-    "MESSAGE": "Audit for Dec 2024 thru Feb 2025: James Wilkinson"
+    "MESSAGE": "Audit for Dec 2024 thru Feb 2025: James Wilkinson",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "03",
     "DAY": "01",
-    "MESSAGE": "Circuit Assy w CO"
+    "MESSAGE": "Circuit Assy w CO",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "23",
-    "MESSAGE": "#73 'Heart of Wisdom' - East FT Wash @ 9:30"
+    "MESSAGE": "#73 'Heart of Wisdom' - East FT Wash @ 9:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "22",
-    "MESSAGE": "South's Quarterly Meeting @1:00pm"
+    "MESSAGE": "South's Quarterly Meeting @1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "20",
-    "MESSAGE": "Water Delivery 26-Feb-2025"
+    "MESSAGE": "Water Delivery 26-Feb-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "19",
-    "MESSAGE": "CLM: Local Needs: 2025 Governing Body Update #1"
+    "MESSAGE": "CLM: Local Needs: 2025 Governing Body Update #1",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "15",
-    "MESSAGE": "Geico Car Insurance due: $1991.80"
+    "MESSAGE": "Geico Car Insurance due: $1991.80",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "12",
-    "MESSAGE": "CLM: 2024 Service Report"
+    "MESSAGE": "CLM: 2024 Service Report",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "10",
-    "MESSAGE": "LDC Housing Meeting @7:00pm: Zoom 82462827349/274807"
+    "MESSAGE": "LDC Housing Meeting @7:00pm: Zoom 82462827349/274807",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "08",
-    "MESSAGE": "Safety Meeting @1:00pm (all congregations)"
+    "MESSAGE": "Safety Meeting @1:00pm (all congregations)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "05",
-    "MESSAGE": "CLM: Local Needs: Appreciating the CO and His Wife"
+    "MESSAGE": "CLM: Local Needs: Appreciating the CO and His Wife",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "02",
     "DAY": "01",
-    "MESSAGE": "French Witness Campaign on Zoom"
+    "MESSAGE": "French Witness Campaign on Zoom",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "30",
-    "MESSAGE": "Water Delivery 04-Feb-2025"
+    "MESSAGE": "Water Delivery 04-Feb-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "19",
-    "MESSAGE": "KMS School for MS @ 8:00am"
+    "MESSAGE": "KMS School for MS @ 8:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "18",
-    "MESSAGE": "KMS School for Elders @ 8:00am"
+    "MESSAGE": "KMS School for Elders @ 8:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "13",
-    "MESSAGE": "LDC Doors @ Germantown Jan 16-18"
+    "MESSAGE": "LDC Doors @ Germantown Jan 16-18",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "08",
-    "MESSAGE": "Dental contract expires on 13-Jan-2025"
+    "MESSAGE": "Dental contract expires on 13-Jan-2025",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "08",
-    "MESSAGE": "Dentist appointment 9-Jan-2025 @ 9:00"
+    "MESSAGE": "Dentist appointment 9-Jan-2025 @ 9:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2025",
     "MONTH": "01",
     "DAY": "04",
-    "MESSAGE": "BOE meet with Pioneers - North"
+    "MESSAGE": "BOE meet with Pioneers - North",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2024",
     "MONTH": "12",
     "DAY": "21",
-    "MESSAGE": "BOE meet with Pioneers - South"
+    "MESSAGE": "BOE meet with Pioneers - South",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "11",
     "DAY": "22",
-    "MESSAGE": "#141 Congress Hgts Sun Nov 24 @ 9:30"
+    "MESSAGE": "#141 Congress Hgts Sun Nov 24 @ 9:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2024",
     "MONTH": "11",
     "DAY": "17",
-    "MESSAGE": "Circuit Assy w Branch Rep"
+    "MESSAGE": "Circuit Assy w Branch Rep",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "10",
     "DAY": "21",
-    "MESSAGE": "LDC Fall Protection on Zoom"
+    "MESSAGE": "LDC Fall Protection on Zoom",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2024",
     "MONTH": "10",
     "DAY": "22",
-    "MESSAGE": "CO Visit: Oct 22-27  (South)"
+    "MESSAGE": "CO Visit: Oct 22-27  (South)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2024",
     "MONTH": "10",
     "DAY": "15",
-    "MESSAGE": "CO Visit: Oct 15-20  (Temple)"
+    "MESSAGE": "CO Visit: Oct 15-20  (Temple)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2024",
     "MONTH": "10",
     "DAY": "08",
-    "MESSAGE": "CO Visit: Oct 08-13  (North)"
+    "MESSAGE": "CO Visit: Oct 08-13  (North)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "10",
     "DAY": "28",
-    "MESSAGE": "Eye Doc Tuesday 10/29 @7:30am"
+    "MESSAGE": "Eye Doc Tuesday 10/29 @7:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2024",
     "MONTH": "09",
     "DAY": "21",
-    "MESSAGE": "Congregation Picnic"
+    "MESSAGE": "Congregation Picnic",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "09",
     "DAY": "19",
-    "MESSAGE": "#141 Eng Germantown Sun Sep 29 @ 12:30"
+    "MESSAGE": "#141 Eng Germantown Sun Sep 29 @ 12:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "09",
     "DAY": "09",
-    "MESSAGE": "LDC @ College Park Sep 10-14"
+    "MESSAGE": "LDC @ College Park Sep 10-14",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2024",
     "MONTH": "08",
     "DAY": "21",
-    "MESSAGE": "Bonavente Physical 8/22 @ 10:00am"
+    "MESSAGE": "Bonavente Physical 8/22 @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2024",
     "MONTH": "08",
     "DAY": "14",
-    "MESSAGE": "Bonavente Lab Work 8/15 @ 8:30am"
+    "MESSAGE": "Bonavente Lab Work 8/15 @ 8:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2024",
     "MONTH": "08",
     "DAY": "04",
-    "MESSAGE": "Bethel Trip Aug 11-13"
+    "MESSAGE": "Bethel Trip Aug 11-13",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2024",
     "MONTH": "07",
     "DAY": "17",
-    "MESSAGE": "Regional Conv July 19-21"
+    "MESSAGE": "Regional Conv July 19-21",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "06",
     "DAY": "13",
-    "MESSAGE": "Quarterly 6/15 @ 2:00pm"
+    "MESSAGE": "Quarterly 6/15 @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2024",
     "MONTH": "05",
     "DAY": "11",
-    "MESSAGE": "Conv Meeting Eastern Shore"
+    "MESSAGE": "Conv Meeting Eastern Shore",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "05",
     "DAY": "10",
-    "MESSAGE": "Conv Meeting Eastern Shore"
+    "MESSAGE": "Conv Meeting Eastern Shore",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "05",
     "DAY": "09",
-    "MESSAGE": "Conv Meeting Eastern Shore"
+    "MESSAGE": "Conv Meeting Eastern Shore",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "20",
-    "MESSAGE": "#73 Forest Hgts Sat Apr 27 @ 10:30"
+    "MESSAGE": "#73 Forest Hgts Sat Apr 27 @ 10:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "13",
-    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm"
+    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "12",
-    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm"
+    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "11",
-    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm"
+    "MESSAGE": "Conv Meeting Eastern Shore @ 1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "02",
-    "MESSAGE": "CO Visit: Apr 9-14 (South)"
+    "MESSAGE": "CO Visit: Apr 9-14 (South)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "04",
     "DAY": "01",
-    "MESSAGE": "CO Visit: Apr 2-7  (Temple)"
+    "MESSAGE": "CO Visit: Apr 2-7  (Temple)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2024",
     "MONTH": "03",
     "DAY": "24",
-    "MESSAGE": "Memorial Sunday 24-Mar-2024"
+    "MESSAGE": "Memorial Sunday 24-Mar-2024",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2024",
     "MONTH": "03",
     "DAY": "17",
-    "MESSAGE": "Special Talk Sunday 17-Mar-2024"
+    "MESSAGE": "Special Talk Sunday 17-Mar-2024",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "03",
     "DAY": "21",
-    "MESSAGE": "Eye Doc Thursday 3/28 @7:30am"
+    "MESSAGE": "Eye Doc Thursday 3/28 @7:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2024",
     "MONTH": "03",
     "DAY": "05",
-    "MESSAGE": "CO Visit: Mar 12-17 (North)"
+    "MESSAGE": "CO Visit: Mar 12-17 (North)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "03",
     "DAY": "01",
-    "MESSAGE": "SClinton KH Yard Work"
+    "MESSAGE": "SClinton KH Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2024",
     "MONTH": "02",
     "DAY": "18",
-    "MESSAGE": "Circuit Assembly with Circuit Overseer 2/25/2024"
+    "MESSAGE": "Circuit Assembly with Circuit Overseer 2/25/2024",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "02",
     "DAY": "09",
-    "MESSAGE": "Talk# 73: Greenbelt @ 3:30pm"
+    "MESSAGE": "Talk# 73: Greenbelt @ 3:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "01",
     "DAY": "22",
-    "MESSAGE": "Auto Body repair begins"
+    "MESSAGE": "Auto Body repair begins",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2024",
     "MONTH": "01",
     "DAY": "18",
-    "MESSAGE": "Contact Auto Body to order parts"
+    "MESSAGE": "Contact Auto Body to order parts",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2024",
     "MONTH": "01",
     "DAY": "08",
-    "MESSAGE": "Dentist Wed Jan 10 @ 9:00am"
+    "MESSAGE": "Dentist Wed Jan 10 @ 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2024",
     "MONTH": "01",
     "DAY": "05",
-    "MESSAGE": "FollowUp @ MtVernon Tues Jan 9 @ 9:30"
+    "MESSAGE": "FollowUp @ MtVernon Tues Jan 9 @ 9:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "12",
     "DAY": "11",
-    "MESSAGE": "KH Cleaning Dec 13 & 17"
+    "MESSAGE": "KH Cleaning Dec 13 & 17",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "12",
     "DAY": "4",
-    "MESSAGE": "LDC @ Springfield Dec 7&8"
+    "MESSAGE": "LDC @ Springfield Dec 7&8",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "11",
     "DAY": "24",
-    "MESSAGE": "ReadyFresh Delivery - 27-Nov-2023"
+    "MESSAGE": "ReadyFresh Delivery - 27-Nov-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "11",
     "DAY": "17",
-    "MESSAGE": "Talk #73 at Largo Forestville @ 9:00am"
+    "MESSAGE": "Talk #73 at Largo Forestville @ 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "11",
     "DAY": "04",
-    "MESSAGE": "Circuit Assembly with Branch Representative 11/11/2023"
+    "MESSAGE": "Circuit Assembly with Branch Representative 11/11/2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "11",
     "DAY": "01",
-    "MESSAGE": "SClinton KH Yard Work"
+    "MESSAGE": "SClinton KH Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "10",
     "DAY": "16",
-    "MESSAGE": "KH Cleaning Oct 18 & 22"
+    "MESSAGE": "KH Cleaning Oct 18 & 22",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "10",
     "DAY": "02",
-    "MESSAGE": "FollowUp @ MtVernon Oct 3 @ 10:00"
+    "MESSAGE": "FollowUp @ MtVernon Oct 3 @ 10:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "09",
     "DAY": "26",
-    "MESSAGE": "Eye Doc Thursday 9/28 @7:30am"
+    "MESSAGE": "Eye Doc Thursday 9/28 @7:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "09",
     "DAY": "09",
-    "MESSAGE": "Cong Picnic 16-Sep Hillantrae Park"
+    "MESSAGE": "Cong Picnic 16-Sep Hillantrae Park",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "09",
     "DAY": "09",
-    "MESSAGE": "ReadyFresh Delivery: 11-Sep-202"
+    "MESSAGE": "ReadyFresh Delivery: 11-Sep-202",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "09",
     "DAY": "06",
-    "MESSAGE": "Friday at bank with Craven"
+    "MESSAGE": "Friday at bank with Craven",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "21",
-    "MESSAGE": "KH Cleaning Aug 23 & 2"
+    "MESSAGE": "KH Cleaning Aug 23 & 2",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "14",
-    "MESSAGE": "Talk #141 Bladensburg Aug 20 @ 12:30pm"
+    "MESSAGE": "Talk #141 Bladensburg Aug 20 @ 12:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "18",
-    "MESSAGE": "TempHill Conv - Crownsville Aug 18-20"
+    "MESSAGE": "TempHill Conv - Crownsville Aug 18-20",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "14",
-    "MESSAGE": "Dentist @ 9:00: Tues Aug 15"
+    "MESSAGE": "Dentist @ 9:00: Tues Aug 15",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "11",
-    "MESSAGE": "Pioneer Service School: Aug 14-19"
+    "MESSAGE": "Pioneer Service School: Aug 14-19",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "08",
     "DAY": "1",
-    "MESSAGE": "SClinton KH Yard Work"
+    "MESSAGE": "SClinton KH Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "29",
-    "MESSAGE": "Sams Club Membership Expires"
+    "MESSAGE": "Sams Club Membership Expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "28",
-    "MESSAGE": "NClinton Conv - Crownsville July 28-30"
+    "MESSAGE": "NClinton Conv - Crownsville July 28-30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "21",
-    "MESSAGE": "SClinton Conv - Crownsville July 21-23"
+    "MESSAGE": "SClinton Conv - Crownsville July 21-23",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "13",
-    "MESSAGE": "BOE @ Bolden's Saturday"
+    "MESSAGE": "BOE @ Bolden's Saturday",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "10",
-    "MESSAGE": "BOE @ Bolden's Saturday"
+    "MESSAGE": "BOE @ Bolden's Saturday",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "07",
     "DAY": "10",
-    "MESSAGE": "Emissions Testing due Jul 12"
+    "MESSAGE": "Emissions Testing due Jul 12",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "06",
     "DAY": "26",
-    "MESSAGE": "KH Cleaning Jun 28 & Jul 2"
+    "MESSAGE": "KH Cleaning Jun 28 & Jul 2",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "06",
     "DAY": "14",
-    "MESSAGE": "Bonavente 6/16 @ 8:40"
+    "MESSAGE": "Bonavente 6/16 @ 8:40",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "06",
     "DAY": "12",
-    "MESSAGE": "ReadyFresh Delivery - 12-Jun-2023"
+    "MESSAGE": "ReadyFresh Delivery - 12-Jun-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2023",
     "MONTH": "06",
     "DAY": "04",
-    "MESSAGE": "Talk# 73 Heart of Wisdom - Lanham @ 9:30"
+    "MESSAGE": "Talk# 73 Heart of Wisdom - Lanham @ 9:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "31",
-    "MESSAGE": "ReadyFresh Delivery - 12-Jun-2023"
+    "MESSAGE": "ReadyFresh Delivery - 12-Jun-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "27",
-    "MESSAGE": "Sunday 28-May InPerson FS Overseer"
+    "MESSAGE": "Sunday 28-May InPerson FS Overseer",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "12",
-    "MESSAGE": "CO Visit: May 16-21"
+    "MESSAGE": "CO Visit: May 16-21",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "11",
-    "MESSAGE": "KH Security Meeting 13-May @ 3:00pm"
+    "MESSAGE": "KH Security Meeting 13-May @ 3:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "CompTIA Certs exp 27-May-2023"
+    "MESSAGE": "CompTIA Certs exp 27-May-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "KH Cleaning May 03 & 07"
+    "MESSAGE": "KH Cleaning May 03 & 07",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "05",
     "DAY": "01",
-    "MESSAGE": "SClinton KH Yard Work"
+    "MESSAGE": "SClinton KH Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "29",
-    "MESSAGE": "KMS Wheeler Rd - 8:30-5:45"
+    "MESSAGE": "KMS Wheeler Rd - 8:30-5:45",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "19",
-    "MESSAGE": "ReadyFresh Bottle Pickup 20-Apr-2023"
+    "MESSAGE": "ReadyFresh Bottle Pickup 20-Apr-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "15",
-    "MESSAGE": "Regional Meeting Sat 4/15 @ 2:30pm"
+    "MESSAGE": "Regional Meeting Sat 4/15 @ 2:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "12",
-    "MESSAGE": "Regional Meeting Sat 4/15 @ 2:30pm"
+    "MESSAGE": "Regional Meeting Sat 4/15 @ 2:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "11",
-    "MESSAGE": "Kona Anti Theft @ 7:15"
+    "MESSAGE": "Kona Anti Theft @ 7:15",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "07",
-    "MESSAGE": "Saturday 8-Apr InPerson FS Overseer"
+    "MESSAGE": "Saturday 8-Apr InPerson FS Overseer",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "06",
-    "MESSAGE": "ReadyFresh Delivery - 6-Apr-2023"
+    "MESSAGE": "ReadyFresh Delivery - 6-Apr-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "03",
-    "MESSAGE": "ReadyFresh Delivery - 6-Apr-2023"
+    "MESSAGE": "ReadyFresh Delivery - 6-Apr-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "05",
-    "MESSAGE": "8th is 2nd Sat - Temple Hills @ KH"
+    "MESSAGE": "8th is 2nd Sat - Temple Hills @ KH",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "04",
     "DAY": "04",
-    "MESSAGE": "Memorial Tuesday 4-Apr-2023"
+    "MESSAGE": "Memorial Tuesday 4-Apr-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "23",
-    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "18",
-    "MESSAGE": "Memorial Prep at Wheeler Rd 18-Mar @ 2:30pm"
+    "MESSAGE": "Memorial Prep at Wheeler Rd 18-Mar @ 2:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "15",
-    "MESSAGE": "Memorial Prep at Wheeler Rd 18-Mar @ 2:30pm"
+    "MESSAGE": "Memorial Prep at Wheeler Rd 18-Mar @ 2:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "15",
-    "MESSAGE": "Geico car insurance effective 15-Mar"
+    "MESSAGE": "Geico car insurance effective 15-Mar",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "08",
-    "MESSAGE": "11th is 2nd Sat - Temple Hills @ KH"
+    "MESSAGE": "11th is 2nd Sat - Temple Hills @ KH",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "03",
     "DAY": "06",
-    "MESSAGE": "KH Cleaning Mar 08 & 12"
+    "MESSAGE": "KH Cleaning Mar 08 & 12",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "27",
-    "MESSAGE": "Dentist Tues Feb 28 @ 9:00am"
+    "MESSAGE": "Dentist Tues Feb 28 @ 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "25",
-    "MESSAGE": "Circuit Assy w CO (Crownsville)"
+    "MESSAGE": "Circuit Assy w CO (Crownsville)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "19",
-    "MESSAGE": "Read 12/16/2022 letter before Circuit Assembly"
+    "MESSAGE": "Read 12/16/2022 letter before Circuit Assembly",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "18",
-    "MESSAGE": "Sunday 19-Jan InPerson FS Overseer"
+    "MESSAGE": "Sunday 19-Jan InPerson FS Overseer",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "15",
-    "MESSAGE": "Read 12/16/2022 letter before Circuit Assembly"
+    "MESSAGE": "Read 12/16/2022 letter before Circuit Assembly",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "14",
-    "MESSAGE": "Carter's 90 days: 24-Feb-2023"
+    "MESSAGE": "Carter's 90 days: 24-Feb-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "08",
-    "MESSAGE": "11th is 2nd Sat - Temple Hills @ KH"
+    "MESSAGE": "11th is 2nd Sat - Temple Hills @ KH",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "06",
-    "MESSAGE": "Sophia Carter 90days"
+    "MESSAGE": "Sophia Carter 90days",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "05",
-    "MESSAGE": "Netflix billing: 8th of the month"
+    "MESSAGE": "Netflix billing: 8th of the month",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "04",
-    "MESSAGE": "Quarterly Meeting @ 2:00pm"
+    "MESSAGE": "Quarterly Meeting @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "02",
     "DAY": "01",
-    "MESSAGE": "SClinton KH Yard Work"
+    "MESSAGE": "SClinton KH Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "27",
-    "MESSAGE": "CA Meeting Sat 28-Jan @ 2:00pm"
+    "MESSAGE": "CA Meeting Sat 28-Jan @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "25",
-    "MESSAGE": "Quarterly Meeting @ 2:00pm - Feb 4"
+    "MESSAGE": "Quarterly Meeting @ 2:00pm - Feb 4",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "23",
-    "MESSAGE": "CL&M Medical Emergency 25-Jan-2023"
+    "MESSAGE": "CL&M Medical Emergency 25-Jan-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "22",
-    "MESSAGE": "Emissions Inpsec KONA 1-Feb-2023"
+    "MESSAGE": "Emissions Inpsec KONA 1-Feb-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "21",
-    "MESSAGE": "Elders meet with Regular Pioneers@ noon"
+    "MESSAGE": "Elders meet with Regular Pioneers@ noon",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "20",
-    "MESSAGE": "Saturday 21-Jan InPerson FS Overseer"
+    "MESSAGE": "Saturday 21-Jan InPerson FS Overseer",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "11",
-    "MESSAGE": "14th is 2nd Sat - Temple Hills @ KH"
+    "MESSAGE": "14th is 2nd Sat - Temple Hills @ KH",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "10",
-    "MESSAGE": "Estimated Tax due 17-Jan-2023"
+    "MESSAGE": "Estimated Tax due 17-Jan-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "09",
-    "MESSAGE": "KH Cleaning Jan 11 & 15"
+    "MESSAGE": "KH Cleaning Jan 11 & 15",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "05",
-    "MESSAGE": "Netflix billing: 8th of the month"
+    "MESSAGE": "Netflix billing: 8th of the month",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2023",
     "MONTH": "01",
     "DAY": "02",
-    "MESSAGE": "CL&M Chairman 4-Jan-2023"
+    "MESSAGE": "CL&M Chairman 4-Jan-2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "12",
     "DAY": "31",
-    "MESSAGE": "NClinton meet with Reg Pioneer @1:00pm"
+    "MESSAGE": "NClinton meet with Reg Pioneer @1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "12",
     "DAY": "25",
-    "MESSAGE": "Humana increase to 39.00: Jan 1 2023"
+    "MESSAGE": "Humana increase to 39.00: Jan 1 2023",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "12",
     "DAY": "17",
-    "MESSAGE": "TempleHills meet with Reg Pioneer @noon"
+    "MESSAGE": "TempleHills meet with Reg Pioneer @noon",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "12",
     "DAY": "7",
-    "MESSAGE": "10th is 2nd Sat - Temple Hills @ KH"
+    "MESSAGE": "10th is 2nd Sat - Temple Hills @ KH",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "12",
     "DAY": "5",
-    "MESSAGE": "Netflix billing: 8th of the month"
+    "MESSAGE": "Netflix billing: 8th of the month",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "25",
-    "MESSAGE": "Mortage increase to 1389.61: Dec 1 2022"
+    "MESSAGE": "Mortage increase to 1389.61: Dec 1 2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "16",
-    "MESSAGE": "KH Cleaning - Brown FSG"
+    "MESSAGE": "KH Cleaning - Brown FSG",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "14",
-    "MESSAGE": "Dentist Nov 15 @ 9:00"
+    "MESSAGE": "Dentist Nov 15 @ 9:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "13",
-    "MESSAGE": "Circuit Assy w BR (stream)"
+    "MESSAGE": "Circuit Assy w BR (stream)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "10",
-    "MESSAGE": "ReadyFresh Delivery - 17-Nov-2022"
+    "MESSAGE": "ReadyFresh Delivery - 17-Nov-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "11",
     "DAY": "1",
-    "MESSAGE": "DST Sunday Nov 6"
+    "MESSAGE": "DST Sunday Nov 6",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "25",
-    "MESSAGE": "Driver License expires 25-Nov-2022"
+    "MESSAGE": "Driver License expires 25-Nov-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "22",
-    "MESSAGE": "Meet with Sophia Carter"
+    "MESSAGE": "Meet with Sophia Carter",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "18",
-    "MESSAGE": "NBA Warriors vs Lakers"
+    "MESSAGE": "NBA Warriors vs Lakers",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "11",
-    "MESSAGE": "Victor Hall Visit Oct 11-16 >S Clinton<"
+    "MESSAGE": "Victor Hall Visit Oct 11-16 >S Clinton<",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "9",
-    "MESSAGE": "Talk @ Suitland"
+    "MESSAGE": "Talk @ Suitland",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "10",
     "DAY": "2",
-    "MESSAGE": "Victor Hall Oct 4-9 >Temple Hills<"
+    "MESSAGE": "Victor Hall Oct 4-9 >Temple Hills<",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "27",
-    "MESSAGE": "Bobby's Triple Threat"
+    "MESSAGE": "Bobby's Triple Threat",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "25",
-    "MESSAGE": "Victor Hall Sep 27-Oct2 >N Clinton<"
+    "MESSAGE": "Victor Hall Sep 27-Oct2 >N Clinton<",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "25",
-    "MESSAGE": "Hall Cleaning"
+    "MESSAGE": "Hall Cleaning",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "25",
-    "MESSAGE": "DiscoveryPlus Trial ends 27-Sep-2022"
+    "MESSAGE": "DiscoveryPlus Trial ends 27-Sep-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "24",
-    "MESSAGE": "Speaker Ratings S-315"
+    "MESSAGE": "Speaker Ratings S-315",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "22",
-    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "21",
-    "MESSAGE": "Hall Cleaning"
+    "MESSAGE": "Hall Cleaning",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "21",
-    "MESSAGE": "Abbott Elem - 9:00 ABC"
+    "MESSAGE": "Abbott Elem - 9:00 ABC",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "21",
-    "MESSAGE": "IRS Nibbs Winters #1000233141 8008291040"
+    "MESSAGE": "IRS Nibbs Winters #1000233141 8008291040",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "17",
-    "MESSAGE": "Talent Show ( cancelled )"
+    "MESSAGE": "Talent Show ( cancelled )",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "17",
-    "MESSAGE": "Kramer's Gathering"
+    "MESSAGE": "Kramer's Gathering",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "16",
-    "MESSAGE": "Restaurant Week - Sept 16-25"
+    "MESSAGE": "Restaurant Week - Sept 16-25",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "10",
-    "MESSAGE": "Kramer's Gathering"
+    "MESSAGE": "Kramer's Gathering",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "8",
-    "MESSAGE": "Estimated Tax due 15-Sep-2022"
+    "MESSAGE": "Estimated Tax due 15-Sep-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "7",
-    "MESSAGE": "Congregation Bible Study"
+    "MESSAGE": "Congregation Bible Study",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "9",
     "DAY": "1",
-    "MESSAGE": "Mountain Men - new season"
+    "MESSAGE": "Mountain Men - new season",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "27",
-    "MESSAGE": "LDC KH Inspection & Evaluation Meeting"
+    "MESSAGE": "LDC KH Inspection & Evaluation Meeting",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "27",
-    "MESSAGE": "SO visit to FS Group"
+    "MESSAGE": "SO visit to FS Group",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "15",
-    "MESSAGE": "Pioneer School 15th-20th"
+    "MESSAGE": "Pioneer School 15th-20th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "4",
-    "MESSAGE": "Jacob's Vacation - Aug 4-25"
+    "MESSAGE": "Jacob's Vacation - Aug 4-25",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "2",
-    "MESSAGE": "Dentist @ 09:00am"
+    "MESSAGE": "Dentist @ 09:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "2",
-    "MESSAGE": "Cancel VSP 8004004569"
+    "MESSAGE": "Cancel VSP 8004004569",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "8",
     "DAY": "1",
-    "MESSAGE": "Pioneer School 1st-6th Patricia Alston"
+    "MESSAGE": "Pioneer School 1st-6th Patricia Alston",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "31",
-    "MESSAGE": "Anniversary"
+    "MESSAGE": "Anniversary",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "30",
-    "MESSAGE": "Quarterly Meeting"
+    "MESSAGE": "Quarterly Meeting",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "22",
-    "MESSAGE": "SC Judicial"
+    "MESSAGE": "SC Judicial",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "22",
-    "MESSAGE": "Colon & Urology Appointments exp 8-Sep-2022"
+    "MESSAGE": "Colon & Urology Appointments exp 8-Sep-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "22",
-    "MESSAGE": "Peaches @ Tangier Outlet 3-4:30pm"
+    "MESSAGE": "Peaches @ Tangier Outlet 3-4:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "16",
-    "MESSAGE": "Hughes Vacation Jul 16-24"
+    "MESSAGE": "Hughes Vacation Jul 16-24",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "16",
-    "MESSAGE": "Pickup Pioneer Textbooks @ 4-5pm"
+    "MESSAGE": "Pickup Pioneer Textbooks @ 4-5pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "13",
-    "MESSAGE": "Marsha's Colonoscopy July 14 @ 7:15"
+    "MESSAGE": "Marsha's Colonoscopy July 14 @ 7:15",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "7",
     "DAY": "6",
-    "MESSAGE": "Vehicle Service - July 7"
+    "MESSAGE": "Vehicle Service - July 7",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "6",
     "DAY": "30",
-    "MESSAGE": "BJs Card Expires"
+    "MESSAGE": "BJs Card Expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "6",
     "DAY": "13",
-    "MESSAGE": "SCE (Hughes/Bold/Lewis/Alston) Jun 13-17"
+    "MESSAGE": "SCE (Hughes/Bold/Lewis/Alston) Jun 13-17",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "6",
     "DAY": "13",
-    "MESSAGE": "Bonavente Conf Call @ 5:00pm"
+    "MESSAGE": "Bonavente Conf Call @ 5:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "6",
     "DAY": "8",
-    "MESSAGE": "Estimated Tax due 15-Jun-2022"
+    "MESSAGE": "Estimated Tax due 15-Jun-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "6",
     "DAY": "6",
-    "MESSAGE": "SCE (Wilkinson) Jun 6-10"
+    "MESSAGE": "SCE (Wilkinson) Jun 6-10",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "5",
     "DAY": "30",
-    "MESSAGE": "KH light cleaning week of 30-May-2022"
+    "MESSAGE": "KH light cleaning week of 30-May-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "5",
     "DAY": "23",
-    "MESSAGE": "SCE (Brown/Kirkland/Vann) May 23-27"
+    "MESSAGE": "SCE (Brown/Kirkland/Vann) May 23-27",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "5",
     "DAY": "18",
-    "MESSAGE": "2022 Gov Body Update #3"
+    "MESSAGE": "2022 Gov Body Update #3",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "5",
     "DAY": "15",
-    "MESSAGE": "Talk #145 @ 10:00am - W. Waldorf"
+    "MESSAGE": "Talk #145 @ 10:00am - W. Waldorf",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "5",
     "DAY": "12",
-    "MESSAGE": "Blood pressure and A1C @ 8:30am"
+    "MESSAGE": "Blood pressure and A1C @ 8:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "30",
-    "MESSAGE": "CANCEL Talk #13 @ 10:00am (Sat-Bryans Rd)"
+    "MESSAGE": "CANCEL Talk #13 @ 10:00am (Sat-Bryans Rd)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "26",
-    "MESSAGE": "CO Visit begins"
+    "MESSAGE": "CO Visit begins",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "19",
-    "MESSAGE": "Sam's Club Card Expires"
+    "MESSAGE": "Sam's Club Card Expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "18",
-    "MESSAGE": "Costco ends Senior Hours"
+    "MESSAGE": "Costco ends Senior Hours",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "15",
-    "MESSAGE": "Memorial 15-Apr-2022"
+    "MESSAGE": "Memorial 15-Apr-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "11",
-    "MESSAGE": "Estimated Tax due 18-Apr-2022"
+    "MESSAGE": "Estimated Tax due 18-Apr-2022",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "10",
-    "MESSAGE": "Special Talk"
+    "MESSAGE": "Special Talk",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "4",
     "DAY": "1",
-    "MESSAGE": "South: April-Month for Yard Work"
+    "MESSAGE": "South: April-Month for Yard Work",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "3",
     "DAY": "24",
-    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor @ 07:30am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "3",
     "DAY": "19",
-    "MESSAGE": "Start Memorial Campaign"
+    "MESSAGE": "Start Memorial Campaign",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "3",
     "DAY": "19",
-    "MESSAGE": "Reg Pioneer Meeting w CO @ 1pm"
+    "MESSAGE": "Reg Pioneer Meeting w CO @ 1pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "3",
     "DAY": "11",
-    "MESSAGE": "Netflix - The Adam Project"
+    "MESSAGE": "Netflix - The Adam Project",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "27",
-    "MESSAGE": "Circuit Assembly w Branch Rep"
+    "MESSAGE": "Circuit Assembly w Branch Rep",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "21",
-    "MESSAGE": "Presidents Day"
+    "MESSAGE": "Presidents Day",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "21",
-    "MESSAGE": "Activate Truist Debit Card"
+    "MESSAGE": "Activate Truist Debit Card",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "18",
-    "MESSAGE": "Truist Down: Feb 18-20"
+    "MESSAGE": "Truist Down: Feb 18-20",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "16",
-    "MESSAGE": "Meet with Bonavente @4:45pm"
+    "MESSAGE": "Meet with Bonavente @4:45pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "13",
-    "MESSAGE": "Talk #73 @ 10:00am"
+    "MESSAGE": "Talk #73 @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "10",
-    "MESSAGE": "Check for Mortgage Payment"
+    "MESSAGE": "Check for Mortgage Payment",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "10",
-    "MESSAGE": "Myala Study with Emily"
+    "MESSAGE": "Myala Study with Emily",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "9",
-    "MESSAGE": "Bonavente appointment"
+    "MESSAGE": "Bonavente appointment",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2022",
     "MONTH": "2",
     "DAY": "6",
-    "MESSAGE": "CANCELLED - Talk #145 @ 10:00am"
+    "MESSAGE": "CANCELLED - Talk #145 @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "1",
     "DAY": "22",
-    "MESSAGE": "Quarterly @ 2:00pm"
+    "MESSAGE": "Quarterly @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "1",
     "DAY": "10",
-    "MESSAGE": "Change air filter"
+    "MESSAGE": "Change air filter",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2022",
     "MONTH": "1",
     "DAY": "10",
-    "MESSAGE": "Estimated Tax due on the 18th"
+    "MESSAGE": "Estimated Tax due on the 18th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2022",
     "MONTH": "1",
     "DAY": "1",
-    "MESSAGE": "Reg Pioneer meeting @ 2:00pm"
+    "MESSAGE": "Reg Pioneer meeting @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "12",
     "DAY": "31",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "12",
     "DAY": "27",
-    "MESSAGE": "Disney+ rate increase"
+    "MESSAGE": "Disney+ rate increase",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "12",
     "DAY": "25",
-    "MESSAGE": "MS meeting @ 12:30pm"
+    "MESSAGE": "MS meeting @ 12:30pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "11",
     "DAY": "30",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "11",
     "DAY": "15",
-    "MESSAGE": "Pioneer School 15th-20th"
+    "MESSAGE": "Pioneer School 15th-20th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "11",
     "DAY": "13",
-    "MESSAGE": "Circuit Assembly w CO"
+    "MESSAGE": "Circuit Assembly w CO",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "11",
     "DAY": "9",
-    "MESSAGE": "KHVoIP & Cameras @ 7:15pm"
+    "MESSAGE": "KHVoIP & Cameras @ 7:15pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "10",
     "DAY": "31",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "10",
     "DAY": "17",
-    "MESSAGE": "Talk #141 Annapolis North @ 10:30am"
+    "MESSAGE": "Talk #141 Annapolis North @ 10:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "10",
     "DAY": "10",
-    "MESSAGE": "Change air filter"
+    "MESSAGE": "Change air filter",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "10",
     "DAY": "5",
-    "MESSAGE": "CO Visit"
+    "MESSAGE": "CO Visit",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "30",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "18",
-    "MESSAGE": "Talent Show 5-7pm"
+    "MESSAGE": "Talent Show 5-7pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "23",
-    "MESSAGE": "Eye Doctor @ 08:00am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor @ 08:00am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "21",
-    "MESSAGE": "Hyundai recall @ 7:00am WALDORF"
+    "MESSAGE": "Hyundai recall @ 7:00am WALDORF",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "14",
-    "MESSAGE": "Bear Grylls on NetFlix"
+    "MESSAGE": "Bear Grylls on NetFlix",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "12",
-    "MESSAGE": "Talk #141 Airlie Congregation @ 10:00am"
+    "MESSAGE": "Talk #141 Airlie Congregation @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "10",
-    "MESSAGE": "Estimated Tax due on the 15th"
+    "MESSAGE": "Estimated Tax due on the 15th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "4",
-    "MESSAGE": "Shepherding Call w Ella @ 6:00pm"
+    "MESSAGE": "Shepherding Call w Ella @ 6:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "4",
-    "MESSAGE": "Bible Tour @ 2:00pm"
+    "MESSAGE": "Bible Tour @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "9",
     "DAY": "1",
-    "MESSAGE": "Audit done by Keith Brown"
+    "MESSAGE": "Audit done by Keith Brown",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "31",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "30",
-    "MESSAGE": "Verizon due for 3013430773"
+    "MESSAGE": "Verizon due for 3013430773",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "28",
-    "MESSAGE": "Pioneer Meeting with Henry"
+    "MESSAGE": "Pioneer Meeting with Henry",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "24",
-    "MESSAGE": "Gutter Cleaning 9-10am"
+    "MESSAGE": "Gutter Cleaning 9-10am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "20",
-    "MESSAGE": "Mercer Meeting - 8:15am #SA21186"
+    "MESSAGE": "Mercer Meeting - 8:15am #SA21186",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "9",
-    "MESSAGE": "Mercer Meeting - 12:00pm #SA20738"
+    "MESSAGE": "Mercer Meeting - 12:00pm #SA20738",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "7",
-    "MESSAGE": "Quarterly Meeting @ 2:00pm"
+    "MESSAGE": "Quarterly Meeting @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "8",
     "DAY": "3",
-    "MESSAGE": "Dummy Test"
+    "MESSAGE": "Dummy Test",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "31",
-    "MESSAGE": "Anniversary"
+    "MESSAGE": "Anniversary",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "31",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "30",
-    "MESSAGE": "Alston vacation - July 30-Aug 6"
+    "MESSAGE": "Alston vacation - July 30-Aug 6",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "30",
-    "MESSAGE": "Mercer Meeting - 3:15pm"
+    "MESSAGE": "Mercer Meeting - 3:15pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "26",
-    "MESSAGE": "Mercer Meeting - 3:00pm #SA20738"
+    "MESSAGE": "Mercer Meeting - 3:00pm #SA20738",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "19",
-    "MESSAGE": "Hughes vacation - July 19-25"
+    "MESSAGE": "Hughes vacation - July 19-25",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "7",
     "DAY": "10",
-    "MESSAGE": "Change air filter"
+    "MESSAGE": "Change air filter",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "6",
     "DAY": "30",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "6",
     "DAY": "29",
-    "MESSAGE": "Meet and Greet w Provenza @ 8:30"
+    "MESSAGE": "Meet and Greet w Provenza @ 8:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "6",
     "DAY": "26",
-    "MESSAGE": "Sutton Baby Shower @ 2:00pm"
+    "MESSAGE": "Sutton Baby Shower @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "6",
     "DAY": "10",
-    "MESSAGE": "Estimated Tax due on the 15th"
+    "MESSAGE": "Estimated Tax due on the 15th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "31",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "22",
-    "MESSAGE": "Frank Armstrong's Memorial 2:00pm"
+    "MESSAGE": "Frank Armstrong's Memorial 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "19",
-    "MESSAGE": "Calvert Training 9:00am"
+    "MESSAGE": "Calvert Training 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "18",
-    "MESSAGE": "FSA - MWAA Network and DCO Planning 11:00am"
+    "MESSAGE": "FSA - MWAA Network and DCO Planning 11:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "18",
-    "MESSAGE": "Expense report due"
+    "MESSAGE": "Expense report due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "15",
-    "MESSAGE": "Mike's wedding 4:00pm"
+    "MESSAGE": "Mike's wedding 4:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "14",
-    "MESSAGE": "Calvert Training 9:00am"
+    "MESSAGE": "Calvert Training 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "12",
-    "MESSAGE": "Calvert Training 10:00am"
+    "MESSAGE": "Calvert Training 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "12",
-    "MESSAGE": "MWAA meeting - PA/Network"
+    "MESSAGE": "MWAA meeting - PA/Network",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "10",
-    "MESSAGE": "MWAA meeting in Beltsville - All Day"
+    "MESSAGE": "MWAA meeting in Beltsville - All Day",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "7",
-    "MESSAGE": "Calvert Training 9:00am"
+    "MESSAGE": "Calvert Training 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "4",
-    "MESSAGE": "Meet with DePalma @ 8:00 in Beltsville"
+    "MESSAGE": "Meet with DePalma @ 8:00 in Beltsville",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "5",
     "DAY": "1",
-    "MESSAGE": "Mortgage Due"
+    "MESSAGE": "Mortgage Due",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "30",
-    "MESSAGE": "Calvert Training 9:00am"
+    "MESSAGE": "Calvert Training 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "29",
-    "MESSAGE": "PSCC Aruba changeout 6:00pm"
+    "MESSAGE": "PSCC Aruba changeout 6:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "24",
-    "MESSAGE": "Pat's Memorial Sat 24-Apr-2021"
+    "MESSAGE": "Pat's Memorial Sat 24-Apr-2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "19",
-    "MESSAGE": "Pioneer Service School Apr 19-24"
+    "MESSAGE": "Pioneer Service School Apr 19-24",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "17",
-    "MESSAGE": "LDC Training 1-4PM"
+    "MESSAGE": "LDC Training 1-4PM",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "16",
-    "MESSAGE": "Calvert Training 9:00am"
+    "MESSAGE": "Calvert Training 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "16",
-    "MESSAGE": "Sullivan Shepherding Call"
+    "MESSAGE": "Sullivan Shepherding Call",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "13",
-    "MESSAGE": "CO Visit"
+    "MESSAGE": "CO Visit",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "11",
-    "MESSAGE": "Talk @ 10:00 \"Who is Like Our God Jehovah?\""
+    "MESSAGE": "Talk @ 10:00 \"Who is Like Our God Jehovah?\"",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "10",
-    "MESSAGE": "Estimated Tax due on the 15th"
+    "MESSAGE": "Estimated Tax due on the 15th",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "9",
-    "MESSAGE": "Payroll Bonus"
+    "MESSAGE": "Payroll Bonus",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "4",
     "DAY": "4",
-    "MESSAGE": "Meet with Ashley Dixon"
+    "MESSAGE": "Meet with Ashley Dixon",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "27",
-    "MESSAGE": "Memorial Saturday 27-Mar-2021"
+    "MESSAGE": "Memorial Saturday 27-Mar-2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "22",
-    "MESSAGE": "VoiceDispatchAPI Integration @ H5"
+    "MESSAGE": "VoiceDispatchAPI Integration @ H5",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "20",
-    "MESSAGE": "Pickup Pioneer Book 3-4pm"
+    "MESSAGE": "Pickup Pioneer Book 3-4pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "19",
-    "MESSAGE": "Annuity talk @ 11:00am"
+    "MESSAGE": "Annuity talk @ 11:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "19",
-    "MESSAGE": "Payoff Cell Phone"
+    "MESSAGE": "Payoff Cell Phone",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "18",
-    "MESSAGE": "CLOSING @ 6:00pm"
+    "MESSAGE": "CLOSING @ 6:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "18",
-    "MESSAGE": "Eye Doctor @ 7:30am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor @ 7:30am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "3",
     "DAY": "1",
-    "MESSAGE": "Dentist @ 09:00am"
+    "MESSAGE": "Dentist @ 09:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "2",
     "DAY": "28",
-    "MESSAGE": "Start Memorial Invitation Campaign"
+    "MESSAGE": "Start Memorial Invitation Campaign",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "2",
     "DAY": "27",
-    "MESSAGE": "Circuit Assembly w CO Saturday 27-Feb-2021"
+    "MESSAGE": "Circuit Assembly w CO Saturday 27-Feb-2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2021",
     "MONTH": "2",
     "DAY": "21",
-    "MESSAGE": "Meet with BOE regarding Memorial Inivitations"
+    "MESSAGE": "Meet with BOE regarding Memorial Inivitations",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "2",
     "DAY": "9",
-    "MESSAGE": "Town Hall w Greg Brown: 9-10am"
+    "MESSAGE": "Town Hall w Greg Brown: 9-10am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "2",
     "DAY": "3",
-    "MESSAGE": "GTR8000 Combiner Training 2-4pm"
+    "MESSAGE": "GTR8000 Combiner Training 2-4pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "29",
-    "MESSAGE": "Vacation 1/29/2021"
+    "MESSAGE": "Vacation 1/29/2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "28",
-    "MESSAGE": "Vacation 1/28/2021"
+    "MESSAGE": "Vacation 1/28/2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "27",
-    "MESSAGE": "Vacation 1/27/2021"
+    "MESSAGE": "Vacation 1/27/2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "26",
-    "MESSAGE": "Vacation 1/26/2021"
+    "MESSAGE": "Vacation 1/26/2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "25",
-    "MESSAGE": "Vacation 1/25/2021"
+    "MESSAGE": "Vacation 1/25/2021",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "23",
-    "MESSAGE": "NASA NAMS Annual Revalidation "
+    "MESSAGE": "NASA NAMS Annual Revalidation",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2021",
     "MONTH": "1",
     "DAY": "1",
-    "MESSAGE": "DCA Badge Renewal"
+    "MESSAGE": "DCA Badge Renewal",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "30",
-    "MESSAGE": "Vacation 12/30/2020"
+    "MESSAGE": "Vacation 12/30/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "29",
-    "MESSAGE": "Vacation 12/29/2020"
+    "MESSAGE": "Vacation 12/29/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "28",
-    "MESSAGE": "Vacation 12/28/2020"
+    "MESSAGE": "Vacation 12/28/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "27",
-    "MESSAGE": "Talk: Who Is Like Jehovah Our God? @ 10:00am "
+    "MESSAGE": "Talk: Who Is Like Jehovah Our God? @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "23",
-    "MESSAGE": "Vacation 12/23/2020"
+    "MESSAGE": "Vacation 12/23/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "22",
-    "MESSAGE": "Vacation 12/22/2020"
+    "MESSAGE": "Vacation 12/22/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "21",
-    "MESSAGE": "Vacation 12/21/2020"
+    "MESSAGE": "Vacation 12/21/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "12",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense"
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "30",
-    "MESSAGE": "Dentist 9:00am"
+    "MESSAGE": "Dentist 9:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "30",
-    "MESSAGE": "Costco Membership Expires"
+    "MESSAGE": "Costco Membership Expires",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "26",
-    "MESSAGE": "THANKSGIVING DAY"
+    "MESSAGE": "THANKSGIVING DAY",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "25",
-    "MESSAGE": "Vacation 11/25/2020"
+    "MESSAGE": "Vacation 11/25/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "24",
-    "MESSAGE": "Vacation 11/24/2020"
+    "MESSAGE": "Vacation 11/24/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "23",
-    "MESSAGE": "Vacation 11/23/2020"
+    "MESSAGE": "Vacation 11/23/2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "19",
-    "MESSAGE": "SRX Integration 5:00pm-7:00pm EST"
+    "MESSAGE": "SRX Integration 5:00pm-7:00pm EST",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense"
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "15",
-    "MESSAGE": "Circuit Assembly w Branch Rep"
+    "MESSAGE": "Circuit Assembly w Branch Rep",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "12",
-    "MESSAGE": "SRX Architecture & Migration 11:00-13:00"
+    "MESSAGE": "SRX Architecture & Migration 11:00-13:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "11",
-    "MESSAGE": "VETERANS DAY ( FEDERAL GOVT )"
+    "MESSAGE": "VETERANS DAY ( FEDERAL GOVT )",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "6",
-    "MESSAGE": "7705 SAR Rel. 7.0 and 9500 MPR-e"
+    "MESSAGE": "7705 SAR Rel. 7.0 and 9500 MPR-e",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "5",
-    "MESSAGE": "7705 SAR Rel. 7.0 and 9500 MPR-e"
+    "MESSAGE": "7705 SAR Rel. 7.0 and 9500 MPR-e",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "4",
-    "MESSAGE": "MPR Packet Radio Training"
+    "MESSAGE": "MPR Packet Radio Training",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "2",
-    "MESSAGE": "9500MPR Rel. 8.0"
+    "MESSAGE": "9500MPR Rel. 8.0",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "11",
     "DAY": "1",
-    "MESSAGE": "IAD Badge Renewal"
+    "MESSAGE": "IAD Badge Renewal",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "31",
-    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020"
+    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "27",
-    "MESSAGE": "NFM Training"
+    "MESSAGE": "NFM Training",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "26",
-    "MESSAGE": "NFM Training"
+    "MESSAGE": "NFM Training",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "26",
-    "MESSAGE": "Local Needs: Neutrality"
+    "MESSAGE": "Local Needs: Neutrality",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "22",
-    "MESSAGE": "License Renewal for Marsha"
+    "MESSAGE": "License Renewal for Marsha",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "12",
-    "MESSAGE": "COLUMBUS DAY ( FEDERAL GOVT )"
+    "MESSAGE": "COLUMBUS DAY ( FEDERAL GOVT )",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "8",
-    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020"
+    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "10",
     "DAY": "4",
-    "MESSAGE": "Lorenzo's Wedding theknot.com/aleahandwarren"
+    "MESSAGE": "Lorenzo's Wedding theknot.com/aleahandwarren",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "9",
     "DAY": "30",
-    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020"
+    "MESSAGE": "Tags expire for Jeep Cherokee on 31-Oct-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "9",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "9",
     "DAY": "10",
-    "MESSAGE": "Eye Doctor Appointment @ 8:30am - Azeb Telahun"
+    "MESSAGE": "Eye Doctor Appointment @ 8:30am - Azeb Telahun",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "9",
     "DAY": "7",
-    "MESSAGE": "LABOR DAY"
+    "MESSAGE": "LABOR DAY",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "8",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "8",
     "DAY": "14",
-    "MESSAGE": "PG County Upgrade: August 17-21"
+    "MESSAGE": "PG County Upgrade: August 17-21",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "8",
     "DAY": "10",
-    "MESSAGE": "PG County Upgrade: August 17-21"
+    "MESSAGE": "PG County Upgrade: August 17-21",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "8",
     "DAY": "1",
-    "MESSAGE": "Talk Heart of Wisdom - North DC @ 10:30 (Saturday)"
+    "MESSAGE": "Talk Heart of Wisdom - North DC @ 10:30 (Saturday)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "7",
     "DAY": "31",
-    "MESSAGE": "Renew Marsha's Drivers License"
+    "MESSAGE": "Renew Marsha's Drivers License",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "7",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "7",
     "DAY": "13",
-    "MESSAGE": "Regional Convention: July 17-19"
+    "MESSAGE": "Regional Convention: July 17-19",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "7",
     "DAY": "12",
-    "MESSAGE": "Talk Heart of Wisdom - Central Seat Pleasant @ 9:30"
+    "MESSAGE": "Talk Heart of Wisdom - Central Seat Pleasant @ 9:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "7",
     "DAY": "8",
-    "MESSAGE": "Robert Seal - One on One @ 09:00"
+    "MESSAGE": "Robert Seal - One on One @ 09:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "30",
-    "MESSAGE": "mileage - eplandrivers.leaseplan.com"
+    "MESSAGE": "mileage - eplandrivers.leaseplan.com",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "19",
-    "MESSAGE": "Close Payroll "
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense"
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "16",
-    "MESSAGE": "ASTRO? 25 IV&D System Secure Workshop"
+    "MESSAGE": "ASTRO? 25 IV&D System Secure Workshop",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "9",
-    "MESSAGE": "MWAA MPLS"
+    "MESSAGE": "MWAA MPLS",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "7",
-    "MESSAGE": "Talk@9:30 - West Waldorf: Who Is Like Jehovah Our God"
+    "MESSAGE": "Talk@9:30 - West Waldorf: Who Is Like Jehovah Our God",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "5",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "6",
     "DAY": "2",
-    "MESSAGE": "ASTRO? 25 IV&D System Core Workshop"
+    "MESSAGE": "ASTRO? 25 IV&D System Core Workshop",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "31",
-    "MESSAGE": "mileage - eplandrivers.leaseplan.com"
+    "MESSAGE": "mileage - eplandrivers.leaseplan.com",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "30",
-    "MESSAGE": "FS Group meeting @ 4:00pm"
+    "MESSAGE": "FS Group meeting @ 4:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "25",
-    "MESSAGE": "MEMORIAL DAY"
+    "MESSAGE": "MEMORIAL DAY",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "24",
-    "MESSAGE": "Special Day Off at MSI"
+    "MESSAGE": "Special Day Off at MSI",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "22",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "21",
-    "MESSAGE": "Online Graduation @ 3:00pm"
+    "MESSAGE": "Online Graduation @ 3:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense"
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "16",
-    "MESSAGE": "FS Group meeting @ 4:00pm"
+    "MESSAGE": "FS Group meeting @ 4:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "8",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "5",
     "DAY": "2",
-    "MESSAGE": "FS Group meeting @ 4:00pm"
+    "MESSAGE": "FS Group meeting @ 4:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "30",
-    "MESSAGE": "mileage - eplandrivers.leaseplan.com"
+    "MESSAGE": "mileage - eplandrivers.leaseplan.com",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "29",
-    "MESSAGE": "Marsha's Knee Replacement"
+    "MESSAGE": "Marsha's Knee Replacement",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "28",
-    "MESSAGE": "CO Visit 28-Apr-2020 to 3-May-2020"
+    "MESSAGE": "CO Visit 28-Apr-2020 to 3-May-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "28",
-    "MESSAGE": "Ohama Steak Order Arrival"
+    "MESSAGE": "Ohama Steak Order Arrival",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "24",
-    "MESSAGE": "Update Bejamin Scott - Meeting Credentials"
+    "MESSAGE": "Update Bejamin Scott - Meeting Credentials",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "24",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "21",
-    "MESSAGE": "Update Bejamin Scott - Meeting Credentials"
+    "MESSAGE": "Update Bejamin Scott - Meeting Credentials",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "10",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "7",
-    "MESSAGE": "Memorial"
+    "MESSAGE": "Memorial",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "6",
-    "MESSAGE": "Memorial on 7-Apr-2020"
+    "MESSAGE": "Memorial on 7-Apr-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "4",
     "DAY": "5",
-    "MESSAGE": "Take the lead in Sunday Witnessing"
+    "MESSAGE": "Take the lead in Sunday Witnessing",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "31",
-    "MESSAGE": "mileage - eplandrivers.leaseplan.com"
+    "MESSAGE": "mileage - eplandrivers.leaseplan.com",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "27",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "23",
-    "MESSAGE": "Radio System Admin Training (All Week)"
+    "MESSAGE": "Radio System Admin Training (All Week)",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "16",
-    "MESSAGE": "Libary Book Due - Sneaky Math 21268021037161"
+    "MESSAGE": "Libary Book Due - Sneaky Math 21268021037161",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "13",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "12",
-    "MESSAGE": "Dentist @ 8:45"
+    "MESSAGE": "Dentist @ 8:45",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "11",
-    "MESSAGE": "Ophthalmologist Visit @ 2:00pm"
+    "MESSAGE": "Ophthalmologist Visit @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "9",
-    "MESSAGE": "Conference Call: Regional Attendants @ 7:00pm"
+    "MESSAGE": "Conference Call: Regional Attendants @ 7:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "3",
     "DAY": "1",
-    "MESSAGE": "Circuit Assembly w CO"
+    "MESSAGE": "Circuit Assembly w CO",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "28",
-    "MESSAGE": "Close Payroll"
+    "MESSAGE": "Close Payroll",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "24",
-    "MESSAGE": "Libary Book Due - Sneaky Math"
+    "MESSAGE": "Libary Book Due - Sneaky Math",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "22",
-    "MESSAGE": "KH Inspection @ 8:30am"
+    "MESSAGE": "KH Inspection @ 8:30am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "21",
-    "MESSAGE": "CVS $10 Rewards"
+    "MESSAGE": "CVS $10 Rewards",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "18",
-    "MESSAGE": "Marsha @ Mt Vernon for knee @ 9:15"
+    "MESSAGE": "Marsha @ Mt Vernon for knee @ 9:15",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "17",
-    "MESSAGE": "PRESIDENTS DAY ( FEDERAL GOVT )"
+    "MESSAGE": "PRESIDENTS DAY ( FEDERAL GOVT )",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "12",
-    "MESSAGE": "SouthWest Boarding Pass @ 8:00am - VRUQ5L"
+    "MESSAGE": "SouthWest Boarding Pass @ 8:00am - VRUQ5L",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "9",
-    "MESSAGE": "Hospitality "
+    "MESSAGE": "Hospitality",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "9",
-    "MESSAGE": "TNCT - Training"
+    "MESSAGE": "TNCT - Training",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "7",
-    "MESSAGE": "TNCT - Training"
+    "MESSAGE": "TNCT - Training",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "THU",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "6",
-    "MESSAGE": "Bonavente - Friday @ 8:30"
+    "MESSAGE": "Bonavente - Friday @ 8:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "5",
-    "MESSAGE": "Read ID at DMV Waldorf"
+    "MESSAGE": "Read ID at DMV Waldorf",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "5",
-    "MESSAGE": "Hospitality on Sunday 9-Feb-2020"
+    "MESSAGE": "Hospitality on Sunday 9-Feb-2020",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "2",
     "DAY": "1",
-    "MESSAGE": "Defibrillator Training @ 1:00pm"
+    "MESSAGE": "Defibrillator Training @ 1:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "31",
-    "MESSAGE": "MSC Meeting - Lanham at 10:00"
+    "MESSAGE": "MSC Meeting - Lanham at 10:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "29",
-    "MESSAGE": "Night On Earth - Netflix"
+    "MESSAGE": "Night On Earth - Netflix",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "29",
-    "MESSAGE": "IAD Vehicle Inspection - New Sticker"
+    "MESSAGE": "IAD Vehicle Inspection - New Sticker",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "28",
-    "MESSAGE": "Robert Seal - One on One @ 09:00"
+    "MESSAGE": "Robert Seal - One on One @ 09:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "20",
-    "MESSAGE": "MLK HOLIDAY ( FEDERAL GOVT )"
+    "MESSAGE": "MLK HOLIDAY ( FEDERAL GOVT )",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "19",
-    "MESSAGE": "Jayla's Baptism"
+    "MESSAGE": "Jayla's Baptism",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "18",
-    "MESSAGE": "Quarterly Elders Meeting @ 2:00pm"
+    "MESSAGE": "Quarterly Elders Meeting @ 2:00pm",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense"
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "17",
-    "MESSAGE": "Riverdale Park walk through @ 10:00am"
+    "MESSAGE": "Riverdale Park walk through @ 10:00am",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "15",
-    "MESSAGE": "IAD Badge Renewal"
+    "MESSAGE": "IAD Badge Renewal",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "13",
-    "MESSAGE": "PTO - Jan 7, 9, 14, 16"
+    "MESSAGE": "PTO - Jan 7, 9, 14, 16",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "11",
-    "MESSAGE": "Pioneer Meeting @ Noon"
+    "MESSAGE": "Pioneer Meeting @ Noon",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "7",
-    "MESSAGE": "Jury Duty - Today - CANCELLED!!!"
+    "MESSAGE": "Jury Duty - Today - CANCELLED!!!",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "6",
-    "MESSAGE": "PTO - Jan 7, 9, 14, 16"
+    "MESSAGE": "PTO - Jan 7, 9, 14, 16",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "6",
-    "MESSAGE": "Jury Duty - Tuesday 7-Jan-2020 - CANCELLED!!!"
+    "MESSAGE": "Jury Duty - Tuesday 7-Jan-2020 - CANCELLED!!!",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "6",
-    "MESSAGE": "IAD NOC - Moscad PC"
+    "MESSAGE": "IAD NOC - Moscad PC",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "5",
-    "MESSAGE": "IAD NOC - Moscad PC"
+    "MESSAGE": "IAD NOC - Moscad PC",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2020",
     "MONTH": "1",
     "DAY": "3",
-    "MESSAGE": "Visit Tony Simuel @ 11:00"
+    "MESSAGE": "Visit Tony Simuel @ 11:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "TUE",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "31",
-    "MESSAGE": "Guardians of the Glades"
+    "MESSAGE": "Guardians of the Glades",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "25",
-    "MESSAGE": "CL&M - Chairman"
+    "MESSAGE": "CL&M - Chairman",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "MON",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "23",
-    "MESSAGE": "PTO - Dec 26, 27, 31, Jan 2, 3"
+    "MESSAGE": "PTO - Dec 26, 27, 31, Jan 2, 3",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "18",
-    "MESSAGE": "Reconcile iExpense "
+    "MESSAGE": "Reconcile iExpense",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "11",
-    "MESSAGE": "CL&M - \"The Earth 'Swallowed Up the River'\""
+    "MESSAGE": "CL&M - \"The Earth 'Swallowed Up the River'\"",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "8",
-    "MESSAGE": "Dentist - Monday @ 8:30"
+    "MESSAGE": "Dentist - Monday @ 8:30",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2019",
     "MONTH": "12",
     "DAY": "1",
-    "MESSAGE": "Laurel PD - Monday @ 8:00"
+    "MESSAGE": "Laurel PD - Monday @ 8:00",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SAT",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "30",
-    "MESSAGE": "KMS - 08:00 @ Sunday Frank Tippett"
+    "MESSAGE": "KMS - 08:00 @ Sunday Frank Tippett",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "27",
-    "MESSAGE": "CL&M - Congregation Bible Study"
+    "MESSAGE": "CL&M - Congregation Bible Study",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "SUN",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "24",
-    "MESSAGE": "PTO - Nov 25-27"
+    "MESSAGE": "PTO - Nov 25-27",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "22",
-    "MESSAGE": "PTO - Nov 25-27"
+    "MESSAGE": "PTO - Nov 25-27",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "FRI",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "15",
-    "MESSAGE": "Circuit Assembly - Saturday"
+    "MESSAGE": "Circuit Assembly - Saturday",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "13",
-    "MESSAGE": "PTO - Dec 26, 27, 31, Jan 2, 3"
+    "MESSAGE": "PTO - Dec 26, 27, 31, Jan 2, 3",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2019",
     "MONTH": "11",
     "DAY": "13",
-    "MESSAGE": "TODAY - ONE"
+    "MESSAGE": "TODAY - ONE",
+    "CRITICAL": ""
   },
   {
     "DAYOFWEEK": "WED",
     "YEAR": "2015",
     "MONTH": "2",
     "DAY": "4",
-    "MESSAGE": "this is my test text"
+    "MESSAGE": "this is my test text",
+    "CRITICAL": ""
   }
 ]
