@@ -672,7 +672,7 @@ window.addEventListener('contextmenu', (event) => {
       <li><a href="https://www.wunderground.com/wundermap" title="WunderMap">WunderMap</a></li><br>
       <li><a href="https://caniuse.com/" title="Can I Use">Can I Use</a></li><br>
       <li><a href="https://unsplash.com" title="Unsplash">Unsplash</a></li><br>
-      <li><a href="#" title="Goto Top of Page" onclick="alert('Goto Top of Page');" data-value="href=# Goto Top Of Page">Goto Top of Page</a></li><br>
+      <li><a href="#" title="Goto Top of Page" onclick="event.preventDefault;window.scrollTo({ top: 0, behavior: 'smooth' }); alert('Goto Top of Page');" data-value="href=# Goto Top Of Page">Goto Top of Page</a></li><br>
 
       <li><a href="https://ohmslaw.eu" title="OHM's Law">OHMs Law</a></li><br>
       <li><a href="https://regex101.com/" title="REGEX101">Regular Expressions</a></li><br>
