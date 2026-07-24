@@ -90,7 +90,7 @@
       <input type="file" accept=".json, .jpg, .jpeg, .png, .gif, .avif">
       <div class="selectedFile"></div>
 
-      <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker" required>
+      <input type="date" id="myDatePicker" class="input-dateclass" onchange="updateDate();" title="DatePicker" required>
       <select name="favoriteColor">
         <option value="red">red</option>
         <option value="blue">blue</option>
@@ -529,6 +529,25 @@ window.addEventListener('contextmenu', (event) => {
                                                           showgroups\nGet-OpenFileHandle\ngitbundle\ngooglemap\ncalsearch\nscheduled\nNWSchedReport\nColorPicker`;
         });
 
+    </script>
+
+<!--DOM Event Listners-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      const dateInput = document.getElementById('myDatePicker');
+      const today = new Date();
+      
+      // Extracts year, month, and day based on the user's local timezone
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+      const day = String(today.getDate()).padStart(2, '0');
+      
+      // Combines into the strict YYYY-MM-DD format required by HTML5
+      const formattedDate = `${year}-${month}-${day}`;
+      
+      // Sets the input value
+      dateInput.value = formattedDate;
+    });
     </script>
 
 <!-- jQuery Code here-->    
