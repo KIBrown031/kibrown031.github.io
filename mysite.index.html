@@ -34,6 +34,32 @@
       width: fit-content;
       }                                                           
 
+      /* Container styling to support the placeholder overlay */
+      .input-dateclass {
+        position: relative;
+        min-height: 1.5em; /* Ensures proper height across mobile browsers */
+      }
+
+      /* Forces the placeholder text to appear on mobile when empty */
+      .input-dateclass:not(:focus)::before {
+        content: "mm/dd/yyyy";
+        position: absolute;
+        left: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa; /* Standard placeholder gray */
+        background-color: white; /* Matches your input background */
+        pointer-events: none; /* Allows clicks to pass through to the input */
+        width: calc(100% - 16px);
+      }
+
+      /* Hides the placeholder text when a date has a value */
+      .input-dateclass:valid::before {
+        display: none;
+      }
+
+
+
       /* input[type="file"]  { direction: rtl} */
 
       @keyframes flash-effect {
@@ -64,7 +90,7 @@
       <input type="file" accept=".json, .jpg, .jpeg, .png, .gif, .avif">
       <div class="selectedFile"></div>
 
-      <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker">
+      <input type="date" class="input-dateclass" onchange="updateDate();" title="DatePicker" required>
       <select name="favoriteColor">
         <option value="red">red</option>
         <option value="blue">blue</option>
